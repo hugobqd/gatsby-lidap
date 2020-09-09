@@ -41,6 +41,7 @@ collections:
         name: "profile"
         widget: "object"
         fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
           - {label: "Public", name: "public", widget: "boolean", default: true}
           - {label: "Name", name: "name", widget: "string"}
           - label: "Birthdate"
