@@ -12,6 +12,77 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "services"
+    label: "Service"
+    folder: "src/pages/service"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - label: "Manual PDF"
+        name: "manual_pdf"
+        widget: "file"
+        default: "/uploads/general-manual.pdf"
+        media_library:
+        config:
+        multiple: true
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - label: "Featured Image"
+          name: "thumbnail"
+          widget: "image"
+          default: "/uploads/chocolate-dogecoin.jpg"
+          media_library:
+            config:
+              multiple: true
+      - {label: "Location", name: "location", widget: "map" }
+      - { label: 'Blog post content', name: 'body', widget: 'markdown' }
+      - label: "Puppy Count"
+        name: "puppies"
+        widget: "number"
+        default: 2
+        value_type: "int"
+        min: 1
+        max: 101
+        step: 2
+      - label: "Profile"
+        name: "profile"
+        widget: "object"
+        fields:
+          - {label: "Public", name: "public", widget: "boolean", default: true}
+          - {label: "Name", name: "name", widget: "string"}
+          - label: "Birthdate"
+            name: "birthdate"
+            widget: "date"
+            default: ""
+            format: "MM/DD/YYYY"
+          - label: "Address"
+            name: "address"
+            widget: "object"
+            collapsed: true
+            fields: 
+              - {label: "Street Address", name: "street", widget: "string"}
+              - {label: "City", name: "city", widget: "string"}
+              - {label: "Postal Code", name: "post-code", widget: "string"}
+      - label: "Align Content"
+        name: "align"
+        widget: "select"
+        options: ["left", "center", "right"]
+      - label: "Testimonials"
+        name: "testimonials"
+        widget: "list"
+        summary: '{{fields.quote}} - {{fields.author.name}}'
+        fields:
+          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+          - label: Author
+            name: author
+            widget: object
+            fields:
+              - {label: Name, name: name, widget: string, default: "Emmet"}
+              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
+      
+
+
+
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
