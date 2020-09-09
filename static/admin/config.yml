@@ -133,16 +133,16 @@ collections:
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
           
-  - name: settings
-    label: Settings
+  - name: "settings"
+    label: "Settings"
     files:
-      - file: data/settings/navigation.yml
-        label: Navigation
-        name: navigation
+      - file: "data/settings/navigation.yml"
+        label: "Navigation"
+        name: "navigation"
         fields:
-          - label: Navigation
-            name: nav_items
-            widget: list
+          - label: "Navigation"
+            name: nav_i"tems
+            widget: "list"
             fields:
               - {label: Label, name: label, widget: string}
               - {label: Path, name: path, widget: string}
