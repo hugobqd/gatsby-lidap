@@ -11,8 +11,14 @@ tags:
 ---
 Teston un peu cet **éditeur**. *Qu'est-il [possible](https://www.larousse.fr/dictionnaires/francais/possible/62878) de faire ?* Nous le saurons bientôt.
 
+![tasse](/img/products-grid2.jpg)
+
 TADA!
 
-Yes
+* yes
+* or no?
+* Pas mal finalement.
+* pas mal
+* mais quand même
 
-Pas mal finalement.
+Étrange.
