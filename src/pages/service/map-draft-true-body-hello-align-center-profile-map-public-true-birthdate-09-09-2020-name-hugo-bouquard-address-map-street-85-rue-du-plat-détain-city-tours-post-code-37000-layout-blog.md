@@ -2,7 +2,7 @@
 draft: true
 manual_pdf: /img/hugo.mapcss
 layout: blog
-location: '{"type":"Point","coordinates":[0.6788074,47.3862501]}'
+location: '{"type":"Point","coordinates":[0.6852893,47.3848459]}'
 puppies: 7
 profile:
   public: true
