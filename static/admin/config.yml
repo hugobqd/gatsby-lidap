@@ -24,8 +24,8 @@ collections:
         widget: "file"
         default: "/uploads/general-manual.pdf"
         media_library:
-        config:
-        multiple: true
+          config:
+            multiple: true
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - label: "Featured Image"
           name: "thumbnail"
@@ -79,9 +79,6 @@ collections:
             fields:
               - {label: Name, name: name, widget: string, default: "Emmet"}
               - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
-      
-
-
 
   - name: "blog"
     label: "Blog"
