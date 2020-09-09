@@ -28,12 +28,12 @@ collections:
             multiple: true
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - label: "Featured Image"
-          name: "thumbnail"
-          widget: "image"
-          default: "/uploads/chocolate-dogecoin.jpg"
-          media_library:
-            config:
-              multiple: true
+        name: "thumbnail"
+        widget: "image"
+        default: "/uploads/chocolate-dogecoin.jpg"
+        media_library:
+          config:
+            multiple: true
       - {label: "Location", name: "location", widget: "map" }
       - { label: 'Blog post content', name: 'body', widget: 'markdown' }
       - label: "Puppy Count"
