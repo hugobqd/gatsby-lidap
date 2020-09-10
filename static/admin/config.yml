@@ -35,8 +35,9 @@ collections:
         name: contact
         file: src/settings/contact.json
         fields: 
-          - {name: "adress", label: "Adresse", widget: string}
-
+          - {name: "address", label: "Adresse", widget: text, required: false}
+          - {name: "phone", label: "Téléphone", widget: string, required: false}
+          - {name: "email", label: "Courriel", widget: string, required: false}
 
   - name: "blog"
     label: "Blog"
