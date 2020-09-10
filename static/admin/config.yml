@@ -21,7 +21,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "production-post", required: false}
       - {label: "Title", name: "title", widget: "string", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - {label: "Date de sortie", name: "date", widget: "datetime", hint: "Date estimé servant au trie d'affichage", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean", required: false}
       - {label: "Featured Image", name: "featuredimage", widget: image, required: false}

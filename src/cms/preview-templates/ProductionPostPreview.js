@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { ProductionPostTemplate } from "../../templates/Production-post";
+import { ProductionPostTemplate } from "../../templates/production-post";
 
 const ProductionPostPreview = ({ entry, widgetFor }) => {
   const tags = entry.getIn(["data", "tags"]);
