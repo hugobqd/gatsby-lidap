@@ -1,0 +1,29 @@
+@import "../styles/variables";
+
+.nav-main {
+  background-color: $lavender;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+  display: flex;
+  padding-right: 2rem;
+
+  a {
+    color: $grey-darker;
+    display: block;
+    padding: 1em;
+  }
+  .logo {
+    font-weight: 900;
+  }
+  .burger {
+    background-color: $lavender;
+    border: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 2rem;
+    z-index: 10;
+  }
+}
