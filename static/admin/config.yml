@@ -12,6 +12,22 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "production"
+    label: "Films"
+    folder: "src/pages/production"
+    create: true
+    slug: "{{slug}}"
+    required: false
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "production-post", required: false}
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean", required: false}
+      - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+
   - name: "settings"
     label: "Réglages"
     files:

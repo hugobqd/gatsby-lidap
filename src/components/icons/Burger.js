@@ -11,30 +11,27 @@ const Burger = () => {
       <g id="burger" transform="translate(-1869.5 -35)">
         <line
           id="Ligne_6"
-          data-name="Ligne 6"
           x2="32"
           transform="translate(1869.5 36.5)"
           fill="none"
           stroke="#19191f"
-          stroke-width="3"
+          strokeWidth="3"
         />
         <line
           id="Ligne_7"
-          data-name="Ligne 7"
           x2="31.99"
           transform="translate(1869.5 47.5)"
           fill="none"
           stroke="#19191f"
-          stroke-width="3"
+          strokeWidth="3"
         />
         <line
           id="Ligne_8"
-          data-name="Ligne 8"
           x2="31.956"
           transform="translate(1869.5 58.5)"
           fill="none"
           stroke="#19191f"
-          stroke-width="3"
+          strokeWidth="3"
         />
       </g>
     </svg>

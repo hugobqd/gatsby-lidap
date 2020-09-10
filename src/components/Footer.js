@@ -104,10 +104,10 @@ const Footer = class extends React.Component {
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-                <adress style={{ display: "block" }}>
+                <address style={{ display: "block" }}>
                   <label>Adresse: </label>
                   {contact.adress}
-                </adress>
+                </address>
               </div>
             </div>
           </div>
