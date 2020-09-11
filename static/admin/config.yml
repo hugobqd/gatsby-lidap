@@ -65,9 +65,9 @@ collections:
     label: "Pages"
     files:
 
-      - file: "src/pages/dada.md"
-        label: "dada"
-        name: "dada"
+      - file: "src/pages/toto.md"
+        label: "toto"
+        name: "toto"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "toto"}
           - {label: Title, name: title, widget: string}
