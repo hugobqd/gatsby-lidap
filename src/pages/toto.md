@@ -1,3 +1,3 @@
 ---
-title: xxxxxx
+title: Toto est beau
 ---
