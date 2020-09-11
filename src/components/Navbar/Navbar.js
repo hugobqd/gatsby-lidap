@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
 import Burger from "../icons/Burger";
-import { Navbar as styles } from "./Navbar.scss";
+import "./Navbar.scss";
 
 const Navbar = (props) => {
   const [active, setActive] = useState(false);
 
-  const toggleHamburger = () => {
-    setActive(!active);
-  };
   return (
     <nav className="navbar" role="navigation" aria-label="main-navigation">
       <div className="nav-main">

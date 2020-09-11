@@ -1,4 +1,0 @@
----
-title: Proud
-description: yes
----
