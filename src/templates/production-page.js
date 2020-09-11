@@ -1,11 +1,13 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import ProductionList from "../components/ProductionList/ProductionList";
 
 export const ProductionPageTemplate = ({ title }) => (
-  <section>
+  <main>
     <h1>{title}</h1>
-  </section>
+    <ProductionList />
+  </main>
 );
 
 const ProductionPagePage = ({ data }) => {
@@ -13,7 +15,6 @@ const ProductionPagePage = ({ data }) => {
 
   return (
     <Layout>
-      <pre>Titre:</pre>
       <ProductionPageTemplate title={frontmatter.title} />
     </Layout>
   );
