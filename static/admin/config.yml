@@ -65,12 +65,13 @@ collections:
     label: "Pages"
     files:
 
-      - file: "src/pages/toto.md"
-        label: "toto"
-        name: "toto"
+      - file: "src/pages/production.md"
+        label: "Page Production"
+        name: "productionpage"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "toto"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "production-page"}
           - {label: Title, name: title, widget: string}
+          - {label: "Introduction", name: "description", widget: "markdown", buttons: ["bold", "italic", "link"], editorComponents: [], required: false}
 
       - file: "src/pages/index.md"
         label: "Landing Page"
