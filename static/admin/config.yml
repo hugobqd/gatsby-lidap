@@ -65,6 +65,13 @@ collections:
     label: "Pages"
     files:
 
+      - file: "src/pages/dada.md"
+        label: "dada"
+        name: "dada"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "toto"}
+          - {label: Title, name: title, widget: string}
+
       - file: "src/pages/index.md"
         label: "Landing Page"
         name: "index"
