@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 
-const ProductionList = ({ data }) => {
+const PostProductionList = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
 
   return (
@@ -25,7 +25,7 @@ const ProductionList = ({ data }) => {
   );
 };
 
-ProductionList.propTypes = {
+PostProductionList.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -36,10 +36,12 @@ ProductionList.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query ProductionListQuery {
+      query PostProductionListQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "production-post" } } }
+          filter: {
+            frontmatter: { templateKey: { eq: "postproduction-post" } }
+          }
         ) {
           edges {
             node {
@@ -66,6 +68,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <ProductionList data={data} count={count} />}
+    render={(data, count) => <PostProductionList data={data} count={count} />}
   />
 );

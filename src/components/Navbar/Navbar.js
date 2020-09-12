@@ -37,15 +37,24 @@ const Navbar = (props) => {
           role="menu"
           aria-labelledby="menubutton"
         >
-          <div className="navbar-start has-text-centered">
+          <div
+            className="navbar-start has-text-centered"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
             <Link className="navbar-item" to="/about">
               À propos
             </Link>
-            <Link className="navbar-item" to="/products">
-              Products
+            <Link className="navbar-item" to="/production">
+              Production
             </Link>
-            <Link className="navbar-item" to="/blog">
-              Blog
+            <Link className="navbar-item" to="/postproduction">
+              Post-Production
+            </Link>
+            <Link className="navbar-item" to="/actualite">
+              Actualité
             </Link>
             <Link className="navbar-item" to="/contact">
               Contact
