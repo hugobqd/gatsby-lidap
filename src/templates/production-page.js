@@ -3,27 +3,27 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import ProductionList from "../components/ProductionList/ProductionList";
 
-export const ProductionPageTemplate = ({ title }) => (
+export const PostProductionPageTemplate = ({ title }) => (
   <main>
     <h1>{title}</h1>
     <ProductionList />
   </main>
 );
 
-const ProductionPagePage = ({ data }) => {
+const PostProductionPagePage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
-      <ProductionPageTemplate title={frontmatter.title} />
+      <PostProductionPageTemplate title={frontmatter.title} />
     </Layout>
   );
 };
 
-export default ProductionPagePage;
+export default PostProductionPagePage;
 
-export const productionPageQuery = graphql`
-  query productionPage($id: String!) {
+export const postProductionPageQuery = graphql`
+  query postProductionPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title

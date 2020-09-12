@@ -1,11 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
+import { Button, DatePicker } from "antd";
+import "antd/dist/antd.css";
 
-import logo from "../img/logo.svg";
-import facebook from "../img/social/facebook.svg";
-import instagram from "../img/social/instagram.svg";
-import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
 import contact from "../settings/contact.json";
 
 const Footer = class extends React.Component {
@@ -35,7 +32,14 @@ const Footer = class extends React.Component {
         >
           Admin
         </a>
-        <address style={{ display: "block" }}>{contact.adress}</address>
+        <address style={{ display: "block", border: "1px dotted" }}>
+          {contact.adress}
+        </address>
+
+        <DatePicker />
+        <Button type="primary" style={{ marginLeft: 8 }}>
+          Primary Button
+        </Button>
       </footer>
     );
   }

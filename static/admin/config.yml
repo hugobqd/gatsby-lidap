@@ -12,6 +12,16 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "postproduction"
+    label: "Post-production"
+    folder: "src/pages/postproduction"
+    create: true
+    slug: "{{slug}}"
+    required: false
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "postproduction-post", required: false}
+      - {label: "Title", name: "title", widget: "string", required: false}
+
   - name: "production"
     label: "Films"
     folder: "src/pages/production"
@@ -70,6 +80,15 @@ collections:
         name: "productionpage"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "production-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: "Introduction", name: "description", widget: "markdown", buttons: ["bold", "italic", "link"], editorComponents: [], required: false}
+          - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
+
+      - file: "src/pages/postproduction.md"
+        label: "Page PostProduction"
+        name: "postproductionpage"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "postproduction-page"}
           - {label: Title, name: title, widget: string}
           - {label: "Introduction", name: "description", widget: "markdown", buttons: ["bold", "italic", "link"], editorComponents: [], required: false}
           - {label: "Featured Image", name: "featuredimage", widget: image, required: false}

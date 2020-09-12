@@ -12,10 +12,10 @@ const Navbar = (props) => {
         <Link to="/" title="Logo" className="logo">
           L'image d'après
         </Link>
-        <Link to="/blog" title="Logo">
+        <Link to="/production" title="Logo">
           Production
         </Link>
-        <Link to="/products" title="Logo">
+        <Link to="/postproduction" title="Logo">
           Post-production
         </Link>
         <button
@@ -39,7 +39,7 @@ const Navbar = (props) => {
         >
           <div className="navbar-start has-text-centered">
             <Link className="navbar-item" to="/about">
-              About
+              À propos
             </Link>
             <Link className="navbar-item" to="/products">
               Products
