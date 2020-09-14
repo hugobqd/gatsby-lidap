@@ -1,15 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const ProductionList = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
 
   return (
-    <div className="columns is-multiline">
+    <Row>
       {posts &&
         posts.map(({ node: post }) => (
-          <div className="is-parent column is-6" key={post.id}>
+          <Col key={post.id}>
             <article>
               <Link
                 className="title has-text-primary is-size-4"
@@ -19,9 +21,9 @@ const ProductionList = ({ data }) => {
               </Link>
               {post.frontmatter.date}
             </article>
-          </div>
+          </Col>
         ))}
-    </div>
+    </Row>
   );
 };
 

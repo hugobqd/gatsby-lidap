@@ -2,9 +2,14 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar/Navbar";
-import "./styles/global.scss";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
+import GlobalStyle from "../style/GlobalStyle";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import "../style/app.scss";
+// import "../../node_modules/bootstrap/dist/css/bootstrap-reboot.css";
+// import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -49,8 +54,9 @@ const TemplateWrapper = ({ children }) => {
         />
         <link rel="stylesheet" href="https://use.typekit.net/dyq4dan.css" />
       </Helmet>
+      <GlobalStyle />
       <Navbar />
-      <div>{children}</div>
+      <div className="content">{children}</div>
       <Footer />
     </div>
   );

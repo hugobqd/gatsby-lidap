@@ -1,7 +1,7 @@
-@import "../styles/variables";
+// @import "../styles/variables";
 
 .nav-main {
-  background-color: $lavender;
+  background-color: lavender;
   position: absolute;
   top: 0;
   right: 0;
@@ -10,7 +10,7 @@
   padding-right: 2rem;
 
   a {
-    color: $grey-darker;
+    color: black;
     display: block;
     padding: 1em;
   }
@@ -18,7 +18,7 @@
     font-weight: 900;
   }
   .burger {
-    background-color: $lavender;
+    background-color: lavender;
     border: none;
     position: fixed;
     top: 0;

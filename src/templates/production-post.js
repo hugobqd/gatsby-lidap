@@ -5,10 +5,12 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const ProductionPostTemplate = ({
   content,
   contentComponent,
+  featuredimage,
   description,
   tags,
   title,
@@ -25,6 +27,17 @@ export const ProductionPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
+            <pre>: {JSON.stringify(featuredimage)}</pre>
+            {featuredimage ? (
+              <div className="featured-thumbnail">
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: featuredimage,
+                    alt: `featured image thumbnail for post ${title}`,
+                  }}
+                />
+              </div>
+            ) : null}
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
@@ -95,6 +108,13 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 120, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         description
         tags
       }

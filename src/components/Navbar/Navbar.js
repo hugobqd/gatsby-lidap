@@ -36,33 +36,29 @@ const Navbar = (props) => {
           className={`nav-full ${active ? "is-active" : ""}`}
           role="menu"
           aria-labelledby="menubutton"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+          }}
         >
-          <div
-            className="navbar-start has-text-centered"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-            }}
-          >
-            <Link className="navbar-item" to="/about">
-              À propos
-            </Link>
-            <Link className="navbar-item" to="/production">
-              Production
-            </Link>
-            <Link className="navbar-item" to="/postproduction">
-              Post-Production
-            </Link>
-            <Link className="navbar-item" to="/actualite">
-              Actualité
-            </Link>
-            <Link className="navbar-item" to="/contact">
-              Contact
-            </Link>
-            <Link className="navbar-item" to="/contact/examples">
-              Form Examples
-            </Link>
-          </div>
+          <Link className="navbar-item" to="/about">
+            À propos
+          </Link>
+          <Link className="navbar-item" to="/production">
+            Production
+          </Link>
+          <Link className="navbar-item" to="/postproduction">
+            Post-Production
+          </Link>
+          <Link className="navbar-item" to="/actualite">
+            Actualité
+          </Link>
+          <Link className="navbar-item" to="/contact">
+            Contact
+          </Link>
+          <Link className="navbar-item" to="/contact/examples">
+            Form Examples
+          </Link>
         </div>
       )}
     </nav>
