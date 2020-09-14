@@ -5,6 +5,7 @@ templateKey: index-page
 title: Bonjour
 featuredproduction:
   - Colette et Justin
+  - Sables fauves
 author:
   - Colette et Justin
   - Sables fauves
