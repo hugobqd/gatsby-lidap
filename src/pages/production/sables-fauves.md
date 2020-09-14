@@ -12,6 +12,7 @@ description: Dans l’oubli et les marges de la lointaine périphérie des ville
   territoire de champs plats, là où les cris de joie arrachés au quotidien
   côtoient les signes annonciateurs de temps obscurs. Pour tenter de faire d’une
   fuite, une évasion.
+featuredpost: true
 tags:
   - documentaire
 ---
