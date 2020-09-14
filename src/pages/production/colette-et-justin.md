@@ -17,4 +17,5 @@ description: Depuis le salon de leur appartement parisien, j’ai entrepris avec
   femme sur les étals des marchés. C’est également le récit de mon rapport à
   cette histoire complexe et mon attachement à la ville de mon enfance, qui
   m’habite encore, bien que je ne l'habite plus.
+featuredpost: true
 ---
