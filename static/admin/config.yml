@@ -41,7 +41,7 @@ collections:
       - {label: "Équipe", name: "team", widget: "markdown", required: false}
       - {label: "Sélections", name: "selection", widget: "markdown", required: false}
       - {label: "Production", name: "production", widget: "markdown", required: false}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean", required: false}
+      - {label: "Sur la page d'accueil", name: "featuredpost", widget: "boolean", required: false}
       - {label: "Tags", name: "tags", widget: "list", hint: "'documentaire' ou 'fiction'", required: false}
 
   - name: "settings"

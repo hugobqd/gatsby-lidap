@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Row, Col } from "../GridSystem";
+import ProductionCell from "../cell/productionCell";
 
 const ProductionList = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
@@ -10,17 +10,10 @@ const ProductionList = ({ data }) => {
   return (
     <Row>
       {posts &&
-        posts.map(({ node: post }) => (
-          <Col key={post.id}>
-            <article>
-              <Link
-                className="title has-text-primary is-size-4"
-                to={post.fields.slug}
-              >
-                {post.frontmatter.title}
-              </Link>
-              {post.frontmatter.date}
-            </article>
+        posts.map(({ node }) => (
+          <Col key={node.id} span={4}>
+            {/* ProductionCell */}
+            <ProductionCell node={node} key={node.id} />
           </Col>
         ))}
     </Row>
@@ -57,7 +50,7 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 1200, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

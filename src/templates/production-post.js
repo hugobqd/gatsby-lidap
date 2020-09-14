@@ -5,7 +5,13 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import Container from "../components/Container";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import styled from "styled-components";
+
+const InfoBar = styled.div`
+  display: flex;
+`;
 
 export const ProductionPostTemplate = ({
   content,
@@ -15,47 +21,49 @@ export const ProductionPostTemplate = ({
   tags,
   title,
   helmet,
+  director,
+  date,
+  vod,
+  trailer,
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
-    <section className="section">
+    <main>
       {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <pre>: {JSON.stringify(featuredimage)}</pre>
-            {featuredimage ? (
-              <div className="featured-thumbnail">
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: featuredimage,
-                    alt: `featured image thumbnail for post ${title}`,
-                  }}
-                />
-              </div>
-            ) : null}
-            <p>{description}</p>
-            <PostContent content={content} />
+      <Container>
+        <h1>{title}</h1>
+      </Container>
+      {featuredimage ? (
+        <PreviewCompatibleImage
+          imageInfo={{
+            image: featuredimage,
+            alt: `featured image thumbnail for post ${title}`,
+          }}
+        />
+      ) : null}
+      <Container wide>
+        <InfoBar>
+          <div>
+            <h3>{director}</h3>
             {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map((tag) => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
+              <span>
+                {tags.map((tag) => (
+                  <span key={tag + `tag`}>
+                    <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link> —
+                  </span>
+                ))}
+              </span>
+            ) : null}{" "}
+            {date}
           </div>
-        </div>
-      </div>
-    </section>
+        </InfoBar>
+      </Container>
+      <Container text>
+        <p>{description}</p>
+      </Container>
+      <PostContent content={content} />
+    </main>
   );
 };
 
@@ -72,12 +80,22 @@ const ProductionPost = ({ data }) => {
 
   return (
     <Layout>
+      <pre
+        style={{
+          background: "pink",
+          fontSize: 10,
+          display: "none",
+        }}
+      >
+        {JSON.stringify(data, null, 2)}
+      </pre>
       <ProductionPostTemplate
+        post={post}
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Production">
+          <Helmet titleTemplate="%s | Film">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -86,7 +104,12 @@ const ProductionPost = ({ data }) => {
           </Helmet>
         }
         tags={post.frontmatter.tags}
+        director={post.frontmatter.director}
         title={post.frontmatter.title}
+        featuredimage={post.frontmatter.featuredimage}
+        date={post.frontmatter.date}
+        trailer={post.frontmatter.trailer}
+        vod={post.frontmatter.vod}
       />
     </Layout>
   );
@@ -106,17 +129,20 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY")
         title
+        director
         featuredimage {
           childImageSharp {
-            fluid(maxWidth: 120, quality: 100) {
+            fluid(maxWidth: 2000, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
         }
         description
         tags
+        trailer
+        vod
       }
     }
   }

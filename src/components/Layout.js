@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "./Navbar";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import GlobalStyle from "../style/GlobalStyle";
@@ -14,7 +14,7 @@ import "../style/app.scss";
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div>
+    <div className="layout">
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -56,7 +56,9 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <GlobalStyle />
       <Navbar />
-      <div className="content">{children}</div>
+      <div className="content" style={{ paddingTop: "2rem" }}>
+        {children}
+      </div>
       <Footer />
     </div>
   );

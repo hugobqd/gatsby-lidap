@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeHero = () => {
   return (
-    <div
+    <section
       style={{
         fontSize: "10rem",
         lineHeight: 1,
@@ -24,7 +24,7 @@ const HomeHero = () => {
       et <Link to="/postproduction">postproduction</Link>
       <br />
       de films.
-    </div>
+    </section>
   );
 };
 

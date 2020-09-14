@@ -1,14 +1,44 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import Burger from "../icons/Burger";
-import "./Navbar.scss";
+import Burger from "./icons/Burger";
+// import "./Navbar.scss";
+import styled from "styled-components";
+
+const Header = styled.header``;
+const NavMain = styled.nav`
+  background-color: lavender;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+  display: flex;
+  padding-right: 2rem;
+
+  a {
+    color: black;
+    display: block;
+    padding: 1em;
+  }
+  .logo {
+    font-weight: 900;
+  }
+  .burger {
+    background-color: lavender;
+    border: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 2rem;
+    z-index: 10;
+  }
+`;
 
 const Navbar = (props) => {
   const [active, setActive] = useState(false);
 
   return (
-    <nav className="navbar" role="navigation" aria-label="main-navigation">
-      <div className="nav-main">
+    <Header role="navigation" aria-label="main-navigation">
+      <NavMain>
         <Link to="/" title="Logo" className="logo">
           L'image d'après
         </Link>
@@ -29,9 +59,9 @@ const Navbar = (props) => {
         >
           <Burger />
         </button>
-      </div>
+      </NavMain>
       {active && (
-        <div
+        <nav
           id="menu"
           className={`nav-full ${active ? "is-active" : ""}`}
           role="menu"
@@ -59,9 +89,9 @@ const Navbar = (props) => {
           <Link className="navbar-item" to="/contact/examples">
             Form Examples
           </Link>
-        </div>
+        </nav>
       )}
-    </nav>
+    </Header>
   );
 };
 
