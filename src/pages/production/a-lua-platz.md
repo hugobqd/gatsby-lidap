@@ -14,6 +14,18 @@ description: En Seine-Saint-Denis, des années durant, des familles roumaines
   mutation. Des grands ensembles jusqu’au Grand Paris, leurs trajectoires
   retissent une histoire commune, celle de solidarités habitantes refusant la
   relégation.
+team: ÉQUIPE Aux marges d’une banlieue parisienne en grande mutation, quelques
+  familles roumaines cherchent des lieux où vivre. Depuis le village quitté, le
+  bidonville rasé, les maisons occupées, leurs trajectoires retissent une
+  histoire commune, faite de solidarité autant que de relégation. Devenus
+  compagnons de route, nous fabriquons ce film ensemble, comme d’autres espaces
+  habitables."
+selection: SELECTION Aux marges d’une banlieue parisienne en grande mutation,
+  quelques familles roumaines cherchent des lieux où vivre. Depuis le village
+  quitté, le bidonville rasé, les maisons occupées, leurs trajectoires retissent
+  une histoire commune, faite de solidarité autant que de relégation. Devenus
+  compagnons de route, nous fabriquons ce film ensemble, comme d’autres espaces
+  habitables."
 production: CNC. Aide au développement renforcé, CNC. Aide à l'écriture, CNC.
   Aide au développement, Procirep, Angoa-Agicoa, CNC. Fonds Images de la
   diversité, Mairie de la Courneuve, Le Polygone étoilé
