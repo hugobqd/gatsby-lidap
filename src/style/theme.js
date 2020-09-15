@@ -2,22 +2,16 @@ const colors = {
   greyDarker: "#19191F",
   lavender: "lavender",
   white: "#FFF",
+  red: "orangered",
 };
-const spacings = {
-  1: ".25rem",
-  2: ".5rem",
-  3: "1rem",
-  4: "2rem",
-  5: "3rem",
-  6: "5rem",
-};
+const spacings = [".25rem", ".5rem", "1rem", "2rem", "3rem", "5rem"];
 
 export default {
   font: {
     main:
       "degular, -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji",
   },
-  color: {
+  colors: {
     ...colors,
     fg: colors.white,
     bg: colors.greyDarker,

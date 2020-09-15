@@ -8,10 +8,10 @@ import themeInverted from "../style/themeInverted";
 import Container from "./Container";
 
 const BackgroundSection = styled.section`
-  color: ${(props) => props.theme.color.fg};
-  background-color: ${(props) => props.theme.color.bg};
+  color: ${(props) => props.theme.colors.fg};
+  background-color: ${(props) => props.theme.colors.bg};
   a {
-    color: ${(props) => props.theme.color.link};
+    color: ${(props) => props.theme.colors.link};
   }
 `;
 

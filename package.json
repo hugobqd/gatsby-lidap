@@ -37,6 +37,7 @@
     "react-helmet": "^6.0.0",
     "react-player": "^2.6.2",
     "styled-components": "^5.2.0",
+    "styled-system": "^5.1.5",
     "uuid": "^7.0.0"
   },
   "keywords": [

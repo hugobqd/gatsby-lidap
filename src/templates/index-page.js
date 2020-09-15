@@ -6,6 +6,8 @@ import Layout from "../components/Layout";
 import BlogList from "../components/BlogList";
 import HomeHero from "../components/HomeHero";
 import HomeFeaturedMovies from "../components/HomeFeaturedMovies";
+import Container from "../components/Container";
+import Box from "../components/Box";
 
 export const IndexPageTemplate = ({ data }) => {
   // const actu = data.actu.edges;
@@ -15,8 +17,12 @@ export const IndexPageTemplate = ({ data }) => {
       {/* <pre style={{ background: "linen", fontSize: 10 }}>
         {JSON.stringify(actu, null, 2)}
       </pre> */}
-      <HomeHero />
-      <HomeFeaturedMovies />
+      <Container>
+        <HomeHero />
+        <Box py={4}>
+          <HomeFeaturedMovies />
+        </Box>
+      </Container>
       <BlogList />
     </>
   );

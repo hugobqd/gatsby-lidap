@@ -7,7 +7,7 @@ const StyledButton = styled(Link)`
   font-weight: 900;
   text-transform: uppercase;
   line-height: 1.5;
-  color: ${(props) => props.theme.color.bg};
+  color: ${(props) => props.theme.colors.bg};
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -16,7 +16,7 @@ const StyledButton = styled(Link)`
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: ${(props) => props.theme.color.link};
+  background-color: ${(props) => props.theme.colors.link};
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1.2rem;
@@ -32,9 +32,9 @@ const StyledButton = styled(Link)`
 
   &:hover,
   &:focus {
-    background-color: ${(props) => props.theme.color.white};
+    background-color: ${(props) => props.theme.colors.white};
     text-decoration: none;
-    color: ${(props) => props.theme.color.bg};
+    color: ${(props) => props.theme.colors.bg};
   }
 
   &:focus {
@@ -52,7 +52,7 @@ const StyledHeadingLink = styled(Link)`
   font-weight: 900;
   text-transform: uppercase;
   line-height: 1.5;
-  color: ${(props) => props.theme.color.link};
+  color: ${(props) => props.theme.colors.link};
   text-align: center;
   text-decoration: underline;
   vertical-align: middle;
@@ -76,7 +76,7 @@ const StyledHeadingLink = styled(Link)`
 
   &:hover,
   &:focus {
-    color: ${(props) => props.theme.color.white};
+    color: ${(props) => props.theme.colors.white};
   }
 
   &:focus {
