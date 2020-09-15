@@ -8,6 +8,7 @@ import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/Container";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import styled from "styled-components";
+import ReactPlayer from "react-player";
 
 const InfoBar = styled.div`
   display: flex;
@@ -57,12 +58,33 @@ export const ProductionPostTemplate = ({
             ) : null}{" "}
             {date}
           </div>
+          {vod && (
+            <div style={{ marginLeft: "auto" }}>
+              <Link to={vod} target="_blank">
+                VOD
+              </Link>
+            </div>
+          )}
         </InfoBar>
       </Container>
       <Container text>
         <p>{description}</p>
       </Container>
-      <PostContent content={content} />
+
+      {trailer && (
+        <ReactPlayer
+          url={trailer}
+          width="100%"
+          height="500px"
+          controls="true"
+          light
+          playsinline
+        />
+      )}
+
+      <Container text>
+        <PostContent content={content} />
+      </Container>
     </main>
   );
 };

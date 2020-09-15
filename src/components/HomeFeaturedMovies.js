@@ -1,6 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import ProductionCell from "./cell/productionCell";
+import { Row, Col } from "./GridSystem";
 
 const HomeFeaturedMovies = () => {
   const data = useStaticQuery(graphql`
@@ -43,9 +44,13 @@ const HomeFeaturedMovies = () => {
 
   return (
     <section>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <ProductionCell node={node} key={node.id} />
-      ))}
+      <Row>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <Col span={6} key={node.id}>
+            <ProductionCell node={node} />
+          </Col>
+        ))}
+      </Row>
     </section>
   );
 };

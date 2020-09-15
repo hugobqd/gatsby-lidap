@@ -4,12 +4,6 @@ import Footer from "../components/Footer";
 import Navbar from "./Navbar";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
-import GlobalStyle from "../style/GlobalStyle";
-import "bootstrap/dist/css/bootstrap.min.css";
-
-import "../style/app.scss";
-// import "../../node_modules/bootstrap/dist/css/bootstrap-reboot.css";
-// import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -54,7 +48,6 @@ const TemplateWrapper = ({ children }) => {
         />
         <link rel="stylesheet" href="https://use.typekit.net/dyq4dan.css" />
       </Helmet>
-      <GlobalStyle />
       <Navbar />
       <div className="content" style={{ paddingTop: "2rem" }}>
         {children}

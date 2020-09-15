@@ -3,16 +3,24 @@ import { Link } from "gatsby";
 import Burger from "./icons/Burger";
 // import "./Navbar.scss";
 import styled from "styled-components";
+import { breakpoints as bp } from "../style/breakpoints";
 
 const Header = styled.header``;
 const NavMain = styled.nav`
   background-color: lavender;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  bottom: 0;
   right: 0;
+  width: 100%;
   text-transform: uppercase;
   display: flex;
   padding-right: 2rem;
+  @media ${bp.laptop} {
+    position: absolute;
+    top: 0;
+    width: auto;
+    bottom: auto;
+  }
 
   a {
     color: black;
@@ -25,11 +33,14 @@ const NavMain = styled.nav`
   .burger {
     background-color: lavender;
     border: none;
-    position: fixed;
-    top: 0;
-    right: 0;
+    /* position: fixed; */
     width: 2rem;
-    z-index: 10;
+    @media ${bp.laptop} {
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 10;
+    }
   }
 `;
 
