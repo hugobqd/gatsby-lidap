@@ -75,7 +75,7 @@ const Navbar = (props) => {
         <nav
           id="menu"
           className={`nav-full ${active ? "is-active" : ""}`}
-          role="menu"
+          // role="menu"
           aria-labelledby="menubutton"
           style={{
             display: "flex",

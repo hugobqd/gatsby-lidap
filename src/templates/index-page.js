@@ -1,16 +1,15 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+// import PropTypes from "prop-types";
+import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
+import BlogList from "../components/BlogList";
 import HomeHero from "../components/HomeHero";
 import HomeFeaturedMovies from "../components/HomeFeaturedMovies";
 
 export const IndexPageTemplate = ({ data }) => {
-  const actu = data.actu.edges;
-  const prod = data;
+  // const actu = data.actu.edges;
+  // const prod = data;
   return (
     <>
       {/* <pre style={{ background: "linen", fontSize: 10 }}>
@@ -18,7 +17,7 @@ export const IndexPageTemplate = ({ data }) => {
       </pre> */}
       <HomeHero />
       <HomeFeaturedMovies />
-      <BlogRoll />
+      <BlogList />
     </>
   );
 };
@@ -103,7 +102,7 @@ export const pageQuery = graphql`
 // import styled from "styled-components";
 
 // import Layout from "../components/Layout";
-// import BlogRoll from "../components/BlogRoll";
+// import BlogList from "../components/BlogList";
 // import HomeHero from "../components/HomeHero";
 // import HomeFeaturedMovies from "../components/HomeFeaturedMovies";
 
@@ -128,7 +127,7 @@ export const pageQuery = graphql`
 //         Ici:
 //         <HomeFeaturedMovies list={featuredproduction} />
 //         LÀ:
-//         <BlogRoll />
+//         <BlogList />
 //       </Container>
 //     </Layout>
 //   );

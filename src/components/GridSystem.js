@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Row = styled.div`
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
   display: flex;
   flex: 1 0 100%;
   flex-wrap: wrap;
