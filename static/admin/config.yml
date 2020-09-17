@@ -43,6 +43,23 @@ collections:
       - {label: "Production", name: "production", widget: "markdown", required: false}
       - {label: "Sur la page d'accueil", name: "featuredpost", widget: "boolean", required: false}
       - {label: "Tags", name: "tags", widget: "list", hint: "'documentaire' ou 'fiction'", required: false}
+      - name: gallery
+        label: Galerie
+        label_singular: Image
+        widget: list
+        fields: 
+          - label: Image
+            name: galleryimg, 
+            widget: "image"
+            # allow_multiple: true
+            required: false
+            media_library:
+              config:
+                multiple: true
+          - label: "Légende"
+            name: caption
+            widget: text
+            required: false
 
   - name: "settings"
     label: "Réglages"
