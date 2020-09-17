@@ -1,6 +1,6 @@
 const colors = {
   greyDarker: "#19191F",
-  lavender: "lavender",
+  lavender: "#C5D0F4",
   white: "#FFF",
   red: "orangered",
 };
@@ -20,4 +20,6 @@ export default {
   space: {
     ...spacings,
   },
+  breakpoints: ["768px", "1920px"],
+  fontSizes: [13, 16, 19, 23, 27, 33, 39, 47],
 };

@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/Container";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import Heading from "../components/Heading";
 import styled from "styled-components";
 import ReactPlayer from "react-player";
 
@@ -33,7 +34,13 @@ export const ProductionPostTemplate = ({
     <main>
       {helmet || ""}
       <Container>
-        <h1>{title}</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+          placeat itaque facere provident architecto numquam accusamus neque
+          suscipit quidem! Maiores accusamus voluptate obcaecati quae culpa
+          beatae. Magni alias atque recusandae?
+        </p>
+        <Heading>{title}</Heading>
       </Container>
       {featuredimage ? (
         <PreviewCompatibleImage
