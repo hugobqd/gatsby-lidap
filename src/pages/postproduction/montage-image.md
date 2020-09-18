@@ -12,7 +12,7 @@ team:
     name: Maud Martin
     portrait: /img/person.jpg
     title: Directrice
-document: /img/sujet-7-maya.pdf
+# document: /img/sujet-7-maya.pdf
 ---
 ## Texte libre et illimité
 
