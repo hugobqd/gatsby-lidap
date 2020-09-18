@@ -1,9 +1,9 @@
 ---
 templateKey: production-post
 title: Samir dans la poussière
+featuredimage: /img/samir-montagne.jpg
 date: 2015-09-18T06:42:00.000Z
 director: Mohamed Ouzine
-featuredimage: /img/samir-montagne.jpg
 trailer: https://www.tenk.fr/algerie-s-inventer-un-cinema-decolonise/samir-dans-la-poussiere.html
 vod: https://www.tenk.fr/algerie-s-inventer-un-cinema-decolonise/samir-dans-la-poussiere.html
 description: Filmé par son oncle, Samir perd peu à peu l’esprit, enfiévré par
