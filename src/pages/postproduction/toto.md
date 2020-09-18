@@ -1,5 +1,5 @@
 ---
 templateKey: postproduction-post
 title: toto
-document: /img/data.csv
+document: /img/licence-3-geo.pdf
 ---
