@@ -3,6 +3,7 @@ templateKey: production-post
 title: Samir dans la poussière
 date: 2015-09-18T06:42:00.000Z
 director: Mohamed Ouzine
+featuredimage: /img/samir-montagne.jpg
 trailer: https://www.tenk.fr/algerie-s-inventer-un-cinema-decolonise/samir-dans-la-poussiere.html
 vod: https://www.tenk.fr/algerie-s-inventer-un-cinema-decolonise/samir-dans-la-poussiere.html
 description: Filmé par son oncle, Samir perd peu à peu l’esprit, enfiévré par
@@ -25,7 +26,7 @@ tags:
   - documentaire
 gallery:
   - galleryimg: /img/247-cover_large.jpg
-  - galleryimg: /img/samir-montagne.jpg
+  - galleryimg: ""
   - galleryimg: /img/samir-dans-la-poussière-9.jpg
 ---
 > Mohamed Ouzine revient dans sa région d’origine, montagneuse et sèche, où son neveu Samir est resté vivre. Samir y vit de la contrebande de pétrole. Il transporte la marchandise à dos de mulet de son village algérien à la frontière marocaine. Mohamed, qui vit en France, porte la nostalgie de cette terre qu’il n’a pas connue et filme Samir comme un double qu’il aurait pu être. Le jeu de miroir est difficile, Samir dévoile petit à petit ses frustrations, son envie de partir, lui aussi. La beauté du film tient dans ce fil ténu commun entre eux, ce rapport ambivalent à cette terre. Un paysage de sables et de roches arides qui sont la vie de Samir et le rêve de Mohamed.
