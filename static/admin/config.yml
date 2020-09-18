@@ -61,7 +61,9 @@ collections:
     slug: "{{slug}}"
     required: false
     sortable_fields: ['commit_date', 'title', 'date', 'author', 'vod', 'selection']
-    summary: "{{year}} - {{title}} - {{featuredimage}}"
+    summary: "{{title}} [{{year}}]"
+    preview_path: "production/{{slug}}"
+
     view_filters:
       - label: 'Films publiés en 2020'
         field: date
@@ -108,7 +110,6 @@ collections:
     folder: "src/pages/postproduction"
     create: true
     slug: "{{slug}}"
-    preview_path: "{{slug}}"
     required: false
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "postproduction-post", required: false}
