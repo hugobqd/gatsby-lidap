@@ -14,7 +14,7 @@ description: The film opens with a scroll saying that when Alfred Hitchcock's
   terror as the tomato draws her into a corner. Following the credits, the
   police investigate her death. One officer discovers that the red substance
   with which she is covered is not blood, **but tomato juice**.
-team: |-
+credit: |-
   David Miller as Mason Dixon
   George Wilson as Jim Richardson
   Sharon Taylor as Lois Fairchild
@@ -54,9 +54,7 @@ production: >-
   struck the ground, causing the craft to spin out of control near the ground,
   roll over, and burst into flames. 
 
-
   The helicopter pilot escaped without serious injury.\[[3]]
-
 
   (https://en.wikipedia.org/wiki/Attack_of_the_Killer_Tomatoes#cite_note-3) The crash was caught on film as the cameras were rolling at the time. The crash was later worked into the film.
 featuredpost: true
@@ -64,14 +62,14 @@ tags:
   - fiction
   - ""
 gallery:
-  - "galleryimg,": /img/screen-shot-2019-07-19-at-3.06.45-pm.png
+  - galleryimg: /img/screen-shot-2019-07-19-at-3.06.45-pm.png
     caption: Les héros
-  - "galleryimg,": /img/akt.jpg
+  - galleryimg: /img/akt.jpg
     caption: Ça provient d'un ***film***, *surement*.
-  - "galleryimg,": /img/killerhed.png
-  - "galleryimg,": /img/unnamed.jpg
+  - galleryimg: /img/killerhed.png
+  - galleryimg: /img/unnamed.jpg
     caption: Oui oui ! C'est bien **George Clooney** !
-  - "galleryimg,": /img/n8jslmc8zt2p1relauyrcc3vn7b.jpg
+  - galleryimg: /img/n8jslmc8zt2p1relauyrcc3vn7b.jpg
 ---
 Attack of the Killer Tomatoes is a 1978 American parody film\[2] produced by J. Stephen Peace and John DeBello, and directed by John DeBello based upon an original idea by Costa Dillon. The screenplay was written by Dillon, Peace, and DeBello. The film is a spoof of B movies. Made on a budget less than US$ 100,000 the story involves tomatoes becoming sentient by unknown means and revolting against humanity.
 

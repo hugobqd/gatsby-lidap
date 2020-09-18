@@ -2,11 +2,15 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PostProductionList from "../components/PostProductionList/PostProductionList";
+import Heading from "../components/Heading";
+import Container from "../components/Container";
 
 export const PostProductionPageTemplate = ({ title }) => (
   <main>
-    <h1>{title}</h1>
-    <PostProductionList />
+    <Container>
+      <Heading style={{ marginBottom: "3rem" }}>{title}</Heading>
+      <PostProductionList />
+    </Container>
   </main>
 );
 

@@ -19,6 +19,10 @@ const GlobalStyle = createGlobalStyle`
     font-style: italic;
   }
 
+  h1, h2, h3, h4 {
+    line-height: 1
+  }
+
 `;
 
 export default GlobalStyle;

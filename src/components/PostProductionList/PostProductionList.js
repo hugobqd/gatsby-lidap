@@ -2,26 +2,28 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 
+import styled from "styled-components";
+const PostProductionLine = styled(Link)`
+  background-color: ${(props) => props.theme.colors.lavender};
+  color: ${(props) => props.theme.colors.greyDarker};
+  padding: 1rem 2rem;
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+`;
+
 const PostProductionList = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
 
   return (
-    <div className="columns is-multiline">
+    <>
       {posts &&
         posts.map(({ node: post }) => (
-          <div className="is-parent column is-6" key={post.id}>
-            <article>
-              <Link
-                className="title has-text-primary is-size-4"
-                to={post.fields.slug}
-              >
-                {post.frontmatter.title}
-              </Link>
-              {post.frontmatter.date}
-            </article>
-          </div>
+          <PostProductionLine to={post.fields.slug} key={post.id}>
+            <article>→ {post.frontmatter.title}</article>
+          </PostProductionLine>
         ))}
-    </div>
+    </>
   );
 };
 

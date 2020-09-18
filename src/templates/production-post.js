@@ -10,6 +10,7 @@ import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Heading from "../components/Heading";
 import styled from "styled-components";
 import ReactPlayer from "react-player";
+import { Row, Col } from "../components/GridSystem";
 
 const InfoBar = styled.div`
   display: flex;
@@ -18,15 +19,19 @@ const InfoBar = styled.div`
 export const ProductionPostTemplate = ({
   content,
   contentComponent,
-  featuredimage,
+  credit,
+  date,
   description,
+  director,
+  featuredimage,
+  gallery,
+  helmet,
+  production,
+  selection,
   tags,
   title,
-  helmet,
-  director,
-  date,
-  vod,
   trailer,
+  vod,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -34,12 +39,6 @@ export const ProductionPostTemplate = ({
     <main>
       {helmet || ""}
       <Container>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-          placeat itaque facere provident architecto numquam accusamus neque
-          suscipit quidem! Maiores accusamus voluptate obcaecati quae culpa
-          beatae. Magni alias atque recusandae?
-        </p>
         <Heading>{title}</Heading>
       </Container>
       {featuredimage ? (
@@ -74,23 +73,56 @@ export const ProductionPostTemplate = ({
           )}
         </InfoBar>
       </Container>
+
       <Container text>
         <p>{description}</p>
       </Container>
 
-      {trailer && (
-        <ReactPlayer
-          url={trailer}
-          width="100%"
-          height="500px"
-          controls="true"
-          light
-          playsinline
-        />
-      )}
+      <Container>
+        {trailer && (
+          <ReactPlayer
+            url={trailer}
+            width="100%"
+            height="500px"
+            controls="true"
+            light
+            playsinline
+          />
+        )}
+
+        {gallery &&
+          gallery.map((image) => (
+            <div style={{ marginTop: "2rem" }}>
+              <PreviewCompatibleImage
+                imageInfo={{
+                  image: image.galleryimg,
+                  alt: image.caption,
+                }}
+              />
+            </div>
+          ))}
+      </Container>
 
       <Container text>
         <PostContent content={content} />
+      </Container>
+      <Container>
+        <div style={{ fontSize: ".8em" }}>
+          <Row>
+            <Col span={4}>
+              <h4>Équipe</h4>
+              {credit}
+            </Col>
+            <Col span={4}>
+              <h4>Production</h4>
+              {production}
+            </Col>
+            <Col span={4}>
+              <h4>Séléction</h4>
+              {selection}
+            </Col>
+          </Row>
+        </div>
       </Container>
     </main>
   );
@@ -111,7 +143,7 @@ const ProductionPost = ({ data }) => {
     <Layout>
       <pre
         style={{
-          background: "pink",
+          background: "navy",
           fontSize: 10,
           display: "none",
         }}
@@ -132,11 +164,15 @@ const ProductionPost = ({ data }) => {
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
-        director={post.frontmatter.director}
-        title={post.frontmatter.title}
-        featuredimage={post.frontmatter.featuredimage}
+        credit={post.frontmatter.credit}
         date={post.frontmatter.date}
+        director={post.frontmatter.director}
+        featuredimage={post.frontmatter.featuredimage}
+        gallery={post.frontmatter.gallery}
+        production={post.frontmatter.production}
+        selection={post.frontmatter.selection}
+        tags={post.frontmatter.tags}
+        title={post.frontmatter.title}
         trailer={post.frontmatter.trailer}
         vod={post.frontmatter.vod}
       />
@@ -158,8 +194,9 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
+        credit
         date(formatString: "YYYY")
-        title
+        description
         director
         featuredimage {
           childImageSharp {
@@ -168,8 +205,21 @@ export const pageQuery = graphql`
             }
           }
         }
-        description
+        gallery {
+          caption
+          galleryimg {
+            id
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        production
+        selection
         tags
+        title
         trailer
         vod
       }
