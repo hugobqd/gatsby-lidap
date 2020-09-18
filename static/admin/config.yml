@@ -11,53 +11,67 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+locale: 'fr'
+
+show_preview_links: true
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
+logo_url: https://a.wattpad.com/useravatar/Perkytarsier.256.946301.jpg
+
 collections:
-  - name: postproduction
-    label: "Post-production"
-    folder: "src/pages/postproduction"
+  # - name : test
+  #   label : "Collection de test"
+  #   folder: "src/pages/test"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   required: false
+  #   fields:
+  #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "postproduction-post", required: false}
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - name: &fieldtoto
+  #       label: "Fieldtoto"
+  #       widget: string
+  #       required: false
+
+
+  - name: blog
+    label: "Actualité"
+    folder: "src/pages/blog"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     required: false
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "postproduction-post", required: false}
-      - {label: "Title", name: "title", widget: "string", required: false}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - name: team
-        label: "Équipe"
-        label_singular: Membre
-        widget: list
-        required: false
-        fields: 
-          - {label: "Portrait", name: portrait, widget: "image", required: false, media_library: {config: {multiple: true}}}
-          - {label: "Nom", name: name, widget: string, required: false}
-          - {label: "Titre", name: title, widget: string, required: false}
-          - {label: "Texte", name: text, widget: text, required: false}
-      - name : document_list
-        label : "Documents"
-        widget: list
-        label_singular: "Fichier"
-        required: false
-        fields: 
-          - name : document_item
-            label: "Document"
-            widget: "file"
-            required: true
-          - name: document_title
-            label: "Nom du fichier"
-            widget: string
-            required: false
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
 
   - name: production
-    label: "Films"
+    label: "Productions"
     folder: "src/pages/production"
     create: true
     slug: "{{slug}}"
     required: false
+    sortable_fields: ['commit_date', 'title', 'date', 'author', 'vod', 'selection']
+    summary: "{{year}} - {{title}} - {{featuredimage}}"
+    view_filters:
+      - label: 'Films publiés en 2020'
+        field: date
+        pattern: '2020'
+      - label: 'Films avec VOD'
+        field: vod
+        pattern: '.'
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "production-post", required: false}
-      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Date de sortie", name: "date", widget: "datetime", hint: "Date réelle ou estimée. Seule l'année est affiché, mais l'ensemble de la date sert au trie.", required: false}
       - {label: "Réalisateur·trice", name: "director", widget: "string", required: false}
       - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
@@ -89,32 +103,43 @@ collections:
             widget: text
             required: false
 
-  - name: settings
-    label: "Réglages"
-    files:
-      - label: "Contact"
-        name: contact
-        file: src/settings/contact.json
-        fields: 
-          - {name: "address", label: "Adresse", widget: text, required: false}
-          - {name: "phone", label: "Téléphone", widget: string, required: false}
-          - {name: "email", label: "Courriel", widget: string, required: false}
-
-  - name: blog
-    label: "Blog"
-    folder: "src/pages/blog"
+  - name: postproduction
+    label: "Postproduction"
+    folder: "src/pages/postproduction"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
+    preview_path: "{{slug}}"
     required: false
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "postproduction-post", required: false}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - name: team
+        label: "Équipe"
+        label_singular: Membre
+        widget: list
+        required: false
+        fields: 
+          - {label: "Portrait", name: portrait, widget: "image", required: false, media_library: {config: {multiple: true}}}
+          - {label: "Nom", name: name, widget: string, required: false}
+          - {label: "Titre", name: title, widget: string, required: false}
+          - {label: "Texte", name: text, widget: text, required: false}
+      - name : document_list
+        label : "Documents"
+        widget: list
+        label_singular: "Fichier"
+        required: false
+        fields: 
+          - name : document_item
+            label: "Document"
+            widget: "file"
+            required: true
+          - name: document_title
+            label: "Nom du fichier"
+            widget: string
+            required: false      
 
   - name: pages
     label: "Pages"
@@ -181,3 +206,14 @@ collections:
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+
+  - name: settings
+    label: "Réglages"
+    files:
+      - label: "Contact"
+        name: contact
+        file: src/settings/contact.json
+        fields: 
+          - {name: "address", label: "Adresse", widget: text, required: false}
+          - {name: "phone", label: "Téléphone", widget: string, required: false}
+          - {name: "email", label: "Courriel", widget: string, required: false}
