@@ -1,6 +1,6 @@
 ---
 templateKey: basic-page
-forcedURL: a-propos
+forcedURL: newsletter
 parentUrl: /
-title: À propos de L'image d'après
+title: Newsletter
 ---
