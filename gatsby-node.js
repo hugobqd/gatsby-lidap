@@ -19,6 +19,7 @@ exports.createPages = ({ actions, graphql }) => {
               tags
               templateKey
               featuredproduction
+              forcedURL
             }
           }
         }
@@ -36,7 +37,9 @@ exports.createPages = ({ actions, graphql }) => {
       const id = edge.node.id;
       const featuredProd = edge.node.frontmatter.featuredproduction;
       createPage({
-        path: edge.node.fields.slug,
+        path: edge.node.frontmatter.forcedURL
+          ? edge.node.frontmatter.forcedURL
+          : edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`

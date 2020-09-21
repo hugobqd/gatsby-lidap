@@ -1,6 +1,6 @@
 ---
 templateKey: basic-page
-forcedURL: actualites
+forcedURL: a-propos
 parentUrl: /
-title: Actualités
+title: À propos
 ---
