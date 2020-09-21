@@ -23,6 +23,10 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1
   }
 
+  img {
+    max-width: 100%;
+  }
+
 `;
 
 export default GlobalStyle;

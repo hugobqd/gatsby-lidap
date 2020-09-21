@@ -112,7 +112,7 @@ collections:
     slug: "{{slug}}"
     required: false
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "postproduction-post", required: false}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "postproduction-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
@@ -123,8 +123,8 @@ collections:
         widget: list
         required: false
         fields: 
-          - {label: "Portrait", name: team_portrait, widget: "image", required: false, media_library: {config: {multiple: true}}}
           - {label: "Nom", name: team_name, widget: string, required: false}
+          - {label: "Portrait", name: team_portrait, widget: "image", required: false, media_library: {config: {multiple: true}}}
           - {label: "Titre", name: team_title, widget: string, required: false}
           - {label: "Texte", name: team_text, widget: text, required: false}
       - name : document_list

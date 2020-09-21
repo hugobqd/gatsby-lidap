@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
+// import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
@@ -13,6 +13,7 @@ export const PostProductionPostTemplate = ({
   content,
   contentComponent,
   description,
+  document_list,
   helmet,
   team_list,
   title,
@@ -32,22 +33,32 @@ export const PostProductionPostTemplate = ({
       </Container>
       <Container text>
         <PostContent content={content} />
+        {document_list && (
+          <div>
+            <h5>Documents</h5>
+            <ul>
+              {document_list.map((doc, i) => (
+                <li key={i}>
+                  {console.log("doc", doc.document_item)}
+                  {/* <Link to={doc.document_item.publicURL}>
+                    {doc.document_item.id}
+                  </Link> */}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </Container>
-      ÉQUIPE:
-      <pre
-        style={{
-          background: "navy",
-          fontSize: 10,
-          // display: "none",
-        }}
-      >
-        {JSON.stringify(team_list, null, 2)}
-      </pre>
+
       <Container>
         {team_list && (
           <Row>
-            {team_list.map((teamMember) => (
-              <Col>{teamMember.team_name}</Col>
+            {team_list.map((member, i) => (
+              <Col key={i}>
+                <h3>{member.team_name}</h3>
+                <h4>{member.team_title}</h4>
+                {member.team_text}
+              </Col>
             ))}
           </Row>
         )}
@@ -73,6 +84,7 @@ const PostProductionPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        document_list={post.frontmatter.document_list}
         helmet={
           <Helmet titleTemplate="%s | Production">
             <title>{`${post.frontmatter.title}`}</title>
@@ -104,13 +116,27 @@ export const pageQuery = graphql`
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        title
         description
+        document_list {
+          document_item {
+            id
+            publicURL
+          }
+          document_title
+        }
         team_list {
           team_name
+          team_portrait {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           team_text
           team_title
         }
+        title
       }
     }
   }
