@@ -1,6 +1,6 @@
 ---
 templateKey: basic-page
-forcedURL: newsletter
+forcedURL: mentions
 parentUrl: /
-title: Newsletter
+title: Mentions légales
 ---
