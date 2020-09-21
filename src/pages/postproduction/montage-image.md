@@ -24,7 +24,6 @@ team_list:
     team_text: |-
       Want to create your own customized data generator for your application?
       Check out our other service RandomAPI!
-  - {}
 document_list:
   - document_item: /img/sujet-7-maya-1-.pdf
     document_title: ""
@@ -34,6 +33,7 @@ document_list:
     document_title: Une typo compressée dans une archive au format Zip
   - document_item: /img/licence_1_geo_e_le_ves.pdf
     document_title: Truc et machin bidule
+  - document_item: /img/ant-design-components.zip
 ---
 ## Texte libre et illimité
 
