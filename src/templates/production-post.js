@@ -24,7 +24,7 @@ export const ProductionPostTemplate = ({
   description,
   director,
   featuredimage,
-  gallery,
+  gallery_list,
   helmet,
   production,
   selection,
@@ -90,13 +90,13 @@ export const ProductionPostTemplate = ({
           />
         )}
 
-        {gallery &&
-          gallery.map((image) => (
+        {gallery_list &&
+          gallery_list.map((image) => (
             <div style={{ marginTop: "2rem" }}>
               <PreviewCompatibleImage
                 imageInfo={{
-                  image: image.galleryimg,
-                  alt: image.caption,
+                  image: image.gallery_img,
+                  alt: image.gallery_caption,
                 }}
               />
             </div>
@@ -168,7 +168,7 @@ const ProductionPost = ({ data }) => {
         date={post.frontmatter.date}
         director={post.frontmatter.director}
         featuredimage={post.frontmatter.featuredimage}
-        gallery={post.frontmatter.gallery}
+        gallery_list={post.frontmatter.gallery_list}
         production={post.frontmatter.production}
         selection={post.frontmatter.selection}
         tags={post.frontmatter.tags}
@@ -205,9 +205,9 @@ export const pageQuery = graphql`
             }
           }
         }
-        gallery {
-          caption
-          galleryimg {
+        gallery_list {
+          gallery_caption
+          gallery_img {
             id
             childImageSharp {
               fluid {

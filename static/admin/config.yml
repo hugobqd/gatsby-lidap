@@ -25,20 +25,24 @@ logo_url: https://a.wattpad.com/useravatar/Perkytarsier.256.946301.jpg
 collections:
 
   - name: blog
-    label: "Actualités"
+    label: "Actualité"
     folder: "src/pages/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     required: false
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Template Key", name: templateKey, widget: hidden, default: "blog-post"}
+      - {label: "Titre", name: title, widget: string}
+      - {label: "Date de publication", name: date, widget: datetime}
+      - {label: "Sur la page d'accueil", name: featuredpost, widget: boolean, default: true, required: false}
+      - {label: "Introduction", name: description, widget: text, required: false}
+      - {label: "Image principale", name: featuredimage, widget: image, required: false}
+      - {label: "Texte principal", name: body, widget: markdown, required: false}
+      - {label: "Tags", name: tags, widget: list, required: false}
+      - {name : document_list, label : "Documents", widget: list, label_singular: "Fichier", required: false, fields: 
+          - {name : document_item, label: "Document", widget: file, required: true}
+          - {name: document_title, label: "Nom du fichier", widget: string, required: false}
+          }
 
   - name: production
     label: "Productions"
@@ -46,50 +50,34 @@ collections:
     create: true
     slug: "{{slug}}"
     required: false
-    sortable_fields: ['commit_date', 'title', 'date', 'author', 'vod', 'selection']
+    sortable_fields: ['commit_date', 'title', 'date']
     summary: "{{title}} [{{year}}]"
     preview_path: "production/{{slug}}"
-
     view_filters:
-      - label: 'Films publiés en 2020'
-        field: date
-        pattern: '2020'
-      - label: 'Films avec VOD'
-        field: vod
-        pattern: '.'
+      - {label: 'Films avec VOD', field: vod, pattern: '.'}
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "production-post", required: false}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date de sortie", name: "date", widget: "datetime", hint: "Date réelle ou estimée. Seule l'année est affiché, mais l'ensemble de la date sert au trie.", required: false}
-      - {label: "Réalisateur·trice", name: "director", widget: "string", required: false}
-      - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
-      - {label: "Bande-annonce", name: "trailer", widget: "string", hint: "URL de la vidéo. Exemple : https://www.youtube.com/watch?v=9D0eyl7-XQA", required: false}
-      - {label: "VOD", name: "vod", widget: "string", hint: "URL de la page de VOD.", required: false}
-      - {label: "Introduction", name: "description", widget: "markdown", buttons: ["bold", "italic", "link"],editorComponents: [], required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Équipe", name: "credit", widget: "markdown", required: false}
-      - {label: "Sélections", name: "selection", widget: "markdown", required: false}
-      - {label: "Production", name: "production", widget: "markdown", required: false}
-      - {label: "Sur la page d'accueil", name: "featuredpost", widget: "boolean", required: false}
-      - {label: "Tags", name: "tags", widget: "list", hint: "'documentaire' ou 'fiction'", required: false}
-      - name: gallery
-        label: Galerie
-        label_singular: Image
-        widget: list
-        required: false
-        fields: 
-          - label: Image
-            name: galleryimg
-            widget: "image"
-            # allow_multiple: true
-            required: false
-            media_library:
-              config:
-                multiple: true
-          - label: "Légende"
-            name: caption
-            widget: text
-            required: false
+      - {label: "Template Key", name: templateKey, widget: hidden, default: "production-post", required: false}
+      - {label: "Titre", name: title, widget: string}
+      - {label: "Date de sortie", name: date, widget: datetime, hint: "Date réelle ou estimée. Seule l'année est affichée, mais l'ensemble de la date sert au trie.", required: false}
+      - {label: "Réalisateur·trice", name: director, widget: string, required: false}
+      - {label: "Image principale", name: featuredimage, widget: image, required: false}
+      - {label: "Bande-annonce", name: trailer, widget: string, hint: "URL de la vidéo. Exemple : https://www.youtube.com/watch?v=9D0eyl7-XQA", required: false}
+      - {label: "VOD", name: vod, widget: string, hint: "URL de la page de VOD.", required: false}
+      - {label: "Introduction", name: description, widget: markdown, buttons: ["bold", "italic", "link"], editorComponents: [], required: false}
+      # - {label: "Sur la page d'accueil", name: featuredpost, widget: boolean, required: false}
+      # - {label: "Tags", name: tags, widget: list, hint: "'documentaire' ou 'fiction'", required: false}
+      - {name: gallery_list, label: "Galerie", label_singular: "Image", widget: list, required: false, fields: 
+          - {label: "Image", name: gallery_img, widget: image, required: false}
+          - {label: "Légende", name: gallery_caption, widget: text, required: false}
+          }
+      - {label: "Texte principal", name: body, widget: markdown, required: false}
+      - {name : document_list, label : "Documents", widget: list, label_singular: "Fichier", required: false, fields: 
+          - {name : document_item, label: "Document", widget: file, required: true}
+          - {name: document_title, label: "Nom du fichier", widget: string, required: false}
+          }
+      - {label: "Équipe", name: credit, widget: markdown, required: false}
+      - {label: "Sélections", name: selection, widget: markdown, required: false}
+      - {label: "Production", name: production, widget: markdown, required: false}
 
   - name: postproduction
     label: "Postproduction"
@@ -98,35 +86,21 @@ collections:
     slug: "{{slug}}"
     required: false
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "postproduction-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - name: team_list
-        label: "Équipe"
-        label_singular: Membre
-        widget: list
-        required: false
-        fields: 
+      - {label: "Template Key", name: templateKey, widget: hidden, default: "postproduction-post"}
+      - {label: "Titre", name: title, widget: string}
+      - {label: "Introduction", name: description, widget: text, required: false}
+      - {label: "Image principale", name: featuredimage, widget: image, required: false}
+      - {label: "Texte principal", name: body, widget: markdown, required: false}
+      - {name : document_list, label : "Documents", widget: list, label_singular: "Fichier", required: false, fields: 
+          - {name : document_item, label: "Document", widget: file, required: true}
+          - {name: document_title, label: "Nom du fichier", widget: string, required: false}
+          }
+      - {name: team_list, label: "Équipe", label_singular: "Membre", widget: list, required: false, fields: 
           - {label: "Nom", name: team_name, widget: string, required: true}
-          - {label: "Portrait", name: team_portrait, widget: "image", required: false, media_library: {config: {multiple: true}}}
+          - {label: "Portrait", name: team_portrait, widget: "image", required: false}
           - {label: "Titre", name: team_title, widget: string, required: false}
           - {label: "Texte", name: team_text, widget: text, required: false}
-      - name : document_list
-        label : "Documents"
-        widget: list
-        label_singular: "Fichier"
-        required: false
-        fields: 
-          - name : document_item
-            label: "Document"
-            widget: "file"
-            required: true
-          - name: document_title
-            label: "Nom du fichier"
-            widget: string
-            required: false      
+          }
 
   - name: pages
     label: "Pages"
@@ -136,25 +110,16 @@ collections:
         label: "Page Production"
         name: "productionpage"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "production-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: "Introduction", name: "description", widget: "markdown", buttons: ["bold", "italic", "link"], editorComponents: [], required: false}
-          - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
-
-      - file: "src/pages/postproduction.md"
-        label: "Page PostProduction"
-        name: "postproductionpage"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "postproduction-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: "Introduction", name: "description", widget: "markdown", buttons: ["bold", "italic", "link"], editorComponents: [], required: false}
-          - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
+          - {label: "Template Key", name: templateKey, widget: hidden, default: page}
+          - {label: "Titre", name: title, widget: string}
+          - {label: "Introduction", name: description, widget: markdown, buttons: ["bold", "italic", "link"], editorComponents: [], required: false}
+          - {label: "Image principale", name: featuredimage, widget: image, required: false}
 
       - file: "src/pages/index.md"
         label: "Accueil"
-        name: "index"
+        name: index
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+          - {label: "Template Key", name: templateKey, widget: hidden, default: front}
           - {label: Title, name: title, widget: string}
           # - {label: Image, name: image, widget: image}
           # - {label: Heading, name: heading, widget: string}
@@ -172,27 +137,27 @@ collections:
             display_fields: ["title"]
             multiple: true
 
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+      # - file: "src/pages/about/index.md"
+      #   label: "About"
+      #   name: "about"
+      #   fields:
+      #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+      #     - {label: "Title", name: "title", widget: "string"}
+      #     - {label: "Texte principal", name: "body", widget: "markdown"}
+      # - file: "src/pages/products/index.md"
+      #   label: "Products Page"
+      #   name: "products"
+      #   fields:
+      #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
+      #     - {label: Title, name: title, widget: string}
+      #     - {label: Image, name: image, widget: image}
+      #     - {label: Heading, name: heading, widget: string}
+      #     - {label: Description, name: description, widget: string}
+      #     - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+      #     - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+      #     - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
+      #     - {label: Full_image, name: full_image, widget: image}
+      #     - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
 
   - name: settings
     label: "Réglages"

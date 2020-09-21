@@ -60,15 +60,15 @@ production: >-
 featuredpost: true
 tags:
   - fiction
-gallery:
-  - galleryimg: /img/screen-shot-2019-07-19-at-3.06.45-pm.png
-    caption: Les héros
-  - galleryimg: /img/akt.jpg
-    caption: Ça provient d'un ***film***, *surement*.
-  - galleryimg: /img/killerhed.png
-  - galleryimg: /img/unnamed.jpg
-    caption: Oui oui ! C'est bien **George Clooney** !
-  - galleryimg: /img/n8jslmc8zt2p1relauyrcc3vn7b.jpg
+gallery_list:
+  - gallery_img: /img/screen-shot-2019-07-19-at-3.06.45-pm.png
+    gallery_caption: Les héros
+  - gallery_img: /img/akt.jpg
+    gallery_caption: Ça provient d'un ***film***, *surement*.
+  - gallery_img: /img/killerhed.png
+  - gallery_img: /img/unnamed.jpg
+    gallery_caption: Oui oui ! C'est bien **George Clooney** !
+  - gallery_img: /img/n8jslmc8zt2p1relauyrcc3vn7b.jpg
 ---
 Attack of the Killer Tomatoes is a 1978 American parody film\[2] produced by J. Stephen Peace and John DeBello, and directed by John DeBello based upon an original idea by Costa Dillon. The screenplay was written by Dillon, Peace, and DeBello. The film is a spoof of B movies. Made on a budget less than US$ 100,000 the story involves tomatoes becoming sentient by unknown means and revolting against humanity.
 

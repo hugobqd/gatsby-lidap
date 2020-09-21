@@ -4,7 +4,7 @@ const colors = {
   white: "#FFF",
   red: "orangered",
 };
-const spacings = [".25rem", ".5rem", "1rem", "2rem", "3rem", "5rem"];
+// const spacings = [".25rem", ".5rem", "1rem", "2rem", "3rem", "5rem"];
 
 export default {
   font: {
