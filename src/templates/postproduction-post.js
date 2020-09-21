@@ -8,6 +8,7 @@ import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/Container";
 import Heading from "../components/Heading";
 import { Row, Col } from "../components/GridSystem";
+import DocumentsList from "../components/DocumentsList";
 
 export const PostProductionPostTemplate = ({
   content,
@@ -33,23 +34,7 @@ export const PostProductionPostTemplate = ({
       </Container>
       <Container text>
         <PostContent content={content} />
-        {document_list && (
-          <div>
-            <h5>Documents</h5>
-            <ul>
-              {document_list.map((doc, i) => (
-                <li key={i}>
-                  {console.log("doc", doc.document_item.publicURL)}
-                  <Link to={doc.document_item.publicURL}>
-                    {doc.document_title && doc.document_title !== ""
-                      ? `${doc.document_title.length} - ${doc.document_title}`
-                      : `base: ${doc.document_item.base}`}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
+        {document_list && <DocumentsList list={document_list} p={3} mb={5} />}
       </Container>
 
       <Container>
@@ -123,6 +108,8 @@ export const pageQuery = graphql`
           document_item {
             id
             publicURL
+            base
+            extension
           }
           document_title
         }

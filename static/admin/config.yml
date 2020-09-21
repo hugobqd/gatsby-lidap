@@ -23,27 +23,15 @@ slug:
 logo_url: https://a.wattpad.com/useravatar/Perkytarsier.256.946301.jpg
 
 collections:
-  # - name : test
-  #   label : "Collection de test"
-  #   folder: "src/pages/test"
-  #   create: true
-  #   slug: "{{slug}}"
-  #   required: false
-  #   fields:
-  #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "postproduction-post", required: false}
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - name: &fieldtoto
-  #       label: "Fieldtoto"
-  #       widget: string
-  #       required: false
-
 
   - name: blog
-    label: "Actualité"
+    label: "Actualités"
     folder: "src/pages/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     required: false
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
