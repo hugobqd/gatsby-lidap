@@ -60,7 +60,6 @@ production: >-
 featuredpost: true
 tags:
   - fiction
-  - ""
 gallery:
   - galleryimg: /img/screen-shot-2019-07-19-at-3.06.45-pm.png
     caption: Les héros

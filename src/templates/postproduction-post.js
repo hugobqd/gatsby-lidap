@@ -5,44 +5,54 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import Container from "../components/Container";
+import Heading from "../components/Heading";
+import { Row, Col } from "../components/GridSystem";
 
 export const PostProductionPostTemplate = ({
   content,
   contentComponent,
   description,
-  tags,
-  title,
   helmet,
+  team_list,
+  title,
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
-    <section className="section">
+    <main>
       {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
+      <Container>
+        <Heading>{title}</Heading>
+        <Row>
+          <Col span={8}>
             <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map((tag) => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
-        </div>
-      </div>
-    </section>
+          </Col>
+        </Row>
+      </Container>
+      <Container text>
+        <PostContent content={content} />
+      </Container>
+      ÉQUIPE:
+      <pre
+        style={{
+          background: "navy",
+          fontSize: 10,
+          // display: "none",
+        }}
+      >
+        {JSON.stringify(team_list, null, 2)}
+      </pre>
+      <Container>
+        {team_list && (
+          <Row>
+            {team_list.map((teamMember) => (
+              <Col>{teamMember.team_name}</Col>
+            ))}
+          </Row>
+        )}
+      </Container>
+    </main>
   );
 };
 
@@ -72,7 +82,7 @@ const PostProductionPost = ({ data }) => {
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
+        team_list={post.frontmatter.team_list}
         title={post.frontmatter.title}
       />
     </Layout>
@@ -96,7 +106,11 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
-        tags
+        team_list {
+          team_name
+          team_text
+          team_title
+        }
       }
     }
   }

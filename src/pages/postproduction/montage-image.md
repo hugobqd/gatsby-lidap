@@ -5,14 +5,13 @@ description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
   nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
   diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
 featuredimage: /img/person.jpg
-team:
-  - text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+team_list:
+  - team_text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
       eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
       voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-    name: Maud Martin
-    portrait: /img/person.jpg
-    title: Directrice
-team_list:
+    team_name: Maud Martin
+    team_portrait: /img/person.jpg
+    team_title: Directrice
   - team_name: Olivia Pierce
     team_portrait: /img/image.jpg
     team_title: Montrice

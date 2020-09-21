@@ -117,16 +117,16 @@ collections:
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-      - name: team
+      - name: team_list
         label: "Équipe"
         label_singular: Membre
         widget: list
         required: false
         fields: 
-          - {label: "Portrait", name: portrait, widget: "image", required: false, media_library: {config: {multiple: true}}}
-          - {label: "Nom", name: name, widget: string, required: false}
-          - {label: "Titre", name: title, widget: string, required: false}
-          - {label: "Texte", name: text, widget: text, required: false}
+          - {label: "Portrait", name: team_portrait, widget: "image", required: false, media_library: {config: {multiple: true}}}
+          - {label: "Nom", name: team_name, widget: string, required: false}
+          - {label: "Titre", name: team_title, widget: string, required: false}
+          - {label: "Texte", name: team_text, widget: text, required: false}
       - name : document_list
         label : "Documents"
         widget: list
