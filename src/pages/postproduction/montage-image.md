@@ -6,9 +6,9 @@ description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
   diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
 featuredimage: /img/person.jpg
 team_list:
-  - team_text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  - team_text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
     team_name: Maud Martin
     team_portrait: /img/person.jpg
     team_title: Directrice
@@ -24,6 +24,7 @@ team_list:
     team_text: |-
       Want to create your own customized data generator for your application?
       Check out our other service RandomAPI!
+  - {}
 document_list:
   - document_item: /img/sujet-7-maya-1-.pdf
     document_title: ""
@@ -31,6 +32,8 @@ document_list:
     document_title: Affiche
   - document_item: /img/fivosansmodern.zip
     document_title: Une typo compressée dans une archive au format Zip
+  - document_item: /img/licence_1_geo_e_le_ves.pdf
+    document_title: Truc et machin bidule
 ---
 ## Texte libre et illimité
 
