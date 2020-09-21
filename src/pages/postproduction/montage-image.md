@@ -12,6 +12,7 @@ team_list:
     team_name: Maud Martin
     team_portrait: /img/person.jpg
     team_title: Directrice
+<<<<<<< Updated upstream
   - team_name: Olivia Pierce
     team_portrait: /img/image.jpg
     team_title: Montrice
@@ -31,6 +32,8 @@ document_list:
     document_title: Affiche
   - document_item: /img/fivosansmodern.zip
     document_title: Une typo compressée dans une archive au format Zip
+=======
+>>>>>>> Stashed changes
 ---
 ## Texte libre et illimité
 
