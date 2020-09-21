@@ -123,7 +123,7 @@ collections:
         widget: list
         required: false
         fields: 
-          - {label: "Nom", name: team_name, widget: string, required: false}
+          - {label: "Nom", name: team_name, widget: string, required: true}
           - {label: "Portrait", name: team_portrait, widget: "image", required: false, media_library: {config: {multiple: true}}}
           - {label: "Titre", name: team_title, widget: string, required: false}
           - {label: "Texte", name: team_text, widget: text, required: false}

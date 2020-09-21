@@ -39,10 +39,12 @@ export const PostProductionPostTemplate = ({
             <ul>
               {document_list.map((doc, i) => (
                 <li key={i}>
-                  {console.log("doc", doc.document_item)}
-                  {/* <Link to={doc.document_item.publicURL}>
-                    {doc.document_item.id}
-                  </Link> */}
+                  {console.log("doc", doc.document_item.publicURL)}
+                  <Link to={doc.document_item.publicURL}>
+                    {doc.document_title && doc.document_title !== ""
+                      ? `${doc.document_title.length} - ${doc.document_title}`
+                      : `base: ${doc.document_item.base}`}
+                  </Link>
                 </li>
               ))}
             </ul>
