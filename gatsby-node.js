@@ -75,6 +75,23 @@ exports.createPages = ({ actions, graphql }) => {
         },
       });
     });
+
+    // Paginated blog :
+    // const posts = result.data.allMarkdownRemark.edges
+    const postsPerPage = 6;
+    const numPages = Math.ceil(posts.length / postsPerPage);
+    Array.from({ length: numPages }).forEach((_, i) => {
+      createPage({
+        path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+        component: path.resolve("./src/templates/blog-page-paginated.js"),
+        context: {
+          limit: postsPerPage,
+          skip: i * postsPerPage,
+          numPages,
+          currentPage: i + 1,
+        },
+      });
+    });
   });
 };
 

@@ -15,26 +15,23 @@ const BackgroundSection = styled.section`
   }
 `;
 
-class BlogList extends React.Component {
-  render() {
-    const { data } = this.props;
-    const { edges: nodes } = data.allMarkdownRemark;
+const BlogList = ({ data }) => {
+  const { edges: nodes } = data.allMarkdownRemark;
 
-    return (
-      <ThemeProvider theme={themeInverted}>
-        <BackgroundSection>
-          <Container>
-            <Button to={"/blog"} heading>
-              Actualités
-            </Button>
-          </Container>
-          {nodes &&
-            nodes.map(({ node }) => <BlogPostLine node={node} key={node.id} />)}
-        </BackgroundSection>
-      </ThemeProvider>
-    );
-  }
-}
+  return (
+    <ThemeProvider theme={themeInverted}>
+      <BackgroundSection>
+        <Container>
+          <Button to={"/blog"} heading>
+            Actualités
+          </Button>
+        </Container>
+        {nodes &&
+          nodes.map(({ node }) => <BlogPostLine node={node} key={node.id} />)}
+      </BackgroundSection>
+    </ThemeProvider>
+  );
+};
 
 BlogList.propTypes = {
   data: PropTypes.shape({
