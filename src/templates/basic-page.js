@@ -9,6 +9,7 @@ import Container from "../components/Container";
 import Heading from "../components/Heading";
 import { Row, Col } from "../components/GridSystem";
 import DocumentsList from "../components/DocumentsList";
+import SubContentModuleSwitch from "../components/SubContentModuleSwitch";
 
 export const BasicPageTemplate = ({
   content,
@@ -18,6 +19,8 @@ export const BasicPageTemplate = ({
   helmet,
   team_list,
   title,
+  parentUrl,
+  forcedURL,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -36,9 +39,8 @@ export const BasicPageTemplate = ({
         <PostContent content={content} />
         {document_list && <DocumentsList list={document_list} p={3} mb={5} />}
       </Container>
-
-      <Container>
-        {team_list && (
+      {team_list && (
+        <Container>
           <Row>
             {team_list.map((member, i) => (
               <Col key={i}>
@@ -48,8 +50,9 @@ export const BasicPageTemplate = ({
               </Col>
             ))}
           </Row>
-        )}
-      </Container>
+        </Container>
+      )}
+      <SubContentModuleSwitch route={forcedURL} />
     </main>
   );
 };
@@ -83,6 +86,8 @@ const BasicPage = ({ data }) => {
         }
         team_list={post.frontmatter.team_list}
         title={post.frontmatter.title}
+        parentUrl={post.frontmatter.parentUrl}
+        forcedURL={post.frontmatter.forcedURL}
       />
     </Layout>
   );
@@ -102,7 +107,8 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        parentUrl
+        forcedURL
         description
         document_list {
           document_item {
@@ -113,6 +119,8 @@ export const pageQuery = graphql`
           }
           document_title
         }
+        forcedURL
+        parentUrl
         team_list {
           team_name
           team_portrait {
