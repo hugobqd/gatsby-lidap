@@ -20,9 +20,11 @@ document_list:
 team_list:
   - team_name: Carlos Crawford
     team_title: Gros mytho
+    team_portrait: /img/image-1-.jpeg
   - team_name: Jeanette Garza
     team_title: CEO
     team_text: TEXTE (OPTIONNEL)
+    team_portrait: /img/image-2-.jpeg
 ---
 ## Aves nunc utero Iovis
 
