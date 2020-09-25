@@ -43,6 +43,23 @@ const NavMain = styled.nav`
     }
   }
 `;
+const NavFull = styled.nav`
+  @media ${bp.laptop} {
+  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  background-color: ${(props) => props.theme.colors.lavender};
+  z-index: 9;
+
+  a {
+    color: ${(props) => props.theme.colors.dark};
+    display: block;
+  }
+`;
 
 const Navbar = (props) => {
   const [active, setActive] = useState(false);
@@ -72,17 +89,13 @@ const Navbar = (props) => {
         </button>
       </NavMain>
       {active && (
-        <nav
+        <NavFull
           id="menu"
           className={`nav-full ${active ? "is-active" : ""}`}
           // role="menu"
           aria-labelledby="menubutton"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-          }}
         >
-          <Link className="navbar-item" to="/about">
+          <Link className="navbar-item" to="/a-propos">
             À propos
           </Link>
           <Link className="navbar-item" to="/production">
@@ -91,7 +104,7 @@ const Navbar = (props) => {
           <Link className="navbar-item" to="/postproduction">
             Post-Production
           </Link>
-          <Link className="navbar-item" to="/actualite">
+          <Link className="navbar-item" to="/actualites">
             Actualité
           </Link>
           <Link className="navbar-item" to="/contact">
@@ -100,7 +113,7 @@ const Navbar = (props) => {
           <Link className="navbar-item" to="/contact/examples">
             Form Examples
           </Link>
-        </nav>
+        </NavFull>
       )}
     </Header>
   );

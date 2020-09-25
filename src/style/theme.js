@@ -15,6 +15,7 @@ export default {
     ...colors,
     fg: colors.white,
     bg: colors.greyDarker,
+    dark: colors.greyDarker,
     link: colors.lavender,
   },
   // space: [...spacings],

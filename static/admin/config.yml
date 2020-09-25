@@ -121,9 +121,9 @@ collections:
           - {label: "Texte", name: team_text, widget: text, required: false}
 
   - name: basicpage
-    label: "Pages standard"
+    label: "Pages"
     folder: "src/pages/basicpage"
-    create: true
+    # create: true
     slug: "{{slug}}"
     required: false
     fields:

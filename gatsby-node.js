@@ -8,7 +8,7 @@ exports.createPages = ({ actions, graphql }) => {
 
   return graphql(`
     {
-      allMarkdownRemark(limit: 1000) {
+      allPages: allMarkdownRemark(limit: 1000) {
         edges {
           node {
             id
@@ -24,6 +24,11 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
+      blogPages: allMarkdownRemark(
+        filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+      ) {
+        totalCount
+      }
     }
   `).then((result) => {
     if (result.errors) {
@@ -31,7 +36,7 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors);
     }
 
-    const posts = result.data.allMarkdownRemark.edges;
+    const posts = result.data.allPages.edges;
 
     posts.forEach((edge) => {
       const id = edge.node.id;
@@ -77,12 +82,12 @@ exports.createPages = ({ actions, graphql }) => {
     });
 
     // Paginated blog :
-    // const posts = result.data.allMarkdownRemark.edges
-    const postsPerPage = 6;
-    const numPages = Math.ceil(posts.length / postsPerPage);
+    // const posts = result.data.allPages.edges
+    const postsPerPage = 2;
+    const numPages = Math.ceil(result.data.blogPages.totalCount / postsPerPage);
     Array.from({ length: numPages }).forEach((_, i) => {
       createPage({
-        path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+        path: i === 0 ? `/actualites` : `/actualites/${i + 1}`,
         component: path.resolve("./src/templates/blog-page-paginated.js"),
         context: {
           limit: postsPerPage,

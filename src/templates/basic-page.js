@@ -29,6 +29,7 @@ export const BasicPageTemplate = ({
       {helmet || ""}
       <Container>
         <Heading>{title}</Heading>
+        WHAT HAPPENED?
         <Row>
           <Col span={8}>
             <p>{description}</p>
