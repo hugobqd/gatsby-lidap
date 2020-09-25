@@ -1,6 +1,0 @@
----
-templateKey: basic-page
-forcedURL: actualites
-parentUrl: /
-title: Actualités
----
