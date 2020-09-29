@@ -1,12 +1,16 @@
+import React from "react";
 import styled from "styled-components";
+import { layout, space } from "styled-system";
 
-export const Row = styled.div`
+const StyledRow = styled.div`
   display: flex;
   flex: 1 0 100%;
   flex-wrap: wrap;
   margin-top: ${-1}rem;
   margin-left: ${2 / -2}rem;
   margin-right: ${2 / -2}rem;
+  ${layout}
+  ${space}
 
   & > * {
     flex-shrink: 0;
@@ -18,13 +22,19 @@ export const Row = styled.div`
   }
 `;
 
-export const Col = styled.div`
+const StyledCol = styled.div`
   /* flex: 1 0 0%; */
   flex: ${(props) => (props.span ? "0 0 auto;" : "1 0 0%")};
   /* width: ${(props) => (props.half ? "50%" : "auto")}; */
   width: ${(props) => (props.span ? `${(props.span / 12) * 100}%` : "auto")};
-
-  /* ${(props) => (props.red ? "background: red;" : "background: yellow;")}; */
+  ${layout}
+  ${space} /* ${(props) =>
+    props.red ? "background: red;" : "background: yellow;"}; */
 `;
 
-export default Col;
+export const Row = ({ children, ...rest }) => {
+  return <StyledRow {...rest}>{children}</StyledRow>;
+};
+export const Col = ({ children, ...rest }) => {
+  return <StyledCol {...rest}>{children}</StyledCol>;
+};

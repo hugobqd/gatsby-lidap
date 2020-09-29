@@ -29,6 +29,7 @@ export const ProductionPostTemplate = ({
   productor,
   selection,
   tags,
+  technical,
   title,
   trailer,
   vod,
@@ -106,18 +107,22 @@ export const ProductionPostTemplate = ({
       <Container text>
         <PostContent content={content} />
       </Container>
-      <Container>
+      <Container py={5}>
         <div style={{ fontSize: ".8em" }}>
           <Row>
-            <Col span={4}>
+            <Col span={3}>
+              <h4>Fiche technique</h4>
+              {technical}
+            </Col>
+            <Col span={3}>
               <h4>Équipe</h4>
               {credit}
             </Col>
-            <Col span={4}>
+            <Col span={3}>
               <h4>Production</h4>
               {productor}
             </Col>
-            <Col span={4}>
+            <Col span={3}>
               <h4>Séléction</h4>
               {selection}
             </Col>
@@ -219,6 +224,7 @@ export const pageQuery = graphql`
         productor
         selection
         tags
+        technical
         title
         trailer
         vod
