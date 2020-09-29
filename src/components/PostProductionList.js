@@ -14,6 +14,9 @@ const PostProductionLine = styled(Link)`
 
 const PostProductionList = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
+  posts.sort((a, b) => {
+    return a.node.frontmatter.title.localeCompare(b.node.frontmatter.title);
+  });
 
   return (
     <>

@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 
 const Cell = styled(Link)`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: block;
   text-decoration: none;
   &:hover,

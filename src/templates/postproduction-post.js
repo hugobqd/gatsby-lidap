@@ -9,6 +9,7 @@ import Container from "../components/Container";
 import Heading from "../components/Heading";
 import { Row, Col } from "../components/GridSystem";
 import DocumentsList from "../components/DocumentsList";
+import TeamList from "../components/list/TeamList";
 
 export const PostProductionPostTemplate = ({
   content,
@@ -38,17 +39,7 @@ export const PostProductionPostTemplate = ({
       </Container>
 
       <Container>
-        {team_list && (
-          <Row>
-            {team_list.map((member, i) => (
-              <Col key={i}>
-                <h3>{member.team_name}</h3>
-                <h4>{member.team_title}</h4>
-                {member.team_text}
-              </Col>
-            ))}
-          </Row>
-        )}
+        <TeamList list={team_list} />
       </Container>
     </main>
   );

@@ -44,7 +44,7 @@ selection: |-
   Return of the Killer Tomatoes! (1988)
   Killer Tomatoes Strike Back! (1990)
   Killer Tomatoes Eat France! (1991)
-production: >-
+productor: >-
   The finished film contains footage of a real helicopter crash. In a scene
   showing law enforcement officers firing their weapons to ward off tomatoes in
   a field, a $60,000 [Hiller

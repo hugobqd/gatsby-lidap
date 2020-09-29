@@ -3,6 +3,7 @@ import ProductionList from "./ProductionList";
 import PostProductionList from "./PostProductionList";
 import BlogList from "./BlogList";
 import Container from "./Container";
+import { Row, Col } from "./GridSystem";
 
 const SubContentModuleSwitch = ({ route }) => {
   switch (route) {
@@ -16,7 +17,11 @@ const SubContentModuleSwitch = ({ route }) => {
     case "postproduction":
       return (
         <Container>
-          <PostProductionList />
+          <Row>
+            <Col span={8}>
+              <PostProductionList />
+            </Col>
+          </Row>
         </Container>
       );
 

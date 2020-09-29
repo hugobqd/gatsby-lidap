@@ -10,6 +10,7 @@ import Heading from "../components/Heading";
 import { Row, Col } from "../components/GridSystem";
 import DocumentsList from "../components/DocumentsList";
 import SubContentModuleSwitch from "../components/SubContentModuleSwitch";
+import TeamList from "../components/list/TeamList";
 
 export const BasicPageTemplate = ({
   content,
@@ -29,7 +30,6 @@ export const BasicPageTemplate = ({
       {helmet || ""}
       <Container>
         <Heading>{title}</Heading>
-        WHAT HAPPENED?
         <Row>
           <Col span={8}>
             <p>{description}</p>
@@ -40,19 +40,7 @@ export const BasicPageTemplate = ({
         <PostContent content={content} />
         {document_list && <DocumentsList list={document_list} p={3} mb={5} />}
       </Container>
-      {team_list && (
-        <Container>
-          <Row>
-            {team_list.map((member, i) => (
-              <Col key={i}>
-                <h3>{member.team_name}</h3>
-                <h4>{member.team_title}</h4>
-                {member.team_text}
-              </Col>
-            ))}
-          </Row>
-        </Container>
-      )}
+      <TeamList list={team_list} />
       <SubContentModuleSwitch route={forcedURL} />
     </main>
   );

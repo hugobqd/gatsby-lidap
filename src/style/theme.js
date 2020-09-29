@@ -1,5 +1,6 @@
 const colors = {
   greyDarker: "#19191F",
+  dark: "#19191F",
   lavender: "#C5D0F4",
   white: "#FFF",
   red: "orangered",

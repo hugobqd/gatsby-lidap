@@ -26,7 +26,7 @@ selection: SELECTION Aux marges d’une banlieue parisienne en grande mutation,
   une histoire commune, faite de solidarité autant que de relégation. Devenus
   compagnons de route, nous fabriquons ce film ensemble, comme d’autres espaces
   habitables."
-production: CNC. Aide au développement renforcé, CNC. Aide à l'écriture, CNC.
+productor: CNC. Aide au développement renforcé, CNC. Aide à l'écriture, CNC.
   Aide au développement, Procirep, Angoa-Agicoa, CNC. Fonds Images de la
   diversité, Mairie de la Courneuve, Le Polygone étoilé
 featuredpost: true

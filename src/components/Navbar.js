@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
 import Burger from "./icons/Burger";
-// import "./Navbar.scss";
 import styled from "styled-components";
 import { breakpoints as bp } from "../style/breakpoints";
+import contact from "../settings/contact.json";
 
 const Header = styled.header``;
 const NavMain = styled.nav`
@@ -51,13 +51,20 @@ const NavFull = styled.nav`
   left: 0;
   width: 100%;
   height: 100%;
-  font-size: 3rem;
   background-color: ${(props) => props.theme.colors.lavender};
   z-index: 9;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   a {
     color: ${(props) => props.theme.colors.dark};
     display: block;
+  }
+  .first {
+    font-size: 3rem;
+  }
+  .second {
+    font-size: 1.5rem;
   }
 `;
 
@@ -67,15 +74,11 @@ const Navbar = (props) => {
   return (
     <Header role="navigation" aria-label="main-navigation">
       <NavMain>
-        <Link to="/" title="Logo" className="logo">
+        <Link to="/" className="logo">
           L'image d'après
         </Link>
-        <Link to="/production" title="Logo">
-          Production
-        </Link>
-        <Link to="/postproduction" title="Logo">
-          Post-production
-        </Link>
+        <Link to="/production">Production</Link>
+        <Link to="/postproduction">Post-production</Link>
         <button
           className={`burger ${active ? "is-active" : ""}`}
           data-target="navMenu"
@@ -95,24 +98,26 @@ const Navbar = (props) => {
           // role="menu"
           aria-labelledby="menubutton"
         >
-          <Link className="navbar-item" to="/a-propos">
-            À propos
-          </Link>
-          <Link className="navbar-item" to="/production">
-            Production
-          </Link>
-          <Link className="navbar-item" to="/postproduction">
-            Post-Production
-          </Link>
-          <Link className="navbar-item" to="/actualites">
-            Actualité
-          </Link>
-          <Link className="navbar-item" to="/contact">
-            Contact
-          </Link>
-          <Link className="navbar-item" to="/contact/examples">
-            Form Examples
-          </Link>
+          <div className="first">
+            <Link
+              to="/"
+              style={{ textTransform: "uppercase", fontWeight: 900 }}
+            >
+              L'image d'après
+            </Link>
+            <Link to="/a-propos">À propos</Link>
+            <Link to="/production">Production</Link>
+            <Link to="/postproduction">Postproduction</Link>
+            <Link to="/actualites">Actualités</Link>
+            <Link to="/contact">Contact</Link>
+            {/* <Link  to="/contact/examples">
+              Form Examples
+            </Link> */}
+          </div>
+          <div className="second" style={{ paddingLeft: "30%" }}>
+            {contact.facebook && <Link to={contact.facebook}>Facebook</Link>}
+            {contact.vimeo && <Link to={contact.vimeo}>Vimeo</Link>}
+          </div>
         </NavFull>
       )}
     </Header>

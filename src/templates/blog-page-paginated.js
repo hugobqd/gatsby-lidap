@@ -1,50 +1,25 @@
 import React from "react";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import Heading from "../components/Heading";
 import Container from "../components/Container";
+import Pagination from "../components/Pagination";
+import BlogPostLine from "../components/cell/BlogPostLine";
 
 export default class BlogList extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges;
-    const {
-      currentPage,
-      hasPreviousPage,
-      hasNextPage,
-    } = this.props.data.allMarkdownRemark.pageInfo;
+    const pageInfo = this.props.data.allMarkdownRemark.pageInfo;
     return (
       <Layout>
         <Container>
           <Heading>Actualités</Heading>
-          <nav>
-            <div>
-              {hasPreviousPage && (
-                <Link
-                  disabled={!hasPreviousPage}
-                  to={`/actualites/${currentPage - 1 === 1 ? "" : currentPage - 1}`}
-                >
-                  {"<-"}
-                </Link>
-              )}
-              <strong>{currentPage}</strong>
-              {hasNextPage && (
-                <Link disabled={!hasNextPage} to={`/actualites/${currentPage + 1}`}>
-                  {"->"}
-                </Link>
-              )}
-            </div>
-            <pre style={{ fontSize: 14 }}>
-              {JSON.stringify(
-                this.props.data.allMarkdownRemark.pageInfo,
-                null,
-                2
-              )}
-            </pre>
-            {posts.map(({ node }) => {
-              const title = node.frontmatter.title || node.fields.slug;
-              return <div key={node.fields.slug}>{title}</div>;
-            })}
-          </nav>
+        </Container>
+        {posts.map(({ node }) => {
+          return <BlogPostLine node={node} key={node.id} />;
+        })}
+        <Container>
+          <Pagination pageInfo={pageInfo} pt={4} />
         </Container>
       </Layout>
     );
@@ -53,6 +28,7 @@ export default class BlogList extends React.Component {
 export const blogListQuery = graphql`
   query blogListQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
@@ -64,6 +40,7 @@ export const blogListQuery = graphql`
           }
           frontmatter {
             title
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }

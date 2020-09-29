@@ -26,7 +26,7 @@ export const ProductionPostTemplate = ({
   featuredimage,
   gallery_list,
   helmet,
-  production,
+  productor,
   selection,
   tags,
   title,
@@ -115,7 +115,7 @@ export const ProductionPostTemplate = ({
             </Col>
             <Col span={4}>
               <h4>Production</h4>
-              {production}
+              {productor}
             </Col>
             <Col span={4}>
               <h4>Séléction</h4>
@@ -169,7 +169,7 @@ const ProductionPost = ({ data }) => {
         director={post.frontmatter.director}
         featuredimage={post.frontmatter.featuredimage}
         gallery_list={post.frontmatter.gallery_list}
-        production={post.frontmatter.production}
+        productor={post.frontmatter.productor}
         selection={post.frontmatter.selection}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
@@ -216,7 +216,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        production
+        productor
         selection
         tags
         title

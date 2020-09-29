@@ -18,7 +18,7 @@ selection: |-
   Prix du Moyen métrage le plus innovant, Visions du Réel de Nyon, Suisse 2016
   Etoile de la SCAM, 2017
   Prix de l'oeuvre audiovisuelle, SCAM 2017
-production: |-
+productor: |-
   L' Image d'après, 
   Une Chambre à soi, 
   TV Tours Val de Loire

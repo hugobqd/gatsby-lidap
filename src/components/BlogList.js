@@ -3,15 +3,15 @@ import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import Button from "./Button";
 import BlogPostLine from "./cell/BlogPostLine";
-import styled, { ThemeProvider } from "styled-components";
-import themeInverted from "../style/themeInverted";
+import styled from "styled-components";
 import Container from "./Container";
 
 const BackgroundSection = styled.section`
-  color: ${(props) => props.theme.colors.fg};
-  background-color: ${(props) => props.theme.colors.bg};
+  color: ${(props) => props.theme.colors.dark};
+  background-color: ${(props) => props.theme.colors.lavender};
+  padding: 1rem 0;
   a {
-    color: ${(props) => props.theme.colors.link};
+    color: ${(props) => props.theme.colors.dark};
   }
 `;
 
@@ -19,17 +19,19 @@ const BlogList = ({ data }) => {
   const { edges: nodes } = data.allMarkdownRemark;
 
   return (
-    <ThemeProvider theme={themeInverted}>
+    <>
+      {/* <ThemeProvider theme={themeInverted}> */}
       <BackgroundSection>
         <Container>
-          <Button to={"/blog"} heading>
+          <Button to={"/actualites"} heading>
             Actualités
           </Button>
         </Container>
-        {nodes &&
-          nodes.map(({ node }) => <BlogPostLine node={node} key={node.id} />)}
       </BackgroundSection>
-    </ThemeProvider>
+      {nodes &&
+        nodes.map(({ node }) => <BlogPostLine node={node} key={node.id} />)}
+      {/* </ThemeProvider> */}
+    </>
   );
 };
 
