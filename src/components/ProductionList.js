@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import { Row, Col } from "./GridSystem";
-import ProductionCell from "./cell/productionCell";
+import ProductionCell from "./cell/ProductionCell";
 
 const ProductionList = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
