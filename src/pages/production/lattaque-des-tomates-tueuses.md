@@ -14,6 +14,48 @@ description: The film opens with a scroll saying that when Alfred Hitchcock's
   terror as the tomato draws her into a corner. Following the credits, the
   police investigate her death. One officer discovers that the red substance
   with which she is covered is not blood, **but tomato juice**.
+gallery_list:
+  - gallery_img: /img/screen-shot-2019-07-19-at-3.06.45-pm.png
+    gallery_caption: Les héros
+  - gallery_img: /img/akt.jpg
+    gallery_caption: Ça provient d'un ***film***, *surement*.
+  - gallery_img: /img/killerhed.png
+  - gallery_img: /img/unnamed.jpg
+    gallery_caption: Oui oui ! C'est bien **George Clooney** !
+  - gallery_img: /img/n8jslmc8zt2p1relauyrcc3vn7b.jpg
+document_list:
+  - document_item: /img/licence_1_geo_e_le_ves.pdf
+  - document_item: /img/sujet-7-maya.pdf
+    document_title: Sujet 7
+selection: |-
+  Return of the Killer Tomatoes! (1988)
+  Killer Tomatoes Strike Back! (1990)
+  Killer Tomatoes Eat France! (1991)
+featuredpost: true
+productor: >-
+  The finished film contains footage of a real helicopter crash. In a scene
+  showing law enforcement officers firing their weapons to ward off tomatoes in
+  a field, a $60,000 [Hiller
+  Aircraft](https://en.wikipedia.org/wiki/Hiller_Aircraft "Hiller Aircraft")
+  UH-12E that had been rented for the production was supposed to have landed in
+  the tomato patch behind the officers, but during the landing, its tail rotor
+  struck the ground, causing the craft to spin out of control near the ground,
+  roll over, and burst into flames. 
+
+
+  The helicopter pilot escaped without serious injury.
+tags:
+  - fiction
+technical: |-
+  Durée
+
+  Format
+
+  Année
+
+  Langue 
+
+  Genre
 credit: |-
   David Miller as Mason Dixon
   George Wilson as Jim Richardson
@@ -40,35 +82,6 @@ credit: |-
   Michael Seewald as Cameraman
   Steve Cates as Greg Colburn, the diver
   Dean Grell as Miss Potato Famine 1922
-selection: |-
-  Return of the Killer Tomatoes! (1988)
-  Killer Tomatoes Strike Back! (1990)
-  Killer Tomatoes Eat France! (1991)
-productor: >-
-  The finished film contains footage of a real helicopter crash. In a scene
-  showing law enforcement officers firing their weapons to ward off tomatoes in
-  a field, a $60,000 [Hiller
-  Aircraft](https://en.wikipedia.org/wiki/Hiller_Aircraft "Hiller Aircraft")
-  UH-12E that had been rented for the production was supposed to have landed in
-  the tomato patch behind the officers, but during the landing, its tail rotor
-  struck the ground, causing the craft to spin out of control near the ground,
-  roll over, and burst into flames. 
-
-  The helicopter pilot escaped without serious injury.\[[3]]
-
-  (https://en.wikipedia.org/wiki/Attack_of_the_Killer_Tomatoes#cite_note-3) The crash was caught on film as the cameras were rolling at the time. The crash was later worked into the film.
-featuredpost: true
-tags:
-  - fiction
-gallery_list:
-  - gallery_img: /img/screen-shot-2019-07-19-at-3.06.45-pm.png
-    gallery_caption: Les héros
-  - gallery_img: /img/akt.jpg
-    gallery_caption: Ça provient d'un ***film***, *surement*.
-  - gallery_img: /img/killerhed.png
-  - gallery_img: /img/unnamed.jpg
-    gallery_caption: Oui oui ! C'est bien **George Clooney** !
-  - gallery_img: /img/n8jslmc8zt2p1relauyrcc3vn7b.jpg
 ---
 Attack of the Killer Tomatoes is a 1978 American parody film\[2] produced by J. Stephen Peace and John DeBello, and directed by John DeBello based upon an original idea by Costa Dillon. The screenplay was written by Dillon, Peace, and DeBello. The film is a spoof of B movies. Made on a budget less than US$ 100,000 the story involves tomatoes becoming sentient by unknown means and revolting against humanity.
 
