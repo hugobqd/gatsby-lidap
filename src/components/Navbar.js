@@ -78,7 +78,7 @@ const Navbar = (props) => {
           L'image d'après
         </Link>
         <Link to="/production">Production</Link>
-        <Link to="/postproduction">Post-production</Link>
+        <Link to="/postproduction">Postproduction</Link>
         <button
           className={`burger ${active ? "is-active" : ""}`}
           data-target="navMenu"
