@@ -1,6 +1,6 @@
 ---
 templateKey: basic-page
-forcedURL: nous-contacter
+forcedURL: contact
 parentUrl: /
 title: Contact
 ---
