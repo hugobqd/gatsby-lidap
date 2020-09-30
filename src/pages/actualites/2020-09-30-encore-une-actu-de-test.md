@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Encore une actu de test
-date: 2020-09-30T08:41:19.401Z
+date: 2020-09-30T08:41:00.000Z
 featuredpost: true
 description: Voici ce que je vais vous raconter.
 featuredimage: /img/photo047.jpg
