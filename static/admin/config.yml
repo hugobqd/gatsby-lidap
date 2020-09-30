@@ -51,7 +51,7 @@ collections:
   - name: production
     label: "Productions"
     folder: "src/pages/production"
-    # create: true
+    create: true
     slug: "{{slug}}"
     required: false
     sortable_fields: ['commit_date', 'title', 'date']
@@ -126,7 +126,7 @@ collections:
   - name: basicpage
     label: "Pages"
     folder: "src/pages/basicpage"
-    create: true
+    # create: true
     slug: "{{slug}}"
     required: false
     fields:
