@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import Container from "../Container";
 import Box from "../Box";
 import styled from "styled-components";
+import Heading from "../Heading";
 
 const Line = styled.div`
   color: ${(props) => props.theme.colors.dark};
@@ -21,7 +22,9 @@ const BlogPostLine = ({ node }) => {
         <Box py={2}>
           <Container>
             <article>
-              <h3>{node.frontmatter.title}</h3>
+              <Heading as="h4" blog>
+                {node.frontmatter.title}
+              </Heading>
               <section>{node.frontmatter.date}</section>
             </article>
           </Container>

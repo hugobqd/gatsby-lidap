@@ -4,43 +4,54 @@ import Burger from "./icons/Burger";
 import styled from "styled-components";
 import { breakpoints as bp } from "../style/breakpoints";
 import contact from "../settings/contact.json";
+import css from "@styled-system/css";
+import fluid from "fluid-system";
+
+const fontSize = css({ fontSize: ["12px", "16px", "20px"] });
 
 const Header = styled.header``;
+
 const NavMain = styled.nav`
-  background-color: lavender;
+  background-color: ${(p) => p.theme.colors.lavender};
   position: fixed;
   bottom: 0;
   right: 0;
   width: 100%;
   text-transform: uppercase;
   display: flex;
-  padding-right: 2rem;
-  @media ${bp.laptop} {
+  height: ${(p) => p.theme.sizes.unit};
+  z-index: ${(p) => p.theme.zIndexes.navBar};
+  ${fluid(fontSize)}
+
+  @media ${(p) => p.theme.bp[0]} {
     position: absolute;
     top: 0;
     width: auto;
     bottom: auto;
+    padding-left: 1em;
   }
 
   a {
     color: black;
-    display: block;
-    padding: 1em;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 1000px) {
+      padding-left: 0.75em;
+      padding-right: 0.75em;
+    }
+    /* padding: 1em; */
   }
   .logo {
     font-weight: 900;
   }
   .burger {
-    background-color: lavender;
+    background-color: ${(p) => p.theme.colors.lavender};
     border: none;
-    /* position: fixed; */
-    width: 2rem;
-    @media ${bp.laptop} {
-      position: fixed;
-      top: 0;
-      right: 0;
-      z-index: 10;
-    }
+    display: block;
+    width: ${(p) => p.theme.sizes.unit};
+    height: ${(p) => p.theme.sizes.unit};
   }
 `;
 const NavFull = styled.nav`
@@ -52,7 +63,7 @@ const NavFull = styled.nav`
   width: 100%;
   height: 100%;
   background-color: ${(props) => props.theme.colors.lavender};
-  z-index: 9;
+  z-index: ${(p) => p.theme.zIndexes.navFull};
   display: flex;
   justify-content: center;
   align-items: center;

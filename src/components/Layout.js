@@ -4,6 +4,16 @@ import Footer from "../components/Footer";
 import Navbar from "./Navbar";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
+import styled from "styled-components";
+
+const Content = styled.div`
+  padding-top: 1rem;
+  padding-bottom: ${(p) => p.theme.sizes.unit};
+
+  @media (min-width: 1000px) {
+    padding-top: ${(p) => p.theme.sizes.unit};
+  }
+`;
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -49,9 +59,7 @@ const TemplateWrapper = ({ children }) => {
         <link rel="stylesheet" href="https://use.typekit.net/dyq4dan.css" />
       </Helmet>
       <Navbar />
-      <div className="content" style={{ paddingTop: "2rem" }}>
-        {children}
-      </div>
+      <Content>{children}</Content>
       <Footer />
     </div>
   );

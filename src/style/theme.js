@@ -7,6 +7,8 @@ const colors = {
 };
 // const spacings = [".25rem", ".5rem", "1rem", "2rem", "3rem", "5rem"];
 
+const breakpoints = ["1000px", "1920px"];
+
 export default {
   font: {
     main:
@@ -19,9 +21,21 @@ export default {
     dark: colors.greyDarker,
     link: colors.lavender,
   },
+  sizes: {
+    unit: "3.5rem",
+  },
   // space: [...spacings],
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
-
-  breakpoints: ["768px", "1920px"],
+  breakpoints: [...breakpoints],
+  bp: [`(min-width: ${breakpoints[0]})`],
   fontSizes: [13, 16, 19, 23, 27, 33, 39, 47],
+  fluidFontSizes: {
+    navBar: ["12px", "16px", "20px"],
+    body: ["16px", "18px", "24px"],
+    h1: ["40px", "60px", "160ppx"],
+  },
+  zIndexes: {
+    navBar: 10,
+    navFull: 11,
+  },
 };

@@ -2,6 +2,7 @@ import React from "react";
 import Img from "gatsby-image";
 import { Link } from "gatsby";
 import styled from "styled-components";
+import Heading from "../Heading";
 
 const Cell = styled(Link)`
   /* border: 2px solid red; */
@@ -23,18 +24,9 @@ const ProductionCell = ({ node }) => {
       <article data-id={node.id}>
         <Img fluid={featuredimage} />
         {/* <img src={featuredimage.src} /> */}
-        {title && <h2>{title}</h2>}
-        {director && <h4>{director}</h4>}
-        {date && <h4>{date.getFullYear()}</h4>}
-        <pre
-          style={{
-            background: "pink",
-            fontSize: 10,
-            display: "none",
-          }}
-        >
-          {JSON.stringify(node, null, 2)}
-        </pre>
+        <Heading as={"h4"}>{title}</Heading>
+        {director && <h5>{director}</h5>}
+        {date && <h5>{date.getFullYear()}</h5>}
       </article>
     </Cell>
   );

@@ -8,7 +8,7 @@ const StyledContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
 
-  ${(props) => (props.text ? "max-width: 30rem" : null)};
+  ${(p) => (p.text ? "max-width: 30rem" : null)};
 
   ${layout}
   ${space}
