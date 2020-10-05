@@ -6,14 +6,9 @@ director: John De Bello
 featuredimage: /img/1467469587_1.jpg
 trailer: https://www.youtube.com/watch?v=clqDkCJs19s
 vod: https://www.amazon.com/Attack-Killer-Tomatoes-Cindy-Charles/dp/B00YORDKP2
-description: The film opens with a scroll saying that when Alfred Hitchcock's
-  film *The Birds (1963)* was released, audiences laughed at the notion of birds
-  revolting against humanity, but when an attack perpetrated by birds occurred
-  in 1975, no one laughed. This is followed by a pre credits sequence of a
-  tomato rising out of a woman's garbage disposal. Her *puzzlement* turns into
-  terror as the tomato draws her into a corner. Following the credits, the
-  police investigate her death. One officer discovers that the red substance
-  with which she is covered is not blood, **but tomato juice**.
+"VOD_list,":
+  - vod_item: https://www.tenk.fr/les-films-de-la-head/do-you-know-akane-okai.html
+  - vod_item: https://vimeo.com/showcase/6562230/video/322417636
 gallery_list:
   - gallery_img: /img/screen-shot-2019-07-19-at-3.06.45-pm.png
     gallery_caption: Les héros
@@ -27,6 +22,16 @@ document_list:
   - document_item: /img/licence_1_geo_e_le_ves.pdf
   - document_item: /img/sujet-7-maya.pdf
     document_title: Sujet 7
+technical: |-
+  Durée
+
+  Format
+
+  Année
+
+  Langue 
+
+  Genre
 selection: |-
   Return of the Killer Tomatoes! (1988)
   Killer Tomatoes Strike Back! (1990)
@@ -46,16 +51,14 @@ productor: >-
   The helicopter pilot escaped without serious injury.
 tags:
   - fiction
-technical: |-
-  Durée
-
-  Format
-
-  Année
-
-  Langue 
-
-  Genre
+description: The film opens with a scroll saying that when Alfred Hitchcock's
+  film *The Birds (1963)* was released, audiences laughed at the notion of birds
+  revolting against humanity, but when an attack perpetrated by birds occurred
+  in 1975, no one laughed. This is followed by a pre credits sequence of a
+  tomato rising out of a woman's garbage disposal. Her *puzzlement* turns into
+  terror as the tomato draws her into a corner. Following the credits, the
+  police investigate her death. One officer discovers that the red substance
+  with which she is covered is not blood, **but tomato juice**.
 credit: |-
   David Miller as Mason Dixon
   George Wilson as Jim Richardson
