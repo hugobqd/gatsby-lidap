@@ -1,17 +1,24 @@
 import React from "react";
 import styled from "styled-components";
-import { layout, space } from "styled-system";
+import { layout, space, typography } from "styled-system";
 
 const StyledContainer = styled.div`
-  max-width: 95%;
-
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
-  ${(p) => (p.text ? "max-width: 30rem" : null)};
+  @media ${(p) => p.theme.bp[0]} {
+    padding-left: ${(p) => p.theme.sizes.unit};
+    padding-right: ${(p) => p.theme.sizes.unit};
+  }
+
+  ${(p) => (p.intro ? "max-width: 46rem" : null)};
+  ${(p) => (p.text ? "max-width: 38rem" : null)};
 
   ${layout}
   ${space}
+  ${typography}
 `;
 
 const Container = ({ children, ...rest }) => {

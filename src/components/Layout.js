@@ -11,7 +11,7 @@ const Content = styled.div`
   padding-bottom: ${(p) => p.theme.sizes.unit};
 
   @media (min-width: 1000px) {
-    padding-top: ${(p) => p.theme.sizes.unit};
+    padding-top: calc(1rem + ${(p) => p.theme.sizes.unit});
   }
 `;
 

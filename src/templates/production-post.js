@@ -11,10 +11,7 @@ import Heading from "../components/Heading";
 import styled from "styled-components";
 import ReactPlayer from "react-player";
 import { Row, Col } from "../components/GridSystem";
-
-const InfoBar = styled.div`
-  display: flex;
-`;
+import Box from "../components/Box";
 
 export const ProductionPostTemplate = ({
   content,
@@ -40,43 +37,43 @@ export const ProductionPostTemplate = ({
     <main>
       {helmet || ""}
       <Container>
-        <Heading>{title}</Heading>
+        <Heading mb={3}>{title}</Heading>
       </Container>
-      {featuredimage ? (
-        <PreviewCompatibleImage
-          imageInfo={{
-            image: featuredimage,
-            alt: `featured image thumbnail for post ${title}`,
-          }}
-        />
-      ) : null}
-      <Container wide>
-        <InfoBar>
-          <div>
-            <h3>{director}</h3>
-            {tags && tags.length ? (
-              <span>
+      {/* {featuredimage && ( */}
+      <PreviewCompatibleImage
+        imageInfo={{
+          image: featuredimage,
+          alt: `Image principale de ${title}`,
+        }}
+      />
+      {/* )} */}
+      <Container mt={3}>
+        <Row>
+          <Col>
+            <h4 style={{ textTransform: "uppercase", fontWeight: 900 }}>
+              {director}
+            </h4>
+            {tags && tags.length && (
+              <span style={{ textTransform: "capitalize" }}>
                 {tags.map((tag) => (
-                  <span key={tag + `tag`}>
-                    <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link> —
-                  </span>
+                  <span key={tag + `tag`}>{tag} —</span>
                 ))}
               </span>
-            ) : null}{" "}
+            )}{" "}
             {date}
-          </div>
+          </Col>
           {vod && (
-            <div style={{ marginLeft: "auto" }}>
+            <Col style={{ textAlign: "right" }}>
               <Link to={vod} target="_blank">
                 VOD
               </Link>
-            </div>
+            </Col>
           )}
-        </InfoBar>
+        </Row>
       </Container>
 
-      <Container text>
-        <p>{description}</p>
+      <Container intro py={3} lineHeight={1.3}>
+        <p className="fs-4">{description}</p>
       </Container>
 
       <Container>

@@ -22,7 +22,7 @@ const ProductionCell = ({ node }) => {
   return (
     <Cell to={node.fields.slug}>
       <article data-id={node.id}>
-        <Img fluid={featuredimage} />
+        <Img fluid={{ ...featuredimage, aspectRatio: 16 / 9 }} />
         {/* <img src={featuredimage.src} /> */}
         <Heading as={"h4"}>{title}</Heading>
         {director && <h5>{director}</h5>}

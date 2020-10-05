@@ -25,7 +25,7 @@ export default {
     unit: "3.5rem",
   },
   // space: [...spacings],
-  space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
+  space: ["0", ".5rem", "1rem", "2rem", "3.5rem"],
   breakpoints: [...breakpoints],
   bp: [`(min-width: ${breakpoints[0]})`],
   fontSizes: [13, 16, 19, 23, 27, 33, 39, 47],
