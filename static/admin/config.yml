@@ -131,8 +131,8 @@ collections:
     required: false
     fields:
       - {label: "Template Key", name: templateKey, widget: hidden, default: "basic-page"}
-      - {label: "URL", name: forcedURL, widget: string}
-      - {label: "URL Parent", name: parentUrl, widget: string}
+      - {label: "URL", name: forcedURL, widget: hidden}
+      - {label: "URL Parent", name: parentUrl, widget: hidden}
       - {label: "Titre", name: title, widget: string}
       - {label: "Image principale", name: featuredimage, widget: image, required: false}
       - {label: "Introduction", name: description, widget: text, required: false}
