@@ -30,11 +30,11 @@ export const BasicPageTemplate = ({
       {helmet || ""}
       <Container>
         <Heading>{title}</Heading>
-        <Row>
-          <Col span={8}>
-            <p>{description}</p>
-          </Col>
-        </Row>
+        {description && (
+          <Container intro py={3} ml={0} lineHeight={1.3}>
+            <p className="fs-4">{description}</p>
+          </Container>
+        )}
       </Container>
       <Container text>
         <PostContent content={content} />
