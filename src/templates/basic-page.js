@@ -7,7 +7,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/Container";
 import Heading from "../components/Heading";
-import { Row, Col } from "../components/GridSystem";
+// import { Row, Col } from "../components/GridSystem";
 import DocumentsList from "../components/DocumentsList";
 import SubContentModuleSwitch from "../components/SubContentModuleSwitch";
 import TeamList from "../components/list/TeamList";

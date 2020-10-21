@@ -102,3 +102,16 @@ export default () => (
     render={(data, count) => <BlogRoll data={data} count={count} />}
   />
 );
+
+/*
+                   {post.frontmatter.featuredimage ? (
+                    <div className="featured-thumbnail">
+                      <PreviewCompatibleImage
+                        imageInfo={{
+                          image: post.frontmatter.featuredimage,
+                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                        }}
+                      />
+                    </div>
+                  ) : null}
+*/

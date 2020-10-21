@@ -18,7 +18,6 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               tags
               templateKey
-              featuredproduction
               forcedURL
             }
           }
@@ -40,7 +39,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach((edge) => {
       const id = edge.node.id;
-      const featuredProd = edge.node.frontmatter.featuredproduction;
+      // const featuredProd = edge.node.frontmatter.featuredproduction;
       createPage({
         path: edge.node.frontmatter.forcedURL
           ? edge.node.frontmatter.forcedURL
@@ -52,7 +51,7 @@ exports.createPages = ({ actions, graphql }) => {
         // additional data can be passed via context
         context: {
           id,
-          featuredProd,
+          // featuredProd,
         },
       });
     });

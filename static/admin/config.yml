@@ -21,9 +21,7 @@ slug:
   sanitize_replacement: "-"
 
 logo_url: https://a.wattpad.com/useravatar/Perkytarsier.256.946301.jpg
-
 collections:
-
   - name: blog
     label: "Actualité"
     folder: "src/pages/actualites"
@@ -47,6 +45,108 @@ collections:
         fields:
           - {name: document_item, label: "Document", widget: file, required: true}
           - {name: document_title, label: "Nom du fichier", widget: string, required: false}
+
+  - name: basicpage
+    label: "Pages"
+    folder: "src/pages/basicpage"
+    # create: true
+    slug: "{{slug}}"
+    required: false
+    fields:
+      - {label: "Template Key", name: templateKey, widget: hidden, default: "basic-page"}
+      - {label: "URL", name: forcedURL, widget: string}
+      - {label: "URL Parent", name: parentUrl, widget: string}
+      - {label: "Titre", name: title, widget: string}
+      - {label: "Image principale", name: featuredimage, widget: image, required: false}
+      - {label: "Introduction", name: description, widget: text, required: false}
+      - {label: "Texte principal", name: body, widget: markdown, required: false}
+      - name : document_list
+        label : "Documents"
+        widget: list
+        label_singular: "Fichier"
+        required: false
+        fields:
+          - {name: document_item, label: "Document", widget: file, required: true}
+          - {name: document_title, label: "Nom du fichier", widget: string, required: false}
+      - name: team_list
+        label: "Équipe"
+        label_singular: "Membre"
+        widget: list
+        required: false
+        fields: 
+          - {label: "Nom", name: team_name, widget: string, required: true}
+          - {label: "Portrait", name: team_portrait, widget: "image", required: false}
+          - {label: "Titre", name: team_title, widget: string, required: false}
+          - {label: "Texte", name: team_text, widget: text, required: false}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Landing Page"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Subheading, name: subheading, widget: string}
+          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
+          - {label: Description, name: description, widget: string}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+      - file: "src/pages/about/index.md"
+        label: "About"
+        name: "about"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/products/index.md"
+        label: "Products Page"
+        name: "products"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
+          - {label: Full_image, name: full_image, widget: image}
+          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+
+  - name: postproduction
+    label: "Postproduction"
+    folder: "src/pages/postproduction"
+    create: true
+    slug: "{{slug}}"
+    required: false
+    fields:
+      - {label: "Template Key", name: templateKey, widget: hidden, default: "postproduction-post"}
+      - {label: "Titre", name: title, widget: string}
+      - {label: "Introduction", name: description, widget: text, required: false}
+      - {label: "Image principale", name: featuredimage, widget: image, required: false}
+      - {label: "Texte principal", name: body, widget: markdown, required: false}
+      - name : document_list
+        label : "📁 Documents"
+        widget: list
+        label_singular: "📃 Fichier"
+        required: false
+        fields:
+          - {name: document_item, label: "Document", widget: file, required: true}
+          - {name: document_title, label: "Nom du fichier", widget: string, required: false}
+      - name: team_list
+        label: "👥 Équipe"
+        label_singular: "👤 Membre"
+        widget: list
+        required: false
+        fields: 
+          - {label: "Nom", name: team_name, widget: string, required: true}
+          - {label: "Portrait", name: team_portrait, widget: "image", required: false}
+          - {label: "Titre", name: team_title, widget: string, required: false}
+          - {label: "Texte", name: team_text, widget: text, required: false}
 
   - name: production
     label: "Productions"
@@ -98,127 +198,6 @@ collections:
       - {label: "🧑🏾‍🤝‍🧑🏼 Crédits", name: credit, widget: markdown, required: false}
       - {label: "🏆 Sélections", name: selection, widget: markdown, required: false}
       - {label: "🏦 Producteurs", name: productor, widget: markdown, required: false}
-
-  - name: postproduction
-    label: "Postproduction"
-    folder: "src/pages/postproduction"
-    create: true
-    slug: "{{slug}}"
-    required: false
-    fields:
-      - {label: "Template Key", name: templateKey, widget: hidden, default: "postproduction-post"}
-      - {label: "Titre", name: title, widget: string}
-      - {label: "Introduction", name: description, widget: text, required: false}
-      - {label: "Image principale", name: featuredimage, widget: image, required: false}
-      - {label: "Texte principal", name: body, widget: markdown, required: false}
-      - name : document_list
-        label : "📁 Documents"
-        widget: list
-        label_singular: "📃 Fichier"
-        required: false
-        fields:
-          - {name: document_item, label: "Document", widget: file, required: true}
-          - {name: document_title, label: "Nom du fichier", widget: string, required: false}
-      - name: team_list
-        label: "👥 Équipe"
-        label_singular: "👤 Membre"
-        widget: list
-        required: false
-        fields: 
-          - {label: "Nom", name: team_name, widget: string, required: true}
-          - {label: "Portrait", name: team_portrait, widget: "image", required: false}
-          - {label: "Titre", name: team_title, widget: string, required: false}
-          - {label: "Texte", name: team_text, widget: text, required: false}
-
-  - name: basicpage
-    label: "Pages"
-    folder: "src/pages/basicpage"
-    # create: true
-    slug: "{{slug}}"
-    required: false
-    fields:
-      - {label: "Template Key", name: templateKey, widget: hidden, default: "basic-page"}
-      - {label: "URL", name: forcedURL, widget: string}
-      - {label: "URL Parent", name: parentUrl, widget: string}
-      - {label: "Titre", name: title, widget: string}
-      - {label: "Image principale", name: featuredimage, widget: image, required: false}
-      - {label: "Introduction", name: description, widget: text, required: false}
-      - {label: "Texte principal", name: body, widget: markdown, required: false}
-      - name : document_list
-        label : "Documents"
-        widget: list
-        label_singular: "Fichier"
-        required: false
-        fields:
-          - {name: document_item, label: "Document", widget: file, required: true}
-          - {name: document_title, label: "Nom du fichier", widget: string, required: false}
-      - name: team_list
-        label: "Équipe"
-        label_singular: "Membre"
-        widget: list
-        required: false
-        fields: 
-          - {label: "Nom", name: team_name, widget: string, required: true}
-          - {label: "Portrait", name: team_portrait, widget: "image", required: false}
-          - {label: "Titre", name: team_title, widget: string, required: false}
-          - {label: "Texte", name: team_text, widget: text, required: false}
-
-  - name: pages
-    label: "Pages spéciales"
-    files:
-
-      # - file: "src/pages/production.md"
-      #   label: "Page Production"
-      #   name: "productionpage"
-      #   fields:
-      #     - {label: "Template Key", name: templateKey, widget: hidden, default: page}
-      #     - {label: "Titre", name: title, widget: string}
-      #     - {label: "Introduction", name: description, widget: markdown, buttons: ["bold", "italic", "link"], editorComponents: [], required: false}
-      #     - {label: "Image principale", name: featuredimage, widget: image, required: false}
-
-      - file: "src/pages/index.md"
-        label: "Accueil"
-        name: index
-        fields:
-          - {label: "Template Key", name: templateKey, widget: hidden, default: front}
-          - {label: Title, name: title, widget: string}
-          # - {label: Image, name: image, widget: image}
-          # - {label: Heading, name: heading, widget: string}
-          # - {label: Subheading, name: subheading, widget: string}
-          # - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
-          # - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          # - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - label: "Films à la une"
-            name: "featuredproduction"
-            widget: "relation"
-            collection: "production"
-            search_fields: ["title"]
-            value_field: "title"
-            display_fields: ["title"]
-            multiple: true
-
-      # - file: "src/pages/about/index.md"
-      #   label: "About"
-      #   name: "about"
-      #   fields:
-      #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-      #     - {label: "Title", name: "title", widget: "string"}
-      #     - {label: "Texte principal", name: "body", widget: "markdown"}
-      # - file: "src/pages/products/index.md"
-      #   label: "Products Page"
-      #   name: "products"
-      #   fields:
-      #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-      #     - {label: Title, name: title, widget: string}
-      #     - {label: Image, name: image, widget: image}
-      #     - {label: Heading, name: heading, widget: string}
-      #     - {label: Description, name: description, widget: string}
-      #     - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-      #     - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-      #     - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-      #     - {label: Full_image, name: full_image, widget: image}
-      #     - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
 
   - name: settings
     label: "Réglages"

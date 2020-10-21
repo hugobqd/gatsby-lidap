@@ -13,8 +13,8 @@ const StyledContainer = styled.div`
     padding-right: ${(p) => p.theme.sizes.unit};
   }
 
-  ${(p) => (p.intro ? "max-width: 46rem" : null)};
-  ${(p) => (p.text ? "max-width: 38rem" : null)};
+  ${(p) => (p.intro ? "max-width: 46rem;" : null)}
+  ${(p) => (p.text ? "max-width: 38rem;" : null)}
 
   ${layout}
   ${space}
@@ -25,3 +25,8 @@ const Container = ({ children, ...rest }) => {
   return <StyledContainer {...rest}>{children}</StyledContainer>;
 };
 export default Container;
+
+// /* @media ${(p) => p.theme.bp[0]} {
+//   padding-left: ${(p) => p.theme.sizes.unit};
+//   padding-right: ${(p) => p.theme.sizes.unit};
+// } */
