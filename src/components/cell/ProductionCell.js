@@ -16,13 +16,20 @@ const Cell = styled(Link)`
 
 const ProductionCell = ({ node }) => {
   const { title, director } = node.frontmatter;
-  const featuredimage = node.frontmatter.featuredimage.childImageSharp.fluid;
+  const featuredimage = node.frontmatter.featuredimage;
   const date = new Date(node.frontmatter.date);
 
   return (
     <Cell to={node.fields.slug}>
       <article data-id={node.id}>
-        <Img fluid={{ ...featuredimage, aspectRatio: 16 / 9 }} />
+        {featuredimage && (
+          <Img
+            fluid={{
+              ...featuredimage.childImageSharp.fluid,
+              aspectRatio: 16 / 9,
+            }}
+          />
+        )}
         {/* <img src={featuredimage.src} /> */}
         <Heading as={"h4"}>{title}</Heading>
         {director && <h5>{director}</h5>}
