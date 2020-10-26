@@ -72,4 +72,4 @@ productor: |-
   Le soutien de Ciclic – Région Centre\
   Et l’aide du CNC
 ---
-D’après la pièce chorégraphique « Des hommes » de Bernardo Montet
+D’après la pièce chorégraphique « Des hommes » de Bernardo Montet.
