@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import { getDomain } from "tldts";
+import ReactMarkdown from "react-markdown";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/Container";
@@ -120,19 +121,19 @@ export const ProductionPostTemplate = ({
           <Row>
             <Col span={3}>
               <h4>Fiche technique</h4>
-              {technical}
+              <ReactMarkdown>{technical}</ReactMarkdown>
             </Col>
             <Col span={3}>
               <h4>Équipe</h4>
-              {credit}
+              <ReactMarkdown>{credit}</ReactMarkdown>
             </Col>
             <Col span={3}>
               <h4>Production</h4>
-              {productor}
+              <ReactMarkdown>{productor}</ReactMarkdown>
             </Col>
             <Col span={3}>
               <h4>Séléction</h4>
-              {selection}
+              <ReactMarkdown>{selection}</ReactMarkdown>
             </Col>
           </Row>
         </div>
@@ -187,6 +188,7 @@ const ProductionPost = ({ data }) => {
         selection={post.frontmatter.selection}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        technical={post.frontmatter.technical}
         trailer={post.frontmatter.trailer}
         vod_list={post.frontmatter.vod_list}
       />
