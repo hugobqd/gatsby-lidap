@@ -23,21 +23,21 @@ document_list:
   - document_item: /img/affiche-riot-hd.jpg
     document_title: Affiche
 technical: |-
-  Genre : Animation\
-  Durée : 13 minutes 30
+  *Genre :* animation\
+  *Durée :* 13 minutes 30
 credit: |-
-  Réalisation : Frank Ternier\
-  Scénario : Frank Ternier
+  *Réalisation :* Frank Ternier\
+  *Scénario :* Frank Ternier
 
-  Production exécutive : Annabelle Gangneux
+  *Production exécutive :* Annabelle Gangneux
 
-  Direction de la photographie : Frank Ternier\
-  Direction artistique : Frank Ternier\
-  Montage : Frank Ternier\
-  Son : Frédéric Duzan dit Zed\
-  Musique : Frédéric Duzan dit Zed
+  *Direction de la photographie :* Frank Ternier\
+  *Direction artistique :* Frank Ternier\
+  *Montage :* Frank Ternier\
+  *Son :* Frédéric Duzan dit Zed\
+  *Musique :* Frédéric Duzan dit Zed
 
-  Interprètes\
+  *Interprètes :*\
   *Danseurs*\
   Alan Page aka Junior coldboy\
   Waldo Pierre aka Junior Tiger\
@@ -190,8 +190,6 @@ productor: |-
   l'aide à la production audiovisuelle de CICLIC-Région Centre-Val-de-Loire\
   l'aide de la Sacem
 ---
-**Prix :**
-
 Prix du film expérimental à Fiver, Festival international de vidéodanse, Madrid (Espagne)
 
 Mention spéciale pour l'utilisation de la danse et de la musique pour illustrer des thèmes
