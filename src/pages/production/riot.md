@@ -6,7 +6,7 @@ director: Frank Ternier
 featuredimage: /img/riot04.jpg
 trailer: https://vimeo.com/223136933
 description: >-
-  “RIOT” signifie émeute.
+  “RIOT” signifie émeute.\
 
   Un jeune homme noir est tué lors d’une altercation avec un voisin vigilant et la police. Une foule indignée
 
@@ -23,7 +23,7 @@ document_list:
   - document_item: /img/affiche-riot-hd.jpg
     document_title: Affiche
 technical: |-
-  Genre : Animation
+  Genre : Animation\
   Durée : 13 minutes 30
 credit: |-
   Réalisation : Frank Ternier\
@@ -190,14 +190,18 @@ productor: |-
   l'aide à la production audiovisuelle de CICLIC-Région Centre-Val-de-Loire\
   l'aide de la Sacem
 ---
-Prix
-● Prix du film expérimental à Fiver, Festival international de vidéodanse, Madrid (Espagne) -
-2018
-● Mention spéciale pour l'utilisation de la danse et de la musique pour illustrer des thèmes
-sociétaux importants à Animocje (Pologne) - 2018
-● Prix du meilleur scénario au Festival International du court métrage de Joinville (Brésil) 2018
-● Mention honorifique au festival de Vidéodanse à Mexico (Mexique) - 2018
-● Mention spéciale catégorie internationale du " Celtic Animation film Competition " à Liverpool
-(Angleterre) - 2018
-● Certificat d'Excellence pour la meilleure animation de la cession mensuelle d'octobre 2018
-du festival " Dumbo animation " à New-York (USA)
+**Prix :**
+
+Prix du film expérimental à Fiver, Festival international de vidéodanse, Madrid (Espagne)
+
+Mention spéciale pour l'utilisation de la danse et de la musique pour illustrer des thèmes
+sociétaux importants à Animocje (Pologne)
+
+Prix du meilleur scénario au Festival International du court métrage de Joinville (Brésil)
+
+Mention honorifique au festival de Vidéodanse à Mexico (Mexique)
+
+Mention spéciale catégorie international du Celtic Animation film Competition de Liverpool
+(Angleterre)
+
+Certificat d'excellence pour la meilleure animation (cession mensuelle d'octobre 2018) au festival Dumbo animation à New-York (USA)
