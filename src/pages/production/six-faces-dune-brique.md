@@ -15,7 +15,7 @@ description: >-
   Une réflexion sur la mémoire comme matière et comme espace à arpenter.
 technical: |-
   *Genre :* documentaire\
-  *Durée :* 75 minutes
+  *Durée :* 73 minutes
 credit: |-
   *Réalisation :* Damien Monnier
 
