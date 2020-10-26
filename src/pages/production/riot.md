@@ -22,24 +22,28 @@ document_list:
     document_title: Dossier de presse
   - document_item: /img/affiche-riot-hd.jpg
     document_title: Affiche
-technical: "Durée : 13 min 30"
+technical: |-
+  Genre : Animation
+  Durée : 13 minutes 30
 credit: |-
-  Réalisation : Frank Ternier
-  Scénario : Frank Ternier\
+  Réalisation : Frank Ternier\
+  Scénario : Frank Ternier
+
   Production exécutive : Annabelle Gangneux
-  Direction de la photographie : Frank Ternier
-  Direction artistique : Frank Ternier
-  Montage : Frank Ternier
-  Son : Frédéric Duzan dit Zed
+
+  Direction de la photographie : Frank Ternier\
+  Direction artistique : Frank Ternier\
+  Montage : Frank Ternier\
+  Son : Frédéric Duzan dit Zed\
   Musique : Frédéric Duzan dit Zed
 
-
-  Interprètes
-  Danseurs :
-  Alan Page aka Junior coldboy
-  Waldo Pierre aka Junior Tiger
+  Interprètes\
+  *Danseurs*\
+  Alan Page aka Junior coldboy\
+  Waldo Pierre aka Junior Tiger\
   Suzie Babin
-  Voix orateur :
+
+  *Voix orateur*\
   Frédéric Duzan dit Zed
 selection: >-
   **2017**
@@ -180,9 +184,9 @@ selection: >-
 
   Biennale de Curitibia (Brésil)
 productor: |-
-  En coproduction avec ARTE France
+  En coproduction avec ARTE France\
   Avec :\
-  la Contribution financière du CNC\
+  la contribution financière du CNC\
   l'aide à la production audiovisuelle de CICLIC-Région Centre-Val-de-Loire\
   l'aide de la Sacem
 ---
