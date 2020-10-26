@@ -3,6 +3,7 @@ templateKey: production-post
 title: Six faces d'une brique
 date: 2012-01-30T11:00:00.000Z
 director: Damien Monnier
+featuredimage: /img/panneau.jpg
 trailer: https://vimeo.com/50417910
 vod: https://vimeo.com/98942077
 description: >-
@@ -13,6 +14,9 @@ description: >-
 
 
   Une réflexion sur la mémoire comme matière et comme espace à arpenter.
+gallery_list:
+  - gallery_img: /img/waiting.jpg
+  - gallery_img: /img/image_2020-10-26_123941.png
 technical: |-
   *Genre :* documentaire\
   *Durée :* 73 minutes
