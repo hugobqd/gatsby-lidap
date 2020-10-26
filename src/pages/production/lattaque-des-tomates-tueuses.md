@@ -5,8 +5,7 @@ date: 1978-09-17T14:43:00.000Z
 director: John De Bello
 featuredimage: /img/1467469587_1.jpg
 trailer: https://www.youtube.com/watch?v=clqDkCJs19s
-vod: https://www.amazon.com/Attack-Killer-Tomatoes-Cindy-Charles/dp/B00YORDKP2
-"VOD_list,":
+vod_list:
   - vod_item: https://www.tenk.fr/les-films-de-la-head/do-you-know-akane-okai.html
   - vod_item: https://vimeo.com/showcase/6562230/video/322417636
 gallery_list:

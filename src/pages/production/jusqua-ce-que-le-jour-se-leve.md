@@ -5,7 +5,8 @@ date: 2017-12-31T11:00:00.000Z
 director: Pierre Tonachella
 featuredimage: /img/jusquacequelejourseleve-chemin.jpg
 trailer: https://vimeo.com/258824629
-vod: https://www.tenk.fr/les-films-des-etats-generaux-du-film-documentaire/jusqu-a-ce-que-le-jour-se-leve.html
+vod_list:
+  - vod_item: https://www.tenk.fr/les-films-des-etats-generaux-du-film-documentaire/jusqu-a-ce-que-le-jour-se-leve.html
 description: >-
   Dans l'oubli et les marges de la lointaine périphérie des villes, Pierre,
   jeune chômeur, affronte sa

@@ -2,7 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 // import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
+import { getDomain } from "tldts";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/Container";
@@ -13,6 +14,7 @@ import ReactPlayer from "react-player";
 import { Row, Col } from "../components/GridSystem";
 // import Box from "../components/Box";
 import DocumentsList from "../components/DocumentsList";
+import Button from "../components/Button";
 
 export const ProductionPostTemplate = ({
   content,
@@ -31,7 +33,7 @@ export const ProductionPostTemplate = ({
   technical,
   title,
   trailer,
-  vod,
+  vod_list,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -64,11 +66,15 @@ export const ProductionPostTemplate = ({
             )}{" "}
             {date}
           </Col>
-          {vod && (
+          {vod_list && (
             <Col style={{ textAlign: "right" }}>
-              <Link to={vod} target="_blank">
-                VOD
-              </Link>
+              {vod_list.map(({ vod_item }, i) => (
+                <div>
+                  <Button to={vod_item} target="_blank" key={i}>
+                    {getDomain(vod_item)}
+                  </Button>
+                </div>
+              ))}
             </Col>
           )}
         </Row>
@@ -182,7 +188,7 @@ const ProductionPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         trailer={post.frontmatter.trailer}
-        vod={post.frontmatter.vod}
+        vod_list={post.frontmatter.vod_list}
       />
     </Layout>
   );
@@ -239,7 +245,9 @@ export const pageQuery = graphql`
         technical
         title
         trailer
-        vod
+        vod_list {
+          vod_item
+        }
       }
     }
   }

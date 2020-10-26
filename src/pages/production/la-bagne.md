@@ -4,8 +4,8 @@ title: La bagne
 date: 2013-10-26T10:00:00.000Z
 director: Maud Martin
 featuredimage: /img/profil.jpg
-vod: https://vimeo.com/82190136
-"VOD_list,":
+vod_list:
+  - vod_item: https://vimeo.com/82190136
   - vod_item: https://vimeo.com/99907026
 description: >-
   Printemps 2011, Bernardo Montet monte sa nouvelle pièce "Des Hommes", inspirée

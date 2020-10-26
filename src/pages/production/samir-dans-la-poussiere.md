@@ -5,7 +5,8 @@ featuredimage: /img/samir-montagne.jpg
 date: 2015-09-18T06:42:00.000Z
 director: Mohamed Ouzine
 trailer: https://www.tenk.fr/algerie-s-inventer-un-cinema-decolonise/samir-dans-la-poussiere.html
-vod: https://www.tenk.fr/algerie-s-inventer-un-cinema-decolonise/samir-dans-la-poussiere.html
+vod_list: 
+  - vod_item: https://www.tenk.fr/algerie-s-inventer-un-cinema-decolonise/samir-dans-la-poussiere.html
 description: Filmé par son oncle, Samir perd peu à peu l’esprit, enfiévré par
   les vapeurs du pétrole dont il fait la contrebande. Samir se demande quel
   intérêt son oncle peut bien trouver à sa personne et à ces espaces désolés à

@@ -5,7 +5,8 @@ date: 2019-01-01T11:00:00.000Z
 director: Jérémy Gravayat
 featuredimage: /img/lua.platz.04.gravayat.2018.demolition.du.bidonville.de.saint-ouen.2017.jpg
 trailer: https://vimeo.com/295538412
-vod: https://www.arte.tv/fr/videos/095814-000-A/prendre-place/
+vod_list:
+  - vod_item: https://www.arte.tv/fr/videos/095814-000-A/prendre-place/
 description: >-
   En Seine-Saint-Denis, des années durant, des familles roumaines cherchent des
   lieux où vivre. Devenus compagnons de route lors de luttes contre les

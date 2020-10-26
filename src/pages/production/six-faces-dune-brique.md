@@ -5,7 +5,8 @@ date: 2012-01-30T11:00:00.000Z
 director: Damien Monnier
 featuredimage: /img/panneau.jpg
 trailer: https://vimeo.com/50417910
-vod: https://vimeo.com/98942077
+vod_list: 
+  - vod_item: https://vimeo.com/98942077
 description: >-
   Un homme a restauré un vestige du mur de l'ancien ghetto juif dans une cour
   d'immeubles de Varsovie.\

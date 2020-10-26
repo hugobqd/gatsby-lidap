@@ -158,7 +158,7 @@ collections:
     summary: "{{title}} [{{year}}]"
     preview_path: "production/{{slug}}"
     view_filters:
-      - {label: 'Films avec VOD', field: vod, pattern: '.'}
+      - {label: 'Films avec VOD', field: vod_list, pattern: '.'}
     fields:
       - {label: "Template Key", name: templateKey, widget: hidden, default: "production-post", required: false}
       - {label: "🖋 Titre", name: title, widget: string}
@@ -167,7 +167,7 @@ collections:
       - {label: "🖼️ Image principale", name: featuredimage, widget: image, required: false}
       - {label: "🎞 Bande-annonce", name: trailer, widget: string, hint: "URL de la vidéo. Exemple : https://www.youtube.com/watch?v=9D0eyl7-XQA", required: false}
       - {label: "📽 VOD", name: vod, widget: string, hint: "URL de la page de VOD.", required: false}
-      - name: VOD_list,
+      - name: vod_list
         label: "📽 VOD"
         label_singular: "lien VOD"
         widget: list

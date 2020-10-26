@@ -5,8 +5,8 @@ date: 2014-10-26T11:00:00.000Z
 director: Frank Ternier
 featuredimage: /img/image_2020-10-26_143822.png
 trailer: https://vimeo.com/126230536
-vod: https://vimeo.com/86306232
-"VOD_list,":
+vod_list:
+  - vod_item: https://vimeo.com/86306232
   - vod_item: https://vimeo.com/94395918
 description: "\"Je m’appelle Gabriel Douard, j’habite Taipei, j’ai perdu ma
   femme lors d’une agression.\r
