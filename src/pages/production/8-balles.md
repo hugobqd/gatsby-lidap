@@ -3,6 +3,7 @@ templateKey: production-post
 title: 8 balles
 date: 2014-10-26T11:00:00.000Z
 director: Frank Ternier
+featuredimage: /img/image_2020-10-26_143822.png
 trailer: https://vimeo.com/126230536
 vod: https://vimeo.com/86306232
 "VOD_list,":
@@ -14,6 +15,9 @@ description: "\"Je m’appelle Gabriel Douard, j’habite Taipei, j’ai perdu m
   moi ; il sentait le poisson frit, il était affolé, il portait une arme ; il en
   fait usage sur toute ma famille... depuis j’ai comme un vide ; un trou dans la
   tête.\"\r\n"
+gallery_list:
+  - gallery_img: /img/gun.jpg
+  - gallery_img: /img/petite.jpg
 technical: |-
   *Genre :* animation
   *Durée :* 12 minutes 30
