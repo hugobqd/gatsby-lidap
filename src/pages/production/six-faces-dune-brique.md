@@ -5,7 +5,7 @@ date: 2012-01-30T11:00:00.000Z
 director: Damien Monnier
 featuredimage: /img/panneau.jpg
 trailer: https://vimeo.com/50417910
-vod_list: 
+vod_list:
   - vod_item: https://vimeo.com/98942077
 description: >-
   Un homme a restauré un vestige du mur de l'ancien ghetto juif dans une cour
@@ -28,38 +28,38 @@ credit: |-
 
   *Accompagnement à Varsovie :* Marta Czaputowicz
 
-  *Prise de son :* Valérie Desperques-Volmier
-  *Image :* Romain Carcanade
-  *Montage :* Jérémy Gravayat
+  *Prise de son :* Valérie Desperques-Volmier\
+  *Image :* Romain Carcanade\
+  *Montage :* Jérémy Gravayat\
   *Montage son :* Brice Kartmann
 
-  *Conseiller historique :* Jean-Yves Potel
-  *Recherches historiques :* Jan Wiśniewski et Juila Chimiak
-  *Traduction du polonais :* 
-  Milosz Hermanowicz
-  Charlotte Lohisse
-  Mathias Rozpendowski
-  Joanna Suminska
-  Helena Swiercynska
-  *Sous-titrage polonais :* Maya Szymanowska
-  *Sous-titrage portugais :* Monique Richou
-  *Sous-titrage anglais :* 
-  Maura Mc Guinness
+  *Conseiller historique :* Jean-Yves Potel\
+  *Recherches historiques :* Jan Wiśniewski et Juila Chimiak\
+  *Traduction du polonais :* \
+  Milosz Hermanowicz\
+  Charlotte Lohisse\
+  Mathias Rozpendowski\
+  Joanna Suminska\
+  Helena Swiercynska\
+  *Sous-titrage polonais :* Maya Szymanowska\
+  *Sous-titrage portugais :* Monique Richou\
+  *Sous-titrage anglais :* \
+  Maura Mc Guinness\
   Anne Grèzes et Eric Banse
 
-  *Moyens techniques :*
-  AGM Factory
-  Andec Filmtechnik
-  Le Rexy
-  Loca images
-  Sans Canal Fixe
-  Pyramida Films
+  *Moyens techniques :*\
+  AGM Factory\
+  Andec Filmtechnik\
+  Le Rexy\
+  Loca images\
+  Sans Canal Fixe\
+  Pyramida Films\
   Studio design
 
-  *Post-production :*
-  ECPAD
-  *Etalonnage :* Estalle Geoffroy
-  *Mixage :* Perrine Blondel
+  *Post-production :*\
+  ECPAD\
+  *Etalonnage :* Estelle Geoffroy\
+  *Mixage :* Perrine Blondel\
   *Sous-titrage :* Steeve des Roseaux
 selection: |-
   Visions du réel (Nyon, Suisse)\
