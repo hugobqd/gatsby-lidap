@@ -72,7 +72,7 @@ selection: |-
   Holocaust Film Series (Sydney, Australie) \
   Cape Wineland Film Festival (Afrique du Sud)
 productor: |-
-  En coproduction avec BIP TV
+  En coproduction avec BIP TV\
   Directrice des programmes : Sophie Cazé
 
   Avec\
