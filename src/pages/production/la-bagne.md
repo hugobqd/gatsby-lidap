@@ -20,20 +20,20 @@ gallery_list:
   - gallery_img: /img/danse.jpg
   - gallery_img: /img/pieds.jpg
 technical: |-
-  *Genre :* documentaire
+  *Genre :* documentaire\
   *Durée :* 57 minutes
 credit: |-
   *Réalisation :* Maud Martin
 
   *Chorégraphe :* Bernardo Montet\
-  *Assistante :* Geneviève Vincent
-  *Interprétation :* 
-  Armelle Dousset
-  Raphaël Dupin
-  Bernardo Montet
-  Michèle Murray
-  Haja Saranouffi
-  Dimitri Tsiapkinis
+  *Assistante :* Geneviève Vincent\
+  *Interprétation :* \
+  Armelle Dousset\
+  Raphaël Dupin\
+  Bernardo Montet\
+  Michèle Murray\
+  Haja Saranouffi\
+  Dimitri Tsiapkinis\
   Marc Vah
 
   *Création musicale :* Pascal Le Gall\
