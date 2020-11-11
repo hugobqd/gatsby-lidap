@@ -8,7 +8,7 @@ const TeamList = ({ list }) => {
     <>
       {list && (
         <Container>
-          <Row>
+          <Row gap={1}>
             {list.map((member, i) => (
               <Col key={i}>
                 <div

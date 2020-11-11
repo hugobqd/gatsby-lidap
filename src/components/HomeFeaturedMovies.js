@@ -44,7 +44,7 @@ const HomeFeaturedMovies = () => {
 
   return (
     <section>
-      <Row>
+      <Row gap={[2, 0]}>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <Col span={6} key={node.id}>
             <ProductionCell node={node} />

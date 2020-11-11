@@ -8,6 +8,7 @@ const Cell = styled(Link)`
   /* border: 2px solid red; */
   display: block;
   text-decoration: none;
+  color: ${(props) => props.theme.colors.fg};
   &:hover,
   &:focus {
     text-decoration: none;
@@ -31,7 +32,9 @@ const ProductionCell = ({ node }) => {
           />
         )}
         {/* <img src={featuredimage.src} /> */}
-        <Heading as={"h4"}>{title}</Heading>
+        <Heading as={"h4"} mt={1}>
+          {title}
+        </Heading>
         {director && <h5>{director}</h5>}
         {date && <h5>{date.getFullYear()}</h5>}
       </article>

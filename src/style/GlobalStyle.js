@@ -60,6 +60,30 @@ const GlobalStyle = createGlobalStyle`
     max-width: 100%;
   }
 
+  blockquote {
+    border-left: .25em solid;
+    padding-left: 1.75em;
+    padding-top: .5em;
+    padding-bottom: 1px;
+    font-style: normal
+  }
+
+  // React-player :
+
+  .react-player__preview {
+
+    .react-player__shadow {
+      background-color: ${(p) => p.theme.colors.bg} !important;
+      border-radius: 0 !important;
+    }
+    .react-player__play-icon {
+      border-left-color: ${(p) => p.theme.colors.link} !important;
+    }
+    &:hover, &:focus {
+      .react-player__play-icon {
+      border-left-color: ${(p) => p.theme.colors.fg} !important;      
+    }
+  }
 `;
 
 export default GlobalStyle;

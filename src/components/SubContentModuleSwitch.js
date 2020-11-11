@@ -9,15 +9,15 @@ const SubContentModuleSwitch = ({ route }) => {
   switch (route) {
     case "production":
       return (
-        <Container>
-          <ProductionList />
-        </Container>
+        // <Container>
+        <ProductionList />
+        // </Container>
       );
 
     case "postproduction":
       return (
         <Container>
-          <Row>
+          <Row gap={[0, 2]}>
             <Col span={8}>
               <PostProductionList />
             </Col>

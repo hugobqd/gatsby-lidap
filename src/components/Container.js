@@ -15,6 +15,7 @@ const StyledContainer = styled.div`
 
   ${(p) => (p.intro ? "max-width: 46rem;" : null)}
   ${(p) => (p.text ? "max-width: 38rem;" : null)}
+  ${(p) => (p.medium ? "max-width: 64rem;" : null)}
 
   ${layout}
   ${space}

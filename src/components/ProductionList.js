@@ -8,7 +8,7 @@ const ProductionList = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
 
   return (
-    <Row>
+    <Row gap={[0, 2]}>
       {posts &&
         posts.map(({ node }) => (
           <Col key={node.id} span={4}>
@@ -44,9 +44,10 @@ export default () => (
                 slug
               }
               frontmatter {
-                title
-                templateKey
                 date(formatString: "MMMM DD, YYYY")
+                title
+                director
+                templateKey
                 featuredpost
                 featuredimage {
                   childImageSharp {

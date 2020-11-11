@@ -3,12 +3,13 @@ import PropTypes from "prop-types";
 // import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
+import Img from "gatsby-image";
 import { getDomain } from "tldts";
 import ReactMarkdown from "react-markdown";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/Container";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Heading from "../components/Heading";
 // import styled from "styled-components";
 import ReactPlayer from "react-player";
@@ -16,6 +17,7 @@ import { Row, Col } from "../components/GridSystem";
 // import Box from "../components/Box";
 import DocumentsList from "../components/DocumentsList";
 import Button from "../components/Button";
+import Box from "../components/Box";
 
 export const ProductionPostTemplate = ({
   content,
@@ -44,16 +46,22 @@ export const ProductionPostTemplate = ({
       <Container>
         <Heading mb={3}>{title}</Heading>
       </Container>
-      {/* {featuredimage && ( */}
-      <PreviewCompatibleImage
-        imageInfo={{
-          image: featuredimage,
-          alt: `Image principale de ${title}`,
-        }}
-      />
-      {/* )} */}
+      {featuredimage && (
+        // <PreviewCompatibleImage
+        //   imageInfo={{
+        //     image: featuredimage,
+        //     alt: `Image principale de ${title}`,
+        //   }}
+        // />
+        <Img
+          fluid={{
+            ...featuredimage.childImageSharp.fluid,
+            aspectRatio: 1920 / 866,
+          }}
+        />
+      )}
       <Container mt={3}>
-        <Row>
+        <Row gap={[2, 1]}>
           <Col>
             <h4 style={{ textTransform: "uppercase", fontWeight: 900 }}>
               {director}
@@ -85,30 +93,33 @@ export const ProductionPostTemplate = ({
         <p className="fs-4">{description}</p>
       </Container>
 
-      <Container>
-        {trailer && (
-          <ReactPlayer
-            url={trailer}
-            width="100%"
-            height="500px"
-            controls="true"
-            light
-            playsinline
-          />
-        )}
+      {(trailer || gallery_list) && (
+        <Container medium style={{ marginBottom: "2rem" }}>
+          {trailer && (
+            <ReactPlayer
+              url={trailer}
+              width="100%"
+              height="500px"
+              controls="true"
+              light
+              playsinline
+            />
+          )}
 
-        {gallery_list &&
-          gallery_list.map((image) => (
-            <div style={{ marginTop: "2rem" }}>
-              <PreviewCompatibleImage
-                imageInfo={{
-                  image: image.gallery_img,
-                  alt: image.gallery_caption,
-                }}
-              />
-            </div>
-          ))}
-      </Container>
+          {gallery_list &&
+            gallery_list.map((image, i) => (
+              <Box style={{ marginTop: "2rem" }} key={i}>
+                <Img
+                  fluid={{
+                    ...image.gallery_img.childImageSharp.fluid,
+                    aspectRatio: 1920 / 866,
+                  }}
+                  alt={image.gallery_caption}
+                />
+              </Box>
+            ))}
+        </Container>
+      )}
 
       <Container text>
         <PostContent content={content} />
@@ -117,7 +128,7 @@ export const ProductionPostTemplate = ({
       </Container>
 
       <Container py={5}>
-        <div style={{ fontSize: ".8em" }}>
+        <Box style={{ fontSize: ".8em" }}>
           <Row>
             <Col span={3}>
               <h4>Fiche technique</h4>
@@ -136,7 +147,7 @@ export const ProductionPostTemplate = ({
               <ReactMarkdown>{selection}</ReactMarkdown>
             </Col>
           </Row>
-        </div>
+        </Box>
       </Container>
     </main>
   );
@@ -235,7 +246,7 @@ export const pageQuery = graphql`
           gallery_img {
             id
             childImageSharp {
-              fluid {
+              fluid(maxWidth: 2000, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }
