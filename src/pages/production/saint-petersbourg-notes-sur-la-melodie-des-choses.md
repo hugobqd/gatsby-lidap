@@ -68,4 +68,25 @@ credit: |-
   Sans Canal Fixe\
   In the mood\
   Le Rexy
+selection: |-
+  Rencontres cinématographiques de Cerbère-Portbou (France)\
+  Traces de vie (Clermont-Ferrand, France)\
+  Ecran du réel (Le Mans, France)
+productor: |-
+  L’image d’après \
+  Maud Martin\
+  Annabelle Gangneux 
+
+  Nottetempo\
+  Daniela de Felice
+
+  En coproduction avec \
+  TV Tours Val de Loire \
+  Christophe Hérigault
+
+  Avec\
+  Le soutien de Ciclic-Région Centre et de la région Basse-Normandie\
+  La participation du CNC\
+  La collaboration de la Maison de l’image en Basse-Normandie\
+  La Procirep et l’Angoa
 ---
