@@ -27,7 +27,7 @@ tags:
   - documentaire
 gallery_list:
   - gallery_img: /img/247-cover_large.jpg
-  - gallery_img: /img/samir-dans-la-poussière-9.jpg
+  - gallery_img: /img/samir-dans-la-poussiere-9.jpg
 ---
 > Mohamed Ouzine revient dans sa région d’origine, montagneuse et sèche, où son neveu Samir est resté vivre. Samir y vit de la contrebande de pétrole. Il transporte la marchandise à dos de mulet de son village algérien à la frontière marocaine. Mohamed, qui vit en France, porte la nostalgie de cette terre qu’il n’a pas connue et filme Samir comme un double qu’il aurait pu être. Le jeu de miroir est difficile, Samir dévoile petit à petit ses frustrations, son envie de partir, lui aussi. La beauté du film tient dans ce fil ténu commun entre eux, ce rapport ambivalent à cette terre. Un paysage de sables et de roches arides qui sont la vie de Samir et le rêve de Mohamed.
 >
