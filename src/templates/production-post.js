@@ -114,7 +114,7 @@ export const ProductionPostTemplate = ({
                     ...image.gallery_img.childImageSharp.fluid,
                     aspectRatio: 1920 / 866,
                   }}
-                  alt={image.gallery_caption}
+                  // alt={image.gallery_caption ? image.gallery_caption : ""}
                 />
               </Box>
             ))}
@@ -242,7 +242,7 @@ export const pageQuery = graphql`
           }
         }
         gallery_list {
-          gallery_caption
+          # gallery_caption
           gallery_img {
             id
             childImageSharp {
