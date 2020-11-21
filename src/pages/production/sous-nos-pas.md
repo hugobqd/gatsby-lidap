@@ -3,6 +3,7 @@ templateKey: production-post
 title: Sous nos pas
 date: 2013-01-13T14:58:00.000Z
 director: Alexis Jacquand
+featuredimage: /img/sous-nos-pas-e-cran.jpg
 trailer: https://vimeo.com/102614982
 vod_list:
   - vod_item: https://vimeo.com/88431093
