@@ -28,12 +28,52 @@ technical: |-
   *Genre :* documentaire
 
   *Durée :* 60 minutes
-selection: |
-  Dubaï International Film Festival 2016
-  Visions du Réel de Nyon, Suisse 2016
-  Ethnographic Film Festival de Göttingen, Allemage 2016
-  FIDADOC, Maroc 2016
-  Prix du Moyen métrage le plus innovant, Visions du Réel de Nyon, Suisse 2016
+selection: |-
+  Dubaï International Film Festival (Emirats Arabes Unis)
+
+  Visions du Réel (Nyon, Suisse)
+
+  Ethnographic Film Festival (Göttingen, Allemagne
+
+  Golden Apricot (Yerevan, Arménie)
+
+  Les Rencontres du Film Documentaire de Redeyef (Tunisie)
+
+  FIDADOC (Agadir, Maroc)
+
+  LatinArab International Film Festival (Buenos Aires, Brésil)
+
+  Les Rencontres Cinématographiques de Béjaïa (Algérie)
+
+  Festival International du Film Arabe de Gabès (Tunisie)
+
+  FIFIB (Bordeaux, France)
+
+  CINEMED (Montpellier, France)
+
+  Festival d'Annaba du Film Méditerranéen (Algérie)
+
+  Ânûu-rû-âboro (Nouvelle-Calédonie)
+
+  Panorama du Cinéma Algérien (Nîmes, France)
+
+  Festival du film documentaire arabo-africain de Zagora (Maroc)
+
+  Festival des Cinémas d'Afrique d'Apt (France)
+
+  Festival du Film de famille (Saint-Ouen, France)
+
+  Traces de vie (Clermont-Ferrand, France)
+
+  Festival dei popoli (Florence, Italie)
+
+  Le Maghreb des films (Paris, France)
+
+  Festival du Film Documentaire de Saint-Louis (Sénégal)
+
+  FliMM,  festival libre du Moyen-métrage (Paris, France)
+
+  Les entrevues de Belfort (France)
 productor: |-
   L' Image d'après, 
   Une Chambre à soi, 
