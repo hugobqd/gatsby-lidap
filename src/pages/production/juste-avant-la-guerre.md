@@ -58,14 +58,14 @@ selection: |-
 
   Les Inattendus (Lyon, France)
 productor: |-
-  L’image d’après \
+  **L’image d’après** \
   Maud Martin\
   Mélanie Loisel
 
-  Sans Canal Fixe\
+  **Sans Canal Fixe**\
   Jean-Baptiste Giuliani
 
-  Avec\
+  *Avec :*\
   L'aide à la création du ministère de la culture – DRAC Centre
 ---
 > Autoportrait d'un cinéaste de province au bord de la crise de la quarantaine, qui tombe amoureux et qui tente de faire un film sur son père. Une crise qui va se manifester par un brusque besoin de retrouver un geste artisanal, une pratique archaïque du cinéma, comme un dernier geste enfantin.
