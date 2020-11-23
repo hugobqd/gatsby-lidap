@@ -52,13 +52,19 @@ productor: |-
   L’image d’après\
   Damien Monnier
 
-  Directeur de production : Emmanuel Parraud\
-  Chargée de production : Maud Martin
+  *Directeur de production :* \
+  Emmanuel Parraud\
+  *Chargée de production :* \
+  Maud Martin
 
-  En coproduction avec Lyon Capitale TV\
-  Directeur général : Didier Maisto\
-  Directeur : Olivier Attebi\
-  Responsable des programmes : Perrine Robert
+  En coproduction avec Lyon Capitale TV
+
+  *Directeur général :* \
+  Didier Maisto\
+  *Directeur :* \
+  Olivier Attebi\
+  *Responsable des programmes :* \
+  Perrine Robert
 
   Et TV8 Mont-Blanc
 
