@@ -3,6 +3,7 @@ templateKey: production-post
 title: Combats intimes
 date: 2016-04-01T14:25:00.000Z
 director: Francis Del Rio
+featuredimage: /img/combat.png
 description: |-
   Un gymnase, dans une prison. \
   Des apprenti-boxeurs, un ancien champion de France et la boxe, thaïlandaise. \
@@ -10,6 +11,10 @@ description: |-
   Des regards échangés, des visages offerts. \
   L’entraînement au quotidien, et dehors parfois les combats. \
   Une voiture pour s’évader, pour revenir.
+gallery_list:
+  - gallery_img: /img/coup.png
+  - gallery_img: /img/gymnase.png
+  - gallery_img: /img/boire.png
 technical: |-
   *Genre :* documentaire
 
