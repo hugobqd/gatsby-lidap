@@ -25,8 +25,7 @@ gallery_list:
   - gallery_img: /img/247-cover_large.jpg
   - gallery_img: /img/samir-dans-la-poussiere-9.jpg
 technical: |-
-  *Genre :* documentaire
-
+  *Genre :* documentaire\
   *Durée :* 60 minutes
 credit: |-
   *Image et réalisation :* \
