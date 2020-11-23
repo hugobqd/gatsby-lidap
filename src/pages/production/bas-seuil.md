@@ -3,6 +3,7 @@ templateKey: production-post
 title: Bas seuil
 date: 2014-01-13T15:29:00.000Z
 director: "Darjeeling Bouton "
+featuredimage: /img/camion.png
 trailer: https://vimeo.com/473063524
 vod_list:
   - vod_item: https://vimeo.com/86886839
@@ -12,6 +13,9 @@ description: Des hommes franchissent le seuil d'un bus arrêté aux franges de l
   point de rencontre entre deux mondes. Dérives ou errances, usagers et
   praticiens, oscillent selon les mouvements imprévisibles de ceux qui
   reviennent ou jamais.
+gallery_list:
+  - gallery_img: /img/couverture.png
+  - gallery_img: /img/arbre.png
 technical: |-
   Genre : essai documentaire\
   Durée : 40 minutes
