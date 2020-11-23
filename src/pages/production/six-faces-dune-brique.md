@@ -73,10 +73,16 @@ credit: |-
   Studio design
 
   *Post-production :*\
-  ECPAD\
-  *Etalonnage :* Estelle Geoffroy\
-  *Mixage :* Perrine Blondel\
-  *Sous-titrage :* Steeve des Roseaux
+  ECPAD
+
+  *Etalonnage :* \
+  Estelle Geoffroy
+
+  *Mixage :* \
+  Perrine Blondel
+
+  *Sous-titrage :* \
+  Steeve des Roseaux
 selection: |-
   Visions du réel (Nyon, Suisse)
 
