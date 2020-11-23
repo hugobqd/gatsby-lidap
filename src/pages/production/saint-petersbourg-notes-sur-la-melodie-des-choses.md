@@ -1,6 +1,6 @@
 ---
 templateKey: production-post
-title: Saint-Pétersbourg, notes sur la mélodie des choses
+title: Pétersbourg, notes sur la mélodie des choses
 date: 2014-03-13T15:50:00.000Z
 director: Charlie Rojo
 trailer: https://vimeo.com/472660904
