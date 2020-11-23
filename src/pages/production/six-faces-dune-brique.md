@@ -22,27 +22,46 @@ technical: |-
   *Genre :* documentaire\
   *Durée :* 73 minutes
 credit: |-
-  *Réalisation :* Damien Monnier
+  *Réalisation :* \
+  Damien Monnier
 
-  *Production exécutive :* Maud Martin et Cédric Michel
+  *Production exécutive :* \
+  Maud Martin et Cédric Michel
 
-  *Accompagnement à Varsovie :* Marta Czaputowicz
+  *Accompagnement à Varsovie :* \
+  Marta Czaputowicz
 
-  *Prise de son :* Valérie Desperques-Volmier\
-  *Image :* Romain Carcanade\
-  *Montage :* Jérémy Gravayat\
-  *Montage son :* Brice Kartmann
+  *Prise de son :* \
+  Valérie Desperques-Volmier
 
-  *Conseiller historique :* Jean-Yves Potel\
-  *Recherches historiques :* Jan Wiśniewski et Juila Chimiak\
+  *Image :* \
+  Romain Carcanade
+
+  *Montage :* \
+  Jérémy Gravayat
+
+  *Montage son :* \
+  Brice Kartmann
+
+  *Conseiller historique :* \
+  Jean-Yves Potel
+
+  *Recherches historiques :* \
+  Jan Wiśniewski et Juila Chimiak
+
   *Traduction du polonais :* \
   Milosz Hermanowicz\
   Charlotte Lohisse\
   Mathias Rozpendowski\
   Joanna Suminska\
-  Helena Swiercynska\
-  *Sous-titrage polonais :* Maya Szymanowska\
-  *Sous-titrage portugais :* Monique Richou\
+  Helena Swiercynska
+
+  *Sous-titrage polonais :* \
+  Maya Szymanowska
+
+  *Sous-titrage portugais :* \
+  Monique Richou
+
   *Sous-titrage anglais :* \
   Maura Mc Guinness\
   Anne Grèzes et Eric Banse
@@ -62,14 +81,22 @@ credit: |-
   *Mixage :* Perrine Blondel\
   *Sous-titrage :* Steeve des Roseaux
 selection: |-
-  Visions du réel (Nyon, Suisse)\
-  Corsica doc (Ajaccio, France)\
-  Tranzyt Film Festival (Pologne)\
-  Les écrans documentaires (Arcueil, France) \
-  Oknona Warszawa (Pologne)\
-  Cinémaginaire (Argelès sur Mer, France)\
-  Jewish Film Festival ? \
-  Holocaust Film Series (Sydney, Australie) \
+  Visions du réel (Nyon, Suisse)
+
+  Corsica doc (Ajaccio, France)
+
+  Tranzyt Film Festival (Pologne)
+
+  Les écrans documentaires (Arcueil, France) 
+
+  Oknona Warszawa (Pologne)
+
+  Cinémaginaire (Argelès sur Mer, France)
+
+  Jewish Film Festival ? 
+
+  Holocaust Film Series (Sydney, Australie) 
+
   Cape Wineland Film Festival (Afrique du Sud)
 productor: |-
   En coproduction avec BIP TV\
@@ -82,4 +109,4 @@ productor: |-
   L’aide de l’ECPAD en collaboration avec Centre Images et l’INA\
   L’aide du dispositif « Envie d’Agir – Défi jeunes »
 ---
-Prix du projet de film documentaire historique des Rendez-vous de l’Histoire de Blois en 2010
+> Prix du projet de film documentaire historique des Rendez-vous de l’Histoire de Blois en 2010
