@@ -287,7 +287,10 @@ selection: >-
   Hayah International Short Film Festival (Panama City, Panama)
 
 
-  INSANE Animation Film Festival (Malmö, Suède)FESTIFRANCE BH (Belo Horizonte, Brésil)
+  INSANE Animation Film Festival (Malmö, Suède)
+
+
+  FESTIFRANCE BH (Belo Horizonte, Brésil)
 
 
   DOK Leipzig, International Leipzig Festival for Documentary and Animated Film (Leipzig, Allemagne)
