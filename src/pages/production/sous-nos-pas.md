@@ -3,7 +3,7 @@ templateKey: production-post
 title: Sous nos pas
 date: 2013-01-13T14:58:00.000Z
 director: Alexis Jacquand
-featuredimage: /img/sous-nos-pas-e-cran.jpg
+featuredimage: /img/sousnospas-brebis10.jpg
 trailer: https://vimeo.com/102614982
 vod_list:
   - vod_item: https://vimeo.com/88431093
@@ -14,6 +14,9 @@ description: Les gestes concentrés, le visage préoccupé, Jean-Marie marche vi
   trajectoire à tâtons, faite de premières fois, de satisfactions  et
   d'appréhensions. Avec l'assurance d'une pratique agricole biodynamique qui le
   conforte, où agissent des énergies impalpables. Juste sous nos pas.
+gallery_list:
+  - gallery_img: /img/sousnospas-brebis1.jpg
+  - gallery_img: /img/sousnospas-jm2.jpg
 technical: |-
   Genre : documentaire\
   Durée : 83 minutes
