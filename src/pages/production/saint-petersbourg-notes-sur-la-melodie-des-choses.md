@@ -3,6 +3,7 @@ templateKey: production-post
 title: Pétersbourg, notes sur la mélodie des choses
 date: 2014-03-13T15:50:00.000Z
 director: Charlie Rojo
+featuredimage: /img/fene-tre.png
 trailer: https://vimeo.com/472660904
 vod_list:
   - vod_item: https://vimeo.com/86629857
@@ -22,6 +23,9 @@ description: >-
   Voyage géographique et temporel, le film nous entraîne dans la cité russe au hasard des rencontres avec ses habitants.
 
   Dostoïevski, la révolution, les appartements communautaires, le blocus, le Tsar, Shrek ou encore Poutine : ils nous racontent leur ville, une ville qui aura changé quatre fois de nom, soumise aux humeurs des hommes et aux caprices du temps.
+gallery_list:
+  - gallery_img: /img/poe-me.png
+  - gallery_img: /img/landscape.png
 technical: |-
   Genre : documentaire\
   Durée : 1h52
