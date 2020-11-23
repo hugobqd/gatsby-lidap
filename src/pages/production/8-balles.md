@@ -42,18 +42,32 @@ credit: |-
   Shihhan Shaw\
   Alex Ternier
 
-  *Création graphique :* Shihhan Shaw et Frank Ternier\
-  *Animation et modélisation 3D :* Laurent Moulin\
-  *Animation :* Frank Ternier, Xavier Rubel et Laurent Moulin\
-  *Composition et montage image :* Frank Ternier\
-  *Coordinateur technique :* Laurent Moulin\
-  *Encrage :* Shihhan Shaw\
-  *Création texture :* Frank Ternier, Shihhan Shaw et Natacha Dumur\
-  *Sound design, mixage et mastering :* Frédéric Duzan 
+  *Création graphique :* \
+  Shihhan Shaw et Frank Ternier
 
-  *Musique originale :* Frédérique Duzan dit ZED
+  *Animation et modélisation 3D :* \
+  Laurent Moulin
 
-  *Production exécutive :* Maud Martin et Annabelle Gangneux
+  *Animation :* \
+  Frank Ternier, Xavier Rubel et Laurent Moulin
+
+  *Composition et montage image :* \
+  Frank Ternier
+
+  *Coordinateur technique :* \
+  Laurent Moulin
+
+  *Encrage :* \
+  Shihhan Shaw
+
+  *Création texture :* \
+  Frank Ternier, Shihhan Shaw et Natacha Dumur
+
+  *Sound design, mixage et mastering :* \
+  Frédéric Duzan 
+
+  *Musique originale :* \
+  Frédérique Duzan dit ZED
 
   *Moyens techniques :* \
   L’astronef\
