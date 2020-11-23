@@ -23,10 +23,15 @@ technical: |-
   *Genre :* documentaire\
   *Durée :* 57 minutes
 credit: |-
-  *Réalisation :* Maud Martin
+  *Réalisation :* \
+  Maud Martin
 
-  *Chorégraphe :* Bernardo Montet\
-  *Assistante :* Geneviève Vincent\
+  *Chorégraphe :* \
+  Bernardo Montet
+
+  *Assistante :* \
+  Geneviève Vincent
+
   *Interprétation :* \
   Armelle Dousset\
   Raphaël Dupin\
@@ -36,9 +41,14 @@ credit: |-
   Dimitri Tsiapkinis\
   Marc Vah
 
-  *Création musicale :* Pascal Le Gall\
-  *Costumes :* Rose-Marie Melka\
-  *Création lumière :* Laurent Matignon 
+  *Création musicale :* \
+  Pascal Le Gall
+
+  *Costumes :* \
+  Rose-Marie Melka
+
+  *Création lumière :* \
+  Laurent Matignon 
 
   *Production :* \
   Centre chorégraphique National de Tours\
@@ -49,11 +59,14 @@ credit: |-
   Abbaye de Fontevraud \
   Centre Dramatique Régional de Tours
 
-  *Montage :* Maud Martin et Thomas Ferrand\
-  *Mixage :* Brice Kartmann\
-  *Etalonnage :* Paul Champart
+  *Montage :* \
+  Maud Martin et Thomas Ferrand
 
-  *Producteur exécutif :* Damien Monnier
+  *Mixage :* \
+  Brice Kartmann
+
+  *Etalonnage :* \
+  Paul Champart
 
   *Moyens techniques :*\
   L’image d’après\
@@ -61,15 +74,21 @@ credit: |-
   Le Rexy\
   In the mood
 selection: |-
-  Gender Docu Film Festival (Rome, Italie)\
-  Video Danza (Sao Carlos, Brésil)\
+  Gender Docu Film Festival (Rome, Italie)
+
+  Video Danza (Sao Carlos, Brésil)
+
   Mostra Itinerante de Video Danza (Brésil)
 productor: |-
+  L'image d'après\
+  Damien Monnier
+
   En coproduction avec TV Tours Val-de-Loire\
-  Direction des programmes : Christophe Hérigault
+  *Direction des programmes :* \
+  Christophe Hérigault
 
   Avec\
   Le soutien de Ciclic – Région Centre\
-  Et l’aide du CNC
+  L'aide du CNC
 ---
-D’après la pièce chorégraphique « Des hommes » de Bernardo Montet.
+> D’après la pièce chorégraphique « Des hommes » de Bernardo Montet.
