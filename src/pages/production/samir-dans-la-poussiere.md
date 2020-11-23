@@ -24,14 +24,16 @@ description: >-
 gallery_list:
   - gallery_img: /img/247-cover_large.jpg
   - gallery_img: /img/samir-dans-la-poussiere-9.jpg
-selection: |-
+technical: |-
+  *Genre :* documentaire
+
+  *Durée :* 60 minutes
+selection: |
   Dubaï International Film Festival 2016
   Visions du Réel de Nyon, Suisse 2016
   Ethnographic Film Festival de Göttingen, Allemage 2016
   FIDADOC, Maroc 2016
   Prix du Moyen métrage le plus innovant, Visions du Réel de Nyon, Suisse 2016
-  Etoile de la SCAM, 2017
-  Prix de l'oeuvre audiovisuelle, SCAM 2017
 productor: |-
   L' Image d'après, 
   Une Chambre à soi, 
@@ -46,3 +48,5 @@ tags:
 > *Oasis d'argent au Festival international du film Arabe de Gabès (Tunisie)*
 >
 > *Prix du moyen-métrage le plus innovant aux Visions du Réel (Nyon, Suisse)*
+>
+> Etoile de la SCAM et Prix de l'oeuvre audiovisuelle en 2017
