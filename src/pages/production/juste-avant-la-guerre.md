@@ -23,30 +23,39 @@ technical: |-
   Genre : film-journal\
   Durée : 50 minutes
 credit: |-
-  Réalisation : Yvan Petit
+  *Réalisation :* \
+  Yvan Petit
 
-  Création sonore et mixage : Dominique Desriaux
+  *Création sonore et mixage :* \
+  Dominique Desriaux
 
-  Montage : Yvan Petit
+  *Montage :* \
+  Yvan Petit
 
-  Musique :\
+  *Musique :*\
   Emmanuel Rousseau\
   Poney Club\
   Arthur Azara
 
-  Violon : Yurie Hu
+  *Violon :* \
+  Yurie Hu
 
-  Voix de l'assistante téléphonique : Virginie Pereirinha\
-  Voix de Julien Gracq à la radio : Jean Riant
+  *Voix de l'assistante téléphonique :* \
+  Virginie Pereirinha
 
-  Images additionnelles : Mélanie Chenais
+  *Voix de Julien Gracq à la radio :* \
+  Jean Riant
 
-  Outils :\
+  *Images additionnelles :* \
+  Mélanie Chenais
+
+  *Outils :*\
   SONY Ericsson W300\
   NOKIA N70\
   APPLE Iphone 4
 selection: |-
-  OFF (Olonnes Film Festival / France)\
+  OFF (Olonnes Film Festival / France)
+
   Les Inattendus (Lyon, France)
 productor: |-
   L’image d’après \
