@@ -14,9 +14,9 @@ description: Les gestes concentrés, le visage préoccupé, Jean-Marie marche vi
   trajectoire à tâtons, faite de premières fois, de satisfactions  et
   d'appréhensions. Avec l'assurance d'une pratique agricole biodynamique qui le
   conforte, où agissent des énergies impalpables. Juste sous nos pas.
-technical: "Genre : documentaire\r
-
-  Durée : 83 minutes\r\n"
+technical: |-
+  Genre : documentaire\
+  Durée : 83 minutes
 credit: |-
   Réalisation et image : Alexis Jacquand
 
@@ -36,7 +36,8 @@ credit: |-
   Le zèbre et la mouette\
   Atelier Super 8 de Tours
 
-  Sous-titrage anglais : Maura McGuinness et Anne Grèzes
+  Sous-titrage anglais :\
+  Maura McGuinness et Anne Grèzes
 selection: "Visions du réel (Nyon, Suisse) "
 productor: |-
   L’image d’après\
