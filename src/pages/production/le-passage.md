@@ -20,33 +20,38 @@ gallery_list:
   - gallery_img: /img/passage.png
   - gallery_img: /img/roue.png
 technical: |-
-  Genre : documentaire\
-  Durée : 47 minutes
+  *Genre :* documentaire\
+  *Durée :* 47 minutes
 credit: |-
-  Réalisation : Mélanie Loisel
+  *Réalisation :* \
+  Mélanie Loisel
 
-  Avec :\
+  *Avec :*\
   Claudine Duhem-Caboche\
   Michel Chauvin\
   Isabelle Chenel
 
-  Chef opératrice prise de vue : Mélanie Loisel
+  *Chef opératrice prise de vue :* \
+  Mélanie Loisel
 
-  Montage : Adrien Charmot
+  *Montage :* \
+  Adrien Charmot
 
-  Montage son et mixage : Brice Kartmann
+  *Montage son et mixage :* \
+  Brice Kartmann
 
-  Etalonnage :\
+  *Etalonnage :*\
   Inthemood…\
   Paul Champart
 
-  Moyens techniques :\
+  *Moyens techniques :*\
   Les films du grain de sable\
   L’œil lucide\
   Inthemood …\
   Le Rexy
 selection: |-
-  Les Inattendus (Lyons, France)\
+  Les Inattendus (Lyons, France)
+
   Festival du film de Vendôme (France)
 productor: |-
   L’image d’après \
@@ -60,7 +65,7 @@ productor: |-
   Avec le soutien de Brouillon d’un rêve de la SCAM
 ---
 > Ce projet a reçu l’accompagnement au montage de\
-> L’œil Lucide\
+> *L’œil Lucide*\
 > Daniéla de Felice\
 > Jenny Saastamoinen\
 > Samantha Yépez
