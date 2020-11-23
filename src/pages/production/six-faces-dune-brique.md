@@ -102,13 +102,14 @@ selection: |-
 
   Cape Wineland Film Festival (Afrique du Sud)
 productor: |-
-  L'image d'après\
+  **L'image d'après**\
   Maud Martin et Cédric Michel
 
-  En coproduction avec BIP TV\
-  Directrice des programmes : Sophie Cazé
+  En coproduction avec **BIP TV**\
+  *Directrice des programmes :* \
+  Sophie Cazé
 
-  Avec\
+  *Avec :*\
   L’aide de Centres Images – Région Centre\
   La participation du CNC, de la PROCIREP et de l’ANGOA\
   Le soutien de la Fondation pour la Mémoire de la Shoah\
