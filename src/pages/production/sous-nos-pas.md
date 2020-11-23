@@ -49,26 +49,29 @@ credit: |-
   Atelier Super 8 de Tours
 selection: "Visions du réel (Nyon, Suisse) "
 productor: |-
-  L’image d’après\
+  **L’image d’après**\
   Damien Monnier
 
   *Directeur de production :* \
-  Emmanuel Parraud\
+  Emmanuel Parraud
+
   *Chargée de production :* \
   Maud Martin
 
-  En coproduction avec Lyon Capitale TV
+  En coproduction avec **Lyon Capitale TV**
 
   *Directeur général :* \
-  Didier Maisto\
+  Didier Maisto
+
   *Directeur :* \
-  Olivier Attebi\
+  Olivier Attebi
+
   *Responsable des programmes :* \
   Perrine Robert
 
-  Et TV8 Mont-Blanc
+  Et **TV8 Mont-Blanc**
 
-  Avec\
+  *Avec :*\
   Le soutien de 8 Mont-Blanc\
   La participation du CNC\
   Le soutien de Ciclic-Région Centre et de la région Rhône-Alpes\
