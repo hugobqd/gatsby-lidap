@@ -27,12 +27,13 @@ gallery_list:
   - gallery_img: /img/poe-me.png
   - gallery_img: /img/landscape.png
 technical: |-
-  Genre : documentaire\
-  Durée : 1h52
+  *Genre :* documentaire\
+  *Durée :* 1h52
 credit: |-
-  Réalisation : Charlie Rojo
+  *Réalisation :* \
+  Charlie Rojo
 
-  Avec\
+  *Avec :*\
   Elena Sychenko\
   Alex, Serguei, Sergey et leurs amies\
   Micha Senaya\
@@ -43,28 +44,31 @@ credit: |-
   Irina Popovez\
   Zoia Koshechkina
 
-  Images et sons : Charlie Rojo
+  *Images et sons :* \
+  Charlie Rojo
 
-  Images et sons additionnels : Max Deev et Maud Martin
+  *Images et sons additionnels :* \
+  Max Deev et Maud Martin
 
-  Traduction au tournage : Elena Sychenko
+  *Traduction au tournage :* \
+  Elena Sychenko
 
-  Traduction au montage : \
+  *Traduction au montage :* \
   Nadezhda Raffault\
   Tatiana Koulikova\
   Nadezda Romanenko
 
-  Montage : Cédric Putaggio et Charlie Rojo
+  *Montage :* \
+  Cédric Putaggio et Charlie Rojo
 
-  Regards additionnels : Elisa Zampagni
+  *Montage son et mixage :* \
+  Brice Kartmann 
 
-  Montage son et mixage : Brice Kartmann 
-
-  Etalonnage :\
+  *Etalonnage :*\
   Paul Champart\
   In the mood
 
-  Moyens techniques :\
+  *Moyens techniques :*\
   L’image d’après\
   Nottetempo\
   TV Tours Val-de-Loire\
@@ -73,8 +77,10 @@ credit: |-
   In the mood\
   Le Rexy
 selection: |-
-  Rencontres cinématographiques de Cerbère-Portbou (France)\
-  Traces de vie (Clermont-Ferrand, France)\
+  Rencontres cinématographiques de Cerbère-Portbou (France)
+
+  Traces de vie (Clermont-Ferrand, France)
+
   Ecran du réel (Le Mans, France)
 productor: |-
   L’image d’après \
