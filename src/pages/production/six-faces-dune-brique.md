@@ -25,9 +25,6 @@ credit: |-
   *Réalisation :* \
   Damien Monnier
 
-  *Production exécutive :* \
-  Maud Martin et Cédric Michel
-
   *Accompagnement à Varsovie :* \
   Marta Czaputowicz
 
@@ -99,6 +96,9 @@ selection: |-
 
   Cape Wineland Film Festival (Afrique du Sud)
 productor: |-
+  L'image d'après\
+  Maud Martin et Cédric Michel
+
   En coproduction avec BIP TV\
   Directrice des programmes : Sophie Cazé
 
