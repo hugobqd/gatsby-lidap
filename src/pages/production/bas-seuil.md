@@ -7,33 +7,40 @@ featuredimage: /img/camion.png
 trailer: https://vimeo.com/473063524
 vod_list:
   - vod_item: https://vimeo.com/86886839
-description: Des hommes franchissent le seuil d'un bus arrêté aux franges de la
-  ville, de la vie. A l'asphalte et au vent, se mêlent leur solitude, leur vide,
-  leur manque. Le film s'ancre au cœur de ce lieu d'échanges, le Bus Méthadone,
-  point de rencontre entre deux mondes. Dérives ou errances, usagers et
-  praticiens, oscillent selon les mouvements imprévisibles de ceux qui
-  reviennent ou jamais.
+description: >-
+  Des hommes franchissent le seuil d'un bus arrêté aux franges de la ville, de
+  la vie. \
+
+  À l'asphalte et au vent, se mêlent leur solitude, leur vide, leur manque. 
+
+
+  Le film s'ancre au cœur de ce lieu d'échanges, le Bus Méthadone, point de rencontre entre deux mondes. Dérives ou errances, usagers et praticiens, oscillent selon les mouvements imprévisibles de ceux qui reviennent ou jamais.
 gallery_list:
   - gallery_img: /img/couverture.png
   - gallery_img: /img/arbre.png
 technical: |-
-  Genre : essai documentaire\
-  Durée : 40 minutes
+  *Genre :* essai documentaire\
+  *Durée :* 40 minutes
 credit: |-
-  Réalisation : Darjeeling Bouton 
+  *Réalisation :* \
+  Darjeeling Bouton 
 
-  Prise de sons additionnels : Carole Lorthois
+  *Prise de sons additionnels :* \
+  Carole Lorthois
 
   Montage en collaboration avec Julien Chesnel
 
-  Montage son : Charlie Rojo\
+  *Montage son :* \
+  Charlie Rojo\
   Avec la participation de Eric Pellet
 
-  Mixage : Brice Kartmann 
+  *Mixage :* \
+  Brice Kartmann 
 
-  Etalonnage : Paul Champart
+  *Etalonnage :* \
+  Paul Champart
 
-  Moyens techniques :\
+  *Moyens techniques :*\
   Polygone étoilé\
   Le grand domaine\
   L’image d’après\
