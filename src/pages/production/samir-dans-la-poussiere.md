@@ -1,16 +1,29 @@
 ---
 templateKey: production-post
 title: Samir dans la poussière
-featuredimage: /img/samir-montagne.jpg
-date: 2015-09-18T06:42:00.000Z
+date: 2015-12-01T07:42:00.000Z
 director: Mohamed Ouzine
-trailer: https://www.tenk.fr/algerie-s-inventer-un-cinema-decolonise/samir-dans-la-poussiere.html
-vod_list: 
-  - vod_item: https://www.tenk.fr/algerie-s-inventer-un-cinema-decolonise/samir-dans-la-poussiere.html
-description: Filmé par son oncle, Samir perd peu à peu l’esprit, enfiévré par
-  les vapeurs du pétrole dont il fait la contrebande. Samir se demande quel
-  intérêt son oncle peut bien trouver à sa personne et à ces espaces désolés à
-  la frontière de l’Algérie et du Maroc.
+featuredimage: /img/samir-montagne.jpg
+trailer: https://vimeo.com/162659505
+vod_list:
+  - vod_item: https://vimeo.com/145113324
+  - vod_item: https://vimeo.com/148097294
+description: >-
+  Dans une région montagneuse et aride, Samir vit de la contrebande de pétrole.
+  Il transporte la marchandise à dos de mulet de son village algérien à la
+  frontière marocaine. 
+
+
+  Filmé par son oncle, Samir dévoile peu à peu ses aspirations, son désir d’une vie différente. La résignation l’a emporté et, un peu paradoxalement, par un lien complexe avec la région qui l’a vu grandir, il semble être prisonnier de l’horizon.
+
+
+  Dans le portrait de Samir, se reflète en négatif celui du réalisateur Mohamed Ouzine, et son rapport également ambigu, bien qu’opposé, avec ce territoire. Lui vit en France, et revient sur cette terre pour y trouver des réponses, pour comprendre d’où il vient. À la fascination de la caméra pour les paysages répond l’incompréhension de Samir, qui n’y voit que sable et rochers. Entre les deux, se dessine, par des images impressionnistes, une ligne qui mène de l’ombre à la lumière, du trivial au sublime, et peut-être ce qui retient, malgré tout, Samir dans l’infini de ces paysages.
+
+
+  Mourad Moussa
+gallery_list:
+  - gallery_img: /img/247-cover_large.jpg
+  - gallery_img: /img/samir-dans-la-poussiere-9.jpg
 selection: |-
   Dubaï International Film Festival 2016
   Visions du Réel de Nyon, Suisse 2016
@@ -25,12 +38,11 @@ productor: |-
   TV Tours Val de Loire
 tags:
   - documentaire
-gallery_list:
-  - gallery_img: /img/247-cover_large.jpg
-  - gallery_img: /img/samir-dans-la-poussiere-9.jpg
 ---
-> Mohamed Ouzine revient dans sa région d’origine, montagneuse et sèche, où son neveu Samir est resté vivre. Samir y vit de la contrebande de pétrole. Il transporte la marchandise à dos de mulet de son village algérien à la frontière marocaine. Mohamed, qui vit en France, porte la nostalgie de cette terre qu’il n’a pas connue et filme Samir comme un double qu’il aurait pu être. Le jeu de miroir est difficile, Samir dévoile petit à petit ses frustrations, son envie de partir, lui aussi. La beauté du film tient dans ce fil ténu commun entre eux, ce rapport ambivalent à cette terre. Un paysage de sables et de roches arides qui sont la vie de Samir et le rêve de Mohamed.
+> *Grand prix du Festival du film documentaire arabo-africain de Zagora (Maroc)*
 >
-> *Annick Peigné-Giuly Directrice artistique du festival Corsica.Doc*
-
-Dans le portrait de Samir, se reflète en négatif celui du réalisateur Mohamed Ouzine, et son rapport également ambigu, bien qu’opposé, avec ce territoire. Lui vit en France, et revient sur cette terre pour y trouver des réponses, pour comprendre d’où il vient. À la fascination de la caméra pour les paysages répond l’incompréhension de Samir, qui n’y voit que sable et rochers. Entre les deux, se dessine, par des images impressionnistes, une ligne qui mène de l’ombre à la lumière, du trivial au sublime, et peut-être ce qui retient, malgré tout, Samir dans l’infini de ces paysages.
+> *Mention spéciale à CINEMED (Montpellier, France)*
+>
+> *Oasis d'argent au Festival international du film Arabe de Gabès (Tunisie)*
+>
+> *Prix du moyen-métrage le plus innovant aux Visions du Réel (Nyon, Suisse)*
