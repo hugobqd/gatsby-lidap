@@ -80,14 +80,15 @@ selection: |-
 
   Mostra Itinerante de Video Danza (Brésil)
 productor: |-
-  L'image d'après\
+  **L'image d'après**\
   Damien Monnier
 
-  En coproduction avec TV Tours Val-de-Loire\
+  En coproduction avec **TV Tours Val-de-Loire**
+
   *Direction des programmes :* \
   Christophe Hérigault
 
-  Avec\
+  *Avec :*\
   Le soutien de Ciclic – Région Centre\
   L'aide du CNC
 ---
