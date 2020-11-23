@@ -83,18 +83,18 @@ selection: |-
 
   Ecran du réel (Le Mans, France)
 productor: |-
-  L’image d’après \
+  **L’image d’après** \
   Maud Martin\
   Annabelle Gangneux 
 
-  Nottetempo\
+  **Nottetempo**\
   Daniela de Felice
 
   En coproduction avec \
-  TV Tours Val de Loire \
+  **TV Tours Val de Loire** \
   Christophe Hérigault
 
-  Avec\
+  *Avec :*\
   Le soutien de Ciclic-Région Centre et de la région Basse-Normandie\
   La participation du CNC\
   La collaboration de la Maison de l’image en Basse-Normandie\
