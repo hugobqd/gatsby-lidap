@@ -112,19 +112,19 @@ selection: |-
 
   Les entrevues de Belfort (France)
 productor: |-
-  L’image d’après \
+  **L’image d’après** \
   Maud Martin\
   Annabelle Gangneux 
 
   En coproduction avec\
-  Une chambre à soi\
+  **Une chambre à soi**\
   Claire Mazeau-Karoum\
   Tewfik Rays
 
-  TV Tours Val de Loire \
+  **TV Tours Val de Loire** \
   Clotilde Massari
 
-  Avec\
+  *Avec :*\
   Le soutien de la SACEM en association avec Ciclic\
   Le soutien du département de la Seine-Saint-Denis\
   Le soutien de Ciclic-Région Centre Val de Loire\
