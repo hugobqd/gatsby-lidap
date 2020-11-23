@@ -16,8 +16,7 @@ gallery_list:
   - gallery_img: /img/gymnase.png
   - gallery_img: /img/boire.png
 technical: |-
-  *Genre :* documentaire
-
+  *Genre :* documentaire\
   *Durée :* 54 minutes
 credit: |-
   *Réalisation :* \
