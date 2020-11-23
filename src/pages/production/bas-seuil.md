@@ -13,7 +13,7 @@ description: Des hommes franchissent le seuil d'un bus arrêté aux franges de l
   praticiens, oscillent selon les mouvements imprévisibles de ceux qui
   reviennent ou jamais.
 technical: |-
-  Genre : essai documentaire
+  Genre : essai documentaire\
   Durée : 40 minutes
 credit: |-
   Réalisation : Darjeeling Bouton 
