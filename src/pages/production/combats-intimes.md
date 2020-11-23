@@ -61,9 +61,9 @@ credit: |-
   *Sous-titrage :* \
   Maud Martin
 
-  *Moyens techniques :*
-  Froggy
-  L’image d’après
+  *Moyens techniques :*\
+  Froggy\
+  L’image d’après\
   Nyima
 productor: >-
   **L’image d’après** \
