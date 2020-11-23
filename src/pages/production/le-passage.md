@@ -54,12 +54,12 @@ selection: |-
 
   Festival du film de Vendôme (France)
 productor: |-
-  L’image d’après \
+  **L’image d’après** \
   Maud Martin
 
-  En coproduction avec TV Tours Val-de-Loire
+  En coproduction avec **TV Tours Val-de-Loire**
 
-  Avec\
+  *Avec :*\
   La participation du CNC\
   Et le soutien de Ciclic – Région Centre\
   Avec le soutien de Brouillon d’un rêve de la SCAM
