@@ -313,15 +313,17 @@ selection: >-
 
   Korshid Film Festival (Iran)
 productor: |-
-  L'image d'après\
+  **L'image d'après**\
   Maud Martin\
   Annabelle Gangneux
 
-  Avec la participation de ARTE France\
-  Unité des programmes cinéma\
-  Responsable des programmes : Hélène Vayssières
+  Avec la participation de **ARTE France**\
+  Unité des programmes cinéma
 
-  Avec \
+  *Responsable des programmes :* \
+  Hélène Vayssières
+
+  *Avec :* \
   Le soutien de Ciclic – Région Centre et du CNC\
   L’aide de la SACEM
 ---
