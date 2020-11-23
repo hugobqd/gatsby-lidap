@@ -8,13 +8,19 @@ trailer: https://vimeo.com/126230536
 vod_list:
   - vod_item: https://vimeo.com/86306232
   - vod_item: https://vimeo.com/94395918
-description: "\"Je m’appelle Gabriel Douard, j’habite Taipei, j’ai perdu ma
-  femme lors d’une agression.\r
+description: >-
+  "Je m’appelle Gabriel Douard, j’habite Taipei, j’ai perdu ma femme lors d’une
+  agression.\
 
-  Un homme roux, une pieuvre tatouée sur l’avant-bras gauche, est entré chez
-  moi ; il sentait le poisson frit, il était affolé, il portait une arme ; il en
-  fait usage sur toute ma famille... depuis j’ai comme un vide ; un trou dans la
-  tête.\"\r\n"
+  Un homme roux, une pieuvre tatouée sur l’avant-bras gauche, est entré chez moi ;\
+
+  il sentait le poisson frit, il était affolé, il portait une arme ; \
+
+  il en fait usage sur toute ma famille... \
+
+  depuis j’ai comme un vide ; \
+
+  un trou dans la tête."
 gallery_list:
   - gallery_img: /img/gun.jpg
   - gallery_img: /img/petite.jpg
