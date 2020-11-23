@@ -51,27 +51,27 @@ credit: |-
 productor: >-
   Une coproduction \
 
-  L’image d’après \
+  **L’image d’après** \
 
   Maud Martin
 
 
-  Airelles production\
+  **Airelles production**\
 
   Nicola Farina
 
 
-  TV Tours Val de Loire \
+  **TV Tours Val de Loire** \
 
   Christophe Hérigault
 
 
-  Les films du Gabian \
+  **Les films du Gabian** \
 
   Emmanuelle Prévot 
 
 
-  Avec\
+  *Avec :*\
 
   Le soutien du CNC et de la commission Images de la diversité\
 
