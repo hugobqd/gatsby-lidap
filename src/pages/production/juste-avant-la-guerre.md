@@ -12,7 +12,7 @@ description: >-
   définition.
 
 
-  Les caméras ont évolué, mais pas la durée de vie des appareils. Tous les deux ans, je devais changer de téléphone et à chaque fois, l'image était plus nette, sans appel.
+  Les caméras ont évolué, mais pas la durée de vie des appareils. Tous les deux ans, je devais changer de téléphone et à chaque fois, l'image était plus nette, sans appel. 
 
 
   Six ans et trois téléphones plus tard, je décide de raconter cette période de mon existence.
