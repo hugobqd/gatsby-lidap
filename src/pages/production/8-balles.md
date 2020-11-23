@@ -77,81 +77,116 @@ selection: >-
   **2014**
 
 
-  Quinzaine des réalisateurs (Cannes, France)\
+  Quinzaine des réalisateurs (Cannes, France)
 
-  Cinémaginaire (Argelès sur Mer, France)\
 
-  Newhorizons (Wroclaw, Pologne)\
+  Cinémaginaire (Argelès sur Mer, France)
 
-  The São Paulo International Short Film Festival (Brésil)\
 
-  Toronto International Film Festival (TIFF, Canada)\
+  Newhorizons (Wroclaw, Pologne)
 
-  Festival de cinéma de la ville de Québec (Canada)\
 
-  Festcurtasbh (Belo Horizonte, Brésil)\
+  The São Paulo International Short Film Festival (Brésil)
 
-  ANIMASYROS International Animation Festival (Hermoupolis, Grèce)\
 
-  Animatou (Genève, Suisse)\
+  Toronto International Film Festival (TIFF, Canada)
 
-  3dwire (Segovia, Espagne)\
 
-  Anim'est International Animation Film Festival (Bucharest, Roumanie)\
+  Festival de cinéma de la ville de Québec (Canada)
 
-  Be there! Corfu Animation Festival (Grèce)\
 
-  Fenêtre sur Courts (Dijon, France)\
+  Festcurtasbh (Belo Horizonte, Brésil)
 
-  Curtocircuíto International Short Film Festival (Saint-Jacques de Compostelle, Espagne)\
 
-  The 4th Annual Kuandu International Animation Festival (KDIAF, Taipei, Taiwan)\
+  ANIMASYROS International Animation Festival (Hermoupolis, Grèce)
 
-  Expotoons (Buenos Aires, Brésil)\
 
-  KLIK Amsterdam Animation Festival (Pays-Bas)\
+  Animatou (Genève, Suisse)
 
-  Bradford Animation Festival (Angleterre)\
 
-  Les nuits magiques (Bègles et Bordeaux, France)\
+  3dwire (Segovia, Espagne)
 
-  Uppsala International Short Film Festival (Suède)\
 
-  Le long week-end court (Trois-Rivières, Canada)\
+  Anim'est International Animation Film Festival (Bucharest, Roumanie)
 
-  CINANIMA (Espinho, Portugal)\
 
-  Courts-devant (Paris, France)\
+  Be there! Corfu Animation Festival (Grèce)
 
-  Philadelphia Film Festival (Etats-Unis)\
 
-  Panorama Internacional coisa de cinema (Bahia, Brésil)\
+  Fenêtre sur Courts (Dijon, France)
 
-  Festival national du film d'animation de Bruz-Rennes Métropole (France)\
 
-  Naqsh Films Festivals (Bahreïn)\
+  Curtocircuíto International Short Film Festival (Saint-Jacques de Compostelle, Espagne)
 
-  Stockholm International Film Festival (Suède)\
 
-  Festival Tous Courts (Aix en Provence, France)\
+  The 4th Annual Kuandu International Animation Festival (KDIAF, Taipei, Taiwan)
 
-  ALCINE Madrid Film Festival (Espagne)\
 
-  AFI FEST (Los Angeles, Etats-Unis)\
+  Expotoons (Buenos Aires, Brésil)
 
-  Festival du film court de Villeurbanne (France)\
 
-  Festival du film de Vendôme (France)\
+  KLIK Amsterdam Animation Festival (Pays-Bas)
 
-  Festival International d'Amiens (France)\
 
-  Gijon International Film Festival (Espagne)\
+  Bradford Animation Festival (Angleterre)
 
-  Istanbul Animation Festival (Turquie)\
 
-  Whistler Film Festival (Canada)\
+  Les nuits magiques (Bègles et Bordeaux, France)
 
-  BIUtiful Film Festival (Bournemouth, Angleterre)\
+
+  Uppsala International Short Film Festival (Suède)
+
+
+  Le long week-end court (Trois-Rivières, Canada)
+
+
+  CINANIMA (Espinho, Portugal)
+
+
+  Courts-devant (Paris, France)Philadelphia Film Festival (Etats-Unis)
+
+
+  Panorama Internacional coisa de cinema (Bahia, Brésil)
+
+
+  Festival national du film d'animation de Bruz-Rennes Métropole (France)
+
+
+  Naqsh Films Festivals (Bahreïn)
+
+
+  Stockholm International Film Festival (Suède)
+
+
+  Festival Tous Courts (Aix en Provence, France)
+
+
+  ALCINE Madrid Film Festival (Espagne)
+
+
+  AFI FEST (Los Angeles, Etats-Unis)
+
+
+  Festival du film court de Villeurbanne (France)
+
+
+  Festival du film de Vendôme (France)
+
+
+  Festival International d'Amiens (France)
+
+
+  Gijon International Film Festival (Espagne)
+
+
+  Istanbul Animation Festival (Turquie)
+
+
+  Whistler Film Festival (Canada)
+
+
+  BIUtiful Film Festival (Bournemouth, Angleterre)
+
 
   Bronx world film (New-York, Etats-Unis)
 
@@ -159,83 +194,119 @@ selection: >-
   **2015**
 
 
-  Festival du Court-métrage de Clermont-Ferrand (France)\
+  Festival du Court-métrage de Clermont-Ferrand (France)
 
-  Festival Travelling (Rennes, France)\
 
-  Anima (Bruxelles, Belgique)\
+  Festival Travelling (Rennes, France)
 
-  Festival international du film d'Aubagne (France)\
 
-  International Film Festival of Lanzarote (Iles Canaries, Espagne)\
+  Anima (Bruxelles, Belgique)
 
-  Landshut Short Film Festival (Munich, Allemagne)\
 
-  Festival du cinéma asiatique de Tours (France)\
+  Festival international du film d'Aubagne (France)
 
-  Holland Animation Film Festival (Utrecht, Pays-Bas)\
 
-  Trois jours trop courts (Castres, France)\
+  International Film Festival of Lanzarote (Iles Canaries, Espagne)
 
-  Go Short (Nijmegen, Pays Bas)\
 
-  Animaze (Montréal, Canada)\
+  Landshut Short Film Festival (Munich, Allemagne)
 
-  Nashville Film Festival (Etats-Unis)\
 
-  Cartoons on the Bay, International television and cross-media Animation Festival (Venise, Italie)\
+  Festival du cinéma asiatique de Tours (France)
 
-  7th Annual Film Fest Petaluma (San Francisco, Etats-Unis)\
 
-  Trickfilm Festival (Stuttgart, Allemagne)\
+  Holland Animation Film Festival (Utrecht, Pays-Bas)
 
-  Courtivore (Rouen et Mont-Saint-Aignan, France)\
 
-  SICAF, Seoul International Cartoon and Animation Festival (Corée du Sud)\
+  Trois jours trop courts (Castres, France)
 
-  Roma Independant Film Festival (Rome, Italie)\
 
-  Animafest (Zagreb, Croatie)\
+  Go Short (Nijmegen, Pays Bas)
 
-  Vienna Independants Shorts Festival (Autriche)\
 
-  International Animation Festival Fest Anca (Zilina, Slovaquie)\
+  Animaze (Montréal, Canada)
 
-  Festival de Cinéma de la Foa (Nouvelle-Calédonie)\
 
-  Countryside Animafest Cyprus (Chypre)\
+  Nashville Film Festival (Etats-Unis)
 
-  INSOMNIAFEST (Russie)\
 
-  Animix- Tel Aviv Animation Festival (Israël)\
+  Cartoons on the Bay, International television and cross-media Animation Festival (Venise, Italie)
 
-  Thaï Short Film and Video Festival (Thaïlande)\
 
-  Concorto Film Festival (Piacenza, Italie)\
+  7th Annual Film Fest Petaluma (San Francisco, Etats-Unis)
 
-  OFF15, Odense International Film festival (Danemark)\
 
-  CINESHIFT FESTIVAL (Washington DC, États-Unis)\
+  Trickfilm Festival (Stuttgart, Allemagne)
 
-  China University Film Festival (Chine)\
 
-  Hayah International Short Film Festival (Panama City, Panama)\
+  Courtivore (Rouen et Mont-Saint-Aignan, France)
 
-  INSANE Animation Film Festival (Malmö, Suède)\
 
-  FESTIFRANCE BH (Belo Horizonte, Brésil)\
+  SICAF, Seoul International Cartoon and Animation Festival (Corée du Sud)
 
-  DOK Leipzig, International Leipzig Festival for Documentary and Animated Film (Leipzig, Allemagne)\
 
-  Anilogue International Animation Festival (Budapest, Hongrie)\
+  Roma Independant Film Festival (Rome, Italie)
 
-  Multivision, the International Festival of Animated Arts (Saint Petersbourg, Russie)\
 
-  Cutoutfest, International Animation and digital art festival (Queretaro, Mexique)\
+  Animafest (Zagreb, Croatie)
 
-  ANNY: Animation Nights New York (Etats-Unis)\
 
-  Tyre International Short Film Festival (Liban)\
+  Vienna Independants Shorts Festival (Autriche)
+
+
+  International Animation Festival Fest Anca (Zilina, Slovaquie)
+
+
+  Festival de Cinéma de la Foa (Nouvelle-Calédonie)
+
+
+  Countryside Animafest Cyprus (Chypre)
+
+
+  INSOMNIAFEST (Russie)
+
+
+  Animix- Tel Aviv Animation Festival (Israël)
+
+
+  Thaï Short Film and Video Festival (Thaïlande)
+
+
+  Concorto Film Festival (Piacenza, Italie)
+
+
+  OFF15, Odense International Film festival (Danemark)
+
+
+  CINESHIFT FESTIVAL (Washington DC, États-Unis)
+
+
+  China University Film Festival (Chine)
+
+
+  Hayah International Short Film Festival (Panama City, Panama)
+
+
+  INSANE Animation Film Festival (Malmö, Suède)FESTIFRANCE BH (Belo Horizonte, Brésil)
+
+
+  DOK Leipzig, International Leipzig Festival for Documentary and Animated Film (Leipzig, Allemagne)
+
+
+  Anilogue International Animation Festival (Budapest, Hongrie)
+
+
+  Multivision, the International Festival of Animated Arts (Saint Petersbourg, Russie)
+
+
+  Cutoutfest, International Animation and digital art festival (Queretaro, Mexique)
+
+
+  ANNY: Animation Nights New York (Etats-Unis)
+
+
+  Tyre International Short Film Festival (Liban)
+
 
   Korshid Film Festival (Iran)
 productor: |-
@@ -243,8 +314,9 @@ productor: |-
   Unité des programmes cinéma\
   Responsable des programmes : Hélène Vayssières
 
-  Avec le soutien de Ciclic – Région Centre et du CNC\
-  Et l’aide de la SACEM
+  Avec \
+  Le soutien de Ciclic – Région Centre et du CNC\
+  L’aide de la SACEM
 ---
 Prix de la Meilleure Création Images Virtuelles au Festival du film court de Villeurbanne (France)
 
