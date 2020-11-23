@@ -19,8 +19,7 @@ gallery_list:
   - gallery_img: /img/profil.png
   - gallery_img: /img/bougie.png
 technical: |-
-  *Genre :* documentaire
-
+  *Genre :* documentaire\
   *Durée :* 46 minutes
 credit: |-
   *Réalisation, image et son :* \
