@@ -313,6 +313,10 @@ selection: >-
 
   Korshid Film Festival (Iran)
 productor: |-
+  L'image d'après\
+  Maud Martin\
+  Annabelle Gangneux
+
   Avec la participation de ARTE France\
   Unité des programmes cinéma\
   Responsable des programmes : Hélène Vayssières
@@ -321,14 +325,14 @@ productor: |-
   Le soutien de Ciclic – Région Centre et du CNC\
   L’aide de la SACEM
 ---
-Prix de la Meilleure Création Images Virtuelles au Festival du film court de Villeurbanne (France)
-
-Prix du meilleur scénario au Festival Tous Courts à Aix en Provence (France)
-
-Prix du public au Bronx World Film à New-York (USA)
-
-Prix spécial du Jury à Anilogue (Budapest, Bulgarie) 
-
-Prix du scénario du festival Les Murs ont des yeux (France) 
-
-Prix qualité CNC
+> Prix de la Meilleure Création Images Virtuelles au Festival du film court de Villeurbanne (France)
+>
+> Prix du meilleur scénario au Festival Tous Courts à Aix en Provence (France)
+>
+> Prix du public au Bronx World Film à New-York (USA)
+>
+> Prix spécial du Jury à Anilogue (Budapest, Bulgarie) 
+>
+> Prix du scénario du festival Les Murs ont des yeux (France) 
+>
+> Prix qualité CNC
