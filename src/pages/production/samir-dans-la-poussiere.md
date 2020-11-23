@@ -28,6 +28,43 @@ technical: |-
   *Genre :* documentaire
 
   *Durée :* 60 minutes
+credit: |-
+  *Image et réalisation :* \
+  Mohamed Ouzine
+
+  *Avec :*\
+  Samir Berka
+
+  *Assistante :* \
+  Nadjia Ayadi
+
+  *Prise de son :*\
+  Ahmed Bergomp
+
+  *Montage :*\
+  Simon Leclère\
+  Mohamed Ouzine
+
+  *Stagiaire :*\
+  Clara Héliou\
+  Avec Marion Héliou
+
+  *Montage son et mixage :*\
+  Pierre-Emmanuel Mériaud
+
+  *Etalonnage :*\
+  Paul Champart
+
+  *Sous-titrage :*\
+  Maud Martin
+
+  *Musique originale :* \
+  Tatiana Paris 
+
+  *Moyens techniques :*\
+  L’image d’après\
+  Une chambre à soi\
+  TCS
 selection: |-
   Dubaï International Film Festival (Emirats Arabes Unis)
 
@@ -75,9 +112,24 @@ selection: |-
 
   Les entrevues de Belfort (France)
 productor: |-
-  L' Image d'après, 
-  Une Chambre à soi, 
-  TV Tours Val de Loire
+  L’image d’après \
+  Maud Martin\
+  Annabelle Gangneux 
+
+  En coproduction avec\
+  Une chambre à soi\
+  Claire Mazeau-Karoum\
+  Tewfik Rays
+
+  TV Tours Val de Loire \
+  Clotilde Massari
+
+  Avec\
+  Le soutien de la SACEM en association avec Ciclic\
+  Le soutien du département de la Seine-Saint-Denis\
+  Le soutien de Ciclic-Région Centre Val de Loire\
+  L'aide du CNC\
+  L'aide du Doha Film Institute
 tags:
   - documentaire
 ---
