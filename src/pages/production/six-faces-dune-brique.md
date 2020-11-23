@@ -17,7 +17,7 @@ description: >-
   Une réflexion sur la mémoire comme matière et comme espace à arpenter.
 gallery_list:
   - gallery_img: /img/waiting.jpg
-  - gallery_img: /img/image_2020-10-26_123941.png
+  - gallery_img: /img/mains.jpg
 technical: |-
   *Genre :* documentaire\
   *Durée :* 73 minutes
