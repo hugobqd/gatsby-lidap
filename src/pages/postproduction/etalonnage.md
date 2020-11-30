@@ -37,9 +37,9 @@ Notre matériel :
 > Quelques références (non exhaustif) :
 >
 > * *Parler avec les morts* de Taïna Tervonen, produit en 2020 par TS productions avec Vosges TV (Cinéma du réel)
+> * *Jusqu'à ce que le jour se lève* de Pierre Tonachella, produit en 2017 par L'image d'après avec Vosges TV (Tënk, Cinéma du Réel, les États généraux du film documentaire)
 > * *Neige* de Camille Demoures - Fiction
 > * *Le Bureau* de Sengthe Vanh Bouapha - Fiction
 > * *Cili ou le retour de l’aiguille de bois* de Nüne Luepack - Documentaire France Télévision
 > * *Vivre ensemble* - Documentaire Public Sénat
 > * *Dann Zardin Pepe* de Mathieu Tavernier (Prix de la diversité au festival Traces de vie de Clermont Ferrand) - Documentaire
-> * *Jusqu’à ce que le jour se lève* de Pierre Tonachella (sélection au Cinéma du Réel) - Documentaire
