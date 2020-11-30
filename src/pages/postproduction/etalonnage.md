@@ -24,7 +24,7 @@ team_list:
       DaVinci Resolve et formateur sur ce même logiciel. 
 
 
-      Plus d’informations sur le site : www.antoinepolin.com
+      Plus d’informations sur antoinepolin.com
 ---
 Notre matériel :
 
