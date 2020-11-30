@@ -30,8 +30,11 @@ Notre équipement :
 > \
 > Quelques Références :
 >
-> * *Parler avec les morts* de Taïna Tervonen, 2020 (TS productions, sélection au Cinéma du réel)
-> * *Jusqu'à ce que le jour se lève* de Pierre Tonachella *(* L'image d'après, 2017, sélection au Cinéma du Réel)
-> * *Enfermés mais vivants* de Clémence Davigo (Alter Ego, 2017, sélection aux Écrans Documentaires)
-> * *Frère et sœur* de Daniel Touati 2014 (Nord Ouest Documentaires 2014, prix du public à Locarno)
+> * *Parler avec les morts* de Taïna Tervonen, produit en 2020 par TS productions avec Vosges TV (Cinéma du réel)
+> * *Jusqu'à ce que le jour se lève* de Pierre Tonachella, produit en 2017 par L'image d'après avec Vosges TV (Tënk, Cinéma du Réel, les États généraux du film documentaire)
+> * *Enfermés mais vivants* de Clémence Davigo, produit en 2017 par Alter Ego  avec Lyon Capitale TV(Les Écrans Documentaires)
+> * Combats intimes de Francis Del Rio, produit en 2016 par L'image d'après avec Froggy et TV7 Bordeaux (1er prix au Mediterraneo Film Festival)
+> * Le passage de Mélanie Loisel produit en 2014 par L'image d'après avec TV Tours (Les inattendus)
+> * *Frère et sœur* de Daniel Touati, produit en 2014 par Nord Ouest Documentaires (prix du public au Festival international du film de Locarno)
+> * Sous nos pas de Alexis Jacquand, produit en 2014 par L'image d'après avec Lyon Capitale TV et TV8 Mont-Blanc (Visions du réel, les États Généraux du Documentaire, CinemaVérité de Téhéran ...)
 > * *Six Faces d'une brique* de Damien Monnier (L'images d'après 2011, compétition internationale à Vision du réel)
