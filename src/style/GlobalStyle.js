@@ -6,6 +6,7 @@ import fluid from "fluid-system";
 const fontSizeH6 = css({ fontSize: ["14px", "16px", "18px"] });
 const fontSizeH5 = css({ fontSize: ["16px", "18px", "24px"] });
 const fontSizeH4 = css({ fontSize: ["20px", "22px", "36px"] });
+const fontSizeH45 = css({ fontSize: ["22px", "26px", "44px"] });
 const fontSizeH3 = css({ fontSize: ["25px", "32px", "54px"] });
 const fontSizeH2 = css({ fontSize: ["32px", "44px", "75px"] });
 const fontSizeH1 = css({ fontSize: ["40px", "62px", "170px"] });
@@ -48,6 +49,9 @@ const GlobalStyle = createGlobalStyle`
   }
   h4, .fs-4 {
     ${fluid(fontSizeH4)}
+  }
+  .fs-45 {
+    ${fluid(fontSizeH45)}
   }
   h5, .fs-5 {
     ${fluid(fontSizeH5)}

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import { Row, Col } from "./GridSystem";
+import { Row, Col } from "./common/GridSystem";
 import ProductionCell from "./cell/ProductionCell";
 
 const ProductionList = ({ data }) => {

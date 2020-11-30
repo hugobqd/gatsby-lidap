@@ -6,7 +6,6 @@ import { typography, layout, space } from "styled-system";
 // const FluidText = styled("h1")(fluid(typography));
 
 const HeadingStyled = styled.div`
-  line-height: 0.83;
   font-weight: 900;
 
   ${(p) =>
@@ -14,15 +13,15 @@ const HeadingStyled = styled.div`
       ? css``
       : css`
           text-transform: uppercase;
-          padding-left: 0.85em;
-          text-indent: -0.85em;
+          padding-left: 1em;
+          text-indent: -1em;
         `}
   ${typography}
   ${layout}
   ${space}
 `;
 
-const Heading = ({ children, style, as, ...rest }) => {
+const Heading = ({ children, as, ...rest }) => {
   return (
     <>
       <HeadingStyled as={as || "h1"} {...rest}>

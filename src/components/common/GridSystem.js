@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { layout, space } from "styled-system";
-import useXYfromNumberOrObject from "./hooks/useXYfromNumberOrObject";
+import useXYfromNumberOrObject from "../hooks/useXYfromNumberOrObject";
 
 const StyledRow = styled.div`
   display: flex;

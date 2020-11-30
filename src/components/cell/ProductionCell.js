@@ -3,6 +3,8 @@ import Img from "gatsby-image";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import Heading from "../Heading";
+import Box from "../common/Box";
+import Flex from "../common/Flex";
 
 const Cell = styled(Link)`
   /* border: 2px solid red; */
@@ -31,12 +33,17 @@ const ProductionCell = ({ node }) => {
             }}
           />
         )}
-        {/* <img src={featuredimage.src} /> */}
-        <Heading as={"h4"} mt={1}>
-          {title}
-        </Heading>
-        {director && <h5>{director}</h5>}
-        {date && <h5>{date.getFullYear()}</h5>}
+        <Box p={2}>
+          <Heading as={"h4"} style={{ maxWidth: "9em" }} className="fs-45">
+            {title}
+          </Heading>
+          <Flex p={3}>
+            <div style={{ paddingLeft: "1em" }} className="fs-45"></div>
+            <h5>
+              {director && director} {date && date.getFullYear()}
+            </h5>
+          </Flex>
+        </Box>
       </article>
     </Cell>
   );

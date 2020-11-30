@@ -7,7 +7,7 @@ import BlogList from "../components/BlogList";
 import HomeHero from "../components/HomeHero";
 import HomeFeaturedMovies from "../components/HomeFeaturedMovies";
 import Container from "../components/Container";
-import Box from "../components/Box";
+import Box from "../components/common/Box";
 
 export const IndexPageTemplate = ({ data }) => {
   // const actu = data.actu.edges;

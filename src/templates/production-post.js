@@ -13,11 +13,10 @@ import Container from "../components/Container";
 import Heading from "../components/Heading";
 // import styled from "styled-components";
 import ReactPlayer from "react-player";
-import { Row, Col } from "../components/GridSystem";
-// import Box from "../components/Box";
+import { Row, Col } from "../components/common/GridSystem";
 import DocumentsList from "../components/DocumentsList";
-import Button from "../components/Button";
-import Box from "../components/Box";
+import Button from "../components/common/Button";
+import Box from "../components/common/Box";
 
 export const ProductionPostTemplate = ({
   content,

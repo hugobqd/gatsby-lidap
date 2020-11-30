@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "./common/Button";
 import { space, layout } from "styled-system";
 import styled from "styled-components";
 

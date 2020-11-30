@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import Button from "./Button";
+import Button from "./common/Button";
 import BlogPostLine from "./cell/BlogPostLine";
 import styled from "styled-components";
 import Container from "./Container";
