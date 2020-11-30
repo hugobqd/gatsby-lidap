@@ -1,14 +1,15 @@
 ---
 templateKey: postproduction-post
-title: Montage son
+title: Montage son et mixage
 description: >-
-  L'image d'après accueille des montages sons de documentaires depuis 2011.
+  Nous accueillons des montages sons et des mixages de documentaires depuis
+  2011. 
 
 
-  Nous avons travaillé avec beaucoup de jeunes réalisateurs, sur des films tournés avec ou sans opérateur du son. Notre approche est de mettre en valeur et d'enrichir l'écriture sonore du film, que le son soit uniquement issu du tournage ou bien complété par des éléments enregistrés a posteriori (ambiances, bruitages) et si possible par nos soins. Le montage son peut être aussi le moment d'enregistrer la voix off et nous sommes équipés pour ce type d'enregistrement également.
+  Nous avons travaillé avec beaucoup de jeunes réalisateurs, sur des films tournés avec ou sans opérateur du son. Notre approche est de mettre en valeur et d'enrichir l'écriture sonore du flm, que le son soit uniquement issu du tournage ou bien complété par des éléments enregistrés a posteriori (ambiances, bruitages) et si possible par nos soins. Le montage son peut être aussi le moment d'enregistrer la voix off ce pour quoi nous sommes aussi équipés.
 
 
-  Le montage son une fois livré permet de commencer directement le mixage en auditorium.
+  Les mixages, sont selon le type de films et leurs économies effectués au sein de structures partenaires dans des conditions d'écoute adaptées aux exigences des différent standards de diffusion.
 team_list:
   - team_name: Brice Kartmann
     team_text: >-
@@ -19,12 +20,12 @@ team_list:
 
       Son approche technique et artistique est en constante évolution.
 ---
-Notre matériel :
+Notre équipement :
 
-* Station Imac avec Protools 11
-* Suite de plugin Waves diamond et Izotope RX
-* Ecoute Dynaudio BM6A Mk2
-* Casque beyerdynamics 770.
+* Station Imac avec *Protools 11*
+* Suite de plugin *Waves diamond* et Izotope *RX*
+* Ecoute *Dynaudio BM6A Mk2*
+* Casque *Beyerdynamics 770*
 
 > \
 > Quelques Références :
@@ -34,5 +35,3 @@ Notre matériel :
 > * *Enfermés mais vivants* de Clémence Davigo (Alter Ego, 2017, sélection aux Écrans Documentaires)
 > * *Frère et sœur* de Daniel Touati 2014 (Nord Ouest Documentaires 2014, prix du public à Locarno)
 > * *Six Faces d'une brique* de Damien Monnier (L'images d'après 2011, compétition internationale à Vision du réel)
->
->
