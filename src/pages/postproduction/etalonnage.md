@@ -29,10 +29,10 @@ team_list:
 Notre matériel :
 
 * Station Mac Pro 2020 16 cores, 48Go RAM, 19 to de stockage/travail
-* Logiciel DaVinci Resolve Studio
-* Ecran d’étalonnage Sony PVM A250 Oled calibré
-* Retour client LG C9 4k HDR 55" calibré
-* Pupitre d’étalonnage Blackmagic
+* Logiciel *DaVinci Resolve Studio*
+* Ecran d’étalonnage *Sony PVM A250 Oled* calibré
+* Retour client *LG C9* 4k HDR 55" calibré
+* Pupitre d’étalonnage *Blackmagic*
 
 > Quelques références (non exhaustif) :
 >
