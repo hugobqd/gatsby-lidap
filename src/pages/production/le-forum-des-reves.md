@@ -64,9 +64,9 @@ selection: |-
 
   La biennale de l'image possible (Liège, Belgique)
 productor: >-
-  Une coproduction 
+  Une coproduction \
 
-  **L’image d’après** 
+  **L’image d’après** \
 
   Maud Martin
 
