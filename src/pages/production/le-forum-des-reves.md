@@ -50,18 +50,12 @@ credit: |-
   *Musique :*\
   Benjamin Seror
 selection: |-
-  Vidéoformes (Clermont-Ferrand, France)
-
-  Saison vidéo (web)
-
-  Faites de l'image  (Toulouse, France) 
-
-  Génération connectée (Issy-les-Moulineaux, France)
-
-  Côté court (Pantin, France) 
-
-  La biennale internationale du design (Saint-Etienne, France) 
-
+  Vidéoformes (Clermont-Ferrand, France)\
+  Saison vidéo (web)\
+  Faites de l'image  (Toulouse, France) \
+  Génération connectée (Issy-les-Moulineaux, France)\
+  Côté court (Pantin, France) \
+  La biennale internationale du design (Saint-Etienne, France) \
   La biennale de l'image possible (Liège, Belgique)
 productor: >-
   Une coproduction \
