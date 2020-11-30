@@ -29,12 +29,10 @@ Notre matériel :
 > \
 > Quelques Références :
 >
-> *« Six Faces d'une brique »* de Damien Monnier (L'images d'après 2011, compétition internationale à Vision du réel)
+> * *Parler avec les morts* de Taïna Tervonen, 2020 (TS productions, sélection au Cinéma du réel)
+> * *Jusqu'à ce que le jour se lève* de Pierre Tonachella *(* L'image d'après, 2017, sélection au Cinéma du Réel)
+> * *Enfermés mais vivants* de Clémence Davigo (Alter Ego, 2017, sélection aux Écrans Documentaires)
+> * *Frère et sœur* de Daniel Touati 2014 (Nord Ouest Documentaires 2014, prix du public à Locarno)
+> * *Six Faces d'une brique* de Damien Monnier (L'images d'après 2011, compétition internationale à Vision du réel)
 >
-> *« Frère et sœur »* de Daniel Touati 2014 (Nord Ouest Documentaires 2014, prix du public à Locarno)
 >
-> *« Enfermés mais vivants »* de Clémence Davigo (Alter Ego, 2017, sélection aux Écrans Documentaires)
->
-> *« Jusqu'à ce que le jour se lève »* de Pierre Tonachella *(* L'image d'après, 2017, sélection au Cinéma du Réel)
->
-> « *Parler avec les morts* » de Taïna Tervonen, 2020 (TS productions, sélection au Cinéma du réel)
