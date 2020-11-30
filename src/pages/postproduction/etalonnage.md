@@ -1,6 +1,6 @@
 ---
 templateKey: postproduction-post
-title: Étalonnage
+title: Étalonnage et sorties
 description: >-
   L’étalonnage est une phase cruciale du traitement de l’image qui intervient
   généralement en fin de post-production. Néanmoins, il est souvent préférable
