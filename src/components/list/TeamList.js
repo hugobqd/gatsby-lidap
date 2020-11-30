@@ -11,14 +11,14 @@ const TeamList = ({ list }) => {
           <Row gap={1}>
             {list.map((member, i) => (
               <Col key={i}>
-                <div
+                {/* <div
                   style={{
                     maxWidth: "11rem",
                     marginBottom: "1rem",
                   }}
                 >
                   <PreviewCompatibleImage imageInfo={member.team_portrait} />
-                </div>
+                </div> */}
                 <h3>{member.team_name}</h3>
                 <h4>{member.team_title}</h4>
                 {member.team_text}
