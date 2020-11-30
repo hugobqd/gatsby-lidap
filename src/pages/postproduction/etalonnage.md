@@ -36,7 +36,7 @@ Notre matériel :
 
 > Quelques références (non exhaustif) :
 >
-> * *Parler avec les morts* de Taina Tervonen (sélection au Cinéma du Réel) - Documentaire
+> * *Parler avec les morts* de Taïna Tervonen, produit en 2020 par TS productions avec Vosges TV (Cinéma du réel)
 > * *Neige* de Camille Demoures - Fiction
 > * *Le Bureau* de Sengthe Vanh Bouapha - Fiction
 > * *Cili ou le retour de l’aiguille de bois* de Nüne Luepack - Documentaire France Télévision
