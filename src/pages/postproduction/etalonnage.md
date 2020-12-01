@@ -6,15 +6,13 @@ description: >-
   généralement en fin de post-production. Néanmoins, il est souvent préférable
   d’y réfléchir et de s’entretenir avec l’étalonneur en amont du tournage afin
   de s’assurer d’une bonne logique des choix des réglages caméras en fonction du
-  projet. Le rôle de l’étalonneur est dans un premier temps d’établir une
-  cohérence visuelle entre les plans d’une même scène ainsi que dans l’entièreté
-  du film, puis de modifier au mieux l’image en accord avec les
-  réalisateurs/chefs op / DOP afin de mettre en valeur des ambiances et
-  travailler le « look » du film.
+  projet. 
 
 
-  L’étalonneur est aussi souvent responsable des différentes sorties finales (Web, TV, DCP, Masters…)
+  Le rôle de l’étalonneur est dans un premier temps d’établir une cohérence visuelle entre les plans d’une même scène ainsi que dans l’entièreté du film, puis de modifier au mieux l’image en accord avec le réalisateurs, le chef opérateur ou encore le directeur de la photographie, afin de mettre en valeur des ambiances et travailler le « look » du film.
 
+
+  L’étalonneur est aussi souvent responsable des différentes sorties finales (Web, TV, DCP, Masters…). 
 
   Nous proposons des sorties DCP avec vérification de la bonne conversion dans l’espace couleur DCI P3.
 team_list:
@@ -34,8 +32,8 @@ Notre matériel :
 * Retour client *LG C9* 4k HDR 55" calibré
 * Pupitre d’étalonnage *Blackmagic*
 
-> Quelques références (non exhaustif) :
->
+Quelques références (liste non exhaustive) :
+
 > * *Parler avec les morts* de Taïna Tervonen, produit en 2020 par TS productions avec Vosges TV (Cinéma du réel)
 > * *Jusqu'à ce que le jour se lève* de Pierre Tonachella, produit en 2017 par L'image d'après avec Vosges TV (Tënk, Cinéma du Réel, les États généraux du film documentaire)
 > * *Neige* de Camille Demoures - Fiction
