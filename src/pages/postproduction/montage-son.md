@@ -6,17 +6,19 @@ description: >-
   2011. 
 
 
-  Nous avons travaillé avec beaucoup de jeunes réalisateurs, sur des films tournés avec ou sans opérateur du son. Notre approche est de mettre en valeur et d'enrichir l'écriture sonore du flm, que le son soit uniquement issu du tournage ou bien complété par des éléments enregistrés a posteriori (ambiances, bruitages) et si possible par nos soins. Le montage son peut être aussi le moment d'enregistrer la voix off ce pour quoi nous sommes aussi équipés.
+  Nous avons travaillé avec beaucoup de jeunes réalisateurs, sur des films tournés avec ou sans opérateur du son. Notre approche est de mettre en valeur et d'enrichir l'écriture sonore du film, que le son soit uniquement issu du tournage ou bien complété par des éléments enregistrés a posteriori (ambiances, bruitages) et si possible par nos soins. Le montage son peut être aussi le moment d'enregistrer la voix off. Etape pour laquelle nous sommes aussi équipés.
 
 
-  Les mixages, sont selon le type de films et leurs économies effectués au sein de structures partenaires dans des conditions d'écoute adaptées aux exigences des différent standards de diffusion.
+  Les mixages sont, selon le type de films et leur économie, effectués au sein de structures partenaires dans des conditions d'écoute adaptées aux exigences des différent standards de diffusion.
 team_list:
   - team_name: Brice Kartmann
     team_text: >-
       Brice Kartmann est avant tout un curieux du son et un explorateur du
       médium sonore. 
 
+
       Ingénieur du son, sound designer et compositeur, il travaille régulièrement dans le cinéma documentaire (productions Nord-Ouest, l’image d’après, Alter Ego, TS productions), dans la production musicale (labels Kithibong, Un Je Ne Sais Quoi) et pour le spectacle vivant comme régisseur son et compositeur (Ensemble Tachycardie, Théâtre à cru, Demesten Titip, Collectif impatience) et comme intervenant pour des ateliers artistiques incluant de la réalisation sonore (Compagnie Marouchka, L'Intention Publique).
+
 
       Son approche technique et artistique est en constante évolution.
 ---
@@ -27,9 +29,9 @@ Notre équipement :
 * Ecoute *Dynaudio BM6A Mk2*
 * Casque *Beyerdynamics 770*
 
-> \
-> Quelques Références :
->
+\
+Quelques références (liste non exhaustive) :
+
 > * *Parler avec les morts* de Taïna Tervonen, produit en 2020 par TS productions avec Vosges TV (Cinéma du réel)
 > * *Jusqu'à ce que le jour se lève* de Pierre Tonachella, produit en 2017 par L'image d'après avec Vosges TV (Tënk, Cinéma du Réel, les États généraux du film documentaire)
 > * *Enfermés mais vivants* de Clémence Davigo, produit en 2017 par Alter Ego  avec Lyon Capitale TV(Les Écrans Documentaires)
