@@ -71,15 +71,15 @@ credit: |-
   Sonosapiens
   TCS
 productor: |-
-  L’image d’après\
+  **L’image d’après**\
   Maud Martin\
   Caroline Le Roy
 
   En coproduction avec\
-  Lyon Capitale TV\
+  **Lyon Capitale TV**\
   Perrine Robert
 
-  TV Tours Val de Loire\
+  **TV Tours Val de Loire**\
   Clotilde Massari
 
   Avec\
