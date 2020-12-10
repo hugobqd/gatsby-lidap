@@ -134,12 +134,12 @@ selection: |-
 
   Les irrécupérables (Paris, France)
 productor: |-
-  L’image d’après \
+  **L’image d’après** \
   Maud Martin\
   Annabelle Gangneux 
 
   En coproduction avec \
-  Le Fresnoy – Studio national des arts contemporains
+  **Le Fresnoy** – Studio national des arts contemporains
 
   Avec\
   Le soutien de la Région Centre-Val-de-Loire\
