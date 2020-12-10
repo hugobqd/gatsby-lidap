@@ -5,16 +5,15 @@ description: >-
   L’étalonnage est une phase cruciale du traitement de l’image qui intervient
   généralement en fin de post-production. Néanmoins, il est souvent préférable
   d’y réfléchir et de s’entretenir avec l’étalonneur en amont du tournage afin
-  de s’assurer d’une bonne logique des choix des réglages caméras en fonction du
-  projet. 
+  de s’assurer d’une bonne logique des choix des réglages caméras. 
 
 
-  Le rôle de l’étalonneur est dans un premier temps d’établir une cohérence visuelle entre les plans d’une même scène ainsi que dans l’entièreté du film, puis de modifier au mieux l’image en accord avec le réalisateurs, le chef opérateur ou encore le directeur de la photographie, afin de mettre en valeur des ambiances et travailler le « look » du film.
+  Le rôle de l’étalonneur est dans un premier temps d’établir une cohérence visuelle entre les plans d’une même scène ainsi que dans l’entièreté du film, puis, en accord avec le.a réalisateur.trice et/ou le.a chef.fe opérateur.trice, de donner une ambiance visuelle, un « look » qui mettra en valeur la narration.
 
 
   L’étalonneur est aussi souvent responsable des différentes sorties finales (Web, TV, DCP, Masters…). 
 
-  Nous proposons des sorties DCP avec vérification de la bonne conversion dans l’espace couleur DCI P3.
+  Pour ce qui est des sorties DCP, nous garantissons une vérification de la bonne conversion dans l’espace colorimétrique DCI P3.
 team_list:
   - team_name: Antoine Polin
     team_text: >-
