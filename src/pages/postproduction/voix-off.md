@@ -15,7 +15,7 @@ team_list:
 ---
 Notre équipement : 
 
-* Logiciel *Annotation Edit* (compatible avec Avid, Premiere Pro, Final Cut Pro X)
+* Logiciel *Annotation Edit* (compatible avec *Avid,* *Premiere Pro*, *Final Cut Pro X*)
 
 Quelques références (liste non exhaustive) : 
 
