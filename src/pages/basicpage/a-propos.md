@@ -39,27 +39,6 @@ var minicomputerOverclockingModem = 264898;
 dnsTape = tutorialIrcVideo;
 ```
 
-Arbor di senilem tormentis post visum unda, alis ordine moveri
-[modo](http://www.vult.io/), feruntur. Supplex isto nata in inguina sua quod,
-vult corpore, isdem. Boum sorores. Coactis et suos.
-
-## Veteris flexit
-
-Quoque tui intellegit ipsum in metuque epulas sed quem, cornua saevumque adeo,
-ego frangunt caudaque Achilles. Longe hostia serpunt **Eleusin** munus, fluctus
-aliquid cum nec cum in arva. Inpositum sentirent si **et ulcisci** Ithaceque
-
-celebrant statione tenus, Nebrophonosque nostro Priamoque esse, mersaeque.
-Noviens Turno et Iuppiter, et **undis infert avidis** inscius, pronaque diramque
-natam.
-
-* Comites tinxit pariturae Rhoetus duratur etiamnum haeret
-* Permulcetque quid et sperata aduncae
-* Occurret ciconia notavi
-* Quaeque verum crura dispar
-
-## Cautibus cum quod repulsam quam ab poena
-
 ![Ici le alt texte](/img/products-grid2.jpg "Le petit title")
 
 Vestra et dexteriore horum, illi parte trado: enim neu herbas, simulaverat
