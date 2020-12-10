@@ -4,19 +4,8 @@ forcedURL: a-propos
 parentUrl: /
 title: À propos
 featuredimage: /img/sondage-couleur-maison.jpg
-description: >-
-  Créée à Tours, dans la Vallée de la Loire, en 2008, L’image d’après est un
-  collectif de producteurs. 
-
-
-  Nous produisons des films documentaires, des courts métrages et des essais à la frontière des genres.
-
-  Nous travaillons avec des réalisateurs, jeunes auteurs ou auteurs confirmés, qui se risquent à imaginer des films personnels, avec des points de vus singuliers, mais qui nous interrogent collectivement.
-
-  Nous aimons qu'ils aient le goût de l'échange, car pour nous, produire un film c'est bien sûr en administrer la production, mais c'est surtout l'accompagner artistiquement.
-
-
-  Le cœur de ce processus de travail, c'est notre volonté de soutenir l'expression cinématographique du rapport d'un réalisateur à notre époque.
+description: "Créée à Tours, dans la Vallée de la Loire, en 2008, L’image
+  d’après est un collectif de producteurs. "
 document_list:
   - document_item: /img/reperage148.pdf
   - document_item: /img/safari-pinned-tab.svg
@@ -30,11 +19,11 @@ team_list:
     team_text: TEXTE (OPTIONNEL)
     team_portrait: /img/image-2-.jpeg
 ---
-## Aves nunc utero Iovis
+Nous produisons des films documentaires, des courts métrages et des essais à la frontière des genres.
+Nous travaillons avec des réalisateurs, jeunes auteurs ou auteurs confirmés, qui se risquent à imaginer des films personnels, avec des points de vus singuliers, mais qui nous interrogent collectivement.
+Nous aimons qu'ils aient le goût de l'échange, car pour nous, produire un film c'est bien sûr en administrer la production, mais c'est surtout l'accompagner artistiquement.
 
-Lorem markdownum recessit tibi Phoebeamque sine reliquit minus, crudelius pro
-proferre! Meriones saevitiam temptat serpens et vocis; Tereusque relictis,
-spreta nec numine se mutet quaerentes carmina.
+Le cœur de ce processus de travail, c'est notre volonté de soutenir l'expression cinématographique du rapport d'un réalisateur à notre époque.
 
 ```
 var metaRte = algorithmWildcard(thirdVduSignature(website_hypermedia,
