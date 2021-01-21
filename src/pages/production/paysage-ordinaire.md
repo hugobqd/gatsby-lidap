@@ -20,6 +20,7 @@ description: >-
 gallery_list:
   - gallery_img: /img/paysageordinaire-neg.jpg
   - gallery_img: /img/territoire-boviduc1.jpg
+document_list: []
 technical: |-
   *Genre :* documentaire\
   *Durée :* 1h26
