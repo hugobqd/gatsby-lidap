@@ -87,8 +87,7 @@ selection: "Visions du réel (Nyon, Suisse)\r
 
   Etats généraux du film documentaire de Lussas (France)\r\n"
 productor: |-
-  *Une production :*
-
+  Une production\
   **L’image d’après** 
   Maud Martin
   Mélanie Loisel
