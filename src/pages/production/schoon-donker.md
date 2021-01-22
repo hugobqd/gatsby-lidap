@@ -91,6 +91,32 @@ credit: |-
   Creative Money\
   Lucky camera’s\
   The subtitle company
+selection: |-
+  Etats généraux du film documentaire de Lussas (France)\
+  Doc Feed (Pays-Bas)
+productor: |-
+  Une coproduction
+  **L’image d’après** 
+  Maud Martin
+
+  **Mountain View**
+  Gert Verboven
+
+  **VRT Canvas**
+
+  **Lyon Capitale TV**
+
+  *Avec :*\
+  Le soutien de la bourse Brouillon d’un rêve de la Scam\
+  Et du dispositif La culture avec la copie privée\
+  Le soutien du Vlaams Audiovisueel Foonds (VAF)\
+  Le soutien de Ciclic-Région Centre-Val-de-Loire\
+  L'aide du CNC\
+  L’aide à la production de la PROCIREP et de l’ANGOA\
+  L’aide à la création de musique originale de la SACEM\
+  Le Taxshelter\
+  La participation du Flanders Film Funding\
+  Le patrimoine Noorderkempen
 ---
 > Ce film a été développé à l'Ecole documentaire d'Ardèche Images à Lussas
 > Et est produit dans la collection Primavera de l'association Lumière du monde.
