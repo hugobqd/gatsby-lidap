@@ -14,6 +14,8 @@ description: >-
 gallery_list:
   - gallery_img: /img/bateau.jpg
   - gallery_img: /img/manif.jpg
+document_list:
+  - document_item: /img/tmps-crocodiles-2020-web.pdf
 technical: |-
   *Genre :* essai
   *Durée :* 51 minutes
