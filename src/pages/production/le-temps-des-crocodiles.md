@@ -16,6 +16,7 @@ gallery_list:
   - gallery_img: /img/manif.jpg
 document_list:
   - document_item: /img/tmps-crocodiles-2020-web.pdf
+    document_title: Affiche
 technical: |-
   *Genre :* essai
   *Durée :* 51 minutes
