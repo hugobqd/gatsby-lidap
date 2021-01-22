@@ -13,7 +13,8 @@ description: >-
   Le temps des crocodiles est une élégie, dans le sens grec du terme : un récit de lamentation qui, de loin, dans l’exil, évoque la défaite du peuple grec face à un châtiment aussi implacable qu’injuste.
 gallery_list:
   - gallery_img: /img/bateau.jpg
-  - gallery_img: /img/manif.jpg
+  - gallery_img: /img/poney.jpg
+  - gallery_img: /img/nuit-ecrivain.jpg
 document_list:
   - document_item: /img/tmps-crocodiles-2020-web.pdf
     document_title: Affiche
