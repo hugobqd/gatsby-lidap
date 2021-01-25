@@ -112,13 +112,13 @@ export const pageQuery = graphql`
         parentUrl
         team_list {
           team_name
-          team_portrait {
-            childImageSharp {
-              fluid(maxWidth: 2000, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          #team_portrait {
+          #  childImageSharp {
+          #    fluid(maxWidth: 2000, quality: 100) {
+          #      ...GatsbyImageSharpFluid
+          #    }
+          #  }
+          #}
           team_text
           team_title
         }

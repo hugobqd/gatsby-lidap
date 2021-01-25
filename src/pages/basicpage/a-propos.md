@@ -14,7 +14,6 @@ document_list: []
 team_list:
   - team_name: Maud Martin
     team_title: Productrice
-    team_portrait: ""
     team_text: >-
       Maud MARTIN a fondé la société de production L'image d'après en 2008 après
       l'obtention d'une maitrise de philosophie sur le cinéma et cinq années
@@ -38,7 +37,6 @@ team_list:
       collaboration avec d'autres artistes ou cinéastes. Je suis actuellement
       membre des Conseils d'Administration d'Ardèche Images et de PARC
       (Producteurs Associés en Région Centre).
-    team_portrait: ""
 ---
 Notre fonctionnement collectif se structure autour de notre comité de lecture. Une fois par mois, nous nous réunissons pour discuter des propositions reçues et des films en cours. C'est là que se forment les binômes qui produisent les films.
 
