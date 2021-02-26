@@ -23,10 +23,10 @@ document_list:
   - document_item: /img/affiche-imp.jpg
     document_title: Affiche
 technical: |-
-  Genre : documentaire\
-  Durée : 62 minutes\
-  Langue originale : français\
-  Sous-titrage : aucun
+  *Genre :* documentaire\
+  *Durée :* 62 minutes\
+  *Langue originale :* français\
+  *Sous-titrage :* aucun
 credit: |-
   *Réalisation, image et son :* Anne Faisandier
 
@@ -59,14 +59,14 @@ selection: |-
   Les samedis d’Addoc (France)\
   Le Festival des possibles (France)
 productor: >-
-  **Une coproduction** \
+  Une coproduction \
 
-  L’image d’après \
+  **L’image d’après** \
 
   Orlane Dumas
 
 
-  CoopAddoc
+  **CoopAddoc**
 
 
   *Avec :*\
