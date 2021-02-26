@@ -27,18 +27,18 @@ technical: |-
 credit: |-
   *Réalisation :* Damien Monnier
 
-  *Avec :*
-  Daniel Mahias
-  Marie Mahias
-  Pierre Daniel
-  Simone Merlet
-  Jean Merlet
-  Eugène Merlet
-  Albertine Davalo
-  Yann Guéméné
-  Jo Goibier
-  Jeannette Gabillet
-  William Pellerin
+  *Avec :*\
+  Daniel Mahias\
+  Marie Mahias\
+  Pierre Daniel\
+  Simone Merlet\
+  Jean Merlet\
+  Eugène Merlet\
+  Albertine Davalo\
+  Yann Guéméné\
+  Jo Goibier\
+  Jeannette Gabillet\
+  William Pellerin\
   Franck Pellerin
 
   *Commentaire :* Soufiane Adel
@@ -64,8 +64,10 @@ credit: |-
 
   *Montage :* Jérémy Gravayat
 
-  *Musique originale :* Brice Kartmann\
-  *Guitares, électronique, instruments préparés, colifichets :* Brice Kartmann\
+  *Musique originale :* Brice Kartmann
+
+  *Guitares, électronique, instruments préparés, colifichets :* Brice Kartmann
+
   *Batterie :* Jonathan Bontet
 
   *Montage son :* Lucie Hardoin
@@ -74,46 +76,46 @@ credit: |-
 
   *Etalonnage :* Pierre Bouchon
 
-  *Moyens techniques :*
-  L’image d’après
-  Classic soft
-  Loca images
-  Nomades Productions
-  Steadylight
-  TSF
-  Spray Film
-  Atelier sonore Chuuttt !!
+  *Moyens techniques :*\
+  L’image d’après\
+  Classic soft\
+  Loca images\
+  Nomades Productions\
+  Steadylight\
+  TSF\
+  Spray Film\
+  Atelier sonore Chuuttt !!\
   Arwestud films
-selection: "Visions du réel (Nyon, Suisse)\r
-
-  Etats généraux du film documentaire de Lussas (France)\r\n"
+selection: |-
+  Visions du réel (Nyon, Suisse)\
+  Etats généraux du film documentaire de Lussas (France)
 productor: |-
   Une production\
-  **L’image d’après** 
-  Maud Martin
+  **L’image d’après** \
+  Maud Martin\
   Mélanie Loisel
 
-  **Les films de la pluie** 
+  **Les films de la pluie** \
   Sylvie Plunian
 
-  En coproduction avec 
-  **Tébéo** et **Tébésud** 
+  En coproduction avec \
+  **Tébéo** et **Tébésud** \
   Koulm Lucas
 
-  **TVR**
+  **TVR**\
   Aurélie Rousseau
 
-  *Avec :*
-  Le soutien de Brouillon d’un rêve de la Scam
-  Et du dispositif La culture avec la copie privée
-  L’aide de la SACEM 
-  La participation du CNC
-  Le soutien de Ciclic-Région Centre-Val-de-Loire
-  Le soutien de la région Bretagne
+  *Avec :*\
+  Brouillon d’un rêve de la Scam\
+  La culture avec la copie privée\
+  La SACEM \
+  Le CNC\
+  Ciclic-Région Centre-Val-de-Loire\
+  La région Bretagne\
   La Procirep et l’Angoa
 ---
-Damien Monnier ancre son film dans une photographie. \
-Elle est l'origine, le repère temporel, la matrice, l’ancrage historique du documentaire. Elle contribue ainsi, comme une image récurrente, à structurer le récit. Mais plus profondément elle devient l’âme du film - comme on dit l'âme d'une corde. Probablement parce que la photographie fixe un temps de certitude, celle d’une communauté paysanne finissante. Elle montre un temps disparu, et charge le passé d’une dimension poétique et nostalgique. Un monde perdu va faire place à la croyance en l’avenir d’une agriculture intensive dont le film mesure aujourd’hui l’hérésie écologique.
+> Damien Monnier ancre son film dans une photographie. \
+> Elle est l'origine, le repère temporel, la matrice, l’ancrage historique du documentaire. Elle contribue ainsi, comme une image récurrente, à structurer le récit. Mais plus profondément elle devient l’âme du film - comme on dit l'âme d'une corde. Probablement parce que la photographie fixe un temps de certitude, celle d’une communauté paysanne finissante. Elle montre un temps disparu, et charge le passé d’une dimension poétique et nostalgique. Un monde perdu va faire place à la croyance en l’avenir d’une agriculture intensive dont le film mesure aujourd’hui l’hérésie écologique.
 
 Jean-Marie Barbe
 Producteur, coordinateur éditorial de Tënk
