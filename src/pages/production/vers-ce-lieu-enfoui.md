@@ -62,8 +62,8 @@ productor: |-
   *Chargée de diffusion :* Suzanne Gangloff
 
   *Avec :*
-  La participation du CNC
-  Le soutien de la région Auvergne-Rhône Alpes
-  Le soutien de Brouillon d’un rêve de la Scam
-  Avec le dispositif La culture avec la copie privée
+  Le CNC
+  La région Auvergne-Rhône Alpes
+  Brouillon d’un rêve de la Scam
+  La culture avec la copie privée
 ---
