@@ -43,27 +43,27 @@ credit: |-
   Uncanny films\
   Antoine Polin
 productor: |-
-  **L’image d’après** 
+  **L’image d’après** \
   Damien Monnier
 
   *Secrétaire de production :* Orlane Dumas
 
-  **La société des apaches**
-  Francis Forge
+  **La société des apaches**\
+  Francis Forge\
   Jean-Baptiste Fribourg
 
   *Assistante de production :* Michket Jemai
 
-  En coproduction avec 
-  **Lyon Capitale TV**
-  *Directeur général :* Didier Maïsto
-  *Directeur :* Olivier Attebi
-  *Responsable des programmes :* Perrine Robert
+  En coproduction avec \
+  **Lyon Capitale TV**\
+  *Directeur général :* Didier Maïsto\
+  *Directeur :* Olivier Attebi\
+  *Responsable des programmes :* Perrine Robert\
   *Chargée de diffusion :* Suzanne Gangloff
 
-  *Avec :*
-  Le CNC
-  La région Auvergne-Rhône Alpes
-  Brouillon d’un rêve de la Scam
+  *Avec :*\
+  Le CNC\
+  La région Auvergne-Rhône Alpes\
+  Brouillon d’un rêve de la Scam\
   La culture avec la copie privée
 ---
