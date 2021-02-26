@@ -23,9 +23,9 @@ document_list:
   - document_item: /img/schoondonker_affiche_final.pdf
     document_title: Affiche
 technical: |-
-  *Genre :* documentaire
-  *Durée :* 1h11
-  *Langue originale :* flamand (Belgique)
+  *Genre :* documentaire\
+  *Durée :* 1h11\
+  *Langue originale :* flamand (Belgique)\
   *Sous-titrage :* français, anglais, flamand
 credit: |-
   *Réalisation :* Katrien Feyaerts
@@ -95,11 +95,11 @@ selection: |-
   Etats généraux du film documentaire de Lussas (France)\
   Doc Feed (Pays-Bas)
 productor: |-
-  Une coproduction
-  **L’image d’après** 
+  Une coproduction\
+  **L’image d’après** \
   Maud Martin
 
-  **Mountain View**
+  **Mountain View**\
   Gert Verboven
 
   **VRT Canvas**
@@ -107,15 +107,15 @@ productor: |-
   **Lyon Capitale TV**
 
   *Avec :*\
-  Le soutien de la bourse Brouillon d’un rêve de la Scam\
-  Et du dispositif La culture avec la copie privée\
-  Le soutien du Vlaams Audiovisueel Foonds (VAF)\
-  Le soutien de Ciclic-Région Centre-Val-de-Loire\
-  L'aide du CNC\
-  L’aide à la production de la PROCIREP et de l’ANGOA\
-  L’aide à la création de musique originale de la SACEM\
+  La Bourse Brouillon d’un rêve de la Scam\
+  La culture avec la copie privée\
+  Le Vlaams Audiovisueel Foonds (VAF)\
+  Ciclic-Région Centre-Val-de-Loire\
+  Le CNC\
+  La PROCIREP et l’ANGOA\
+  La SACEM\
   Le Taxshelter\
-  La participation du Flanders Film Funding\
+  Le Flanders Film Funding\
   Le patrimoine Noorderkempen
 ---
 > Ce film a été développé à l'Ecole documentaire d'Ardèche Images à Lussas
