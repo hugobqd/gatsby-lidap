@@ -8,10 +8,10 @@ gallery_list:
   - gallery_img: /img/verscelieuenfoui-a.jacquand_cerf.png
   - gallery_img: /img/verscelieuenfoui-a.jacquand_enfantsguettent.png
 technical: |-
-  Genre : documentaire\
-  Durée : 60 minutes\
-  Langue : français\
-  Sous-titrage : anglais
+  *Genre :* documentaire\
+  *Durée :* 60 minutes\
+  *Langue :* français\
+  *Sous-titrage :* anglais
 credit: |-
   *Réalisation et image :* Alexis Jacquand
 
