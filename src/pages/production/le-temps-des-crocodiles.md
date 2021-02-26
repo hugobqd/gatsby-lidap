@@ -19,7 +19,7 @@ document_list:
   - document_item: /img/tmps-crocodiles-2020-web.pdf
     document_title: Affiche
 technical: |-
-  *Genre :* essai
+  *Genre :* essai\
   *Durée :* 51 minutes
 credit: |-
   *Réalisation :* Florence Doucet
@@ -60,6 +60,6 @@ productor: |-
   Mélanie Loisel
 
   *Avec :* \
-  Le soutien de Ciclic-Région Centre Val-de-Loire\
-  L’aide de la DRAC Centre-Val-de-Loire
+  Ciclic-Région Centre Val-de-Loire\
+  DRAC Centre-Val-de-Loire
 ---
