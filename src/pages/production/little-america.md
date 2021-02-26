@@ -73,12 +73,13 @@ productor: |-
   Charlie Rojo
 
   *Avec :*\
-  La bourse Brouillon d’un rêve de la Scam\
-  L’aide du CNC\
-  L’aide à la création de musique originale de la SACEM\
-  L’aide de la région autonome des Açores
+  Brouillon d’un rêve de la Scam\
+  Le CNC\
+  La SACEM\
+  La région autonome des Açores
 ---
-> *Nos souvenirs sont nos vies. Et ainsi, il semble que nous vivons d’autant plus que nous ou-blions moins.*
-> Daniel de Sá -  "A ilha mãe"
+> *Nos souvenirs sont nos vies. Et ainsi, il semble que nous vivons d’autant plus que nous oublions moins.*
+
+Daniel de Sá -  "A ilha mãe"
 
 Le film a reçu le prix Première Mondiale Télévision au festival d’Avanca (Portugal)
