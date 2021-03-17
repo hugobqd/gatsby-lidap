@@ -6,13 +6,9 @@ director: Frank Ternier
 featuredimage: /img/riot04.jpg
 trailer: https://vimeo.com/223136933
 description: >-
-  “RIOT” signifie émeute.\
-
+  “RIOT” signifie émeute.
   Un jeune homme noir est tué lors d’une altercation avec un voisin vigilant et la police. Une foule indignée
-
-  se rassemble. Le sentiment d’injustice est grand. Un groupe s’isole. L’émotion engendre l’émeute.... 
-
-
+  se rassemble. Le sentiment d’injustice est grand. Un groupe s’isole. L’émotion engendre l’émeute… 
   En l’absence de mots, le corps peut-il prendre sa revanche ?
 gallery_list:
   - gallery_img: /img/riot01.jpg
