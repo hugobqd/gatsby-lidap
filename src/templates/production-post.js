@@ -17,6 +17,7 @@ import { Row, Col } from "../components/common/GridSystem";
 import DocumentsList from "../components/DocumentsList";
 import Button from "../components/common/Button";
 import Box from "../components/common/Box";
+import { splitTitle } from "../components/hooks/splitTitle";
 
 export const ProductionPostTemplate = ({
   content,
@@ -43,7 +44,7 @@ export const ProductionPostTemplate = ({
     <main>
       {helmet || ""}
       <Container>
-        <Heading mb={3}>{title}</Heading>
+        <Heading mb={3}>{splitTitle(title)}</Heading>
       </Container>
       {featuredimage && (
         // <PreviewCompatibleImage

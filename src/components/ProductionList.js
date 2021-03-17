@@ -8,15 +8,17 @@ const ProductionList = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
 
   return (
-    <Row gap={[0, 2]}>
-      {posts &&
-        posts.map(({ node }) => (
-          <Col key={node.id} span={4}>
-            {/* ProductionCell */}
-            <ProductionCell node={node} key={node.id} />
-          </Col>
-        ))}
-    </Row>
+    <>
+      <Row gap={[0, 2]}>
+        {posts &&
+          posts.map(({ node }) => (
+            <Col key={node.id} span={4}>
+              {/* ProductionCell */}
+              <ProductionCell node={node} key={node.id} />
+            </Col>
+          ))}
+      </Row>
+    </>
   );
 };
 

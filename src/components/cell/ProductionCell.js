@@ -5,6 +5,7 @@ import styled from "styled-components";
 import Heading from "../Heading";
 import Box from "../common/Box";
 import Flex from "../common/Flex";
+import { splitTitle } from "../hooks/splitTitle";
 
 const Cell = styled(Link)`
   /* border: 2px solid red; */
@@ -34,8 +35,8 @@ const ProductionCell = ({ node }) => {
           />
         )}
         <Box p={2}>
-          <Heading as={"h4"} style={{ maxWidth: "9em" }} className="fs-45">
-            {title}
+          <Heading as={"h4"} className="fs-45">
+            {splitTitle(title)}
           </Heading>
           <Flex p={3}>
             <div style={{ paddingLeft: "1em" }} className="fs-45"></div>
