@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import Container from "../Container";
 import Box from "../common/Box";
 import styled from "styled-components";
-import Heading from "../Heading";
+import Heading from "../common/Heading";
 
 const Line = styled.div`
   color: ${(props) => props.theme.colors.dark};

@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import Heading from "../components/Heading";
+import Heading from "../components/common/Heading";
 import Container from "../components/Container";
 import Pagination from "../components/Pagination";
 import BlogPostLine from "../components/cell/BlogPostLine";

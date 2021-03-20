@@ -6,7 +6,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/Container";
-import Heading from "../components/Heading";
+import Heading from "../components/common/Heading";
 // import { Row, Col } from "../components/common/GridSystem";
 import DocumentsList from "../components/DocumentsList";
 import TeamList from "../components/list/TeamList";

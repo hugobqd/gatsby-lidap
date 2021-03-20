@@ -7,7 +7,8 @@ const colors = {
 };
 // const spacings = [".25rem", ".5rem", "1rem", "2rem", "3rem", "5rem"];
 
-const breakpoints = ["1000px", "1920px"];
+const breakpoints = ["1000px", "1920px", "3840px"];
+const unit = "3.25rem";
 
 export default {
   font: {
@@ -23,13 +24,12 @@ export default {
     link: colors.lavender,
   },
   sizes: {
-    unit: "3.25rem",
+    unit: unit,
   },
   // space: [...spacings],
-  space: ["0", ".25rem", ".5rem", "1rem", "2rem", "3.5rem"],
+  space: ["0", ".25rem", ".5rem", "1rem", "2rem", unit],
   breakpoints: [...breakpoints],
-  // bp: { bp0: `(min-width: ${breakpoints[0]})` },
-  bp: [`(min-width: 1000px)`],
+  bp: [`(min-width: ${breakpoints[0]})`],
   fontSizes: [13, 16, 19, 23, 27, 33, 39, 47],
   fluidFontSizes: {
     navBar: ["12px", "16px", "20px"],

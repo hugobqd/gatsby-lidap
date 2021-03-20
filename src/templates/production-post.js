@@ -10,14 +10,22 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/Container";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import Heading from "../components/Heading";
+import Heading from "../components/common/Heading";
 // import styled from "styled-components";
 import ReactPlayer from "react-player";
 import { Row, Col } from "../components/common/GridSystem";
 import DocumentsList from "../components/DocumentsList";
 import Button from "../components/common/Button";
 import Box from "../components/common/Box";
+import Flex from "../components/common/Flex";
+import Text from "../components/common/Text";
 import { splitTitle } from "../components/hooks/splitTitle";
+
+const nbsp = "\xa0";
+const year = (date) => {
+  const isoDate = new Date(date);
+  return isoDate.getFullYear();
+};
 
 export const ProductionPostTemplate = ({
   content,
@@ -43,8 +51,8 @@ export const ProductionPostTemplate = ({
   return (
     <main>
       {helmet || ""}
-      <Container>
-        <Heading mb={4}>{splitTitle(title)}</Heading>
+      <Container pb={5}>
+        <Heading indent>{splitTitle(title)}</Heading>
       </Container>
       {featuredimage && (
         // <PreviewCompatibleImage
@@ -60,64 +68,66 @@ export const ProductionPostTemplate = ({
           }}
         />
       )}
-      <Container mt={4}>
-        <Row gap={[2, 1]}>
-          <Col className="fs-4">
-            <h4 style={{ textTransform: "uppercase", fontWeight: 900 }}>
-              {director}
-            </h4>
-            {tags && tags.length && (
+      <Container mt={5}>
+        <Box>
+          <Heading as="h4">
+            {director}
+            {date && ` ${nbsp}${nbsp}—${nbsp}${nbsp}${nbsp}${year(date)}`}
+          </Heading>
+          {/* {tags && tags.length && (
               <span style={{ textTransform: "capitalize" }}>
                 {tags.map((tag) => (
                   <span key={tag + `tag`}>{tag} —</span>
                 ))}
               </span>
-            )}{" "}
-            {date}
-          </Col>
-          {vod_list && (
-            <Col style={{ textAlign: "right" }}>
-              {vod_list.map(({ vod_item }, i) => (
-                <div>
-                  <Button to={vod_item} target="_blank" key={i}>
-                    {getDomain(vod_item)}
-                  </Button>
-                </div>
-              ))}
-            </Col>
-          )}
-        </Row>
+            )} */}
+        </Box>
+        <Box>
+          {vod_list &&
+            vod_list.map(({ vod_item }, i) => (
+              <div>
+                <Button to={vod_item} target="_blank" key={i}>
+                  {getDomain(vod_item)}
+                </Button>
+              </div>
+            ))}
+        </Box>
       </Container>
 
-      <Container intro py={3} lineHeight={1.3} ml={0}>
-        <p className="fs-4">{description}</p>
+      <Container intro mt={5}>
+        <Text className="fs-4" pl={5}>
+          {description}
+        </Text>
       </Container>
 
       {(trailer || gallery_list) && (
-        <Container style={{ marginBottom: "2rem" }}>
+        <Container mt={5}>
           {trailer && (
-            <div
-              style={{
-                aspectRatio: "1920 / 866",
-                position: "relative",
-                background: "rgba(0,0,0,.25)",
-              }}
-            >
-              <ReactPlayer
-                url={trailer}
-                width="100%"
-                height="100%"
-                controls={true}
-                //light
-                pip={true}
-                playsinline
+            <Flex bg="darker">
+              <Box
                 style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
+                  aspectRatio: "16 / 9",
                 }}
-              />
-            </div>
+                position="relative"
+                maxHeight="90vh"
+                mx="auto"
+              >
+                <ReactPlayer
+                  url={trailer}
+                  width="100%"
+                  height="100%"
+                  controls={true}
+                  //light
+                  pip={true}
+                  playsinline
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                  }}
+                />
+              </Box>
+            </Flex>
           )}
 
           {gallery_list &&

@@ -19,7 +19,7 @@ export const IndexPageTemplate = ({ data }) => {
       </pre> */}
       <Container>
         <HomeHero />
-        <Box py={4}>
+        <Box pb={4}>
           <HomeFeaturedMovies />
         </Box>
       </Container>

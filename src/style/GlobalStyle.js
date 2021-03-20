@@ -3,13 +3,13 @@ import css from "@styled-system/css";
 import fluid from "fluid-system";
 
 // Ratios : [ 1.25, 1.4, 1.63]
-const fontSizeH6 = css({ fontSize: ["14px", "16px", "18px"] });
-const fontSizeH5 = css({ fontSize: ["16px", "18px", "24px"] });
-const fontSizeH4 = css({ fontSize: ["20px", "22px", "36px"] });
-const fontSizeH45 = css({ fontSize: ["22px", "26px", "44px"] });
-const fontSizeH3 = css({ fontSize: ["25px", "32px", "54px"] });
-const fontSizeH2 = css({ fontSize: ["32px", "44px", "75px"] });
-const fontSizeH1 = css({ fontSize: ["40px", "62px", "170px"] });
+const fontSizeH6 = css({ fontSize: ["14px", "16px", "18px", "36px"] });
+const fontSizeH5 = css({ fontSize: ["16px", "18px", "24px", "42px"] });
+const fontSizeH4 = css({ fontSize: ["20px", "22px", "36px", "50px"] });
+const fontSizeH45 = css({ fontSize: ["22px", "26px", "44px", "80px"] });
+const fontSizeH3 = css({ fontSize: ["25px", "32px", "54px", "100px"] });
+const fontSizeH2 = css({ fontSize: ["32px", "44px", "75px", "150px"] });
+const fontSizeH1 = css({ fontSize: ["40px", "62px", "170px", "340px"] });
 
 const GlobalStyle = createGlobalStyle`
 
@@ -30,11 +30,11 @@ const GlobalStyle = createGlobalStyle`
     color: ${(p) => p.theme.colors.link};
   }
 
-  blockquote {
-    font-style: italic;
+  
+  h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
   }
-
-  h1, h2, h3, h4 {
+  h1, h2, h3, h4, h5 {
     line-height: 1
   }
   h1, .fs-1 {

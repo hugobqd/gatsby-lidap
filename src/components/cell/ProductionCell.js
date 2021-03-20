@@ -2,13 +2,14 @@ import React from "react";
 import Img from "gatsby-image";
 import { Link } from "gatsby";
 import styled from "styled-components";
-import Heading from "../Heading";
+import Heading from "../common/Heading";
 import Box from "../common/Box";
 import Flex from "../common/Flex";
 import { splitTitle } from "../hooks/splitTitle";
 
+const nbsp = "\xa0";
+
 const Cell = styled(Link)`
-  /* border: 2px solid red; */
   display: block;
   text-decoration: none;
   color: ${(props) => props.theme.colors.fg};
@@ -18,7 +19,7 @@ const Cell = styled(Link)`
   &:hover,
   &:focus {
     text-decoration: none;
-    color: ${(props) => props.theme.colors.fg};
+    color: ${(props) => props.theme.colors.link};
     background-color: ${(props) => props.theme.colors.darker};
   }
 `;
@@ -44,21 +45,24 @@ const ProductionCell = ({ node }) => {
             }}
           />
         )}
-        <Box p={3} pt={2}>
-          <Heading as={"h3"} className="fs-45" mb={"2px"}>
+        <Box px={[3, 5]} pt={[2, 3]} pb={[4, 5]}>
+          <Heading as={"h3"} className="fs-45" mb={1} indent lineHeight={0.9}>
             {splitTitle(title)}
           </Heading>
           <Flex>
             <div style={{ paddingLeft: "1em" }} className="fs-45"></div>
-            <h5
+            <Heading
+              as="h5"
               style={{
-                fontWeight: "400",
-                textTransform: "uppercase",
                 letterSpacing: 0.2,
               }}
+              fontWeight="400"
             >
-              {director && director} {date && ` - ${date.getFullYear()}`}
-            </h5>
+              {director && director}
+              {nbsp}
+              {nbsp}
+              {date && `—${nbsp}${nbsp}${date.getFullYear()}`}
+            </Heading>
           </Flex>
         </Box>
       </article>

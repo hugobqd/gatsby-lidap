@@ -9,6 +9,7 @@ const breakOrNot = (begin) => {
 
 export const splitTitle = (title = "") => {
   const words = title.split(" ");
+  const letters = title.length;
 
   const splitHalf = (title) => {
     let mid = Math.floor(title.length / 2);
@@ -35,11 +36,11 @@ export const splitTitle = (title = "") => {
     ];
   };
 
-  switch (words.length) {
-    case 1:
-      return title;
-
-    default:
-      return splitHalf(title);
+  if (words.length === 1) {
+    return title;
   }
+  if (title.length > 30) {
+    return title;
+  }
+  return splitHalf(title);
 };

@@ -7,9 +7,7 @@ import contact from "../settings/contact.json";
 import css from "@styled-system/css";
 import fluid from "fluid-system";
 
-const fontSize = css({ fontSize: ["12px", "16px", "20px"] });
-
-const Header = styled.header``;
+const fontSize = css({ fontSize: ["12px", "16px", "20px", "36px"] });
 
 const NavMain = styled.nav`
   background-color: ${(p) => p.theme.colors.lavender};
@@ -91,7 +89,7 @@ const Navbar = (props) => {
   const [active, setActive] = useState(false);
 
   return (
-    <Header role="navigation" aria-label="main-navigation">
+    <header role="navigation" aria-label="main-navigation">
       <NavMain>
         <Link to="/" className="logo">
           L'image d'après
@@ -139,7 +137,7 @@ const Navbar = (props) => {
           </div>
         </NavFull>
       )}
-    </Header>
+    </header>
   );
 };
 

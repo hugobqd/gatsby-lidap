@@ -1,33 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
-import { Row, Col } from "./common/GridSystem";
+import Grid from "./common/Grid";
 import ProductionCell from "./cell/ProductionCell";
 import { breakpoints as bp } from "../style/breakpoints";
-
-import styled from "styled-components";
-import { space, layout, color } from "styled-system";
-
-const Grid = styled.div`
-  grid-template-columns: repeat(1, 1fr);
-  @media ${bp.tablet} {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @media ${bp.laptop} {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  content: "toto";
-  ${space}
-  ${layout}
-  ${color}
-`;
 
 const ProductionList = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
 
   return (
     <>
-      <Grid display="grid">
+      <Grid gridTemplateColumns={["repeat(2, 1fr)", "repeat(3, 1fr)"]}>
         {posts &&
           posts.map(({ node }) => <ProductionCell node={node} key={node.id} />)}
       </Grid>
