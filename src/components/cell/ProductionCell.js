@@ -12,9 +12,14 @@ const Cell = styled(Link)`
   display: block;
   text-decoration: none;
   color: ${(props) => props.theme.colors.fg};
+  position: relative;
+  height: 100%;
+
   &:hover,
   &:focus {
     text-decoration: none;
+    color: ${(props) => props.theme.colors.fg};
+    background-color: ${(props) => props.theme.colors.darker};
   }
 `;
 
@@ -25,7 +30,12 @@ const ProductionCell = ({ node }) => {
 
   return (
     <Cell to={node.fields.slug}>
-      <article data-id={node.id}>
+      <article
+        data-id={node.id}
+        style={{
+          height: "100%",
+        }}
+      >
         {featuredimage && (
           <Img
             fluid={{
@@ -34,14 +44,20 @@ const ProductionCell = ({ node }) => {
             }}
           />
         )}
-        <Box p={2}>
-          <Heading as={"h4"} className="fs-45">
+        <Box p={3} pt={2}>
+          <Heading as={"h3"} className="fs-45" mb={"2px"}>
             {splitTitle(title)}
           </Heading>
-          <Flex p={3}>
+          <Flex>
             <div style={{ paddingLeft: "1em" }} className="fs-45"></div>
-            <h5>
-              {director && director} {date && date.getFullYear()}
+            <h5
+              style={{
+                fontWeight: "400",
+                textTransform: "uppercase",
+                letterSpacing: 0.2,
+              }}
+            >
+              {director && director} {date && ` - ${date.getFullYear()}`}
             </h5>
           </Flex>
         </Box>

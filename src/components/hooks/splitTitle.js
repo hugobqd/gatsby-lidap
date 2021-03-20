@@ -1,4 +1,12 @@
 import React from "react";
+
+const breakOrNot = (begin) => {
+  if (begin.length > 3) {
+    return <br />;
+  }
+  return "";
+};
+
 export const splitTitle = (title = "") => {
   const words = title.split(" ");
 
@@ -19,13 +27,7 @@ export const splitTitle = (title = "") => {
       i--;
       j++;
     }
-    const breakOrNot = (begin) => {
-      console.log(begin, begin.length > 3);
-      if (begin.length > 3) {
-        return <br />;
-      }
-      return "";
-    };
+
     return [
       title.slice(0, sep),
       breakOrNot(title.slice(0, sep)),

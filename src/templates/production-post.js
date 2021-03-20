@@ -44,7 +44,7 @@ export const ProductionPostTemplate = ({
     <main>
       {helmet || ""}
       <Container>
-        <Heading mb={3}>{splitTitle(title)}</Heading>
+        <Heading mb={4}>{splitTitle(title)}</Heading>
       </Container>
       {featuredimage && (
         // <PreviewCompatibleImage
@@ -60,9 +60,9 @@ export const ProductionPostTemplate = ({
           }}
         />
       )}
-      <Container mt={3}>
+      <Container mt={4}>
         <Row gap={[2, 1]}>
-          <Col>
+          <Col className="fs-4">
             <h4 style={{ textTransform: "uppercase", fontWeight: 900 }}>
               {director}
             </h4>
@@ -89,21 +89,35 @@ export const ProductionPostTemplate = ({
         </Row>
       </Container>
 
-      <Container intro py={3} lineHeight={1.3}>
+      <Container intro py={3} lineHeight={1.3} ml={0}>
         <p className="fs-4">{description}</p>
       </Container>
 
       {(trailer || gallery_list) && (
-        <Container medium style={{ marginBottom: "2rem" }}>
+        <Container style={{ marginBottom: "2rem" }}>
           {trailer && (
-            <ReactPlayer
-              url={trailer}
-              width="100%"
-              height="500px"
-              controls="true"
-              light
-              playsinline
-            />
+            <div
+              style={{
+                aspectRatio: "1920 / 866",
+                position: "relative",
+                background: "rgba(0,0,0,.25)",
+              }}
+            >
+              <ReactPlayer
+                url={trailer}
+                width="100%"
+                height="100%"
+                controls={true}
+                //light
+                pip={true}
+                playsinline
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                }}
+              />
+            </div>
           )}
 
           {gallery_list &&
@@ -114,7 +128,11 @@ export const ProductionPostTemplate = ({
                     ...image.gallery_img.childImageSharp.fluid,
                     aspectRatio: 1920 / 866,
                   }}
-                  // alt={image.gallery_caption ? image.gallery_caption : ""}
+                  alt={
+                    image?.gallery_caption
+                      ? image?.gallery_caption
+                      : `${title} image ${i + 1}`
+                  }
                 />
               </Box>
             ))}
@@ -128,24 +146,32 @@ export const ProductionPostTemplate = ({
       </Container>
 
       <Container py={5}>
-        <Box style={{ fontSize: ".8em" }}>
+        <Box style={{ fontSize: ".8em", lineHeight: 1.1 }}>
           <Row>
-            <Col span={3}>
-              <h4>Fiche technique</h4>
-              <ReactMarkdown>{technical}</ReactMarkdown>
-            </Col>
-            <Col span={3}>
-              <h4>Équipe</h4>
-              <ReactMarkdown>{credit}</ReactMarkdown>
-            </Col>
-            <Col span={3}>
-              <h4>Production</h4>
-              <ReactMarkdown>{productor}</ReactMarkdown>
-            </Col>
-            <Col span={3}>
-              <h4>Séléction</h4>
-              <ReactMarkdown>{selection}</ReactMarkdown>
-            </Col>
+            {technical && (
+              <Col>
+                <h4>Fiche technique</h4>
+                <ReactMarkdown>{technical}</ReactMarkdown>
+              </Col>
+            )}
+            {credit && (
+              <Col>
+                <h4>Équipe</h4>
+                <ReactMarkdown>{credit}</ReactMarkdown>
+              </Col>
+            )}
+            {productor && (
+              <Col>
+                <h4>Production</h4>
+                <ReactMarkdown>{productor}</ReactMarkdown>
+              </Col>
+            )}
+            {selection && (
+              <Col>
+                <h4>Séléction</h4>
+                <ReactMarkdown>{selection}</ReactMarkdown>
+              </Col>
+            )}
           </Row>
         </Box>
       </Container>

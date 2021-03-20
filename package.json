@@ -31,7 +31,7 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^6.0.0",
     "react-markdown": "^5.0.2",
-    "react-player": "^2.6.2",
+    "react-player": "^2.9.0",
     "styled-components": "^5.2.0",
     "styled-reboot": "^5.0.0",
     "styled-system": "^5.1.5",

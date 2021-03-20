@@ -18,9 +18,12 @@ const NavMain = styled.nav`
   right: 0;
   width: 100%;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
   display: flex;
   height: ${(p) => p.theme.sizes.unit};
   z-index: ${(p) => p.theme.zIndexes.navBar};
+  padding-right: ${(p) => p.theme.sizes.unit};
+
   ${fluid(fontSize)}
 
   @media ${(p) => p.theme.bp[0]} {
@@ -49,9 +52,14 @@ const NavMain = styled.nav`
   .burger {
     background-color: ${(p) => p.theme.colors.lavender};
     border: none;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: ${(p) => p.theme.sizes.unit};
     height: ${(p) => p.theme.sizes.unit};
+    position: fixed;
+    right: 0;
+    top: 0;
   }
 `;
 const NavFull = styled.nav`

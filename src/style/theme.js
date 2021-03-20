@@ -1,7 +1,7 @@
 const colors = {
-  greyDarker: "#19191F",
+  darker: "#0D0D0F",
   dark: "#19191F",
-  lavender: "#C5D0F4",
+  lavender: "#BECFF4",
   white: "#FFF",
   red: "orangered",
 };
@@ -17,15 +17,16 @@ export default {
   colors: {
     ...colors,
     fg: colors.white,
-    bg: colors.greyDarker,
-    dark: colors.greyDarker,
+    bg: colors.dark,
+    dark: colors.dark,
+    darker: colors.darker,
     link: colors.lavender,
   },
   sizes: {
-    unit: "3.5rem",
+    unit: "3.25rem",
   },
   // space: [...spacings],
-  space: ["0", ".5rem", "1rem", "2rem", "3.5rem"],
+  space: ["0", ".25rem", ".5rem", "1rem", "2rem", "3.5rem"],
   breakpoints: [...breakpoints],
   // bp: { bp0: `(min-width: ${breakpoints[0]})` },
   bp: [`(min-width: 1000px)`],

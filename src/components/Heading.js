@@ -15,6 +15,7 @@ const HeadingStyled = styled.div`
           text-transform: uppercase;
           padding-left: 1em;
           text-indent: -1em;
+          margin-left: -0.05em;
         `}
   ${typography}
   ${layout}
