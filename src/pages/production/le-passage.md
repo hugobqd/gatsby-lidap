@@ -11,11 +11,8 @@ vod_list:
 description: >-
   Une garde-barrière travaille dans une minuscule guérite, au cœur d'un quartier
   résidentiel. De ce lieu qu'elle s'est appropriée depuis des années, elle
-  observe la vie qui passe, le mouve-ment régulier des choses, le temps qui
-  change. Bientôt, le passage à niveau sera automatisé.
-
-
-  L'incertitude bouscule ses habitudes, l'attente se transforme.
+  observe la vie qui passe, le mouvement régulier des choses, le temps qui
+  change. Bientôt, le passage à niveau sera automatisé. L'incertitude bouscule ses habitudes, l'attente se transforme.
 gallery_list:
   - gallery_img: /img/passage.png
   - gallery_img: /img/roue.png

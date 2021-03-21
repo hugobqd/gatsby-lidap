@@ -8,14 +8,16 @@ import {
   position,
 } from "styled-system";
 
-const Grid = styled.div`
+const Stack = styled.div`
   display: grid;
+  gap: ${(props) => props.theme.space[5]};
+
   ${color}
   ${space}
   ${layout}
+  ${position}
   ${grid}
   ${typography}
-  ${position}
 `;
 
-export default Grid;
+export default Stack;

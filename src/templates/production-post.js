@@ -17,9 +17,10 @@ import { Row, Col } from "../components/common/GridSystem";
 import DocumentsList from "../components/DocumentsList";
 import Button from "../components/common/Button";
 import Box from "../components/common/Box";
-import Flex from "../components/common/Flex";
 import Text from "../components/common/Text";
 import { splitTitle } from "../components/hooks/splitTitle";
+import Stack from "../components/common/Stack";
+import AspectRatio from "../components/common/AspectRatio";
 
 const nbsp = "\xa0";
 const year = (date) => {
@@ -51,140 +52,128 @@ export const ProductionPostTemplate = ({
   return (
     <main>
       {helmet || ""}
-      <Container pb={5}>
-        <Heading indent>{splitTitle(title)}</Heading>
-      </Container>
-      {featuredimage && (
-        // <PreviewCompatibleImage
-        //   imageInfo={{
-        //     image: featuredimage,
-        //     alt: `Image principale de ${title}`,
-        //   }}
-        // />
-        <Img
-          fluid={{
-            ...featuredimage.childImageSharp.fluid,
-            aspectRatio: 1920 / 866,
-          }}
-        />
-      )}
-      <Container mt={5}>
-        <Box>
-          <Heading as="h4">
-            {director}
-            {date && ` ${nbsp}${nbsp}—${nbsp}${nbsp}${nbsp}${year(date)}`}
-          </Heading>
-          {/* {tags && tags.length && (
-              <span style={{ textTransform: "capitalize" }}>
-                {tags.map((tag) => (
-                  <span key={tag + `tag`}>{tag} —</span>
-                ))}
-              </span>
-            )} */}
-        </Box>
-        <Box>
-          {vod_list &&
-            vod_list.map(({ vod_item }, i) => (
-              <div>
-                <Button to={vod_item} target="_blank" key={i}>
-                  {getDomain(vod_item)}
-                </Button>
-              </div>
-            ))}
-        </Box>
-      </Container>
-
-      <Container intro mt={5}>
-        <Text className="fs-4" pl={5}>
-          {description}
-        </Text>
-      </Container>
-
-      {(trailer || gallery_list) && (
-        <Container mt={5}>
-          {trailer && (
-            <Flex bg="darker">
-              <Box
-                style={{
-                  aspectRatio: "16 / 9",
-                }}
-                position="relative"
-                maxHeight="90vh"
-                mx="auto"
-              >
-                <ReactPlayer
-                  url={trailer}
-                  width="100%"
-                  height="100%"
-                  controls={true}
-                  //light
-                  pip={true}
-                  playsinline
-                  style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                  }}
-                />
-              </Box>
-            </Flex>
-          )}
-
-          {gallery_list &&
-            gallery_list.map((image, i) => (
-              <Box style={{ marginTop: "2rem" }} key={i}>
-                <Img
-                  fluid={{
-                    ...image.gallery_img.childImageSharp.fluid,
-                    aspectRatio: 1920 / 866,
-                  }}
-                  alt={
-                    image?.gallery_caption
-                      ? image?.gallery_caption
-                      : `${title} image ${i + 1}`
-                  }
-                />
-              </Box>
-            ))}
+      <Stack>
+        <Container>
+          <Heading indent>{splitTitle(title)}</Heading>
         </Container>
-      )}
+        {featuredimage && (
+          <Img
+            fluid={{
+              ...featuredimage.childImageSharp.fluid,
+              aspectRatio: 1920 / 866,
+            }}
+          />
+        )}
+        <Container>
+          <Stack position="relative">
+            <Box>
+              <Heading as="h4">
+                {director}
+                {date && ` ${nbsp}${nbsp}—${nbsp}${nbsp}${nbsp}${year(date)}`}
+              </Heading>
+            </Box>
+            {vod_list && (
+              <Box pl={[0, 5]}>
+                {vod_list.map(({ vod_item }, i) => (
+                  <Button to={vod_item} target="_blank" key={i}>
+                    {getDomain(vod_item)}
+                  </Button>
+                ))}
+              </Box>
+            )}
+            {description && (
+              <Container intro style={{ padding: 0 }}>
+                <Text className="fs-4" pl={[0, 5]}>
+                  {description.replaceAll("\\", " ")}
+                </Text>
+              </Container>
+            )}
+          </Stack>
+        </Container>
 
-      <Container text>
-        <PostContent content={content} />
-        <br />
-        {document_list && <DocumentsList list={document_list} p={3} mb={5} />}
-      </Container>
+        {(trailer || gallery_list) && (
+          <Container>
+            <Stack>
+              {trailer && (
+                <Box position="relative" bg="black">
+                  <AspectRatio ratio="16/9" maxHeight="90vh" />
+                  <ReactPlayer
+                    url={trailer}
+                    width="100%"
+                    height="100%"
+                    controls={true}
+                    //light
+                    pip={true}
+                    playsinline
+                    style={{
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                    }}
+                  />
+                </Box>
+              )}
 
-      <Container py={5}>
-        <Box style={{ fontSize: ".8em", lineHeight: 1.1 }}>
-          <Row>
-            {technical && (
-              <Col>
-                <h4>Fiche technique</h4>
-                <ReactMarkdown>{technical}</ReactMarkdown>
-              </Col>
-            )}
-            {credit && (
-              <Col>
-                <h4>Équipe</h4>
-                <ReactMarkdown>{credit}</ReactMarkdown>
-              </Col>
-            )}
-            {productor && (
-              <Col>
-                <h4>Production</h4>
-                <ReactMarkdown>{productor}</ReactMarkdown>
-              </Col>
-            )}
-            {selection && (
-              <Col>
-                <h4>Séléction</h4>
-                <ReactMarkdown>{selection}</ReactMarkdown>
-              </Col>
-            )}
-          </Row>
-        </Box>
-      </Container>
+              {gallery_list &&
+                gallery_list.map((image, i) => (
+                  <Box key={i}>
+                    <Img
+                      fluid={{
+                        ...image.gallery_img.childImageSharp.fluid,
+                        aspectRatio: 16 / 9,
+                      }}
+                      alt={
+                        image?.gallery_caption
+                          ? image?.gallery_caption
+                          : `${title} image ${i + 1}`
+                      }
+                    />
+                  </Box>
+                ))}
+            </Stack>
+          </Container>
+        )}
+
+        {(content || document_list) && (
+          <Container intro>
+            <Stack>
+              {content && <PostContent content={content} />}
+              {document_list && <DocumentsList list={document_list} />}
+            </Stack>
+          </Container>
+        )}
+
+        <Container>
+          <Box style={{ fontSize: ".8em", lineHeight: 1.1 }}>
+            <Row>
+              {technical && (
+                <Col>
+                  <h4>Fiche technique</h4>
+                  <ReactMarkdown>{technical}</ReactMarkdown>
+                </Col>
+              )}
+              {credit && (
+                <Col>
+                  <h4>Équipe</h4>
+                  <ReactMarkdown>{credit}</ReactMarkdown>
+                </Col>
+              )}
+              {productor && (
+                <Col>
+                  <h4>Production</h4>
+                  <ReactMarkdown>{productor}</ReactMarkdown>
+                </Col>
+              )}
+              {selection && (
+                <Col>
+                  <h4>Séléction</h4>
+                  <ReactMarkdown>{selection}</ReactMarkdown>
+                </Col>
+              )}
+            </Row>
+          </Box>
+        </Container>
+      </Stack>
     </main>
   );
 };

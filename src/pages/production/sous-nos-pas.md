@@ -9,12 +9,7 @@ vod_list:
   - vod_item: https://vimeo.com/88431093
   - vod_item: https://vimeo.com/90100397
 description: >-
-  Les gestes concentrés, le visage préoccupé, Jean-Marie marche vite. 
-
-
-  Je le suis. \
-
-  Avec ardeur, il découvre son métier, ses brebis à côté, leur résistance et leur docilité. De la bergerie hivernale à l'alpage, une trajectoire à tâtons, faite de premières fois, de satisfactions  et d'appréhensions. Avec l'assurance d'une pratique agricole biodynamique qui le conforte, où agissent des énergies impalpables. Juste sous nos pas.
+  Les gestes concentrés, le visage préoccupé, Jean-Marie marche vite. Je le suis. Avec ardeur, il découvre son métier, ses brebis à côté, leur résistance et leur docilité. De la bergerie hivernale à l'alpage, une trajectoire à tâtons, faite de premières fois, de satisfactions  et d'appréhensions. Avec l'assurance d'une pratique agricole biodynamique qui le conforte, où agissent des énergies impalpables. Juste sous nos pas.
 gallery_list:
   - gallery_img: /img/sousnospas-brebis1.jpg
   - gallery_img: /img/sousnospas-jm2.jpg
