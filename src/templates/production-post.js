@@ -84,7 +84,7 @@ export const ProductionPostTemplate = ({
             {description && (
               <Container intro style={{ padding: 0 }}>
                 <Text className="fs-4" pl={[0, 5]}>
-                  {description.replaceAll("\\", " ")}
+                  {description.replace(/\\/g, " ")}
                 </Text>
               </Container>
             )}
