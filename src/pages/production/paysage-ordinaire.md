@@ -5,7 +5,6 @@ date: 2019-03-01T17:26:53.782Z
 director: Damien Monnier
 featuredimage: /img/paysageordinaire-gamin_tracteur.jpg
 trailer: https://vimeo.com/322417636
-vod: ""
 vod_list:
   - vod_item: https://www.tenk.fr/escale-photographique/paysage-ordinaire.html
 description: >-
