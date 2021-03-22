@@ -1,19 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import Grid from "./common/Grid";
+import Box from "./common/Box";
 import ProductionCell from "./cell/ProductionCell";
+import ProductionLine from "./cell/ProductionLine";
 import { breakpoints as bp } from "../style/breakpoints";
+import Container from "./Container";
 
-const ProductionList = ({ data }) => {
-  const { edges: posts } = data.allMarkdownRemark;
+const ProductionList = ({ data, view }) => {
+  const list = data.allMarkdownRemark.edges;
+
+  const alphabeticalList = [...list].sort(function (a, b) {
+    var textA = a.node.frontmatter.title.toUpperCase();
+    var textB = b.node.frontmatter.title.toUpperCase();
+    return textA < textB ? -1 : textA > textB ? 1 : 0;
+  });
+
+  console.log("list", alphabeticalList);
 
   return (
     <>
-      <Grid gridTemplateColumns={["repeat(2, 1fr)", "repeat(3, 1fr)"]}>
-        {posts &&
-          posts.map(({ node }) => <ProductionCell node={node} key={node.id} />)}
-      </Grid>
+      {view !== "ALPHABETICAL" && (
+        <Grid gridTemplateColumns={["repeat(2, 1fr)", "repeat(3, 1fr)"]}>
+          {list &&
+            list.map(({ node }) => (
+              <ProductionCell node={node} key={node.id} />
+            ))}
+        </Grid>
+      )}
+      {view === "ALPHABETICAL" && (
+        <Box>
+          {alphabeticalList &&
+            alphabeticalList.map(({ node }) => (
+              <ProductionLine node={node} key={node.id} />
+            ))}
+        </Box>
+      )}
     </>
   );
 };

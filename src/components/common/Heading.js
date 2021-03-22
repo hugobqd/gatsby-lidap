@@ -4,6 +4,7 @@ import { typography, layout, space, color } from "styled-system";
 const Heading = styled.h1`
   font-weight: 900;
   text-transform: uppercase;
+  margin-top: -0.15em;
   ${(p) =>
     p.indent &&
     css`

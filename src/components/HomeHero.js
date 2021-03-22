@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 
-const Section = styled.section`
+const Section = styled.header`
   color: ${(props) => props.theme.colors.lavender};
   min-height: ${(props) => `calc( 100vh - 2 * ${props.theme.space[5]} )`};
   padding-bottom: ${(props) => `calc( 2 * ${props.theme.space[5]} )`};
@@ -52,9 +52,10 @@ const HomeHero = () => {
         </strong>
         <br />
         <span>
-          <Link to="/production">production</Link>{" "}
-          <span className="word"> et</span>{" "}
-          <Link to="/postproduction">postproduction</Link>{" "}
+          <Link to="/production">production</Link> et
+          <br />
+          <Link to="/postproduction">postproduction</Link>
+          <br />
           <span className="word">de&nbsp;films</span>
         </span>
       </h1>

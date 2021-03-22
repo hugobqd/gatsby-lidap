@@ -8,7 +8,7 @@ import { Row, Col } from "./common/GridSystem";
 const SubContentModuleSwitch = ({ route }) => {
   switch (route) {
     case "production":
-      return <ProductionList />;
+      return <ProductionList view="CHRONO" />;
 
     case "postproduction":
       return (

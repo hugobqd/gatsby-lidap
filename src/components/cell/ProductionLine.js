@@ -3,7 +3,6 @@ import Img from "gatsby-image";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import Heading from "../common/Heading";
-import Text from "../common/Text";
 import Box from "../common/Box";
 import Flex from "../common/Flex";
 import { splitTitle } from "../hooks/splitTitle";
@@ -32,41 +31,35 @@ const ProductionCell = ({ node }) => {
 
   return (
     <Cell to={node.fields.slug}>
-      <article
-        data-id={node.id}
-        style={{
-          height: "100%",
-        }}
-      >
-        {featuredimage && (
-          <Img
-            fluid={{
-              ...featuredimage.childImageSharp.fluid,
-              aspectRatio: 16 / 9,
-            }}
-          />
-        )}
-        <Box px={[3, 5]} pt={[3, 43]} pb={[4, 5]}>
-          <Heading as={"h3"} className="fs-45" mb={1} indent lineHeight={0.9}>
-            {splitTitle(title)}
-          </Heading>
-          <Flex>
-            <div style={{ paddingLeft: "1em" }} className="fs-45"></div>
-            <Text
-              as="h5"
-              style={{
-                letterSpacing: 0.2,
+      <Flex as="article" data-id={node.id} alignItems="center" py="2px">
+        <Box width="16%">
+          {featuredimage && (
+            <Img
+              fluid={{
+                ...featuredimage.childImageSharp.fluid,
+                aspectRatio: 2.5,
               }}
-              fontWeight="400"
-            >
-              {director && director}
-              {nbsp}
-              {nbsp}
-              {date && `—${nbsp}${nbsp}${date.getFullYear()}`}
-            </Text>
-          </Flex>
+            />
+          )}{" "}
         </Box>
-      </article>
+        <Box flex={1} px={5}>
+          <Heading as={"h4"}>{title}</Heading>
+        </Box>
+        <Box pr={5}>
+          <Heading
+            as="h5"
+            style={{
+              letterSpacing: 0.2,
+            }}
+            fontWeight="400"
+          >
+            {director && director}
+            {nbsp}
+            {nbsp}
+            {date && `—${nbsp}${nbsp}${date.getFullYear()}`}
+          </Heading>
+        </Box>
+      </Flex>
     </Cell>
   );
 };

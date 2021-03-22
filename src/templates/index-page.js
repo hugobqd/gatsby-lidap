@@ -14,9 +14,6 @@ export const IndexPageTemplate = ({ data }) => {
   // const prod = data;
   return (
     <>
-      {/* <pre style={{ background: "linen", fontSize: 10, color: "navy" }}>
-        {JSON.stringify(data.feat, null, 2)}
-      </pre> */}
       <Container>
         <HomeHero />
         <Box pb={4}>
