@@ -7,7 +7,9 @@ featuredimage: /img/image_2020-10-26_143822.png
 trailer: https://vimeo.com/126230536
 vod_list:
   - vod_item: https://vimeo.com/86306232
+    vod_text: VOD VF
   - vod_item: https://vimeo.com/94395918
+    vod_text: VOD EN
 description: >-
   "Je m’appelle Gabriel Douard, j’habite Taipei, j’ai perdu ma femme lors d’une
   agression.\
