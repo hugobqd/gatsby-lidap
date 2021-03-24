@@ -6,7 +6,9 @@ director: Maud Martin
 featuredimage: /img/profil.jpg
 vod_list:
   - vod_item: https://vimeo.com/82190136
+    vod_text: VOD VF
   - vod_item: https://vimeo.com/99907026
+    vod_text: VOD ENG
 description: >-
   Printemps 2011, Bernardo Montet monte sa nouvelle pièce "Des Hommes", inspirée
   du "Bagne" de Jean Genet. 
