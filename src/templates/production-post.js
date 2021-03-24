@@ -23,10 +23,6 @@ import Stack from "../components/common/Stack";
 import AspectRatio from "../components/common/AspectRatio";
 
 const nbsp = "\xa0";
-const year = (date) => {
-  const isoDate = new Date(date);
-  return isoDate.getFullYear();
-};
 
 export const ProductionPostTemplate = ({
   content,
@@ -69,14 +65,14 @@ export const ProductionPostTemplate = ({
             <Box>
               <Heading as="h4">
                 {director}
-                {date && ` ${nbsp}${nbsp}—${nbsp}${nbsp}${nbsp}${year(date)}`}
+                {date && ` ${nbsp}${nbsp}—${nbsp}${nbsp}${nbsp}${date}`}
               </Heading>
             </Box>
             {vod_list && (
               <Box pl={[0, 5]}>
-                {vod_list.map(({ vod_item }, i) => (
-                  <Button to={vod_item} target="_blank" key={i}>
-                    {getDomain(vod_item)}
+                {vod_list.map(({ vod_item, vod_text }, i) => (
+                  <Button href={vod_item} target="_blank" key={i}>
+                    {getDomain(vod_item)} {vod_text || "VOD"}
                   </Button>
                 ))}
               </Box>
@@ -261,7 +257,7 @@ export const pageQuery = graphql`
         director
         featuredimage {
           childImageSharp {
-            fluid(maxWidth: 2000, quality: 100) {
+            fluid(maxWidth: 2048, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -271,7 +267,7 @@ export const pageQuery = graphql`
           gallery_img {
             id
             childImageSharp {
-              fluid(maxWidth: 2000, quality: 100) {
+              fluid(maxWidth: 2048, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -285,6 +281,7 @@ export const pageQuery = graphql`
         trailer
         vod_list {
           vod_item
+          vod_text
         }
       }
     }

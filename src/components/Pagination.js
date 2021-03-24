@@ -3,14 +3,7 @@ import Button from "./common/Button";
 import { space, layout } from "styled-system";
 import styled from "styled-components";
 
-const Nav = styled.nav(
-  {
-    boxSizing: "border-box",
-    minWidth: 0,
-  },
-  space,
-  layout
-);
+const Nav = styled.nav(space, layout);
 
 const Pagination = ({ pageInfo, ...rest }) => {
   const {
@@ -34,7 +27,7 @@ const Pagination = ({ pageInfo, ...rest }) => {
       <strong>{currentPage}</strong>{" "}
       {hasNextPage && (
         <Button disabled={!hasNextPage} to={`/actualites/${currentPage + 1}`}>
-          {" → "}
+          {"→"}
         </Button>
       )}
     </Nav>

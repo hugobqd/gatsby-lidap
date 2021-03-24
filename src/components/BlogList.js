@@ -23,9 +23,7 @@ const BlogList = ({ data }) => {
       {/* <ThemeProvider theme={themeInverted}> */}
       <BackgroundSection>
         <Container>
-          <Button to={"/actualites"} heading>
-            Actualités
-          </Button>
+          <Button to={"/actualites"}>Actualités</Button>
         </Container>
       </BackgroundSection>
       {nodes &&
