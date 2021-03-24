@@ -18,7 +18,6 @@ const HStack = styled.div`
   > * + * {
     margin-left: ${(props) => props.theme.space[props.spacing || 5]};
   }
-
   ${color}
   ${space}
   ${layout}

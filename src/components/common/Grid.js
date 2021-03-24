@@ -10,6 +10,7 @@ import {
 
 const Grid = styled.div`
   display: grid;
+
   ${color}
   ${space}
   ${layout}

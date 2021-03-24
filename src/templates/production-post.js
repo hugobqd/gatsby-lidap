@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 // import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
@@ -13,7 +13,6 @@ import Container from "../components/Container";
 import Heading from "../components/common/Heading";
 // import styled from "styled-components";
 import ReactPlayer from "react-player";
-import { Row, Col } from "../components/common/GridSystem";
 import DocumentsList from "../components/list/DocumentsList";
 import Button from "../components/common/Button";
 import Box from "../components/common/Box";
@@ -21,8 +20,14 @@ import Text from "../components/common/Text";
 import { splitTitle } from "../components/hooks/splitTitle";
 import Stack from "../components/common/Stack";
 import AspectRatio from "../components/common/AspectRatio";
+import Grid from "../components/common/Grid";
 
 const nbsp = "\xa0";
+
+const ToggleHeight = ({ children }) => {
+  const [state, setstate] = useState(0);
+  return <Box>{children}</Box>;
+};
 
 export const ProductionPostTemplate = ({
   content,
@@ -151,34 +156,26 @@ export const ProductionPostTemplate = ({
         )}
 
         <Container>
-          <Box style={{ fontSize: ".8em", lineHeight: 1.1 }}>
-            <Row>
-              {technical && (
-                <Col>
-                  <h4>Fiche technique</h4>
-                  <ReactMarkdown>{technical}</ReactMarkdown>
-                </Col>
-              )}
-              {credit && (
-                <Col>
-                  <h4>Équipe</h4>
-                  <ReactMarkdown>{credit}</ReactMarkdown>
-                </Col>
-              )}
-              {productor && (
-                <Col>
-                  <h4>Production</h4>
-                  <ReactMarkdown>{productor}</ReactMarkdown>
-                </Col>
-              )}
-              {selection && (
-                <Col>
-                  <h4>Séléction</h4>
-                  <ReactMarkdown>{selection}</ReactMarkdown>
-                </Col>
-              )}
-            </Row>
-          </Box>
+          <Grid
+            gridTemplateColumns={"repeat(auto-fit, minmax(250px, 1fr))"}
+            gridGap={[3, 5]}
+            className="fs-6"
+          >
+            {[
+              { field: technical, label: "Fiche technique" },
+              { field: credit, label: "Équipe" },
+              { field: productor, label: "Production" },
+              { field: selection, label: "Séléction" },
+            ].map(
+              ({ field, label }) =>
+                field && (
+                  <ToggleHeight key={label}>
+                    <h4>{label}</h4>
+                    <ReactMarkdown>{field}</ReactMarkdown>
+                  </ToggleHeight>
+                )
+            )}
+          </Grid>
         </Container>
       </Stack>
     </main>
