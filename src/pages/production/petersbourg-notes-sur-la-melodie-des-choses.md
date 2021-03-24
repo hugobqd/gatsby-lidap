@@ -4,7 +4,7 @@ title: Pétersbourg, notes sur la mélodie des choses
 date: 2014-03-13T15:50:00.000Z
 director: Charlie Rojo
 featuredimage: /img/fene-tre.png
-trailer: https://vimeo.com/472660904
+trailer: https://www.youtube.com/watch?v=ComRKzXolsU
 vod_list:
   - vod_item: https://vimeo.com/86629857
     vod_text: VOD VF

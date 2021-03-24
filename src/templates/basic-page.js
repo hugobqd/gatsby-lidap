@@ -9,7 +9,7 @@ import Container from "../components/Container";
 import Heading from "../components/common/Heading";
 import Text from "../components/common/Text";
 // import { Row, Col } from "../components/common/GridSystem";
-import DocumentsList from "../components/DocumentsList";
+import DocumentsList from "../components/list/DocumentsList";
 import SubContentModuleSwitch from "../components/SubContentModuleSwitch";
 import TeamList from "../components/list/TeamList";
 import Box from "../components/common/Box";

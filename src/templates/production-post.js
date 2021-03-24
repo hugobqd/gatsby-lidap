@@ -14,7 +14,7 @@ import Heading from "../components/common/Heading";
 // import styled from "styled-components";
 import ReactPlayer from "react-player";
 import { Row, Col } from "../components/common/GridSystem";
-import DocumentsList from "../components/DocumentsList";
+import DocumentsList from "../components/list/DocumentsList";
 import Button from "../components/common/Button";
 import Box from "../components/common/Box";
 import Text from "../components/common/Text";
@@ -69,10 +69,21 @@ export const ProductionPostTemplate = ({
               </Heading>
             </Box>
             {vod_list && (
-              <Box pl={[0, 5]}>
+              <Box pl={[0, 5]} mt={-3}>
                 {vod_list.map(({ vod_item, vod_text }, i) => (
-                  <Button href={vod_item} target="_blank" key={i}>
-                    {getDomain(vod_item)} {vod_text || "VOD"}
+                  <Button
+                    href={vod_item}
+                    target="_blank"
+                    key={i}
+                    icon="play"
+                    mr={3}
+                    mt={3}
+                  >
+                    {vod_text || "VOD"}
+                    <br />
+                    <Text as="span" fontWeight={400}>
+                      {getDomain(vod_item)}
+                    </Text>
                   </Button>
                 ))}
               </Box>

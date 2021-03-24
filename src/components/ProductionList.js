@@ -15,8 +15,6 @@ const ProductionList = ({ data, view }) => {
     return textA < textB ? -1 : textA > textB ? 1 : 0;
   });
 
-  console.log("list", alphabeticalList);
-
   return (
     <>
       {view !== "ALPHABETICAL" && (

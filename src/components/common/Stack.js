@@ -10,7 +10,7 @@ import {
 
 const Stack = styled.div`
   display: grid;
-  gap: ${(props) => props.theme.space[5]};
+  gap: ${(props) => props.theme.space[props.spacing || 5]};
 
   ${color}
   ${space}

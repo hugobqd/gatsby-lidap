@@ -132,8 +132,8 @@ const Navbar = (props) => {
             </Link> */}
           </div>
           <div className="second" style={{ paddingLeft: "30%" }}>
-            {contact.facebook && <Link to={contact.facebook}>Facebook</Link>}
-            {contact.vimeo && <Link to={contact.vimeo}>Vimeo</Link>}
+            {contact.facebook && <a href={contact.facebook}>Facebook</a>}
+            {contact.vimeo && <a href={contact.vimeo}>Vimeo</a>}
           </div>
         </NavFull>
       )}
