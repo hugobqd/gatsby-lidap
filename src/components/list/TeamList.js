@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../Container";
 import { Row, Col } from "../common/GridSystem";
-import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
 const TeamList = ({ list }) => {
   return (

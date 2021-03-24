@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import Grid from "./common/Grid";
 import Box from "./common/Box";
 import ProductionCell from "./cell/ProductionCell";
 import ProductionLine from "./cell/ProductionLine";
-import { breakpoints as bp } from "../style/breakpoints";
-import Container from "./Container";
 
 const ProductionList = ({ data, view }) => {
   const list = data.allMarkdownRemark.edges;

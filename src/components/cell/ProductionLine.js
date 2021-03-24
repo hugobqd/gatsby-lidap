@@ -5,7 +5,6 @@ import styled from "styled-components";
 import Heading from "../common/Heading";
 import Box from "../common/Box";
 import Flex from "../common/Flex";
-import { splitTitle } from "../hooks/splitTitle";
 
 const nbsp = "\xa0";
 
@@ -24,7 +23,7 @@ const Cell = styled(Link)`
   }
 `;
 
-const ProductionCell = ({ node }) => {
+const ProductionLine = ({ node }) => {
   const { title, director } = node.frontmatter;
   const featuredimage = node.frontmatter.featuredimage;
   const date = new Date(node.frontmatter.date);
@@ -64,4 +63,4 @@ const ProductionCell = ({ node }) => {
   );
 };
 
-export default ProductionCell;
+export default ProductionLine;

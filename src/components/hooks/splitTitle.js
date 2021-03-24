@@ -9,7 +9,6 @@ const breakOrNot = (begin) => {
 
 export const splitTitle = (title = "") => {
   const words = title.split(" ");
-  const letters = title.length;
 
   const splitHalf = (title) => {
     let mid = Math.floor(title.length / 2);
