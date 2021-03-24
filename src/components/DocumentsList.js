@@ -18,11 +18,11 @@ const DocumentsList = ({ list, ...props }) => {
         {list.map((doc, i) => (
           <li key={i}>
             {console.log("doc", doc.document_item)}
-            <Link to={doc.document_item.publicURL}>
+            <a to={doc.document_item.publicURL}>
               {doc.document_title &&
                 `${doc.document_title} (${doc.document_item.extension})`}
               {!doc.document_title && doc.document_item.base}
-            </Link>
+            </a>
           </li>
         ))}
       </ul>

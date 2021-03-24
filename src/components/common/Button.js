@@ -44,7 +44,6 @@ const StyledButton = styled("a")`
 `;
 
 const Button = ({ children, icon, ...rest }) => {
-  console.log("button", children, rest.to);
   return (
     <StyledButton as={rest?.to ? Link : "a"} {...rest}>
       {icon && <Box>ICON</Box>}
