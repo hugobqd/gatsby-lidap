@@ -7,6 +7,7 @@ featuredimage: /img/came-ra-cache-e.png
 trailer: https://vimeo.com/242537431
 vod_list:
   - vod_item: http://leforumdesreves.net/
+    vod_text: Projet
 description: >-
   Dans cette fiction, on peut enregistrer ses rêves directement sur son
   téléphone, sous forme de fichiers vidéo. On peut donc les consulter, les
