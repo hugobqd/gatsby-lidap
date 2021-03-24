@@ -7,7 +7,9 @@ featuredimage: /img/fene-tre.png
 trailer: https://vimeo.com/472660904
 vod_list:
   - vod_item: https://vimeo.com/86629857
+    vod_text: VOD VF
   - vod_item: https://vimeo.com/99319002
+    vod_text: VOD ENG
 description: >-
   "De quelle étoffe sont fait les rêves ? Où s'en vont-ils s'échouer ?\
 
