@@ -1,68 +1,20 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import Burger from "./icons/Burger";
 import styled from "styled-components";
-import { breakpoints as bp } from "../style/breakpoints";
+import Box from "./common/Box";
+import Flex from "./common/Flex";
+import IconButton from "./common/IconButton";
 import contact from "../settings/contact.json";
-import css from "@styled-system/css";
-import fluid from "fluid-system";
+import { VscMenu, VscChromeClose } from "react-icons/vsc";
 
-const fontSize = css({ fontSize: ["12px", "16px", "20px", "36px"] });
+import {
+  space,
+  typography,
+  
+} from "styled-system";
+import FocusOutliner from "./common/FocusOutliner";
 
-const NavMain = styled.nav`
-  background-color: ${(p) => p.theme.colors.lavender};
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  display: flex;
-  height: ${(p) => p.theme.sizes.unit};
-  z-index: ${(p) => p.theme.zIndexes.navBar};
-  padding-right: ${(p) => p.theme.sizes.unit};
-
-  ${fluid(fontSize)}
-
-  @media ${(p) => p.theme.bp[0]} {
-    position: absolute;
-    top: 0;
-    width: auto;
-    bottom: auto;
-    padding-left: 1em;
-  }
-
-  a {
-    color: black;
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-    @media (min-width: 1000px) {
-      padding-left: 0.75em;
-      padding-right: 0.75em;
-    }
-    /* padding: 1em; */
-  }
-  .logo {
-    font-weight: 900;
-  }
-  .burger {
-    background-color: ${(p) => p.theme.colors.lavender};
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: ${(p) => p.theme.sizes.unit};
-    height: ${(p) => p.theme.sizes.unit};
-    position: fixed;
-    right: 0;
-    top: 0;
-  }
-`;
 const NavFull = styled.nav`
-  @media ${bp.laptop} {
-  }
   position: fixed;
   top: 0;
   left: 0;
@@ -71,7 +23,6 @@ const NavFull = styled.nav`
   background-color: ${(props) => props.theme.colors.lavender};
   z-index: ${(p) => p.theme.zIndexes.navFull};
   display: flex;
-  justify-content: center;
   align-items: center;
   a {
     color: ${(props) => props.theme.colors.dark};
@@ -85,29 +36,65 @@ const NavFull = styled.nav`
   }
 `;
 
+const NavBarLink = styled(Link)`
+  color: ${(props) => props.theme.colors.bg};
+  display: flex;
+  align-items: center;
+  padding: 0 ${(props) => props.theme.space[1]};
+  text-transform: uppercase;
+  position: relative;
+  &:hover, &:focus {
+    color: ${(props) => props.theme.colors.bg};
+  }
+
+  @media ${(props) => props.theme.bp[0]} {
+    padding: 0 ${(props) => props.theme.space[3]};
+    letter-spacing: 0.025em;
+  }
+  ${typography}
+  ${space}
+`
+const NavLink = styled(Link)`
+  color: ${(props) => props.theme.colors.bg};
+  position: relative;
+`
+
 const Navbar = (props) => {
   const [active, setActive] = useState(false);
 
   return (
     <header role="navigation" aria-label="main-navigation">
-      <NavMain>
-        <Link to="/" className="logo">
+
+      <Flex
+        as='nav'
+        justifyContent='space-evenly'
+        position='fixed'
+        top={['auto', 0]}
+        right={[0]}
+        left={[0, 'auto']}
+        bottom={[0, 'auto']}
+        bg='lavender'
+        className='fs-nav'
+        zIndex={2}
+      >
+        <NavBarLink to="/" fontWeight={900} pl={[2,4]}>
           L'image d'après
-        </Link>
-        <Link to="/production">Production</Link>
-        <Link to="/postproduction">Postproduction</Link>
-        <button
-          className={`burger ${active ? "is-active" : ""}`}
+          <FocusOutliner inset />
+        </NavBarLink>
+        <NavBarLink to="/production">Production<FocusOutliner inset /></NavBarLink>
+        <NavBarLink to="/postproduction">Postproduction<FocusOutliner inset /></NavBarLink>
+        <IconButton
+          width={['2.5rem', '3.5rem']}
           data-target="navMenu"
           onClick={() => setActive(!active)}
           aria-label="Ouvrir le menu"
           aria-haspopup="true"
           aria-controls="menu"
-          id="menubutton"
         >
-          <Burger />
-        </button>
-      </NavMain>
+          <Box as={VscMenu} width={['50%', '33.333%']} height={['50%', '33.333%']} />
+        </IconButton>
+      </Flex>
+
       {active && (
         <NavFull
           id="menu"
@@ -116,25 +103,38 @@ const Navbar = (props) => {
           aria-labelledby="menubutton"
         >
           <div className="first">
-            <Link
+            <NavLink
               to="/"
               style={{ textTransform: "uppercase", fontWeight: 900 }}
             >
               L'image d'après
-            </Link>
-            <Link to="/a-propos">À propos</Link>
-            <Link to="/production">Production</Link>
-            <Link to="/postproduction">Postproduction</Link>
-            <Link to="/actualites">Actualités</Link>
-            <Link to="/contact">Contact</Link>
+              <FocusOutliner inset />
+            </NavLink>
+            <NavLink to="/a-propos">À propos<FocusOutliner inset /></NavLink>
+            <NavLink to="/production">Production<FocusOutliner inset /></NavLink>
+            <NavLink to="/postproduction">Postproduction<FocusOutliner inset /></NavLink>
+            <NavLink to="/actualites">Actualités<FocusOutliner inset /></NavLink>
+            <NavLink to="/contact">Contact<FocusOutliner inset /></NavLink>
             {/* <Link  to="/contact/examples">
               Form Examples
             </Link> */}
           </div>
           <div className="second" style={{ paddingLeft: "30%" }}>
-            {contact.facebook && <a href={contact.facebook}>Facebook</a>}
-            {contact.vimeo && <a href={contact.vimeo}>Vimeo</a>}
+            {contact?.facebook && <NavLink as='a' href={contact.facebook}>Facebook<FocusOutliner inset /></NavLink>}
+            {contact?.vimeo && <NavLink as='a' href={contact.vimeo}>Vimeo<FocusOutliner inset /></NavLink>}
           </div>
+          <Box position='absolute' top={0} right={0}>
+            <IconButton
+              width={'3.5rem'}
+              data-target="navMenu"
+              onClick={() => setActive(!active)}
+              aria-label="Ouvrir le menu"
+              aria-haspopup="true"
+              aria-controls="menu"
+            >
+              <Box as={VscChromeClose} width='40%' height='40%' />
+            </IconButton>
+          </Box>
         </NavFull>
       )}
     </header>

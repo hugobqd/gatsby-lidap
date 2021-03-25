@@ -9,7 +9,7 @@ const colors = {
 };
 // const spacings = [".25rem", ".5rem", "1rem", "2rem", "3rem", "5rem"];
 
-const breakpoints = ["1000px", "1920px", "3840px"];
+const breakpoints = ["992px", "1920px", "3840px"];
 const unit = "3.25rem";
 
 export default {
@@ -33,12 +33,6 @@ export default {
   space: ["0", ".25rem", ".5rem", "1rem", "2rem", unit],
   breakpoints: [...breakpoints],
   bp: [`(min-width: ${breakpoints[0]})`],
-  fontSizes: [13, 16, 19, 23, 27, 33, 39, 47],
-  fluidFontSizes: {
-    navBar: ["12px", "44px", "90px"],
-    body: ["16px", "18px", "24px"],
-    h1: ["40px", "60px", "160ppx"],
-  },
   zIndexes: {
     navBar: 10,
     navFull: 11,

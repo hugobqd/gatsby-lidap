@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Box from "./Box";
-import { IoPlaySharp, IoDocumentSharp } from "react-icons/io5";
 import {
   color,
   space,
@@ -12,35 +10,31 @@ import {
 } from "styled-system";
 import FocusOutliner from "./FocusOutliner";
 
-
 const StyledButton = styled("button")`
   display: inline-flex;
   align-items: center;
-  font-size: 1rem;
-  line-height: 1;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.025em;
+  justify-content: center;
   color: ${(props) => props.theme.colors.bg};
   background-color: ${(props) => props.theme.colors.link};
-  text-align: right;
-  text-decoration: none;
   cursor: pointer;
   user-select: none;
   border: none;
-  padding: ${(props) => `${props.theme.space[2]} 1.5rem`};
+  padding: 0;
   border-radius: 0;
-  min-height: 3rem;
   vertical-align: bottom;
-  border-bottom: 1px solid transparent;
   transition: background ${(props) => props.theme.transitions.link}, color ${(props) => props.theme.transitions.link};
   position: relative;
+  aspect-ratio: 1;
 
   &:hover,
   &:focus {
     background-color: ${(props) => props.theme.colors.white};
-    color: ${(props) => props.theme.colors.bg};
     text-decoration: none;
+    color: ${(props) => props.theme.colors.bg};
+  }
+
+  &:focus {
+    outline: 0;
   }
 
   &:disabled {
@@ -56,30 +50,15 @@ const StyledButton = styled("button")`
   ${typography}
 `;
 
-const Icon = ({icon}) => {
-  if (icon === "play") return (
-    <IoPlaySharp style={{ width: "2rem", height: "2rem" }} />
-  )
-  if (icon === "file") return (
-    <IoDocumentSharp style={{ width: "1.75rem", height: "1.7rem" }} />
-  )
-  return icon
-}
-
-const Button = ({ children, icon, ...rest }) => {
+const IconButton = ({ children, ...rest }) => {
   return (
     <StyledButton {...rest}>
-      {icon && (
-        <Box ml={-1} mr={3}>
-          <Icon icon={icon} />
-        </Box>
-      )}
-      <Box>{children}</Box>
-      <FocusOutliner />
+      {children}
+      <FocusOutliner inset />
     </StyledButton>
   );
 };
 
-export default Button;
+export default IconButton;
 
 // export default Button;

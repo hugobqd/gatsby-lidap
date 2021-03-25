@@ -24,17 +24,6 @@ import Grid from "../components/common/Grid";
 import Measure from "react-measure";
 import FocusOutliner from "../components/common/FocusOutliner";
 
-// const Details = withContentRect("bounds")(
-//   ({ measureRef, children, measure, contentRect, ...rest }) => {
-//     const [full, setFull] = useState(contentRect.height);
-//     return (
-//       <Box ref={measureRef} {...rest}>
-//         {children}
-//         <pre>{JSON.stringify(contentRect, null, 2)}</pre>
-//       </Box>
-//     );
-//   }
-// );
 const Details = ({ children, label }) => {
   const [itemHeight, setItemHeight] = useState(null);
   const [windowHeight, setWindowHeight] = useState(null);
@@ -70,14 +59,7 @@ const Details = ({ children, label }) => {
           >
             <div ref={measureRef}>{children}</div>
             {!full && (
-              <div
-                style={{
-                  position: "absolute",
-                  bottom: 0,
-                  left: 0,
-                  width: "100%",
-                }}
-              >
+              <Box position='absolute' bottom={0} left={0} width={"100%"}>
                 <div
                   style={{
                     height: "15vh",
@@ -107,7 +89,7 @@ const Details = ({ children, label }) => {
                   </Box>
                   
                 </Box>
-              </div>
+              </Box>
             )}
           </div>
         </div>

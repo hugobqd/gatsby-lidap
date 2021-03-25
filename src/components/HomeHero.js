@@ -1,39 +1,35 @@
 import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
+import FocusOutliner from "./common/FocusOutliner";
 
 const Section = styled.header`
   color: ${(props) => props.theme.colors.lavender};
-  min-height: ${(props) => `calc( 100vh - 2 * ${props.theme.space[5]} )`};
+  @media ${(props) => props.theme.bp[0]} {
+    min-height: ${(props) => `calc( 100vh - 2 * ${props.theme.space[5]} )`}
+  }
   padding-bottom: ${(props) => `calc( 2 * ${props.theme.space[5]} )`};
   display: flex;
   align-items: center;
 
   h1 {
-    /* font-size: 9vw; */
+    font-size: 10vw;
     font-weight: 300;
     text-indent: 100px;
     padding-left: 1em;
     text-indent: -1em;
     line-height: 0.85;
+    width: 100%
   }
   strong {
     text-transform: uppercase;
     font-weight: 900;
   }
-  a,
-  .word {
-    /* background-color: orange; */
-    /* display: inline-block;
-    line-height: 0.67;
-    height: 0.9em;
-    vertical-align: baseline;
-    overflow: hidden;
-    text-indent: 0; */
-  }
   a {
     color: #fff;
     text-decoration: none;
+    position: relative;
+    displayt: inline-block;
 
     &:hover,
     &:focus {
@@ -46,17 +42,13 @@ const HomeHero = () => {
   return (
     <Section>
       <h1>
-        <strong>
-          <Link to="/a-propos">L’image d’après</Link>
-        </strong>
+        <Link to="/a-propos" style={{ textTransform: 'uppercase', fontWeight: 900, textIndent: 0}}>L’image d’après<FocusOutliner /></Link>
         <br />
-        <span>
-          <Link to="/production">production</Link> et
-          <br />
-          <Link to="/postproduction">postproduction</Link>
-          <br />
-          <span className="word">de&nbsp;films</span>
-        </span>
+        <Link to="/production">production<FocusOutliner /></Link> et
+        <br />
+        <Link to="/postproduction">postproduction<FocusOutliner /></Link>
+        <br />
+        <span className="word">de&nbsp;films</span> 
       </h1>
     </Section>
   );

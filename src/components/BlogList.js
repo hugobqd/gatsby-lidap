@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql, StaticQuery } from "gatsby";
+import { graphql, Link, StaticQuery } from "gatsby";
 import Button from "./common/Button";
 import BlogPostLine from "./cell/BlogPostLine";
 import styled from "styled-components";
@@ -23,7 +23,7 @@ const BlogList = ({ data }) => {
       {/* <ThemeProvider theme={themeInverted}> */}
       <BackgroundSection>
         <Container>
-          <Button to={"/actualites"}>Actualités</Button>
+          <Button to={"/actualites"} as={Link} >Actualités</Button>
         </Container>
       </BackgroundSection>
       {nodes &&

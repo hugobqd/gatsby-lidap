@@ -9,7 +9,7 @@ const FocusOutliner =  styled(Box)`
   height: 100%;
   z-index: 1;
   outline: none;
-  user-select: none;
+  pointer-events: none;
   box-shadow: ${(props)=> props.inset && 'inset'} 0 0 0 0rem ${(props)=> props.theme.colors.focus};
   transition: box-shadow ${(props) => props.theme.transitions.link};
 

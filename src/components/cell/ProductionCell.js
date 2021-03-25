@@ -17,6 +17,7 @@ const Cell = styled(Link)`
   color: ${(props) => props.theme.colors.fg};
   position: relative;
   height: 100%;
+  transition: background ${(props) => props.theme.transitions.link}, color ${(props) => props.theme.transitions.link};
 
   &:hover,
   &:focus {
@@ -68,7 +69,7 @@ const ProductionCell = ({ node }) => {
             </Text>
           </Flex>
         </Box>
-        <FocusOutliner inset/>
+        <FocusOutliner inset />
       </article>
       
     </Cell>

@@ -7,14 +7,13 @@ import Box from "../common/Box";
 import Flex from "../common/Flex";
 import FocusOutliner from "../common/FocusOutliner";
 
-const nbsp = "\xa0";
-
 const Cell = styled(Link)`
   display: block;
   text-decoration: none;
   color: ${(props) => props.theme.colors.fg};
   position: relative;
   height: 100%;
+  transition: background ${(props) => props.theme.transitions.link}, color ${(props) => props.theme.transitions.link};
 
   &:hover,
   &:focus {

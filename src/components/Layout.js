@@ -7,10 +7,10 @@ import { withPrefix } from "gatsby";
 import styled from "styled-components";
 
 const Content = styled.div`
-  padding-top: 1rem;
+  padding-top: ${(props) => props.theme.sizes.unit};
   padding-bottom: ${(props) => props.theme.sizes.unit};
 
-  @media (min-width: 1000px) {
+  @media ${(props) => props.theme.bp[0]} {
     padding-top: calc(2 * ${(props) => props.theme.sizes.unit});
   }
 `;
