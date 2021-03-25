@@ -2,34 +2,24 @@ import React from "react";
 import { Link } from "gatsby";
 import Container from "../Container";
 import Box from "../common/Box";
-import styled from "styled-components";
 import Heading from "../common/Heading";
+import Text from "../common/Text";
+import FocusOutliner from "../common/FocusOutliner";
 
-const Line = styled.div`
-  color: ${(props) => props.theme.colors.dark};
-  background-color: ${(props) => props.theme.colors.lavender};
-  border-top: 2px solid;
-
-  a {
-    color: ${(props) => props.theme.colors.dark};
-  }
-`;
 
 const BlogPostLine = ({ node }) => {
   return (
     <Link to={node.fields.slug} key={node.id}>
-      <Line>
-        <Box py={2}>
-          <Container>
-            <article>
-              <Heading as="h4" blog>
-                {node.frontmatter.title}
-              </Heading>
-              <section>{node.frontmatter.date}</section>
-            </article>
-          </Container>
+      <Container>
+        <Box as='article' position='relative' fontStyle='italic' py={2}>
+          <Text as="h3" fontWeight={900} display='inline' >
+            {node.frontmatter.title}
+          </Text>
+          <Text as='span' mx={3}>—</Text>
+          <Text as='date'>{node.frontmatter.date}</Text>
+          <FocusOutliner />
         </Box>
-      </Line>
+      </Container>
     </Link>
   );
 };
