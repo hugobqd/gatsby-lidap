@@ -17,8 +17,8 @@ const Footer = () => {
     <StyledFooter style={{ padding: "2rem 0" }}>
       <Container>
         <div style={{ paddingBottom: "1rem" }}>
-          {contact.facebook && <Link to={contact.facebook}>Facebook</Link>}
-          {contact.vimeo && <Link to={contact.vimeo}>Vimeo</Link>}
+          {contact.facebook && <a to={contact.facebook}>Facebook</a>}
+          {contact.vimeo && <a to={contact.vimeo}>Vimeo</a>}
         </div>
 
         <Link to="/">L'image d'après</Link>

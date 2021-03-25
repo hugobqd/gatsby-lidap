@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 // import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
@@ -21,13 +21,103 @@ import { splitTitle } from "../components/hooks/splitTitle";
 import Stack from "../components/common/Stack";
 import AspectRatio from "../components/common/AspectRatio";
 import Grid from "../components/common/Grid";
+import Measure from "react-measure";
 
+// const Details = withContentRect("bounds")(
+//   ({ measureRef, children, measure, contentRect, ...rest }) => {
+//     const [full, setFull] = useState(contentRect.height);
+//     return (
+//       <Box ref={measureRef} {...rest}>
+//         {children}
+//         <pre>{JSON.stringify(contentRect, null, 2)}</pre>
+//       </Box>
+//     );
+//   }
+// );
+const Details = ({ children, label }) => {
+  const [itemHeight, setItemHeight] = useState(null);
+  const [windowHeight, setWindowHeight] = useState(null);
+  const [full, setFull] = useState(true);
+  useEffect(() => {
+    console.log("--->", itemHeight, window.innerHeight);
+    if (itemHeight && itemHeight > windowHeight * 0.75) {
+      console.log(itemHeight, " > ", windowHeight);
+      setFull(false);
+    } else {
+      setFull(true);
+    }
+  }, [itemHeight]);
+  return (
+    <Measure
+      bounds
+      onResize={(contentRect) => {
+        setItemHeight(contentRect.bounds.height);
+        setWindowHeight(window.innerHeight);
+      }}
+    >
+      {({ measureRef }) => (
+        <div>
+          <Heading as="h5" mb={3} letterSpacing="0.033em">
+            {label}
+          </Heading>
+          <div
+            style={{
+              maxHeight: full ? "none" : windowHeight * 0.5,
+              overflow: "hidden",
+              position: "relative",
+            }}
+          >
+            <div ref={measureRef}>{children}</div>
+            {!full && (
+              <div
+                style={{
+                  position: "absolute",
+                  bottom: 0,
+                  left: 0,
+                  width: "100%",
+                }}
+              >
+                <div
+                  style={{
+                    height: "15vh",
+                    background:
+                      "linear-gradient(0deg, #19191F 5%, #19191F00 100%)",
+                  }}
+                ></div>
+                <Box bg="dark">
+                  <Text
+                    as="button"
+                    onClick={() => {
+                      setFull(true);
+                    }}
+                    style={{
+                      border: "none",
+                      paddingLeft: 0,
+                      background: "transparent",
+                      color: "inherit",
+                      fontWeight: 900,
+                      width: "100%",
+                      textAlign: "left",
+                    }}
+                  >
+                    Plus…
+                  </Text>
+                </Box>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+    </Measure>
+  );
+};
 const nbsp = "\xa0";
 
-const ToggleHeight = ({ children }) => {
-  const [state, setstate] = useState(0);
-  return <Box>{children}</Box>;
-};
+// const Details = ({ children }) => {
+//   const [full, setFull] = useState(0);
+//   const HEIGHT = 300;
+//   return <Box>{children}</Box>;
+// };
 
 export const ProductionPostTemplate = ({
   content,
@@ -158,6 +248,7 @@ export const ProductionPostTemplate = ({
         <Container>
           <Grid
             gridTemplateColumns={"repeat(auto-fit, minmax(250px, 1fr))"}
+            alignItems="start"
             gridGap={[3, 5]}
             className="fs-6"
           >
@@ -166,15 +257,17 @@ export const ProductionPostTemplate = ({
               { field: credit, label: "Équipe" },
               { field: productor, label: "Production" },
               { field: selection, label: "Séléction" },
-            ].map(
-              ({ field, label }) =>
-                field && (
-                  <ToggleHeight key={label}>
-                    <h4>{label}</h4>
-                    <ReactMarkdown>{field}</ReactMarkdown>
-                  </ToggleHeight>
-                )
-            )}
+            ].map(({ field, label }) => (
+              <div key={label}>
+                {field && (
+                  <Box>
+                    <Details bg="navy" label={label}>
+                      <ReactMarkdown>{field}</ReactMarkdown>
+                    </Details>
+                  </Box>
+                )}
+              </div>
+            ))}
           </Grid>
         </Container>
       </Stack>
