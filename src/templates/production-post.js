@@ -22,6 +22,7 @@ import Stack from "../components/common/Stack";
 import AspectRatio from "../components/common/AspectRatio";
 import Grid from "../components/common/Grid";
 import Measure from "react-measure";
+import FocusOutliner from "../components/common/FocusOutliner";
 
 // const Details = withContentRect("bounds")(
 //   ({ measureRef, children, measure, contentRect, ...rest }) => {
@@ -46,7 +47,7 @@ const Details = ({ children, label }) => {
     } else {
       setFull(true);
     }
-  }, [itemHeight]);
+  }, [itemHeight, windowHeight]);
   return (
     <Measure
       bounds
@@ -84,9 +85,10 @@ const Details = ({ children, label }) => {
                       "linear-gradient(0deg, #19191F 5%, #19191F00 100%)",
                   }}
                 ></div>
-                <Box bg="dark">
-                  <Text
+                <Box bg="dark" position='relative'>
+                  <Box
                     as="button"
+                    color='link'
                     onClick={() => {
                       setFull(true);
                     }}
@@ -94,14 +96,16 @@ const Details = ({ children, label }) => {
                       border: "none",
                       paddingLeft: 0,
                       background: "transparent",
-                      color: "inherit",
                       fontWeight: 900,
                       width: "100%",
                       textAlign: "left",
+                      position: 'relative'
                     }}
                   >
                     Plus…
-                  </Text>
+                    <FocusOutliner inset />
+                  </Box>
+                  
                 </Box>
               </div>
             )}
@@ -257,17 +261,21 @@ export const ProductionPostTemplate = ({
               { field: credit, label: "Équipe" },
               { field: productor, label: "Production" },
               { field: selection, label: "Séléction" },
-            ].map(({ field, label }) => (
-              <div key={label}>
-                {field && (
-                  <Box>
-                    <Details bg="navy" label={label}>
-                      <ReactMarkdown>{field}</ReactMarkdown>
-                    </Details>
-                  </Box>
-                )}
-              </div>
-            ))}
+            ].map(({ field, label }) => { 
+              if (field) {
+                return (
+                  <div key={label}>
+                    <Box>
+                      <Details bg="navy" label={label}>
+                        <ReactMarkdown>{field}</ReactMarkdown>
+                      </Details>
+                    </Box>
+                  </div>
+                )
+              }
+              return null
+              })
+            }
           </Grid>
         </Container>
       </Stack>

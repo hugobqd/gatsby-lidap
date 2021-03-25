@@ -72,6 +72,10 @@ const GlobalStyle = createGlobalStyle`
     font-style: normal
   }
 
+  a:focus, button:focus {
+    outline: 0;
+  }
+
   // React-player :
 
   .react-player__preview {

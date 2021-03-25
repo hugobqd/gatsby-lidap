@@ -7,6 +7,7 @@ import Text from "../common/Text";
 import Box from "../common/Box";
 import Flex from "../common/Flex";
 import { splitTitle } from "../hooks/splitTitle";
+import FocusOutliner from "../common/FocusOutliner";
 
 const nbsp = "\xa0";
 
@@ -22,7 +23,8 @@ const Cell = styled(Link)`
     text-decoration: none;
     color: ${(props) => props.theme.colors.link};
     background-color: ${(props) => props.theme.colors.darker};
-  }
+    outline: none;
+  } 
 `;
 
 const ProductionCell = ({ node }) => {
@@ -35,7 +37,7 @@ const ProductionCell = ({ node }) => {
       <article
         data-id={node.id}
         style={{
-          height: "100%",
+      height: "100%",
         }}
       >
         {featuredimage && (
@@ -66,7 +68,9 @@ const ProductionCell = ({ node }) => {
             </Text>
           </Flex>
         </Box>
+        <FocusOutliner inset/>
       </article>
+      
     </Cell>
   );
 };

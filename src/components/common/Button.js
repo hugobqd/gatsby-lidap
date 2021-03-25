@@ -11,6 +11,7 @@ import {
   grid,
   position,
 } from "styled-system";
+import FocusOutliner from "./FocusOutliner";
 
 const StyledButton = styled("a")`
   display: inline-flex;
@@ -32,8 +33,8 @@ const StyledButton = styled("a")`
   min-height: 3rem;
   vertical-align: bottom;
   border-bottom: 1px solid transparent;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: all ${(props) => props.theme.transitions.link};
+  position: relative;
 
   &:hover,
   &:focus {
@@ -44,7 +45,6 @@ const StyledButton = styled("a")`
 
   &:focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
   }
 
   &:disabled {
@@ -74,6 +74,7 @@ const Button = ({ children, icon, ...rest }) => {
         </Box>
       )}
       <Box>{children}</Box>
+      <FocusOutliner />
     </StyledButton>
   );
 };

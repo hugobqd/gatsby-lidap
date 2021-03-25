@@ -5,6 +5,7 @@ import styled from "styled-components";
 import Heading from "../common/Heading";
 import Box from "../common/Box";
 import Flex from "../common/Flex";
+import FocusOutliner from "../common/FocusOutliner";
 
 const nbsp = "\xa0";
 
@@ -30,35 +31,47 @@ const ProductionLine = ({ node }) => {
 
   return (
     <Cell to={node.fields.slug}>
-      <Flex as="article" data-id={node.id} alignItems="center" py="2px">
-        <Box width="16%">
+      <Flex as="article" data-id={node.id} alignItems="center" py={0} >
+        <Box width="16%" display={['block', 'none']}>
           {featuredimage && (
             <Img
               fluid={{
                 ...featuredimage.childImageSharp.fluid,
-                aspectRatio: 2.5,
+                aspectRatio: 1,
               }}
             />
-          )}{" "}
+          )}
         </Box>
-        <Box flex={1} px={5}>
-          <Heading as={"h4"}>{title}</Heading>
+        <Box width="14%" display={['none', 'block']} pl={5}>
+          {featuredimage && (
+            <Img
+              fluid={{
+                ...featuredimage.childImageSharp.fluid,
+                aspectRatio: 2.35,
+              }}
+            />
+          )}
         </Box>
-        <Box pr={5}>
-          <Heading
-            as="h5"
-            style={{
-              letterSpacing: 0.2,
-            }}
-            fontWeight="400"
-          >
-            {director && director}
-            {nbsp}
-            {nbsp}
-            {date && `—${nbsp}${nbsp}${date.getFullYear()}`}
-          </Heading>
-        </Box>
+        <Flex as="article" data-id={node.id} alignItems="center" py="2px"  flex={1} flexWrap="wrap">
+          <Box flex={1} pl={[3,4]} minWidth={'280px'} lineHeight={1.2}>
+            <Heading as={"h4"}>{title}</Heading>
+          </Box>
+          <Box px={[3,4]} textAlign='right' py={1} minWidth={'220px'} >
+            <Heading
+              as="h5"
+              style={{
+                letterSpacing: 0.2,
+              }}
+              fontWeight="400"
+            >
+              {director && director} 
+              <Box as='span' px={2}>{`—`}</Box>
+              {date && date.getFullYear()}
+            </Heading>
+          </Box>
+        </Flex>
       </Flex>
+      <FocusOutliner inset/>
     </Cell>
   );
 };

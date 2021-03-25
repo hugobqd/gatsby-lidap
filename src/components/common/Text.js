@@ -1,11 +1,6 @@
-import styled from "styled-components";
-import { typography, layout, space, color } from "styled-system";
+import React from "react";
+import Box from "./Box";
 
-const Text = styled.p`
-  ${typography}
-  ${layout}
-  ${space}
-  ${color}
-`;
+const Text = ({children, ...props}) => <Box as="p" {...props}>{children}</Box>
 
 export default Text;

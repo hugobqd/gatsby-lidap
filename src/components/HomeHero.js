@@ -8,7 +8,6 @@ const Section = styled.header`
   padding-bottom: ${(props) => `calc( 2 * ${props.theme.space[5]} )`};
   display: flex;
   align-items: center;
-  border-bottom: 1px dotted;
 
   h1 {
     /* font-size: 9vw; */

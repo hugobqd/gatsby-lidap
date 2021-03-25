@@ -4,6 +4,8 @@ const colors = {
   lavender: "#BECFF4",
   white: "#FFF",
   red: "orangered",
+  yellow: "yellow",
+  chartreuse: "chartreuse",
 };
 // const spacings = [".25rem", ".5rem", "1rem", "2rem", "3rem", "5rem"];
 
@@ -22,6 +24,7 @@ export default {
     dark: colors.dark,
     darker: colors.darker,
     link: colors.lavender,
+    focus: colors.chartreuse,
   },
   sizes: {
     unit: unit,
@@ -32,7 +35,7 @@ export default {
   bp: [`(min-width: ${breakpoints[0]})`],
   fontSizes: [13, 16, 19, 23, 27, 33, 39, 47],
   fluidFontSizes: {
-    navBar: ["12px", "16px", "20px"],
+    navBar: ["12px", "44px", "90px"],
     body: ["16px", "18px", "24px"],
     h1: ["40px", "60px", "160ppx"],
   },
@@ -40,4 +43,7 @@ export default {
     navBar: 10,
     navFull: 11,
   },
+  transitions: {
+    link: '100ms ease-in-out'
+  }
 };
