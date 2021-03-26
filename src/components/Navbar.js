@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
-import { motion } from "framer-motion"
+import { motion, useViewportScroll, useTransform, useMotionTemplate } from "framer-motion"
 
 import Box from "./common/Box";
 import Flex from "./common/Flex";
+import Text from "./common/Text";
 import IconButton from "./common/IconButton";
 import contact from "../settings/contact.json";
 import { VscMenu, VscChromeClose } from "react-icons/vsc";
@@ -50,7 +51,7 @@ const NavBarLink = styled(Link)`
   }
 
   @media ${(props) => props.theme.bp[0]} {
-    padding: 0 ${(props) => props.theme.space[3]};
+    padding: 0 ${(props) => props.theme.space[2]};
     letter-spacing: 0.025em;
   }
   ${typography}
@@ -73,10 +74,47 @@ const AfterXXS  = styled('span')`
 `
 
 const Navbar = (props) => {
-  const [active, setActive] = useState(false);
+  const [open, setOpen] = useState(false);
+  const [reveal, setReveal] = useState(true)
+  const [scrolled, setScrolled] = useState(0)
+
+  const { scrollY } = useViewportScroll();
+  // const scroll = useViewportScroll();
+
+  // useEffect(() => {
+  //   console.log('scrollY', scrollY)
+  // }, [scrollY])
+
+  useEffect(() => {
+    scrollY.onChange((v) => {
+      console.log(v);
+      const diff = scrollY.current - scrollY.prev
+      if ( diff >= 0 ) {
+        console.log('⬇️ DOWN', diff)
+        // diff et positif, si scroll aussi, alors on aditionne, sinon on réécrit
+        setScrolled(scrolled >= 0 ? scrolled + diff : scrolled + diff)
+      } else {
+        console.log('⬆️ UP', diff)
+        setScrolled(-13)
+      }
+
+      // Was Down
+      // if ( scrolled >= 0 ) {
+      //   console.log(`${scrolled} >= 0`, scrolled >= 0)
+      //   const diff = scrollY.current - scrollY.prev
+      //   console.log('diff', diff)
+        // setScrolled(scrollY.current - scrollY.prev >= 0 ? 99 : -42 )
+      // }
+    });
+  }, [scrollY]);
 
   return (
     <header role="navigation" aria-label="main-navigation">
+
+      <Box as='pre' fontSize={12} position='fixed' zIndex={100} bg='navy'>
+        {scrolled}<br/>
+        {JSON.stringify(scrollY, null, 2)}
+      </Box>
 
       <Box
         as='nav'
@@ -103,7 +141,7 @@ const Navbar = (props) => {
         <IconButton
           width={'3em'}
           data-target="navMenu"
-          onClick={() => setActive(!active)}
+          onClick={() => setOpen(!open)}
           aria-label="Ouvrir le menu"
           aria-haspopup="true"
           aria-controls="menu"
@@ -125,9 +163,10 @@ const Navbar = (props) => {
           height='3.5rem'
           bg='LightSteelBlue'
           as={motion.div}
+          animate={{y: reveal ? 0 : -100}}
         >
-          <NavBarLink to="/" fontWeight={900} pl={[2,4]}>
-            L'image d'après
+          <NavBarLink to="/" fontWeight={900}>
+            <Text as='span' pl={3}> L'image d'après</Text>
             <FocusOutliner inset />
           </NavBarLink>
           <NavBarLink to="/production">Production<FocusOutliner inset /></NavBarLink>
@@ -143,7 +182,7 @@ const Navbar = (props) => {
           right={0}
           width='3.5rem'
           data-target="navMenu"
-          onClick={() => setActive(!active)}
+          onClick={() => setOpen(!open)}
           aria-label="Ouvrir le menu"
           aria-haspopup="true"
           aria-controls="menu"
@@ -152,10 +191,9 @@ const Navbar = (props) => {
         </IconButton>
       </Box>
 
-      {active && (
+      {open && (
         <NavFull
           id="menu"
-          className={`nav-full ${active ? "is-active" : ""}`}
           // role="menu"
           aria-labelledby="menubutton"
         >
@@ -184,7 +222,7 @@ const Navbar = (props) => {
             <IconButton
               width={'3.5rem'}
               data-target="navMenu"
-              onClick={() => setActive(!active)}
+              onClick={() => setOpen(!open)}
               aria-label="Ouvrir le menu"
               aria-haspopup="true"
               aria-controls="menu"

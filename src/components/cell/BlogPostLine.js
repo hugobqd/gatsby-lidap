@@ -16,7 +16,7 @@ const BlogPostLine = ({ node }) => {
             {node.frontmatter.title}
           </Text>
           <Text as='span' mx={3}>—</Text>
-          <Text as='date'>{node.frontmatter.date}</Text>
+          <Text as='time'>{node.frontmatter.date}</Text>
           <FocusOutliner />
         </Box>
       </Container>

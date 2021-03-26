@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { graphql, Link, StaticQuery } from "gatsby";
 import Button from "./common/Button";
 import BlogPostLine from "./cell/BlogPostLine";
-import styled from "styled-components";
 import Container from "./Container";
 
 const BlogList = ({ data }) => {
