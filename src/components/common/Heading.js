@@ -5,6 +5,11 @@ const Heading = styled.h1`
   font-weight: 900;
   text-transform: uppercase;
   margin-top: -0.15em;
+  hyphens: auto;
+  @media ${(props) => props.theme.bp[0]} {
+    hyphens: none;
+  }
+
   ${(p) =>
     p.indent &&
     css`

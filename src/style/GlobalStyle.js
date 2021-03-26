@@ -3,7 +3,8 @@ import css from "@styled-system/css";
 import fluid from "fluid-system";
 
 // Ratios : [ 1.25, 1.4, 1.63]
-const fontSizeNav = css({ fontSize: ["12px", "16px", "20px", "36px"] });
+const fontSizeNav = css({ fontSize: ["14px", "18px"] });
+const fontSizeNavLg = css({ fontSize: ["16px", "18px", "22px", "36px"] });
 const fontSizeH6 =  css({ fontSize: ["14px", "16px", "18px", "36px"] });
 const fontSizeH5 =  css({ fontSize: ["16px", "18px", "24px", "42px"] });
 const fontSizeH4 =  css({ fontSize: ["20px", "22px", "36px", "50px"] });
@@ -67,6 +68,9 @@ const GlobalStyle = createGlobalStyle`
 
   .fs-nav {
     ${fluid(fontSizeNav)}
+  }
+  .fs-nav-lg {
+    ${fluid(fontSizeNavLg)}
   }
 
   img {
