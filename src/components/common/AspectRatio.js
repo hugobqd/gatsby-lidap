@@ -1,10 +1,7 @@
 import styled from "styled-components";
-import { space, layout, position } from "styled-system";
-const AspectRatio = styled.div`
+import Box from "./Box";
+const AspectRatio = styled(Box)`
   aspect-ratio: ${(props) => props.ratio};
-  ${space}
-  ${layout}
-  ${position}
 `;
 
 export default AspectRatio;

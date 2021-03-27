@@ -13,7 +13,8 @@ const Cell = styled(Link)`
   color: ${(props) => props.theme.colors.fg};
   position: relative;
   height: 100%;
-  transition: background ${(props) => props.theme.transitions.link}, color ${(props) => props.theme.transitions.link};
+  transition: background ${(props) => props.theme.transitions.link},
+    color ${(props) => props.theme.transitions.link};
 
   &:hover,
   &:focus {
@@ -30,8 +31,8 @@ const ProductionLine = ({ node }) => {
 
   return (
     <Cell to={node.fields.slug}>
-      <Flex as="article" data-id={node.id} alignItems="center" py={0} >
-        <Box width="16%" display={['block', 'none']}>
+      <Flex as="article" data-id={node.id} alignItems="center" py={0}>
+        <Box width="16%" display={["block", "none"]}>
           {featuredimage && (
             <Img
               fluid={{
@@ -41,7 +42,7 @@ const ProductionLine = ({ node }) => {
             />
           )}
         </Box>
-        <Box width="14%" display={['none', 'block']} pl={5}>
+        <Box width="14%" display={["none", "block"]} pl={5}>
           {featuredimage && (
             <Img
               fluid={{
@@ -51,11 +52,18 @@ const ProductionLine = ({ node }) => {
             />
           )}
         </Box>
-        <Flex as="article" data-id={node.id} alignItems="center" py="2px"  flex={1} flexWrap="wrap">
-          <Box flex={1} pl={[3,4]} minWidth={'280px'} lineHeight={1.2}>
+        <Flex
+          as="article"
+          data-id={node.id}
+          alignItems="center"
+          py="2px"
+          flex={1}
+          flexWrap="wrap"
+        >
+          <Box flex={1} pl={[3, 4]} minWidth={"280px"} lineHeight={1.2}>
             <Heading as={"h4"}>{title}</Heading>
           </Box>
-          <Box px={[3,4]} textAlign='right' py={1} minWidth={'220px'} >
+          <Box px={[3, 4]} textAlign="right" py={1} minWidth={"220px"}>
             <Heading
               as="h5"
               style={{
@@ -63,14 +71,14 @@ const ProductionLine = ({ node }) => {
               }}
               fontWeight="400"
             >
-              {director && director} 
-              <Box as='span' px={2}>{`—`}</Box>
+              {director && director}
+              <Box as="span" px={2}>{`—`}</Box>
               {date && date.getFullYear()}
             </Heading>
           </Box>
         </Flex>
       </Flex>
-      <FocusOutliner inset/>
+      <FocusOutliner inside="true" />
     </Cell>
   );
 };

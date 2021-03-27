@@ -22,7 +22,8 @@ const StyledButton = styled("button")`
   padding: 0;
   border-radius: 0;
   vertical-align: bottom;
-  transition: background ${(props) => props.theme.transitions.link}, color ${(props) => props.theme.transitions.link};
+  transition: background ${(props) => props.theme.transitions.link},
+    color ${(props) => props.theme.transitions.link};
   position: relative;
   aspect-ratio: 1;
 
@@ -54,7 +55,7 @@ const IconButton = ({ children, ...rest }) => {
   return (
     <StyledButton {...rest}>
       {children}
-      <FocusOutliner inset />
+      <FocusOutliner inside="true" />
     </StyledButton>
   );
 };

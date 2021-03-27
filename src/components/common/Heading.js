@@ -1,7 +1,8 @@
+import React from "react";
 import styled, { css } from "styled-components";
-import { typography, layout, space, color } from "styled-system";
+import Box from "./Box";
 
-const Heading = styled.h1`
+const StyledHeading = styled(Box)`
   font-weight: 900;
   text-transform: uppercase;
   margin-top: -0.15em;
@@ -18,10 +19,12 @@ const Heading = styled.h1`
       margin-left: -0.025em;
       max-width: 18ch;
     `}
-  ${typography}
-  ${layout}
-  ${space}
-  ${color}
 `;
+
+const Heading = ({ children, ...props }) => (
+  <StyledHeading as="h1" {...props}>
+    {children}
+  </StyledHeading>
+);
 
 export default Heading;

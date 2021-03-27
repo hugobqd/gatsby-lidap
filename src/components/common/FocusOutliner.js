@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Box from './Box'
+import Box from "./Box";
 
-const FocusOutliner =  styled(Box)`
+const FocusOutliner = styled(Box)`
   position: absolute;
   top: 0;
   left: 0;
@@ -10,7 +10,9 @@ const FocusOutliner =  styled(Box)`
   z-index: 1;
   outline: none;
   pointer-events: none;
-  box-shadow: ${(props)=> props.inset && 'inset'} 0 0 0 0rem ${(props)=> props.theme.colors.focus};
+  box-shadow: ${(props) => props.inside && "inset"} 0 0 0 0rem
+    ${(props) => props.theme.colors.focus}
+    ${(props) => props.inside && "!important"};
   transition: box-shadow ${(props) => props.theme.transitions.link};
 
   :focus {
@@ -19,8 +21,14 @@ const FocusOutliner =  styled(Box)`
 
   a:focus-visible &,
   button:focus-visible & {
-    box-shadow: ${(props)=> props.inset && 'inset'} 0 0 0 ${2/16}rem ${(props)=> props.theme.colors.focus};
+    box-shadow: ${(props) => props.inside && "inset"} 0 0 0 ${2 / 16}rem
+      ${(props) => props.theme.colors.focus}
+      ${(props) => props.inside && "!important"};
   }
-`
+`;
+
+FocusOutliner.defaultProps = {
+  inside: false,
+};
 
 export default FocusOutliner;

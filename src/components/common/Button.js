@@ -12,7 +12,6 @@ import {
 } from "styled-system";
 import FocusOutliner from "./FocusOutliner";
 
-
 const StyledButton = styled("button")`
   display: inline-flex;
   align-items: center;
@@ -33,7 +32,8 @@ const StyledButton = styled("button")`
   min-height: 3rem;
   vertical-align: bottom;
   border-bottom: 1px solid transparent;
-  transition: background ${(props) => props.theme.transitions.link}, color ${(props) => props.theme.transitions.link};
+  transition: background ${(props) => props.theme.transitions.link},
+    color ${(props) => props.theme.transitions.link};
   position: relative;
 
   &:hover,
@@ -56,15 +56,13 @@ const StyledButton = styled("button")`
   ${typography}
 `;
 
-const Icon = ({icon}) => {
-  if (icon === "play") return (
-    <IoPlaySharp style={{ width: "2rem", height: "2rem" }} />
-  )
-  if (icon === "file") return (
-    <IoDocumentSharp style={{ width: "1.75rem", height: "1.7rem" }} />
-  )
-  return icon
-}
+const Icon = ({ icon }) => {
+  if (icon === "play")
+    return <IoPlaySharp style={{ width: "2rem", height: "2rem" }} />;
+  if (icon === "file")
+    return <IoDocumentSharp style={{ width: "1.75rem", height: "1.7rem" }} />;
+  return icon;
+};
 
 const Button = ({ children, icon, ...rest }) => {
   return (

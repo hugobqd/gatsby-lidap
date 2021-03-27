@@ -5,13 +5,13 @@ import fluid from "fluid-system";
 // Ratios : [ 1.25, 1.4, 1.63]
 const fontSizeNav = css({ fontSize: ["14px", "18px"] });
 const fontSizeNavLg = css({ fontSize: ["16px", "18px", "22px", "36px"] });
-const fontSizeH6 =  css({ fontSize: ["14px", "16px", "18px", "36px"] });
-const fontSizeH5 =  css({ fontSize: ["16px", "18px", "24px", "42px"] });
-const fontSizeH4 =  css({ fontSize: ["20px", "22px", "36px", "50px"] });
+const fontSizeH6 = css({ fontSize: ["14px", "16px", "18px", "36px"] });
+const fontSizeH5 = css({ fontSize: ["16px", "18px", "24px", "42px"] });
+const fontSizeH4 = css({ fontSize: ["20px", "22px", "36px", "50px"] });
 const fontSizeH45 = css({ fontSize: ["22px", "26px", "44px", "80px"] });
-const fontSizeH3 =  css({ fontSize: ["25px", "32px", "54px", "100px"] });
-const fontSizeH2 =  css({ fontSize: ["32px", "44px", "75px", "150px"] });
-const fontSizeH1 =  css({ fontSize: ["40px", "62px", "170px", "340px"] });
+const fontSizeH3 = css({ fontSize: ["25px", "32px", "54px", "100px"] });
+const fontSizeH2 = css({ fontSize: ["32px", "44px", "75px", "150px"] });
+const fontSizeH1 = css({ fontSize: ["40px", "62px", "170px", "340px"] });
 
 const GlobalStyle = createGlobalStyle`
 
@@ -34,9 +34,10 @@ const GlobalStyle = createGlobalStyle`
   a:hover, a:focus {
     color: ${(p) => p.theme.colors.fg};
     text-decoration: underline;
+    outline: 0;
   }
 
-  h1, h2, h3, h4, h5, h6, p, ul, ol {
+  h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, pre {
     margin: 0;
   }
   h1, h2, h3, h4, h5 {
@@ -78,21 +79,31 @@ const GlobalStyle = createGlobalStyle`
   }
 
   blockquote {
-    border-left: .25em solid;
-    padding-left: 1.75em;
-    padding-top: .5em;
-    padding-bottom: 1px;
-    font-style: normal
+    padding: .25em 3.25rem;
+    /* padding-top: .5em;
+    padding-bottom: 1px;*/
+    font-style: italic;
+    font-size: 1.25em;
+    em {
+      font-style: normal;
+    }
+  }
+  pre {
+    max-width: 100%;
   }
 
-  a:focus, button:focus {
-    outline: 0;
+  .labeur {
+    h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, pre {
+      margin-top: 1rem;
+    }
+    *:first-child {
+      margin-top: 0 !important;
+    }
   }
 
   // React-player :
 
   .react-player__preview {
-
     .react-player__shadow {
       background-color: ${(p) => p.theme.colors.bg} !important;
       border-radius: 0 !important;
@@ -102,7 +113,8 @@ const GlobalStyle = createGlobalStyle`
     }
     &:hover, &:focus {
       .react-player__play-icon {
-      border-left-color: ${(p) => p.theme.colors.fg} !important;      
+        border-left-color: ${(p) => p.theme.colors.fg} !important;
+      }
     }
   }
 `;

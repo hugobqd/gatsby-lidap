@@ -1,23 +1,11 @@
 import styled from "styled-components";
-import {
-  color,
-  space,
-  layout,
-  typography,
-  grid,
-  position,
-} from "styled-system";
+import Box from "./Box";
+import { grid } from "styled-system";
 
-const Stack = styled.div`
+const Stack = styled(Box)`
   display: grid;
   gap: ${(props) => props.theme.space[props.spacing || 5]};
-
-  ${color}
-  ${space}
-  ${layout}
-  ${position}
   ${grid}
-  ${typography}
 `;
 
 export default Stack;

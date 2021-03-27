@@ -85,7 +85,7 @@ const Details = ({ children, label }) => {
                     }}
                   >
                     Plus…
-                    <FocusOutliner inset />
+                    <FocusOutliner inside="true" />
                   </Box>
                 </Box>
               </Box>
@@ -217,7 +217,7 @@ export const ProductionPostTemplate = ({
         {(content || document_list) && (
           <Container intro>
             <Stack>
-              {content && <PostContent content={content} />}
+              {content && <PostContent className="labeur" content={content} />}
               {document_list && <DocumentsList list={document_list} />}
             </Stack>
           </Container>

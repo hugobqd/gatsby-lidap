@@ -112,16 +112,16 @@ const Navbar = (props) => {
       >
         <NavBarLink to="/" fontWeight={900} pl={2}>
           L'image d'après
-          <FocusOutliner inset />
+          <FocusOutliner inside="true" />
         </NavBarLink>
         <NavBarLink to="/production">
           Production
-          <FocusOutliner inset />
+          <FocusOutliner inside="true" />
         </NavBarLink>
         <NavBarLink to="/postproduction">
           <BeforeXXS>Postprod</BeforeXXS>
           <AfterXXS>Postproduction</AfterXXS>
-          <FocusOutliner inset />
+          <FocusOutliner inside="true" />
         </NavBarLink>
         <IconButton
           width={"3em"}
@@ -140,8 +140,8 @@ const Navbar = (props) => {
           position="fixed"
           zIndex={2}
           top={0}
-          right="3.5rem"
-          height="3.5rem"
+          right="3.25rem"
+          height="3.25rem"
           bg="lavender"
           as={motion.div}
           animate={{ y: showNav ? 0 : -100 }}
@@ -151,15 +151,15 @@ const Navbar = (props) => {
               {" "}
               L'image d'après
             </Text>
-            <FocusOutliner inset />
+            <FocusOutliner inside="true" />
           </NavBarLink>
           <NavBarLink to="/production">
             Production
-            <FocusOutliner inset />
+            <FocusOutliner inside="true" />
           </NavBarLink>
           <NavBarLink to="/postproduction">
             Postproduction
-            <FocusOutliner inset />
+            <FocusOutliner inside="true" />
           </NavBarLink>
         </Flex>
         <IconButton
@@ -167,7 +167,7 @@ const Navbar = (props) => {
           zIndex={2}
           top={0}
           right={0}
-          width="3.5rem"
+          width="3.25rem"
           data-target="navMenu"
           onClick={() => setOpenFull(!openFull)}
           aria-label="Ouvrir le menu"
@@ -194,27 +194,27 @@ const Navbar = (props) => {
               style={{ textTransform: "uppercase", fontWeight: 900 }}
             >
               L'image d'après
-              <FocusOutliner inset />
+              <FocusOutliner inside="true" />
             </NavFullLink>
             <NavFullLink to="/a-propos">
               À propos
-              <FocusOutliner inset />
+              <FocusOutliner inside="true" />
             </NavFullLink>
             <NavFullLink to="/production">
               Production
-              <FocusOutliner inset />
+              <FocusOutliner inside="true" />
             </NavFullLink>
             <NavFullLink to="/postproduction">
               Postproduction
-              <FocusOutliner inset />
+              <FocusOutliner inside="true" />
             </NavFullLink>
             <NavFullLink to="/actualites">
               Actualités
-              <FocusOutliner inset />
+              <FocusOutliner inside="true" />
             </NavFullLink>
             <NavFullLink to="/contact">
               Contact
-              <FocusOutliner inset />
+              <FocusOutliner inside="true" />
             </NavFullLink>
             {/* <Link  to="/contact/examples">
               Form Examples
@@ -224,19 +224,19 @@ const Navbar = (props) => {
             {contact?.facebook && (
               <NavFullLink as="a" href={contact.facebook}>
                 Facebook
-                <FocusOutliner inset />
+                <FocusOutliner inside="true" />
               </NavFullLink>
             )}
             {contact?.vimeo && (
               <NavFullLink as="a" href={contact.vimeo}>
                 Vimeo
-                <FocusOutliner inset />
+                <FocusOutliner inside="true" />
               </NavFullLink>
             )}
           </div>
           <Box position="absolute" top={0} right={0}>
             <IconButton
-              width={"3.5rem"}
+              width={"3.25rem"}
               data-target="navMenu"
               onClick={() => setOpenFull(!openFull)}
               aria-label="Ouvrir le menu"

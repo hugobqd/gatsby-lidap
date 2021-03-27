@@ -1,14 +1,8 @@
 import styled from "styled-components";
-import {
-  color,
-  space,
-  layout,
-  typography,
-  grid,
-  position,
-} from "styled-system";
+import Box from "./Box";
+import { grid } from "styled-system";
 
-const HStack = styled.div`
+const HStack = styled(Box)`
   display: flex;
   flex-wrap: wrap;
   margin-top: ${(props) => `-${props.theme.space[props.spacing || 5]}`};
@@ -18,12 +12,7 @@ const HStack = styled.div`
   > * + * {
     margin-left: ${(props) => props.theme.space[props.spacing || 5]};
   }
-  ${color}
-  ${space}
-  ${layout}
-  ${position}
   ${grid}
-  ${typography}
 `;
 
 export default HStack;

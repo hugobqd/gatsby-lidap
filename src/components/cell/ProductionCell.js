@@ -17,7 +17,8 @@ const Cell = styled(Link)`
   color: ${(props) => props.theme.colors.fg};
   position: relative;
   height: 100%;
-  transition: background ${(props) => props.theme.transitions.link}, color ${(props) => props.theme.transitions.link};
+  transition: background ${(props) => props.theme.transitions.link},
+    color ${(props) => props.theme.transitions.link};
 
   &:hover,
   &:focus {
@@ -25,7 +26,7 @@ const Cell = styled(Link)`
     color: ${(props) => props.theme.colors.link};
     background-color: ${(props) => props.theme.colors.darker};
     outline: none;
-  } 
+  }
 `;
 
 const ProductionCell = ({ node }) => {
@@ -38,7 +39,7 @@ const ProductionCell = ({ node }) => {
       <article
         data-id={node.id}
         style={{
-      height: "100%",
+          height: "100%",
         }}
       >
         {featuredimage && (
@@ -69,9 +70,8 @@ const ProductionCell = ({ node }) => {
             </Text>
           </Flex>
         </Box>
-        <FocusOutliner inset />
+        <FocusOutliner inside="true" />
       </article>
-      
     </Cell>
   );
 };
