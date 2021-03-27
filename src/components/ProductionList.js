@@ -17,6 +17,7 @@ const Switch = styled.button`
   border: 0;
   color: ${(props)=> props.theme.colors.link};
   background: ${(props)=> props.theme.colors.darker};
+
   &:hover {
     color: ${(props)=> props.theme.colors.fg};
     background: ${(props)=> props.theme.colors.bg};
@@ -30,9 +31,9 @@ const SwitchItem = styled.div`
   height: ${(props)=> props.theme.space[4]};
   min-width: 40px;
   min-height: 40px;
-  /* border: 1px solid ${(props)=> props.theme.colors.fg}; */
   color: ${(props)=> props.active ? 'currentColor': props.theme.colors.dark };
   background: ${(props)=> props.active ? 'transparent' : props.theme.colors.link };
+
   & svg {
     width: 67%;
     height: 67%;

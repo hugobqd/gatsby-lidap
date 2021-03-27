@@ -66,11 +66,12 @@ productor: >-
   Le film a été accueilli en résidence en Seine-Saint-Denis par Périphérie, centre de création
 
   cinématographique, dans le cadre de son partenariat avec le département.
+featuredpost: true
 ---
+
 J’ai grandi avec le groupe du village puis déménagé à Paris pour étudier. Pour les voir, je prends
 désormais le RER et traverse la banlieue puis les zones pavillonnaires qui bordent les étendues de
 champs plats.
-
 
 En nous revoyant régulièrement, nous faisons vivre des amitiés qui datent de l’enfance.
 Leur capacité à éprouver des emplois usants, le chômage et la monotonie des jours qui se répètent est
@@ -79,5 +80,4 @@ tout aussi impressionnante que leur volonté d’exploser, la nuit du week-end. 
 peux être insensible à leur quotidien qui se déroule implacablement.
 Depuis toujours mes expériences cinématographiques ont lieu là-bas.
 
-
-*Jusqu’à ce que le jour se lève* est mon premier long-métrage documentaire.
+_Jusqu’à ce que le jour se lève_ est mon premier long-métrage documentaire.

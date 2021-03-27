@@ -1,7 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import ProductionCell from "./cell/ProductionCell";
-import { Row, Col } from "./common/GridSystem";
+import Box from "./common/Box";
 
 const HomeFeaturedMovies = () => {
   const data = useStaticQuery(graphql`
@@ -13,7 +13,6 @@ const HomeFeaturedMovies = () => {
             featuredpost: { eq: true }
           }
         }
-        limit: 3
       ) {
         edges {
           node {
@@ -22,10 +21,9 @@ const HomeFeaturedMovies = () => {
               title
               date
               director
-              featuredpost
               featuredimage {
                 childImageSharp {
-                  fluid(maxWidth: 1200, quality: 100) {
+                  fluid(maxWidth: 1024, quality: 90) {
                     src
                     ...GatsbyImageSharpFluid
                     ...GatsbyImageSharpFluidLimitPresentationSize
@@ -44,13 +42,14 @@ const HomeFeaturedMovies = () => {
 
   return (
     <section>
-      <Row gap={[2, 0]}>
-        {data.allMarkdownRemark.edges.map(({ node }, index) => (
-          <Col span={6} key={index}>
-            <ProductionCell node={node} />
-          </Col>
+      
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <Box key={node?.fields?.slug}>
+            {node?.fields?.slug}
+            <ProductionCell node={node}  key={node?.fields?.slug}/>
+          </Box>
         ))}
-      </Row>
+      
     </section>
   );
 };

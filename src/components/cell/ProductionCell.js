@@ -29,13 +29,13 @@ const Cell = styled(Link)`
   }
 `;
 
-const ProductionCell = ({ node }) => {
+const ProductionCell = ({ node, ...rest }) => {
   const { title, director } = node.frontmatter;
   const featuredimage = node.frontmatter.featuredimage;
   const date = new Date(node.frontmatter.date);
 
   return (
-    <Cell to={node.fields.slug}>
+    <Cell to={node.fields.slug} {...rest}>
       <article
         data-id={node.id}
         style={{

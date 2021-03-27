@@ -62,4 +62,5 @@ productor: |-
   *Avec :* \
   Ciclic-Région Centre Val-de-Loire\
   DRAC Centre-Val-de-Loire
+featuredpost: true
 ---

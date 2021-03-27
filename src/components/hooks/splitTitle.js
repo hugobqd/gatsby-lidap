@@ -36,10 +36,16 @@ export const splitTitle = (title = "") => {
   };
 
   if (words.length === 1) {
-    return title;
+    return `${title}`;
   }
   if (title.length > 30) {
-    return title;
+    return `${title}`;
   }
-  return splitHalf(title);
+  return (
+    <>
+      {splitHalf(title).map((item, i)=>(
+        <React.Fragment key={i}>{item}</React.Fragment>
+      ))}
+    </>
+  )
 };
