@@ -57,7 +57,9 @@ const Details = ({ children, label }) => {
               position: "relative",
             }}
           >
-            <div ref={measureRef}>{children}</div>
+            <Box ref={measureRef} pl={[0, 3]}>
+              {children}
+            </Box>
             {!full && (
               <Box position="absolute" bottom={0} left={0} width={"100%"}>
                 <div
@@ -71,17 +73,15 @@ const Details = ({ children, label }) => {
                   <Box
                     as="button"
                     color="link"
+                    border="none"
+                    pl={3}
+                    bg="dark"
+                    fontWeight={900}
+                    width="100%"
+                    textAlign="left"
+                    position="relative"
                     onClick={() => {
                       setFull(true);
-                    }}
-                    style={{
-                      border: "none",
-                      paddingLeft: 0,
-                      background: "transparent",
-                      fontWeight: 900,
-                      width: "100%",
-                      textAlign: "left",
-                      position: "relative",
                     }}
                   >
                     Plus…
@@ -162,11 +162,9 @@ export const ProductionPostTemplate = ({
               </Box>
             )}
             {description && (
-              <Container intro style={{ padding: 0 }}>
-                <Text className="fs-4" pl={[0, 5]}>
-                  {description.replace(/\\/g, " ")}
-                </Text>
-              </Container>
+              <Box maxWidth="38rem" ml={[0, 5]}>
+                <Text className="fs-4">{description.replace(/\\/g, " ")}</Text>
+              </Box>
             )}
           </Stack>
         </Container>
@@ -215,19 +213,23 @@ export const ProductionPostTemplate = ({
         )}
 
         {(content || document_list) && (
-          <Container intro>
-            <Stack>
-              {content && <PostContent className="labeur" content={content} />}
-              {document_list && <DocumentsList list={document_list} />}
-            </Stack>
+          <Container>
+            <Box maxWidth="38rem" ml={[0, 5]}>
+              <Stack>
+                {content && (
+                  <PostContent className="labeur" content={content} />
+                )}
+                {document_list && <DocumentsList list={document_list} />}
+              </Stack>
+            </Box>
           </Container>
         )}
 
         <Container>
           <Grid
-            gridTemplateColumns={"repeat(auto-fit, minmax(250px, 1fr))"}
+            gridTemplateColumns={["repeat(auto-fit, minmax(190px, 1fr))"]}
             alignItems="start"
-            gridGap={[3, 5]}
+            gridGap={[3, 4]}
             className="fs-6"
           >
             {[
@@ -239,8 +241,8 @@ export const ProductionPostTemplate = ({
               if (field) {
                 return (
                   <div key={label}>
-                    <Box>
-                      <Details bg="navy" label={label}>
+                    <Box mb={[5, 0]}>
+                      <Details label={label}>
                         <ReactMarkdown>{field}</ReactMarkdown>
                       </Details>
                     </Box>

@@ -36,6 +36,9 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: underline;
     outline: 0;
   }
+  button:focus {
+    outline: none
+  }
 
   h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, pre {
     margin: 0;

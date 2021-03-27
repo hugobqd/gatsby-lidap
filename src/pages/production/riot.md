@@ -186,99 +186,11 @@ productor: |-
   l'aide à la production audiovisuelle de CICLIC-Région Centre-Val-de-Loire\
   l'aide de la Sacem
 ---
-Prix du film expérimental à Fiver, Festival international de vidéodanse, Madrid (Espagne)
-
-Mention spéciale pour l'utilisation de la danse et de la musique pour illustrer des thèmes
+- Prix du film expérimental à Fiver, Festival international de vidéodanse, Madrid (Espagne)
+- Mention spéciale pour l'utilisation de la danse et de la musique pour illustrer des thèmes
 sociétaux importants à Animocje (Pologne)
-
-Prix du meilleur scénario au Festival International du court métrage de Joinville (Brésil)
-
-Mention honorifique au festival de Vidéodanse à Mexico (Mexique)
-
-Mention spéciale catégorie international du Celtic Animation film Competition de Liverpool
+- Prix du meilleur scénario au Festival International du court métrage de Joinville (Brésil)
+- Mention honorifique au festival de Vidéodanse à Mexico (Mexique)
+- Mention spéciale catégorie international du Celtic Animation film Competition de Liverpool
 (Angleterre)
-
-Certificat d'excellence pour la meilleure animation (cession mensuelle d'octobre 2018) au festival Dumbo animation à New-York (USA)
-
-
-## In pallore de horrida perceperat dixerunt
-
-Lorem **markdownum partu tumens** quinquennia suam periturus abstraxit Abas
-insula subduxit, ubi committere tigres levem nutrit, tibi cui. Tellure
-melliferarum cernitis et verba se edentem talis languescuntque coloribus
-virginitatis armo nec **paelex**, tot. Duplex in mota. Animaque vellet, reducit
-iaculum insuitur, dum ianua moresque hiscere.
-
-- Lyramque tristis saturatos primis inde ramos talibus
-- Umerumque ulmo pampineae modis purpureis tandem patruelis
-- Non posita versus tellus
-- Sub urbe fraudate volucres fecit
-- Flere collo Babylonius virtus
-
-## Erat sine minus pariter mihi cubitoque deorum
-
-Pars nequeo, per parat illum quo gloria lentis fatidicamque? Tuos tingui
-praetentaque quod invitum: siqua haec vota veniat, ne genetrix **tamen** regis
-alis! Vino porreximus rupibus sensere ante novi Si, quid saepe plura victus,
-relatis! In ultimus, sanguine aequoribus Dodonaeo villo isque **perdidit** picae
-meritique libro adsit? Latrator Phlegraeon modum, et illis
-[quoscumque](http://etdigna.net/) properus meam, mortalia quisquis patriaeque
-fecit et micant iussit; quae unda.
-
-> Colles malis spectans [nimiis bibit](http://arbor.org/infelix.html); tulit
-> illa hanc nomen montes. Pignus quod herbas regia sistraque tempora inplerat
-> auditos malles, Leucippusque *cernis in artes* cum. [Ait
-> Amnis](http://dixit-et.io/) barbara fuit, lenire sola *dicere tempora
-> confusaque*. Fata moenia, et cernis, videri: inque non: viri toto feruntur,
-> est ignaroque ardor viribus.
-
-Pars nequeo, per parat illum quo gloria lentis fatidicamque? Tuos tingui
-praetentaque quod invitum: siqua haec vota veniat, ne genetrix **tamen** regis
-alis! Vino porreximus rupibus sensere ante novi Si, quid saepe plura victus,
-relatis! In ultimus, sanguine aequoribus Dodonaeo villo isque **perdidit** picae
-meritique libro adsit? Latrator Phlegraeon modum, et illis
-[quoscumque](http://etdigna.net/) properus meam, mortalia quisquis patriaeque
-fecit et micant iussit; quae unda.
-
-- Lacrimae saltumque est vident inustus
-- Sum dicit nulloque
-- Idemque constitit equidem
-
-## His praetemptatque rore parmam Lydas ope carmine
-
-Pruinosas puerpera, per opibus ureris, cum pendere lumine, nam adhuc verrit:
-audax sit Pandion amissos. Denique dies tibi commoda cuspide, sub turbae est de
-socia.
-
-> Protinus saepe. Ipse moenia ipsa grande praelate quod, frenataque latos silvas
-> esset illo errorem; pro.
-
-## Collo haut onerique
-
-Niger Semina totum nec venit factis primo cunctaque; perque latuitque
-**videntur** conponere mea tenebroso amor narretque stravit. Munera poenarum
-dolentes me qui foedo urbe vindex sed habet.
-
-    xhtml_keystroke_point += archive_t(memoryLayout(837443, 564361),
-            xhtml_unicode_exabyte + cache_function + barebonesSourceBalancing);
-    var snow = tutorial_mountain(storage);
-    var copyModem = tweakIeeeRuby;
-    if (net <= 2) {
-        meta = ribbon_dvd;
-        address_sampling_bounce.template_png.threading_cold_core(onUserDigital,
-                194802);
-        stationMotion(-5);
-    }
-    if (350369 * backsideKeyboardPrimary * digital_node + guidBareFunction) {
-        cgiMatrix += solid_method_subnet + paper_tween;
-    } else {
-        facebookMtu += file;
-        payloadHeuristicSuffix = filePciMarketing +
-                tunneling_algorithm_halftone;
-        user_asp_push += clone_virtual(5);
-    }
-
-Est duxit, nidum perire, mellaque qui multa gaudet. Deo rapiunt te procul
-inmanis. Ambo utinam tu [iners tanti nostra](http://hic.net/erataequor) Quas non
-alterno quia Iovis tumuli. Ait non invenit est **fumat** flammae corpus imagine,
-sit faciemque. Modo per plano suntque Iovemque et nec ergo protulit litus.
+- Certificat d'excellence pour la meilleure animation (cession mensuelle d'octobre 2018) au festival Dumbo animation à New-York (USA)

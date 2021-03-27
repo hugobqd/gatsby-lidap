@@ -64,9 +64,7 @@ const ProductionCell = ({ node }) => {
               fontWeight="400"
             >
               {director && director}
-              {nbsp}
-              {nbsp}
-              {date && `—${nbsp}${nbsp}${date.getFullYear()}`}
+              {nbsp} {date && `—${nbsp}${nbsp}${date.getFullYear()}`}
             </Text>
           </Flex>
         </Box>

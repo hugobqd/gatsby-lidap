@@ -1,15 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
-
 import styled from "styled-components";
+import Flex from "./common/Flex";
+import FocusOutliner from "./common/FocusOutliner";
+import Stack from "./common/Stack";
+import Box from "./common/Box";
+import Heading from "./common/Heading";
+
 const PostProductionLine = styled(Link)`
   background-color: ${(props) => props.theme.colors.lavender};
-  color: ${(props) => props.theme.colors.greyDarker};
-  padding: 1rem 2rem;
-  display: block;
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  color: ${(props) => props.theme.colors.bg};
+  position: relative;
+  display: inline-flex;
+  &::hover,
+  &:focus {
+    background-color: ${(props) => props.theme.colors.white};
+    color: ${(props) => props.theme.colors.darker};
+  }
 `;
 
 const PostProductionList = ({ data }) => {
@@ -19,14 +27,25 @@ const PostProductionList = ({ data }) => {
   });
 
   return (
-    <>
+    <Stack spacing={3} pl={[0, 5]}>
       {posts &&
         posts.map(({ node: post }) => (
-          <PostProductionLine to={post.fields.slug} key={post.id}>
-            <article>→ {post.frontmatter.title}</article>
-          </PostProductionLine>
+          <Box>
+            <PostProductionLine to={post.fields.slug} key={post.id}>
+              <Flex
+                as="article"
+                px={[4, 5]}
+                py={[3, 4]}
+                lineHeight={1}
+                fontWeight="800"
+              >
+                <Heading as="h2">{post.frontmatter.title}</Heading>
+              </Flex>
+              <FocusOutliner />
+            </PostProductionLine>
+          </Box>
         ))}
-    </>
+    </Stack>
   );
 };
 
