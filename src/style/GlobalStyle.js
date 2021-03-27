@@ -5,7 +5,7 @@ import fluid from "fluid-system";
 // Ratios : [ 1.25, 1.4, 1.63]
 const fontSizeNav = css({ fontSize: ["14px", "18px"] });
 const fontSizeNavLg = css({ fontSize: ["16px", "18px", "22px", "36px"] });
-const fontSizeH6 = css({ fontSize: ["14px", "16px", "18px", "36px"] });
+const fontSizeH6 = css({ fontSize: ["14px", "16px", "20px", "36px"] });
 const fontSizeH5 = css({ fontSize: ["16px", "18px", "24px", "42px"] });
 const fontSizeH4 = css({ fontSize: ["20px", "22px", "36px", "50px"] });
 const fontSizeH45 = css({ fontSize: ["22px", "26px", "44px", "80px"] });
@@ -96,11 +96,17 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .labeur {
-    h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, pre {
+    h1, h2, h3, h4 {
+      margin-top: 1em;
+    }
+    p, ul, ol, blockquote, pre {
       margin-top: 1rem;
     }
     *:first-child {
       margin-top: 0 !important;
+    }
+    li + li {
+      margin-top: .33em;
     }
   }
 

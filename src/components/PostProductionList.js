@@ -13,10 +13,12 @@ const PostProductionLine = styled(Link)`
   color: ${(props) => props.theme.colors.bg};
   position: relative;
   display: inline-flex;
-  &::hover,
+  
+  &:hover,
   &:focus {
     background-color: ${(props) => props.theme.colors.white};
     color: ${(props) => props.theme.colors.darker};
+    text-decoration: none;
   }
 `;
 
@@ -35,11 +37,11 @@ const PostProductionList = ({ data }) => {
               <Flex
                 as="article"
                 px={[4, 5]}
-                py={[3, 4]}
+                py={[2, 3]}
                 lineHeight={1}
                 fontWeight="800"
               >
-                <Heading as="h2">{post.frontmatter.title}</Heading>
+                <Heading as="h3" py={1}>{post.frontmatter.title}</Heading>
               </Flex>
               <FocusOutliner />
             </PostProductionLine>

@@ -8,11 +8,11 @@ import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/Container";
 import Heading from "../components/common/Heading";
 import Text from "../components/common/Text";
-// import { Row, Col } from "../components/common/GridSystem";
 import DocumentsList from "../components/list/DocumentsList";
 import SubContentModuleSwitch from "../components/SubContentModuleSwitch";
 import TeamList from "../components/list/TeamList";
 import Box from "../components/common/Box";
+import Stack from "../components/common/Stack";
 
 export const BasicPageTemplate = ({
   content,
@@ -28,25 +28,37 @@ export const BasicPageTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <main>
+    <Stack as='main'>
       {helmet || ""}
-      <Box mb={5}>
+      <Box>
         <Container>
           <Heading>{title}</Heading>
+          {description && (
+            <Box maxWidth="38rem" mt={3}>
+              <Text className="fs-4">{description}</Text>
+            </Box>
+          )}
         </Container>
-        {description && (
-          <Container intro lineHeight={1.3} mt={3}>
-            <Text className="fs-4">{description}</Text>
-          </Container>
-        )}
       </Box>
-      <Container text>
-        <PostContent content={content} />
-        {document_list && <DocumentsList list={document_list} p={3} mb={5} />}
-      </Container>
-      <TeamList list={team_list} />
+      {content?.length > 0 && 
+        <Container>
+          <Box maxWidth="38rem" pl={[0,5]}>
+            <PostContent content={content} className='labeur'/>
+          </Box>
+        </Container>
+      }
+      {document_list?.length > 0 && 
+        <Container className="documentlength">
+          <DocumentsList list={document_list} />
+        </Container>
+      }
+      {team_list?.length > 0 && 
+        <Container className="teamlist">
+          <TeamList list={team_list} />
+        </Container>
+      }
       <SubContentModuleSwitch route={forcedURL} />
-    </main>
+    </Stack>
   );
 };
 

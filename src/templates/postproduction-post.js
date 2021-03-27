@@ -7,9 +7,12 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/Container";
 import Heading from "../components/common/Heading";
-// import { Row, Col } from "../components/common/GridSystem";
+import Box from "../components/common/Box";
+import Text from "../components/common/Text";
 import DocumentsList from "../components/list/DocumentsList";
 import TeamList from "../components/list/TeamList";
+import Stack from "../components/common/Stack";
+import { splitTitle } from "../components/hooks/splitTitle";
 
 export const PostProductionPostTemplate = ({
   content,
@@ -23,25 +26,36 @@ export const PostProductionPostTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <main>
+    <Stack as='main'>
       {helmet || ""}
-      <Container>
-        <Heading>{title}</Heading>
-        {description && (
-          <Container intro py={3} ml={0} lineHeight={1.3}>
-            <p className="fs-4">{description}</p>
-          </Container>
-        )}
-      </Container>
-      <Container text>
-        <PostContent content={content} />
-        {document_list && <DocumentsList list={document_list} p={3} mb={5} />}
-      </Container>
-
-      <Container>
-        <TeamList list={team_list} />
-      </Container>
-    </main>
+      <Box>
+        <Container>
+          <Heading>{splitTitle(title)}</Heading>
+          {description && (
+            <Box maxWidth="38rem" mt={3}>
+              <Text className="fs-4">{description}</Text>
+            </Box>
+          )}
+        </Container>
+      </Box>
+      {content?.length > 0 && 
+        <Container>
+          <Box maxWidth="38rem" pl={[0,5]}>
+            <PostContent content={content} className='labeur'/>
+          </Box>
+        </Container>
+      }
+      {document_list?.length > 0 && 
+        <Container className="documentlength">
+          <DocumentsList list={document_list} />
+        </Container>
+      }
+      {team_list?.length > 0 && 
+        <Container className="teamlist">
+          <TeamList list={team_list} />
+        </Container>
+      }
+    </Stack>
   );
 };
 

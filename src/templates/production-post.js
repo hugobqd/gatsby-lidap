@@ -119,142 +119,140 @@ export const ProductionPostTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <main>
+    <Stack as='main'>
       {helmet || ""}
-      <Stack>
-        <Container>
-          <Heading indent>{splitTitle(title)}</Heading>
-        </Container>
-        {featuredimage && (
-          <Img
-            fluid={{
-              ...featuredimage.childImageSharp.fluid,
-              aspectRatio: 1920 / 866,
-            }}
-          />
-        )}
-        <Container>
-          <Stack position="relative">
-            <Box>
-              <Heading as="h4">
-                {director}
-                {date && ` ${nbsp}${nbsp}—${nbsp}${nbsp}${nbsp}${date}`}
-              </Heading>
+      <Container>
+        <Heading indent>{splitTitle(title)}</Heading>
+      </Container>
+      {featuredimage && (
+        <Img
+          fluid={{
+            ...featuredimage.childImageSharp.fluid,
+            aspectRatio: 1920 / 866,
+          }}
+        />
+      )}
+      <Container>
+        <Stack position="relative">
+          <Box>
+            <Heading as="h4">
+              {director}
+              {date && ` ${nbsp}${nbsp}—${nbsp}${nbsp}${nbsp}${date}`}
+            </Heading>
+          </Box>
+          {vod_list && (
+            <Box pl={[0, 5]} mt={-3}>
+              {vod_list.map(({ vod_item, vod_text }, i) => (
+                <Button
+                  href={vod_item}
+                  target="_blank"
+                  key={i}
+                  icon="play"
+                  mr={3}
+                  mt={3}
+                >
+                  {vod_text || "VOD"}
+                  <br />
+                  <Text as="span" fontWeight={400}>
+                    {getDomain(vod_item)}
+                  </Text>
+                </Button>
+              ))}
             </Box>
-            {vod_list && (
-              <Box pl={[0, 5]} mt={-3}>
-                {vod_list.map(({ vod_item, vod_text }, i) => (
-                  <Button
-                    href={vod_item}
-                    target="_blank"
-                    key={i}
-                    icon="play"
-                    mr={3}
-                    mt={3}
-                  >
-                    {vod_text || "VOD"}
-                    <br />
-                    <Text as="span" fontWeight={400}>
-                      {getDomain(vod_item)}
-                    </Text>
-                  </Button>
-                ))}
-              </Box>
-            )}
-            {description && (
-              <Box maxWidth="38rem" ml={[0, 5]}>
-                <Text className="fs-4">{description.replace(/\\/g, " ")}</Text>
-              </Box>
-            )}
-          </Stack>
-        </Container>
+          )}
+          {description && (
+            <Box maxWidth="38rem" ml={[0, 5]}>
+              <Text className="fs-4">{description.replace(/\\/g, " ")}</Text>
+            </Box>
+          )}
+        </Stack>
+      </Container>
 
-        {(trailer || gallery_list) && (
-          <Container>
-            <Stack>
-              {trailer && (
-                <Box position="relative" bg="black">
-                  <AspectRatio ratio="16/9" maxHeight="90vh" />
-                  <ReactPlayer
-                    url={trailer}
-                    width="100%"
-                    height="100%"
-                    controls={true}
-                    //light
-                    pip={true}
-                    playsinline
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
+      {(trailer || gallery_list) && (
+        <Container>
+          <Stack>
+            {trailer && (
+              <Box position="relative" bg="black">
+                <AspectRatio ratio="16/9" maxHeight="90vh" />
+                <ReactPlayer
+                  url={trailer}
+                  width="100%"
+                  height="100%"
+                  controls={true}
+                  //light
+                  pip={true}
+                  playsinline
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                  }}
+                />
+              </Box>
+            )}
+
+            {gallery_list &&
+              gallery_list.map((image, i) => (
+                <Box key={i}>
+                  <Img
+                    fluid={{
+                      ...image.gallery_img.childImageSharp.fluid,
+                      aspectRatio: 16 / 9,
                     }}
+                    alt={
+                      image?.gallery_caption
+                        ? image?.gallery_caption
+                        : `${title} image ${i + 1}`
+                    }
                   />
                 </Box>
-              )}
-
-              {gallery_list &&
-                gallery_list.map((image, i) => (
-                  <Box key={i}>
-                    <Img
-                      fluid={{
-                        ...image.gallery_img.childImageSharp.fluid,
-                        aspectRatio: 16 / 9,
-                      }}
-                      alt={
-                        image?.gallery_caption
-                          ? image?.gallery_caption
-                          : `${title} image ${i + 1}`
-                      }
-                    />
-                  </Box>
-                ))}
-            </Stack>
-          </Container>
-        )}
-
-        {(content || document_list) && (
-          <Container>
-            <Box maxWidth="38rem" ml={[0, 5]}>
-              <Stack>
-                {content && (
-                  <PostContent className="labeur" content={content} />
-                )}
-                {document_list && <DocumentsList list={document_list} />}
-              </Stack>
-            </Box>
-          </Container>
-        )}
-
-        <Container>
-          <Grid
-            gridTemplateColumns={["repeat(auto-fit, minmax(190px, 1fr))"]}
-            alignItems="start"
-            gridGap={[3, 4]}
-            className="fs-6"
-          >
-            {[
-              { field: technical, label: "Fiche technique" },
-              { field: credit, label: "Équipe" },
-              { field: productor, label: "Production" },
-              { field: selection, label: "Séléction" },
-            ].map(({ field, label }) => {
-              if (field) {
-                return (
-                  <div key={label}>
-                    <Box mb={[5, 0]}>
-                      <Details label={label}>
-                        <ReactMarkdown>{field}</ReactMarkdown>
-                      </Details>
-                    </Box>
-                  </div>
-                );
-              }
-              return null;
-            })}
-          </Grid>
+              ))}
+          </Stack>
         </Container>
-      </Stack>
-    </main>
+      )}
+
+      {(content || document_list) && (
+        <Container>
+          <Box maxWidth="38rem" ml={[0, 5]}>
+            <Stack>
+              {content && (
+                <PostContent className="labeur" content={content} />
+              )}
+              {document_list && <DocumentsList list={document_list} />}
+            </Stack>
+          </Box>
+        </Container>
+      )}
+
+      <Container>
+        <Grid
+          gridTemplateColumns={["repeat(auto-fit, minmax(190px, 1fr))"]}
+          alignItems="start"
+          gridGap={[3, 4]}
+          className="fs-6"
+        >
+          {[
+            { field: technical, label: "Fiche technique" },
+            { field: credit, label: "Équipe" },
+            { field: productor, label: "Production" },
+            { field: selection, label: "Séléction" },
+          ].map(({ field, label }) => {
+            if (field) {
+              return (
+                <div key={label}>
+                  <Box mb={[5, 0]}>
+                    <Details label={label}>
+                      <ReactMarkdown>{field}</ReactMarkdown>
+                    </Details>
+                  </Box>
+                </div>
+              );
+            }
+            return null;
+          })}
+        </Grid>
+      </Container>
+    </Stack>
   );
 };
 
