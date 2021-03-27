@@ -59,7 +59,7 @@ const Details = ({ children, label }) => {
           >
             <div ref={measureRef}>{children}</div>
             {!full && (
-              <Box position='absolute' bottom={0} left={0} width={"100%"}>
+              <Box position="absolute" bottom={0} left={0} width={"100%"}>
                 <div
                   style={{
                     height: "15vh",
@@ -67,10 +67,10 @@ const Details = ({ children, label }) => {
                       "linear-gradient(0deg, #19191F 5%, #19191F00 100%)",
                   }}
                 ></div>
-                <Box bg="dark" position='relative'>
+                <Box bg="dark" position="relative">
                   <Box
                     as="button"
-                    color='link'
+                    color="link"
                     onClick={() => {
                       setFull(true);
                     }}
@@ -81,13 +81,12 @@ const Details = ({ children, label }) => {
                       fontWeight: 900,
                       width: "100%",
                       textAlign: "left",
-                      position: 'relative'
+                      position: "relative",
                     }}
                   >
                     Plus…
                     <FocusOutliner inset />
                   </Box>
-                  
                 </Box>
               </Box>
             )}
@@ -98,13 +97,6 @@ const Details = ({ children, label }) => {
   );
 };
 const nbsp = "\xa0";
-
-// const Details = ({ children }) => {
-//   const [full, setFull] = useState(0);
-//   const HEIGHT = 300;
-//   return <Box>{children}</Box>;
-// };
-
 export const ProductionPostTemplate = ({
   content,
   contentComponent,
@@ -243,7 +235,7 @@ export const ProductionPostTemplate = ({
               { field: credit, label: "Équipe" },
               { field: productor, label: "Production" },
               { field: selection, label: "Séléction" },
-            ].map(({ field, label }) => { 
+            ].map(({ field, label }) => {
               if (field) {
                 return (
                   <div key={label}>
@@ -253,11 +245,10 @@ export const ProductionPostTemplate = ({
                       </Details>
                     </Box>
                   </div>
-                )
+                );
               }
-              return null
-              })
-            }
+              return null;
+            })}
           </Grid>
         </Container>
       </Stack>
