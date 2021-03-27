@@ -3,10 +3,10 @@ import React from "react";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import BlogList from "../components/BlogList";
+import BlogList from "../components/list/BlogList";
 import HomeHero from "../components/HomeHero";
-import HomeFeaturedMovies from "../components/HomeFeaturedMovies";
-import Container from "../components/Container";
+import HomeFeaturedMovies from "../components/list/HomeFeaturedMovies";
+import Container from "../components/common/Container";
 import Box from "../components/common/Box";
 
 export const IndexPageTemplate = ({ data }) => {
@@ -63,32 +63,6 @@ export const pageQuery = graphql`
           featuredpost: { eq: true }
         }
       }
-      limit: 3
-    ) {
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            date
-            director
-            featuredpost
-            featuredimage {
-              childImageSharp {
-                fluid(maxWidth: 120, quality: 100) {
-                  src
-                }
-              }
-            }
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-    actu: allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
       limit: 3
     ) {
       edges {

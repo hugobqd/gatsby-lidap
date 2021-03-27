@@ -1,7 +1,8 @@
 import React from "react";
-import Button from "./common/Button";
+import Button from "../common/Button";
 import { space, layout } from "styled-system";
 import styled from "styled-components";
+import { Link } from "gatsby";
 
 const Nav = styled.nav(space, layout);
 
@@ -18,15 +19,22 @@ const Pagination = ({ pageInfo, ...rest }) => {
     <Nav {...rest}>
       {hasPreviousPage && (
         <Button
+          as={Link}
           disabled={!hasPreviousPage}
           to={`/actualites/${currentPage - 1 === 1 ? "" : currentPage - 1}`}
+          aria-label='page précédente'
         >
           {" ← "}
         </Button>
       )}{" "}
       <strong>{currentPage}</strong>{" "}
       {hasNextPage && (
-        <Button disabled={!hasNextPage} to={`/actualites/${currentPage + 1}`}>
+        <Button 
+          as={Link}
+          disabled={!hasNextPage} 
+          to={`/actualites/${currentPage + 1}`}
+          aria-label='page suivante'
+        >
           {"→"}
         </Button>
       )}

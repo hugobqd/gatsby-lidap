@@ -1,8 +1,8 @@
 import React from "react";
-import ProductionList from "./ProductionList";
-import PostProductionList from "./PostProductionList";
-import BlogList from "./BlogList";
-import Container from "./Container";
+import ProductionList from "./list/ProductionList";
+import PostProductionList from "./list/PostProductionList";
+import BlogList from "./list/BlogList";
+import Container from "./common/Container";
 
 const SubContentModuleSwitch = ({ route }) => {
   switch (route) {

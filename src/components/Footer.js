@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import Container from "./Container";
+import Container from "./common/Container";
 import contact from "../settings/contact.json";
 import styled from "styled-components";
 import Flex from "../components/common/Flex";

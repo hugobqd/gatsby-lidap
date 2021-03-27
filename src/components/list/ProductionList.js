@@ -2,12 +2,12 @@ import React, {useState} from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import styled from "styled-components";
-import Grid from "./common/Grid";
-import Box from "./common/Box";
-import ProductionCell from "./cell/ProductionCell";
-import ProductionLine from "./cell/ProductionLine";
+import Grid from "../common/Grid";
+import Box from "../common/Box";
+import ProductionCell from "../cell/ProductionCell";
+import ProductionLine from "../cell/ProductionLine";
 import { IoGridSharp, IoListSharp } from "react-icons/io5";
-import FocusOutliner from "./common/FocusOutliner";
+import FocusOutliner from "../common/FocusOutliner";
 
 
 const Switch = styled.button`

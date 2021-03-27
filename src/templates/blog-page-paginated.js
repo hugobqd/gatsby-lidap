@@ -2,8 +2,8 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Heading from "../components/common/Heading";
-import Container from "../components/Container";
-import Pagination from "../components/Pagination";
+import Container from "../components/common/Container";
+import Pagination from "../components/list/Pagination";
 import BlogPostLine from "../components/cell/BlogPostLine";
 
 export default class BlogList extends React.Component {

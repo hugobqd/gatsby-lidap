@@ -11,6 +11,7 @@ const fontSizeH4 = css({ fontSize: ["20px", "22px", "36px", "50px"] });
 const fontSizeH45 = css({ fontSize: ["22px", "26px", "44px", "80px"] });
 const fontSizeH3 = css({ fontSize: ["25px", "32px", "54px", "100px"] });
 const fontSizeH2 = css({ fontSize: ["32px", "44px", "75px", "150px"] });
+const fontSizeH15 = css({ fontSize: ["36px", "54px", "120px", "220px"] });
 const fontSizeH1 = css({ fontSize: ["40px", "62px", "170px", "340px"] });
 
 const GlobalStyle = createGlobalStyle`
@@ -50,6 +51,10 @@ const GlobalStyle = createGlobalStyle`
   h1, .fs-1 {
     ${fluid(fontSizeH1)}
     line-height:.8;
+  }
+  .fs-15 {
+    ${fluid(fontSizeH15)}
+    line-height:.9;
   }
   h2, .fs-2 {
     ${fluid(fontSizeH2)}

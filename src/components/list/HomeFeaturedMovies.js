@@ -1,7 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import ProductionCell from "./cell/ProductionCell";
-import Box from "./common/Box";
+import ProductionCell from "../cell/ProductionCell";
+import Box from "../common/Box";
 
 const HomeFeaturedMovies = () => {
   const data = useStaticQuery(graphql`

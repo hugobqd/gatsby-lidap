@@ -1,23 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql, Link, StaticQuery } from "gatsby";
-import Button from "./common/Button";
-import BlogPostLine from "./cell/BlogPostLine";
-import Container from "./Container";
+import BlogPostLine from "../cell/BlogPostLine";
+import Container from "../common/Container";
+import Text from "../common/Text";
 
 const BlogList = ({ data }) => {
   const { edges: nodes } = data.allMarkdownRemark;
 
   return (
-    <>
-      {/* <ThemeProvider theme={themeInverted}> */}
-        <Container>
-          <Button to={"/actualites"} as={Link} >Actualités</Button>
-        </Container>
-      {nodes &&
-        nodes.map(({ node }) => <BlogPostLine node={node} key={node.id} />)}
-      {/* </ThemeProvider> */}
-    </>
+  <Container>
+    <Text to={"/actualites"} as={Link} >Actualités</Text>
+    {nodes &&
+      nodes.map(({ node }) => <BlogPostLine node={node} key={node.id} />)
+    }
+  </Container>
   );
 };
 
@@ -35,11 +32,10 @@ export default () => (
       query BlogListQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }, limit: 5
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
               id
               fields {
                 slug
@@ -47,15 +43,7 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "DD MMMM YYYY")
-                featuredpost
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+                date(formatString: "DD/MM/YYYY")
               }
             }
           }

@@ -8,7 +8,7 @@ import { getDomain } from "tldts";
 import ReactMarkdown from "react-markdown";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import Container from "../components/Container";
+import Container from "../components/common/Container";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Heading from "../components/common/Heading";
 // import styled from "styled-components";

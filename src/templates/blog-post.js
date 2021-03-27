@@ -1,12 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import Container from "../components/Container";
-import Heading from "../components/common/Heading";
+import Container from "../components/common/Container";
+import Box from "../components/common/Box";
+import Text from "../components/common/Text";
+import Stack from "../components/common/Stack";
+import DocumentsList from "../components/list/DocumentsList";
 
 export const BlogPostTemplate = ({
   content,
@@ -15,32 +17,36 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  document_list
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
-    <main>
+    <Stack as='main'>
       {helmet || ""}
-      <Container>
-        <Heading blog>{title}</Heading>
-        <p>{description}</p>
-      </Container>
-      <Container text>
-        <PostContent content={content} />
-        {tags && tags.length ? (
-          <div style={{ marginTop: `4rem` }}>
-            <h4>Tags</h4>
-            <ul className="taglist">
-              {tags.map((tag) => (
-                <li key={tag + `tag`}>
-                  <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
-      </Container>
-    </main>
+      <Box>
+        <Container>
+          <Text as='h1' fontStyle='italic' fontWeight='900' className='fs-15'>{title}</Text>
+          {description && (
+            <Box maxWidth="38rem" mt={3}>
+              <Text className="fs-4">{description}</Text>
+            </Box>
+          )}
+        </Container>
+      </Box>
+      {content?.length > 0 && 
+        <Container>
+          <Box maxWidth="38rem" pl={[0,5]}>
+            <PostContent content={content} className='labeur'/>
+          </Box>
+        </Container>
+      }
+      {document_list?.length > 0 && 
+        <Container className="documentlength">
+          <DocumentsList list={document_list} />
+        </Container>
+      }
+    </Stack>
   );
 };
 
@@ -72,6 +78,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        document_list={post.frontmatter.document_list}
       />
     </Layout>
   );
@@ -94,6 +101,15 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        document_list {
+          document_item {
+            id
+            publicURL
+            base
+            extension
+          }
+          document_title
+        }
         tags
       }
     }

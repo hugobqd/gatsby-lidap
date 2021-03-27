@@ -2,18 +2,20 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 import styled from "styled-components";
-import Flex from "./common/Flex";
-import FocusOutliner from "./common/FocusOutliner";
-import Stack from "./common/Stack";
-import Box from "./common/Box";
-import Heading from "./common/Heading";
+import Flex from "../common/Flex";
+import FocusOutliner from "../common/FocusOutliner";
+import Stack from "../common/Stack";
+import Box from "../common/Box";
+import Heading from "../common/Heading";
 
 const PostProductionLine = styled(Link)`
   background-color: ${(props) => props.theme.colors.lavender};
   color: ${(props) => props.theme.colors.bg};
   position: relative;
   display: inline-flex;
-  
+  transition: background ${(props) => props.theme.transitions.link},
+    color ${(props) => props.theme.transitions.link};
+
   &:hover,
   &:focus {
     background-color: ${(props) => props.theme.colors.white};

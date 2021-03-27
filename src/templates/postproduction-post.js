@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import Container from "../components/Container";
+import Container from "../components/common/Container";
 import Heading from "../components/common/Heading";
 import Box from "../components/common/Box";
 import Text from "../components/common/Text";
