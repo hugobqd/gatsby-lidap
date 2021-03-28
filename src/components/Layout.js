@@ -59,7 +59,9 @@ const TemplateWrapper = ({ children }) => {
         <link rel="stylesheet" href="https://use.typekit.net/dyq4dan.css" />
       </Helmet>
       <Navbar />
-      <Content>{children}</Content>
+      <Content id="content" tabindex="-1">
+        {children}
+      </Content>
       <Footer />
     </div>
   );

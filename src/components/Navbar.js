@@ -54,6 +54,33 @@ const NavBarLink = styled(Link)`
   ${typography}
   ${space}
 `;
+const SkipLink = styled('a')`
+  color: ${(props) => props.theme.colors.bg};
+  background-color: ${(props) => props.theme.colors.lavender};
+  display: flex;
+  align-items: center;
+  padding: 0 ${(props) => props.theme.space[1]};
+  text-transform: uppercase;
+  position: absolute;
+  left: -9999px;
+  height: 100%;
+  transform: translateX(-100% );
+  &:focus {
+    left: 0;
+  }
+
+  &:hover,
+  &:focus {
+    color: ${(props) => props.theme.colors.bg};
+  }
+
+  @media ${(props) => props.theme.bp[0]} {
+    padding: 0 ${(props) => props.theme.space[2]};
+    letter-spacing: 0.025em;
+  }
+  ${typography}
+  ${space}
+`;
 const NavFullLink = styled(Link)`
   color: ${(props) => props.theme.colors.bg};
   position: relative;
@@ -146,9 +173,12 @@ const Navbar = (props) => {
           as={motion.div}
           animate={{ y: showNav ? 0 : -100 }}
         >
+          <SkipLink  as="a" href="#content"class="skip-link">
+            <Text as="span" pl={3}>Aller au contenu principal</Text>
+            <FocusOutliner inside="true" />
+          </SkipLink> 
           <NavBarLink to="/" fontWeight={900}>
             <Text as="span" pl={3}>
-              {" "}
               L'image d'après
             </Text>
             <FocusOutliner inside="true" />
@@ -183,11 +213,7 @@ const Navbar = (props) => {
       </Box>
 
       {openFull && (
-        <NavFull
-          id="menu"
-          // role="menu"
-          aria-labelledby="menubutton"
-        >
+        <NavFull>
           <div className="first">
             <NavFullLink
               to="/"
