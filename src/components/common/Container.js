@@ -1,5 +1,4 @@
-import styled, { css } from "styled-components";
-import { layout, space, typography } from "styled-system";
+import styled from "styled-components";
 import Box from './Box'
 
 const Container = styled(Box)`
@@ -12,8 +11,3 @@ const Container = styled(Box)`
 `;
 
 export default Container;
-
-// /* @media ${(p) => p.theme.bp[0]} {
-//   padding-left: ${(p) => p.theme.sizes.unit};
-//   padding-right: ${(p) => p.theme.sizes.unit};
-// } */

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import Container from "../common/Container";
 import Box from "../common/Box";
 import Text from "../common/Text";
 import FocusOutliner from "../common/FocusOutliner";
