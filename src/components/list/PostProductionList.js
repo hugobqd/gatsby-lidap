@@ -34,8 +34,8 @@ const PostProductionList = ({ data }) => {
     <Stack spacing={3} pl={[0, 5]}>
       {posts &&
         posts.map(({ node: post }) => (
-          <Box>
-            <PostProductionLine to={post.fields.slug} key={post.id}>
+          <Box key={post.id}>
+            <PostProductionLine to={post.fields.slug}>
               <Flex
                 as="article"
                 px={[4, 5]}
@@ -43,7 +43,9 @@ const PostProductionList = ({ data }) => {
                 lineHeight={1}
                 fontWeight="800"
               >
-                <Heading as="h3" py={1}>{post.frontmatter.title}</Heading>
+                <Heading as="h3" py={1}>
+                  {post.frontmatter.title}
+                </Heading>
               </Flex>
               <FocusOutliner />
             </PostProductionLine>

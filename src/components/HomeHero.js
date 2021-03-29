@@ -8,7 +8,7 @@ import FocusOutliner from "./common/FocusOutliner";
 const Section = styled.header`
   color: ${(props) => props.theme.colors.lavender};
   @media ${(props) => props.theme.bp[0]} {
-    min-height: ${(props) => `calc( 100vh - 2 * ${props.theme.space[5]} )`}
+    min-height: ${(props) => `calc( 100vh - 2 * ${props.theme.space[5]} )`};
   }
   padding-bottom: ${(props) => `calc( 2 * ${props.theme.space[5]} )`};
   display: flex;
@@ -16,11 +16,11 @@ const Section = styled.header`
 
   h1 {
     font-size: 10vw;
-    font-weight: ${(props) => props.theme.fontWeights.normal};
+    font-weight: ${(props) => props.theme.fontWeights.light};
     padding-left: 1em;
     text-indent: -1em;
-    line-height: 0.85;
-    width: 100%
+    line-height: 0.9;
+    width: 100%;
   }
 
   a {
@@ -32,7 +32,9 @@ const Section = styled.header`
 
     &:hover,
     &:focus {
-      text-decoration: none;
+      text-decoration: underline;
+      text-decoration-thickness: from-font;
+      text-underline-offset: 0.05em;
     }
   }
 `;
@@ -42,14 +44,27 @@ const HomeHero = () => {
     <Container>
       <Section>
         <h1>
-          <Box as={Link} to="/a-propos" textTransform='uppercase' fontWeight="bold">
+          <Box
+            as={Link}
+            to="/a-propos"
+            textTransform="uppercase"
+            fontWeight="bold"
+            mr="-1em"
+          >
             L’image d’après
             <FocusOutliner />
           </Box>
           <br />
-          <Box as={Link} to="/production">production<FocusOutliner /></Box> et
+          <Box as={Link} to="/production">
+            production
+            <FocusOutliner />
+          </Box>{" "}
+          et
           <br />
-          <Box as={Link} to="/postproduction">postproduction<FocusOutliner /></Box>
+          <Box as={Link} to="/postproduction">
+            postproduction
+            <FocusOutliner />
+          </Box>
           <br />
           de&nbsp;films
         </h1>

@@ -28,6 +28,8 @@ const GlobalStyle = createGlobalStyle`
     color: ${(p) => p.theme.colors.fg};
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-decoration-thickness: from-font;
+    text-underline-offset: 0.05em;
   }
 
   a {

@@ -6,6 +6,7 @@ import Stack from "../components/common/Stack";
 import Container from "../components/common/Container";
 import Pagination from "../components/list/Pagination";
 import BlogPostLine from "../components/cell/BlogPostLine";
+import Box from "../components/common/Box";
 
 export default class BlogList extends React.Component {
   render() {
@@ -18,9 +19,11 @@ export default class BlogList extends React.Component {
             <Heading>Actualités</Heading>
           </Container>
           <Container>
-            {posts.map(({ node }) => {
-              return <BlogPostLine node={node} key={node.id} />;
-            })}
+            <Box pl={[3, 5]}>
+              {posts.map(({ node }) => {
+                return <BlogPostLine node={node} key={node.id} />;
+              })}
+            </Box>
             <Pagination pageInfo={pageInfo} pt={4} />
           </Container>
         </Stack>

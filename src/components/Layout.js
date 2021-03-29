@@ -5,8 +5,10 @@ import Navbar from "./Navbar";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import styled from "styled-components";
+import Box from "./common/Box";
+import Flex from "./common/Flex";
 
-const Content = styled.div`
+const Content = styled(Box)`
   padding-top: ${(props) => props.theme.sizes.unit};
   padding-bottom: ${(props) => props.theme.sizes.unit};
 
@@ -18,7 +20,7 @@ const Content = styled.div`
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div className="layout">
+    <Flex className="layout" minHeight="100vh" flexDirection="column">
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -59,11 +61,11 @@ const TemplateWrapper = ({ children }) => {
         <link rel="stylesheet" href="https://use.typekit.net/dyq4dan.css" />
       </Helmet>
       <Navbar />
-      <Content id="content" tabindex="-1">
+      <Content id="content" tabindex="-1" flex={1}>
         {children}
       </Content>
       <Footer />
-    </div>
+    </Flex>
   );
 };
 

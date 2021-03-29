@@ -29,9 +29,7 @@ const Details = ({ children, label }) => {
   const [windowHeight, setWindowHeight] = useState(null);
   const [full, setFull] = useState(true);
   useEffect(() => {
-    console.log("--->", itemHeight, window.innerHeight);
     if (itemHeight && itemHeight > windowHeight * 0.75) {
-      console.log(itemHeight, " > ", windowHeight);
       setFull(false);
     } else {
       setFull(true);
@@ -119,7 +117,7 @@ export const ProductionPostTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <Stack as='main'>
+    <Stack as="main">
       {helmet || ""}
       <Container>
         <Heading indent>{splitTitle(title)}</Heading>
@@ -215,9 +213,7 @@ export const ProductionPostTemplate = ({
         <Container>
           <Box maxWidth="38rem" ml={[0, 5]}>
             <Stack>
-              {content && (
-                <PostContent className="labeur" content={content} />
-              )}
+              {content && <PostContent className="labeur" content={content} />}
               {document_list && <DocumentsList list={document_list} />}
             </Stack>
           </Box>

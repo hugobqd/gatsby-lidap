@@ -25,16 +25,6 @@ const NavFull = styled.nav`
   z-index: ${(p) => p.theme.zIndexes.navFull};
   display: flex;
   align-items: center;
-  a {
-    color: ${(props) => props.theme.colors.dark};
-    display: block;
-  }
-  .first {
-    font-size: 3rem;
-  }
-  .second {
-    font-size: 1.5rem;
-  }
   ${space}
 `;
 
@@ -49,6 +39,9 @@ const NavBarLink = styled(Link)`
   &:focus {
     color: ${(props) => props.theme.colors.bg};
   }
+  &[aria-current="page"] {
+    text-decoration: underline;
+  }
 
   @media ${(props) => props.theme.bp[0]} {
     padding: 0 ${(props) => props.theme.space[2]};
@@ -57,7 +50,7 @@ const NavBarLink = styled(Link)`
   ${typography}
   ${space}
 `;
-const SkipLink = styled('a')`
+const SkipLink = styled("a")`
   color: ${(props) => props.theme.colors.bg};
   background-color: ${(props) => props.theme.colors.lavender};
   display: flex;
@@ -67,7 +60,7 @@ const SkipLink = styled('a')`
   position: absolute;
   left: -9999px;
   height: 100%;
-  transform: translateX(-100% );
+  transform: translateX(-100%);
   &:focus {
     left: 0;
   }
@@ -84,9 +77,18 @@ const SkipLink = styled('a')`
   ${typography}
   ${space}
 `;
+
 const NavFullLink = styled(Link)`
   color: ${(props) => props.theme.colors.bg};
+  &:hover,
+  &:focus {
+    color: ${(props) => props.theme.colors.darker};
+  }
   position: relative;
+  display: inline-block;
+  &[aria-current="page"] {
+    text-decoration: underline;
+  }
   ${typography}
   ${space}
 `;
@@ -124,7 +126,6 @@ const Navbar = (props) => {
 
   return (
     <header role="navigation" aria-label="main-navigation">
-
       <Box
         as="nav"
         justifyContent="space-evenly"
@@ -172,11 +173,14 @@ const Navbar = (props) => {
           bg="lavender"
           as={motion.div}
           animate={{ y: showNav ? 0 : -100 }}
+          transition={{ ease: "easeInOut", duration: 0.15 }}
         >
-          <SkipLink  as="a" href="#content"className="skip-link">
-            <Text as="span" pl={3}>Aller au contenu principal</Text>
+          <SkipLink as="a" href="#content" className="skip-link">
+            <Text as="span" pl={3}>
+              Aller au contenu principal
+            </Text>
             <FocusOutliner inside="true" />
-          </SkipLink> 
+          </SkipLink>
           <NavBarLink to="/" fontWeight="bold">
             <Text as="span" pl={3}>
               L'image d'après
@@ -214,51 +218,58 @@ const Navbar = (props) => {
 
       {openFull && (
         <NavFull>
-          <Container width='100%'>
-            <Grid gridTemplateColumns={['1fr', '2fr 1fr']} gridGap={5}>
-              <Box className='fs-2'>
-                <NavFullLink
-                  to="/"
-                  style={{ textTransform: "uppercase" }}
-                  fontWeight="bold"
-                >
-                  L'image d'après
-                  <FocusOutliner inside="true" />
-                </NavFullLink>
-                <NavFullLink to="/a-propos" fontWeight="light">
-                  À propos
-                  <FocusOutliner inside="true" />
-                </NavFullLink>
-                <NavFullLink to="/production" fontWeight="light">
-                  Production
-                  <FocusOutliner inside="true" />
-                </NavFullLink>
-                <NavFullLink to="/postproduction" fontWeight="light">
-                  Postproduction
-                  <FocusOutliner inside="true" />
-                </NavFullLink>
-                <NavFullLink to="/actualites" fontWeight="light">
-                  Actualités
-                  <FocusOutliner inside="true" />
-                </NavFullLink>
-                <NavFullLink to="/contact" fontWeight="light">
-                  Contact
-                  <FocusOutliner inside="true" />
-                </NavFullLink>
+          <Container width="100%">
+            <Grid gridTemplateColumns={["1fr", "2fr 1fr"]} gridGap={5}>
+              <Box className="fs-2">
+                <Flex flexDirection="column" alignItems="self-start">
+                  <NavFullLink
+                    to="/"
+                    style={{ textTransform: "uppercase" }}
+                    fontWeight="bold"
+                    pr={[3, 5]}
+                  >
+                    L'image d'après
+                    <FocusOutliner />
+                  </NavFullLink>
+                  <NavFullLink px={[3, 5]} to="/a-propos">
+                    À propos
+                    <FocusOutliner />
+                  </NavFullLink>
+                  <NavFullLink px={[3, 5]} to="/production">
+                    Production
+                    <FocusOutliner />
+                  </NavFullLink>
+                  <NavFullLink px={[3, 5]} to="/postproduction">
+                    Postproduction
+                    <FocusOutliner />
+                  </NavFullLink>
+                  <NavFullLink px={[3, 5]} to="/actualites">
+                    Actualités
+                    <FocusOutliner />
+                  </NavFullLink>
+                  <NavFullLink px={[3, 5]} to="/contact">
+                    Contact
+                    <FocusOutliner />
+                  </NavFullLink>
+                </Flex>
                 {/* <Link  to="/contact/examples">
                   Form Examples
                 </Link> */}
               </Box>
-              <Flex className='fs-4' justifyContent='flex-start' alignItems='center'>
+              <Flex
+                className="fs-4"
+                justifyContent="flex-start"
+                alignItems="center"
+              >
                 <Box>
                   {contact?.facebook && (
-                    <NavFullLink as="a" href={contact.facebook}>
+                    <NavFullLink as="a" px={3} href={contact.facebook}>
                       Facebook
                       <FocusOutliner inside="true" />
                     </NavFullLink>
                   )}
                   {contact?.vimeo && (
-                    <NavFullLink as="a" href={contact.vimeo}>
+                    <NavFullLink as="a" px={3} href={contact.vimeo}>
                       Vimeo
                       <FocusOutliner inside="true" />
                     </NavFullLink>

@@ -115,7 +115,6 @@ productor: |-
 ---
 > Damien Monnier ancre son film dans une photographie. \
 > Elle est l'origine, le repère temporel, la matrice, l’ancrage historique du documentaire. Elle contribue ainsi, comme une image récurrente, à structurer le récit. Mais plus profondément elle devient l’âme du film - comme on dit l'âme d'une corde. Probablement parce que la photographie fixe un temps de certitude, celle d’une communauté paysanne finissante. Elle montre un temps disparu, et charge le passé d’une dimension poétique et nostalgique. Un monde perdu va faire place à la croyance en l’avenir d’une agriculture intensive dont le film mesure aujourd’hui l’hérésie écologique.
-
-Jean-Marie Barbe
-Producteur, coordinateur éditorial de Tënk
-et co-fondateur des États généraux du film documentaire de Lussas
+> 
+> *Jean-Marie Barbe, Producteur, coordinateur éditorial de Tënk
+et co-fondateur des États généraux du film documentaire de Lussas*
