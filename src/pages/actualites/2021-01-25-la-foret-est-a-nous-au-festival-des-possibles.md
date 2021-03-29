@@ -15,11 +15,9 @@ Pour le mercredi 3 décembre, le festival a préparé une soirée icaunaise, hor
 
 Au programme 3 films made in Yonne :
 
-"Le GAEC Thibault" de Pascal Delagneau
-
-"Les Pays-Bas, un défi contre nature ?" de Vincent Moissenet et ses élèves du collège de Paron
-
-"La forêt est à nous", d'Anne Faisandier
+- **_Le GAEC Thibault_** de Pascal Delagneau
+- **_Les Pays-Bas, un défi contre nature ?_** de Vincent Moissenet et ses élèves du collège de Paron
+- **_La forêt est à nous_**, d'Anne Faisandier
 
 La Télé de l'Yonne, L'Yonne Républicaine, SOS Forêt, c'est une soirée pour vous !
 

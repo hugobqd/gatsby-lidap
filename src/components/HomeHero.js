@@ -1,6 +1,8 @@
 import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
+import Box from "./common/Box";
+import Container from "./common/Container";
 import FocusOutliner from "./common/FocusOutliner";
 
 const Section = styled.header`
@@ -29,7 +31,8 @@ const Section = styled.header`
     color: #fff;
     text-decoration: none;
     position: relative;
-    displayt: inline-block;
+    display: inline-block;
+    text-indent: 0;
 
     &:hover,
     &:focus {
@@ -40,17 +43,22 @@ const Section = styled.header`
 
 const HomeHero = () => {
   return (
-    <Section>
-      <h1>
-        <Link to="/a-propos" style={{ textTransform: 'uppercase', fontWeight: 900, textIndent: 0}}>L’image d’après<FocusOutliner /></Link>
-        <br />
-        <Link to="/production">production<FocusOutliner /></Link> et
-        <br />
-        <Link to="/postproduction">postproduction<FocusOutliner /></Link>
-        <br />
-        <span className="word">de&nbsp;films</span> 
-      </h1>
-    </Section>
+    <Container>
+      <Section>
+        <h1>
+          <Box as={Link} to="/a-propos" textTransform='uppercase' fontWeight={900}>
+            L’image d’après
+            <FocusOutliner />
+          </Box>
+          <br />
+          <Box as={Link} to="/production">production<FocusOutliner /></Box> et
+          <br />
+          <Box as={Link} to="/postproduction">postproduction<FocusOutliner /></Box>
+          <br />
+          de&nbsp;films
+        </h1>
+      </Section>
+    </Container>
   );
 };
 

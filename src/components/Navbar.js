@@ -119,11 +119,6 @@ const Navbar = (props) => {
 
   return (
     <header role="navigation" aria-label="main-navigation">
-      <Box as="pre" fontSize={12} position="fixed" zIndex={100} display="none">
-        {lastYPos}
-        <br />
-        {JSON.stringify(showNav ? "Up" : "Down")}
-      </Box>
 
       <Box
         as="nav"
@@ -173,7 +168,7 @@ const Navbar = (props) => {
           as={motion.div}
           animate={{ y: showNav ? 0 : -100 }}
         >
-          <SkipLink  as="a" href="#content"class="skip-link">
+          <SkipLink  as="a" href="#content"className="skip-link">
             <Text as="span" pl={3}>Aller au contenu principal</Text>
             <FocusOutliner inside="true" />
           </SkipLink> 

@@ -118,5 +118,5 @@ productor: |-
   Le Flanders Film Funding\
   Le patrimoine Noorderkempen
 ---
-> Ce film a été développé à l'Ecole documentaire d'Ardèche Images à Lussas
-> Et est produit dans la collection Primavera de l'association Lumière du monde.
+
+Ce film a été développé à l'Ecole documentaire d'Ardèche Images à Lussas et est produit dans la collection Primavera de l'association Lumière du monde.

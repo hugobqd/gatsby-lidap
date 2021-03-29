@@ -1,21 +1,22 @@
 import React from "react";
-import { Link } from "gatsby";
 import Container from "./common/Container";
 import contact from "../settings/contact.json";
 import Flex from "../components/common/Flex";
+import Box from "../components/common/Box";
+import Link from "../components/common/Link";
 
 const Footer = () => {
   return (
-    <Container>
+    <Container style={{textTransform: 'uppercase', letterSpacing: '.05em'}} className='fs-6'>
       <Flex py={5} justifyContent="space-between">
-        <Link to="/">L'image d'après</Link>
-        <Link to="/a-propos">À propos</Link>
-        <Link to="/production">Production</Link>
-        <Link to="/postproduction">Postproduction</Link>
-        <Link to="/actualites">Actualités</Link>
-        <Link to="/contact">Contact</Link>
-        {contact.facebook && <a href={contact.facebook}>Facebook</a>}
-        {contact.vimeo && <a href={contact.vimeo}>Vimeo</a>}
+        <Link p={1} to="/">L'image d'après</Link>
+        <Link p={1} to="/a-propos">À propos</Link>
+        <Link p={1} to="/production">Production</Link>
+        <Link p={1} to="/postproduction">Postproduction</Link>
+        <Link p={1} to="/actualites">Actualités</Link>
+        <Link p={1} to="/contact">Contact</Link>
+        {contact.facebook && <Link as='a' p={1} href={contact.facebook}>Facebook</Link>}
+        {contact.vimeo && <Link as='a' p={1} href={contact.vimeo}>Vimeo</Link>}
       </Flex>
     </Container>
   );

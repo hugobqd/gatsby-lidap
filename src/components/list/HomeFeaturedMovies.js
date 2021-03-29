@@ -2,8 +2,9 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import ProductionCell from "../cell/ProductionCell";
 import Box from "../common/Box";
+import Grid from "../common/Grid";
 
-const HomeFeaturedMovies = () => {
+const HomeFeaturedMovies = ({rest}) => {
   const data = useStaticQuery(graphql`
     query featuredMoviesQuery {
       allMarkdownRemark(
@@ -26,7 +27,6 @@ const HomeFeaturedMovies = () => {
                   fluid(maxWidth: 1024, quality: 90) {
                     src
                     ...GatsbyImageSharpFluid
-                    ...GatsbyImageSharpFluidLimitPresentationSize
                   }
                 }
               }
@@ -41,16 +41,13 @@ const HomeFeaturedMovies = () => {
   `);
 
   return (
-    <section>
-      
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <Box key={node?.fields?.slug}>
-            {node?.fields?.slug}
-            <ProductionCell node={node}  key={node?.fields?.slug}/>
-          </Box>
-        ))}
-      
-    </section>
+    <Grid gridTemplateColumns={['1fr', 'repeat(2, 1fr)']} gridGap={0} mb={5}>
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <Box key={node?.fields?.slug}>
+          <ProductionCell node={node}  key={node?.fields?.slug} big/>
+        </Box>
+      ))} 
+    </Grid>
   );
 };
 

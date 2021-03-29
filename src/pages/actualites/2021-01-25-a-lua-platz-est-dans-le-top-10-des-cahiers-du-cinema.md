@@ -8,6 +8,7 @@ description: Nous sommes très fiers d'apprendre que A Lua Platz est dans le top
   cinéma !
 featuredimage: /img/cahiers-du-cinema-alp.jpg
 ---
-On vous laisse apprécier ce classement par vous même ...
+
+On vous laisse apprécier ce classement par vous même...
 
 Bon visionnage !

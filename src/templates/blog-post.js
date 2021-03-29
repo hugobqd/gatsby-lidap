@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
+import Img from "gatsby-image";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/common/Container";
@@ -14,10 +15,10 @@ export const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
-  tags,
   title,
   helmet,
-  document_list
+  document_list,
+  featuredimage
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -34,6 +35,17 @@ export const BlogPostTemplate = ({
           )}
         </Container>
       </Box>
+      {featuredimage && 
+        <Container>
+          <Box maxWidth="38rem" pl={[0,5]}>
+            <Img
+              fluid={{
+                ...featuredimage.childImageSharp.fluid
+              }}
+            />
+          </Box>
+        </Container>
+      }
       {content?.length > 0 && 
         <Container>
           <Box maxWidth="38rem" pl={[0,5]}>
@@ -76,9 +88,9 @@ const BlogPost = ({ data }) => {
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         document_list={post.frontmatter.document_list}
+        featuredimage={post.frontmatter.featuredimage}
       />
     </Layout>
   );
@@ -110,7 +122,13 @@ export const pageQuery = graphql`
           }
           document_title
         }
-        tags
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

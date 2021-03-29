@@ -29,7 +29,7 @@ const Cell = styled(Link)`
   }
 `;
 
-const ProductionCell = ({ node, ...rest }) => {
+const ProductionCell = ({ node, big = false,...rest }) => {
   const { title, director } = node.frontmatter;
   const featuredimage = node.frontmatter.featuredimage;
   const date = new Date(node.frontmatter.date);
@@ -51,18 +51,12 @@ const ProductionCell = ({ node, ...rest }) => {
           />
         )}
         <Box px={[3, 5]} pt={[3, 43]} pb={[4, 5]}>
-          <Heading as={"h3"} className="fs-45" mb={1} indent lineHeight={0.9}>
+          <Heading as={"h3"} className={big ? 'fs-2':"fs-45"} mb={'.2em'} indent lineHeight={0.9}>
             {splitTitle(title)}
           </Heading>
           <Flex>
-            <div style={{ paddingLeft: "1em" }} className="fs-45"></div>
-            <Text
-              as="h5"
-              style={{
-                letterSpacing: 0.2,
-              }}
-              fontWeight="400"
-            >
+            <Box pr='1em' className={big ? 'fs-2':"fs-45"} />
+            <Text as="h5" fontWeight="400">
               {director && director}
               {nbsp} {date && `—${nbsp}${nbsp}${date.getFullYear()}`}
             </Text>

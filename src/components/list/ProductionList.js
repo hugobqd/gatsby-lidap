@@ -8,6 +8,7 @@ import ProductionCell from "../cell/ProductionCell";
 import ProductionLine from "../cell/ProductionLine";
 import { IoGridSharp, IoListSharp } from "react-icons/io5";
 import FocusOutliner from "../common/FocusOutliner";
+import Container from "../common/Container";
 
 
 const Switch = styled.button`
@@ -68,12 +69,12 @@ const ProductionList = ({ data }) => {
         </Grid>
       )}
       {view === "ALPHA" && (
-        <Box>
+        <Container>
           {alphabeticalList &&
             alphabeticalList.map(({ node }) => (
               <ProductionLine node={node} key={node.id} />
             ))}
-        </Box>
+        </Container>
       )}
     </Box>
   );

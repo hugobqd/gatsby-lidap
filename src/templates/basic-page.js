@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 // import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
+import Img from "gatsby-image";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/common/Container";
@@ -22,7 +23,7 @@ export const BasicPageTemplate = ({
   helmet,
   team_list,
   title,
-  parentUrl,
+  featuredimage,
   forcedURL,
 }) => {
   const PostContent = contentComponent || Content;
@@ -40,6 +41,17 @@ export const BasicPageTemplate = ({
           )}
         </Container>
       </Box>
+      {featuredimage && 
+        <Container>
+          <Box maxWidth="38rem" pl={[0,5]}>
+            <Img
+              fluid={{
+                ...featuredimage.childImageSharp.fluid
+              }}
+            />
+          </Box>
+        </Container>
+      }
       {content?.length > 0 && 
         <Container>
           <Box maxWidth="38rem" pl={[0,5]}>
@@ -125,6 +137,13 @@ export const pageQuery = graphql`
           document_title
         }
         forcedURL
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         parentUrl
         team_list {
           team_name

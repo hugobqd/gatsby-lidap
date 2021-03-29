@@ -5,6 +5,7 @@ import styled from "styled-components";
 import Heading from "../common/Heading";
 import Box from "../common/Box";
 import Flex from "../common/Flex";
+import Text from "../common/Text";
 import FocusOutliner from "../common/FocusOutliner";
 
 const Cell = styled(Link)`
@@ -42,7 +43,7 @@ const ProductionLine = ({ node }) => {
             />
           )}
         </Box>
-        <Box width="14%" display={["none", "block"]} pl={5}>
+        <Box width="14%" display={["none", "block"]}>
           {featuredimage && (
             <Img
               fluid={{
@@ -63,8 +64,8 @@ const ProductionLine = ({ node }) => {
           <Box flex={1} pl={[3, 4]} minWidth={"280px"} lineHeight={1.2}>
             <Heading as={"h4"}>{title}</Heading>
           </Box>
-          <Box px={[3, 4]} textAlign="right" py={1} minWidth={"220px"}>
-            <Heading
+          <Box pl={[3, 4]} textAlign="right" py={1} minWidth={"220px"}>
+            <Text
               as="h5"
               style={{
                 letterSpacing: 0.2,
@@ -74,7 +75,7 @@ const ProductionLine = ({ node }) => {
               {director && director}
               <Box as="span" px={2}>{`—`}</Box>
               {date && date.getFullYear()}
-            </Heading>
+            </Text>
           </Box>
         </Flex>
       </Flex>
