@@ -47,7 +47,7 @@ const HomeHero = () => {
           <Box
             as={Link}
             to="/a-propos"
-            textTransform="uppercase"
+            style={{ textTransform: "uppercase" }}
             fontWeight="bold"
             mr="-1em"
           >

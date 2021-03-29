@@ -8,17 +8,10 @@ import {
   flexbox,
   position,
   border,
-  system
 } from "styled-system";
 
-// eslint-disable-next-line
-const textTransform = system({
-  prop: 'textTransform',
-  cssProperty: 'textTransform',
-})
-const Box = styled("div")(
-  compose(color, space, layout, position, flexbox, typography, border),
-  system({ textTransform: true}),
-);
+const Box = styled("div")`
+  ${compose(color, space, layout, position, flexbox, typography, border)}
+`;
 
 export default Box;

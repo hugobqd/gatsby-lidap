@@ -10,7 +10,7 @@ const DocumentsList = ({ list, ...props }) => {
       {list.map(({ document_item, document_title }, i) => (
         <Box key={i}>
           <Button
-            as='a'
+            as="a"
             href={document_item.publicURL}
             target="_blank"
             key={i}

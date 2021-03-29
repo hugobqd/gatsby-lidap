@@ -4,7 +4,7 @@ import ProductionCell from "../cell/ProductionCell";
 import Box from "../common/Box";
 import Grid from "../common/Grid";
 
-const HomeFeaturedMovies = ({rest}) => {
+const HomeFeaturedMovies = ({ rest }) => {
   const data = useStaticQuery(graphql`
     query featuredMoviesQuery {
       allMarkdownRemark(
@@ -41,12 +41,12 @@ const HomeFeaturedMovies = ({rest}) => {
   `);
 
   return (
-    <Grid gridTemplateColumns={['1fr', 'repeat(2, 1fr)']} gridGap={0} mb={5}>
+    <Grid gridTemplateColumns={["1fr", "repeat(2, 1fr)"]} gridGap={0} mb={5}>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <Box key={node?.fields?.slug}>
-          <ProductionCell node={node}  key={node?.fields?.slug} big/>
+          <ProductionCell node={node} key={node?.fields?.slug} big />
         </Box>
-      ))} 
+      ))}
     </Grid>
   );
 };

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Box from './Box'
+import Box from "./Box";
 
 const Container = styled(Box)`
   padding-left: ${(p) => p.theme.space[3]};

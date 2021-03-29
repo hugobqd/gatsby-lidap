@@ -9,12 +9,13 @@ const BlogList = ({ data }) => {
   const { edges: nodes } = data.allMarkdownRemark;
 
   return (
-  <Container>
-    <Text to={"/actualites"} as={Link} >Actualités</Text>
-    {nodes &&
-      nodes.map(({ node }) => <BlogPostLine node={node} key={node.id} />)
-    }
-  </Container>
+    <Container>
+      <Text to={"/actualites"} as={Link}>
+        Actualités
+      </Text>
+      {nodes &&
+        nodes.map(({ node }) => <BlogPostLine node={node} key={node.id} />)}
+    </Container>
   );
 };
 
@@ -32,7 +33,8 @@ export default () => (
       query BlogListQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }, limit: 5
+          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          limit: 5
         ) {
           edges {
             node {

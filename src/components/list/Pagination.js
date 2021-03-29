@@ -22,18 +22,18 @@ const Pagination = ({ pageInfo, ...rest }) => {
           as={Link}
           disabled={!hasPreviousPage}
           to={`/actualites/${currentPage - 1 === 1 ? "" : currentPage - 1}`}
-          aria-label='page précédente'
+          aria-label="page précédente"
         >
           {" ← "}
         </Button>
       )}{" "}
       <strong>{currentPage}</strong>{" "}
       {hasNextPage && (
-        <Button 
+        <Button
           as={Link}
-          disabled={!hasNextPage} 
+          disabled={!hasNextPage}
           to={`/actualites/${currentPage + 1}`}
-          aria-label='page suivante'
+          aria-label="page suivante"
         >
           {"→"}
         </Button>
