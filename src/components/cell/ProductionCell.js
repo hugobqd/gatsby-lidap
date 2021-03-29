@@ -56,7 +56,7 @@ const ProductionCell = ({ node, big = false,...rest }) => {
           </Heading>
           <Flex>
             <Box pr='1em' className={big ? 'fs-2':"fs-45"} />
-            <Text as="h5" fontWeight="400">
+            <Text as="h5" fontWeight='normal'>
               {director && director}
               {nbsp} {date && `—${nbsp}${nbsp}${date.getFullYear()}`}
             </Text>

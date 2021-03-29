@@ -12,6 +12,8 @@ import { VscMenu, VscChromeClose } from "react-icons/vsc";
 
 import { space, typography } from "styled-system";
 import FocusOutliner from "./common/FocusOutliner";
+import Container from "./common/Container";
+import Grid from "./common/Grid";
 
 const NavFull = styled.nav`
   position: fixed;
@@ -33,6 +35,7 @@ const NavFull = styled.nav`
   .second {
     font-size: 1.5rem;
   }
+  ${space}
 `;
 
 const NavBarLink = styled(Link)`
@@ -84,6 +87,8 @@ const SkipLink = styled('a')`
 const NavFullLink = styled(Link)`
   color: ${(props) => props.theme.colors.bg};
   position: relative;
+  ${typography}
+  ${space}
 `;
 
 const BeforeXXS = styled("span")`
@@ -132,7 +137,7 @@ const Navbar = (props) => {
         bg="lavender"
         className="fs-nav"
       >
-        <NavBarLink to="/" fontWeight={900} pl={2}>
+        <NavBarLink to="/" fontWeight="bold" pl={2}>
           L'image d'après
           <FocusOutliner inside="true" />
         </NavBarLink>
@@ -172,7 +177,7 @@ const Navbar = (props) => {
             <Text as="span" pl={3}>Aller au contenu principal</Text>
             <FocusOutliner inside="true" />
           </SkipLink> 
-          <NavBarLink to="/" fontWeight={900}>
+          <NavBarLink to="/" fontWeight="bold">
             <Text as="span" pl={3}>
               L'image d'après
             </Text>
@@ -209,64 +214,71 @@ const Navbar = (props) => {
 
       {openFull && (
         <NavFull>
-          <div className="first">
-            <NavFullLink
-              to="/"
-              style={{ textTransform: "uppercase", fontWeight: 900 }}
-            >
-              L'image d'après
-              <FocusOutliner inside="true" />
-            </NavFullLink>
-            <NavFullLink to="/a-propos">
-              À propos
-              <FocusOutliner inside="true" />
-            </NavFullLink>
-            <NavFullLink to="/production">
-              Production
-              <FocusOutliner inside="true" />
-            </NavFullLink>
-            <NavFullLink to="/postproduction">
-              Postproduction
-              <FocusOutliner inside="true" />
-            </NavFullLink>
-            <NavFullLink to="/actualites">
-              Actualités
-              <FocusOutliner inside="true" />
-            </NavFullLink>
-            <NavFullLink to="/contact">
-              Contact
-              <FocusOutliner inside="true" />
-            </NavFullLink>
-            {/* <Link  to="/contact/examples">
-              Form Examples
-            </Link> */}
-          </div>
-          <div className="second" style={{ paddingLeft: "30%" }}>
-            {contact?.facebook && (
-              <NavFullLink as="a" href={contact.facebook}>
-                Facebook
-                <FocusOutliner inside="true" />
-              </NavFullLink>
-            )}
-            {contact?.vimeo && (
-              <NavFullLink as="a" href={contact.vimeo}>
-                Vimeo
-                <FocusOutliner inside="true" />
-              </NavFullLink>
-            )}
-          </div>
-          <Box position="absolute" top={0} right={0}>
-            <IconButton
-              width={"3.25rem"}
-              data-target="navMenu"
-              onClick={() => setOpenFull(!openFull)}
-              aria-label="Ouvrir le menu"
-              aria-haspopup="true"
-              aria-controls="menu"
-            >
-              <Box as={VscChromeClose} width="40%" height="40%" />
-            </IconButton>
-          </Box>
+          <Container width='100%'>
+            <Grid gridTemplateColumns={['1fr', '2fr 1fr']} gridGap={5}>
+              <Box className='fs-2'>
+                <NavFullLink
+                  to="/"
+                  style={{ textTransform: "uppercase" }}
+                  fontWeight="bold"
+                >
+                  L'image d'après
+                  <FocusOutliner inside="true" />
+                </NavFullLink>
+                <NavFullLink to="/a-propos" fontWeight="light">
+                  À propos
+                  <FocusOutliner inside="true" />
+                </NavFullLink>
+                <NavFullLink to="/production" fontWeight="light">
+                  Production
+                  <FocusOutliner inside="true" />
+                </NavFullLink>
+                <NavFullLink to="/postproduction" fontWeight="light">
+                  Postproduction
+                  <FocusOutliner inside="true" />
+                </NavFullLink>
+                <NavFullLink to="/actualites" fontWeight="light">
+                  Actualités
+                  <FocusOutliner inside="true" />
+                </NavFullLink>
+                <NavFullLink to="/contact" fontWeight="light">
+                  Contact
+                  <FocusOutliner inside="true" />
+                </NavFullLink>
+                {/* <Link  to="/contact/examples">
+                  Form Examples
+                </Link> */}
+              </Box>
+              <Flex className='fs-4' justifyContent='flex-start' alignItems='center'>
+                <Box>
+                  {contact?.facebook && (
+                    <NavFullLink as="a" href={contact.facebook}>
+                      Facebook
+                      <FocusOutliner inside="true" />
+                    </NavFullLink>
+                  )}
+                  {contact?.vimeo && (
+                    <NavFullLink as="a" href={contact.vimeo}>
+                      Vimeo
+                      <FocusOutliner inside="true" />
+                    </NavFullLink>
+                  )}
+                </Box>
+              </Flex>
+              <Box position="absolute" top={0} right={0}>
+                <IconButton
+                  width={"3.25rem"}
+                  data-target="navMenu"
+                  onClick={() => setOpenFull(!openFull)}
+                  aria-label="Ouvrir le menu"
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                >
+                  <Box as={VscChromeClose} width="40%" height="40%" />
+                </IconButton>
+              </Box>
+            </Grid>
+          </Container>
         </NavFull>
       )}
     </header>

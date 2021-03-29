@@ -35,7 +35,7 @@ export const BasicPageTemplate = ({
         <Container>
           <Heading>{title}</Heading>
           {description && (
-            <Box maxWidth="38rem" mt={3}>
+            <Box maxWidth="44rem" mt={3}>
               <Text className="fs-4">{description}</Text>
             </Box>
           )}

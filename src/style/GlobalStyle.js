@@ -23,6 +23,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: ${(p) => p.theme.font.main};
+    font-weight: ${(p) => p.theme.fontWeights.normal};
     background-color: ${(p) => p.theme.colors.bg};
     color: ${(p) => p.theme.colors.fg};
     -webkit-font-smoothing: antialiased;
@@ -46,7 +47,8 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
   }
   h1, h2, h3, h4, h5 {
-    line-height: 1
+    line-height: 1,
+    font-weight: ${(p) => p.theme.fontWeights.bold};
   }
   
   h1, .fs-1 {

@@ -26,6 +26,11 @@ export default {
     link: colors.lavender,
     focus: colors.chartreuse,
   },
+  fontWeights: {
+    'light' : 300,
+    'normal' : 500,
+    'bold' : 800
+  },
   sizes: {
     unit: unit,
   },

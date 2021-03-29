@@ -2,7 +2,6 @@ import React from "react";
 import Container from "./common/Container";
 import contact from "../settings/contact.json";
 import Flex from "../components/common/Flex";
-import Box from "../components/common/Box";
 import Link from "../components/common/Link";
 
 const Footer = () => {

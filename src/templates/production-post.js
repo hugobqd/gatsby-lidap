@@ -76,7 +76,7 @@ const Details = ({ children, label }) => {
                     border="none"
                     pl={3}
                     bg="dark"
-                    fontWeight={900}
+                    fontWeight="bold"
                     width="100%"
                     textAlign="left"
                     position="relative"
@@ -161,7 +161,7 @@ export const ProductionPostTemplate = ({
             </Box>
           )}
           {description && (
-            <Box maxWidth="38rem" ml={[0, 5]}>
+            <Box maxWidth="44rem" ml={[0, 5]}>
               <Text className="fs-4">{description.replace(/\\/g, " ")}</Text>
             </Box>
           )}

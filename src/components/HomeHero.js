@@ -16,17 +16,13 @@ const Section = styled.header`
 
   h1 {
     font-size: 10vw;
-    font-weight: 300;
-    text-indent: 100px;
+    font-weight: ${(props) => props.theme.fontWeights.normal};
     padding-left: 1em;
     text-indent: -1em;
     line-height: 0.85;
     width: 100%
   }
-  strong {
-    text-transform: uppercase;
-    font-weight: 900;
-  }
+
   a {
     color: #fff;
     text-decoration: none;
@@ -46,7 +42,7 @@ const HomeHero = () => {
     <Container>
       <Section>
         <h1>
-          <Box as={Link} to="/a-propos" textTransform='uppercase' fontWeight={900}>
+          <Box as={Link} to="/a-propos" textTransform='uppercase' fontWeight="bold">
             L’image d’après
             <FocusOutliner />
           </Box>

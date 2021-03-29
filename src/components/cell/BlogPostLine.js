@@ -27,7 +27,7 @@ const BlogPostLine = ({ node }) => {
     <Box>
       <Line to={node.fields.slug}>
         <Box as='article' py={2}>
-          <Text as="h3" fontWeight={900} display='inline' mr={3} fontStyle='italic'>
+          <Text as="h3" fontWeight="bold" display='inline' mr={3} fontStyle='italic'>
             {node.frontmatter.title}
           </Text>
           <Text as='time'>{node.frontmatter.date}</Text>

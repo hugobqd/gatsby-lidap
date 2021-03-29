@@ -29,7 +29,7 @@ export const BlogPostTemplate = ({
         <Container>
           <Text as='h1' fontStyle='italic' fontWeight='900' className='fs-15'>{title}</Text>
           {description && (
-            <Box maxWidth="38rem" mt={3}>
+            <Box maxWidth="44rem" mt={3}>
               <Text className="fs-4">{description}</Text>
             </Box>
           )}
