@@ -2,18 +2,17 @@ import React, { useState } from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-
+import { VscMenu, VscChromeClose } from "react-icons/vsc";
+import { IoLogoVimeo, IoLogoFacebook } from "react-icons/io5";
+import { space, typography } from "styled-system";
 import Box from "./common/Box";
 import Flex from "./common/Flex";
 import Text from "./common/Text";
 import IconButton from "./common/IconButton";
-import contact from "../settings/contact.json";
-import { VscMenu, VscChromeClose } from "react-icons/vsc";
-
-import { space, typography } from "styled-system";
 import FocusOutliner from "./common/FocusOutliner";
 import Container from "./common/Container";
 import Grid from "./common/Grid";
+import contact from "../settings/contact.json";
 
 const NavFull = styled.nav`
   position: fixed;
@@ -263,17 +262,34 @@ const Navbar = (props) => {
               >
                 <Box>
                   {contact?.facebook && (
-                    <NavFullLink as="a" px={3} href={contact.facebook}>
-                      Facebook
-                      <FocusOutliner inside="true" />
-                    </NavFullLink>
+                    <Box>
+                      <NavFullLink as="a" px={3} href={contact.facebook}>
+                        <Box as={IoLogoFacebook} mr={3} mt="-.2em" />
+                        Facebook
+                        <FocusOutliner />
+                      </NavFullLink>
+                    </Box>
                   )}
                   {contact?.vimeo && (
-                    <NavFullLink as="a" px={3} href={contact.vimeo}>
-                      Vimeo
-                      <FocusOutliner inside="true" />
-                    </NavFullLink>
+                    <Box>
+                      <NavFullLink as="a" px={3} href={contact.vimeo}>
+                        <Box as={IoLogoVimeo} mr={3} mt="-.2em" />
+                        Vimeo
+                        <FocusOutliner />
+                      </NavFullLink>
+                    </Box>
                   )}
+                  <Box>
+                    <NavFullLink
+                      as="a"
+                      px={3}
+                      href="https://vimeo.com/showcase/vod"
+                    >
+                      <Box as={IoLogoVimeo} mr={3} mt="-.2em" />
+                      VOD
+                      <FocusOutliner />
+                    </NavFullLink>
+                  </Box>
                 </Box>
               </Flex>
               <Box position="absolute" top={0} right={0}>

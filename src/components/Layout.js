@@ -22,7 +22,7 @@ const TemplateWrapper = ({ children }) => {
   return (
     <Flex className="layout" minHeight="100vh" flexDirection="column">
       <Helmet>
-        <html lang="en" />
+        <html lang="fr" />
         <title>{title}</title>
         <meta name="description" content={description} />
 
