@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <Container
       as="footer"
-      mx={-1}
+      
       style={{ textTransform: "uppercase", letterSpacing: ".05em" }}
       className="fs-6"
     >
-      <Flex py={5} justifyContent="space-between" flexWrap="wrap">
+      <Flex py={5} mx={-1} justifyContent="space-between" flexWrap="wrap">
         <Link px={1} to="/">
           L'image d'après
         </Link>
@@ -30,6 +30,9 @@ const Footer = () => {
         </Link>
         <Link px={1} to="/contact">
           Contact
+        </Link>
+        <Link px={1} to="/newsletter">
+        newsletter
         </Link>
         {contact.facebook && (
           <Link as="a" px={1} href={contact.facebook}>
