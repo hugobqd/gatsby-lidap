@@ -21,7 +21,7 @@ import { splitTitle } from "../components/hooks/splitTitle";
 import Stack from "../components/common/Stack";
 import AspectRatio from "../components/common/AspectRatio";
 import Grid from "../components/common/Grid";
-/* import Measure from "react-measure"; */
+import Measure from "react-measure";
 import FocusOutliner from "../components/common/FocusOutliner";
 
 const Details = ({ children, label }) => {
@@ -36,14 +36,14 @@ const Details = ({ children, label }) => {
     }
   }, [itemHeight, windowHeight]);
   return (
-/*     <Measure
+    <Measure
       bounds
       onResize={(contentRect) => {
         setItemHeight(contentRect.bounds.height);
         setWindowHeight(window.innerHeight);
       }}
     >
-      {({ measureRef }) => ( */
+      {({ measureRef }) => (
         <div>
           <Heading as="h5" mb={3} letterSpacing="0.033em">
             {label}
@@ -55,7 +55,7 @@ const Details = ({ children, label }) => {
               position: "relative",
             }}
           >
-            <Box /* ref={measureRef} */ pl={[0, 3]}>
+            <Box ref={measureRef} pl={[0, 3]}>
               {children}
             </Box>
             {!full && (
@@ -90,8 +90,8 @@ const Details = ({ children, label }) => {
             )}
           </div>
         </div>
-/*       )}
-    </Measure> */
+      )}
+    </Measure>
   );
 };
 const nbsp = "\xa0";
