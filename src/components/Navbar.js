@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { VscMenu, VscChromeClose } from "react-icons/vsc";
-import { IoLogoVimeo, IoLogoFacebook } from "react-icons/io5";
+import { IoLogoVimeo, IoLogoFacebook, IoMailSharp } from "react-icons/io5";
 import { space, typography } from "styled-system";
 import Box from "./common/Box";
 import Flex from "./common/Flex";
@@ -107,6 +107,12 @@ const Navbar = (props) => {
   const [openFull, setOpenFull] = useState(false);
   const [lastYPos, setLastYPos] = React.useState(0);
   const [showNav, setShowNav] = React.useState(true);
+
+  const closeIfCurrent = (to) => {
+    if ( to === window.location.pathname ) {
+      setOpenFull(false)
+    }
+  }
 
   React.useEffect(() => {
     function handleScroll() {
@@ -218,9 +224,10 @@ const Navbar = (props) => {
       {openFull && (
         <NavFull>
           <Container width="100%">
-            <Grid gridTemplateColumns={["1fr", "2fr 1fr"]} gridGap={5}>
-              <Box className="fs-2">
-                <Flex flexDirection="column" alignItems="self-start">
+            {/* <Grid gridTemplateColumns={["1fr", "2fr 1fr"]} gridGap={5} bg='orchid' alignItems='end'> */}
+            <Flex alignItems='flex-end' flexWrap="wrap">
+              <Box className="fs-2" flex={1} >
+                <Flex flexDirection="column" alignItems="self-start" lineHeight={'calc(0.6em + 6vh)'}>
                   <NavFullLink
                     to="/"
                     style={{ textTransform: "uppercase" }}
@@ -230,23 +237,23 @@ const Navbar = (props) => {
                     L'image d'après
                     <FocusOutliner />
                   </NavFullLink>
-                  <NavFullLink px={[3, 5]} to="/a-propos">
+                  <NavFullLink px={[3, 5]} to="/a-propos" onClick={()=>closeIfCurrent("/a-propos")} >
                     À propos
                     <FocusOutliner />
                   </NavFullLink>
-                  <NavFullLink px={[3, 5]} to="/production">
+                  <NavFullLink px={[3, 5]} to="/production" onClick={()=>closeIfCurrent("/production")} >
                     Production
                     <FocusOutliner />
                   </NavFullLink>
-                  <NavFullLink px={[3, 5]} to="/postproduction">
+                  <NavFullLink px={[3, 5]} to="/postproduction" onClick={()=>closeIfCurrent("/postproduction")} >
                     Postproduction
                     <FocusOutliner />
                   </NavFullLink>
-                  <NavFullLink px={[3, 5]} to="/actualites">
+                  <NavFullLink px={[3, 5]} to="/actualites" onClick={()=>closeIfCurrent("/actualites")} >
                     Actualités
                     <FocusOutliner />
                   </NavFullLink>
-                  <NavFullLink px={[3, 5]} to="/contact">
+                  <NavFullLink px={[3, 5]} to="/contact" onClick={()=>closeIfCurrent("/contact")} >
                     Contact
                     <FocusOutliner />
                   </NavFullLink>
@@ -260,11 +267,11 @@ const Navbar = (props) => {
                 justifyContent="flex-start"
                 alignItems="center"
               >
-                <Box>
+                <Box pb={1} pr={[0, 5]} mt={3}>
                   {contact?.facebook && (
                     <Box>
                       <NavFullLink as="a" px={3} href={contact.facebook}>
-                        <Box as={IoLogoFacebook} mr={3} mt="-.2em" />
+                        <Box as={IoLogoFacebook} mr={3} mt="-.18em" />
                         Facebook
                         <FocusOutliner />
                       </NavFullLink>
@@ -273,7 +280,7 @@ const Navbar = (props) => {
                   {contact?.vimeo && (
                     <Box>
                       <NavFullLink as="a" px={3} href={contact.vimeo}>
-                        <Box as={IoLogoVimeo} mr={3} mt="-.2em" />
+                        <Box as={IoLogoVimeo} mr={3} mt="-.18em" />
                         Vimeo
                         <FocusOutliner />
                       </NavFullLink>
@@ -284,9 +291,21 @@ const Navbar = (props) => {
                       as="a"
                       px={3}
                       href="https://vimeo.com/showcase/vod"
+                      aria-label='V O D'
                     >
-                      <Box as={IoLogoVimeo} mr={3} mt="-.2em" />
+                      <Box as={IoLogoVimeo} mr={3} mt="-.18em" />
                       VOD
+                      <FocusOutliner />
+                    </NavFullLink>
+                  </Box>
+                  <Box>
+                    <NavFullLink
+                      as={Link}
+                      px={3}
+                      to="/newsletter"
+                    >
+                      <Box as={IoMailSharp} mr={3} mt="-.18em" />
+                      Newsletter
                       <FocusOutliner />
                     </NavFullLink>
                   </Box>
@@ -304,7 +323,7 @@ const Navbar = (props) => {
                   <Box as={VscChromeClose} width="40%" height="40%" />
                 </IconButton>
               </Box>
-            </Grid>
+            </Flex>
           </Container>
         </NavFull>
       )}

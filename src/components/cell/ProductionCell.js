@@ -54,7 +54,7 @@ const ProductionCell = ({ node, big = false, ...rest }) => {
           <Heading
             as={"h3"}
             className={big ? "fs-2" : "fs-45"}
-            mb={".2em"}
+            mb={".1em"}
             indent
             lineHeight={0.9}
           >

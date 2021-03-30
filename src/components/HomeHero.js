@@ -10,17 +10,21 @@ const Section = styled.header`
   @media ${(props) => props.theme.bp[0]} {
     min-height: ${(props) => `calc( 100vh - 2 * ${props.theme.space[5]} )`};
   }
-  padding-bottom: ${(props) => `calc( 2 * ${props.theme.space[5]} )`};
+  padding-bottom: ${(props) => `calc( 1 * ${props.theme.space[5]} )`};
   display: flex;
   align-items: center;
 
   h1 {
-    font-size: 10vw;
+    font-size: 11vw;
     font-weight: ${(props) => props.theme.fontWeights.light};
     padding-left: 1em;
     text-indent: -1em;
-    line-height: 0.9;
+    line-height: 0.90;
     width: 100%;
+    
+    @media ${(props) => props.theme.bp[0]} {
+      font-size: 9.2vw;
+    }
   }
 
   a {

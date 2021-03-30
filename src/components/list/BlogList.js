@@ -1,20 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql, Link, StaticQuery } from "gatsby";
+import { graphql, StaticQuery } from "gatsby";
 import BlogPostLine from "../cell/BlogPostLine";
 import Container from "../common/Container";
-import Text from "../common/Text";
+import Heading from "../common/Heading";
+import Link from "../common/Link";
 
 const BlogList = ({ data }) => {
   const { edges: nodes } = data.allMarkdownRemark;
 
   return (
     <Container>
-      <Text to={"/actualites"} as={Link}>
-        Actualités
-      </Text>
+      <Link to={"/actualites"} display='inline-block' px={1} ml={-1}>
+        <Heading as='h3' >
+          Actualités
+        </Heading>
+      </Link>
       {nodes &&
-        nodes.map(({ node }) => <BlogPostLine node={node} key={node.id} />)}
+        nodes.map(({ node }) => <BlogPostLine node={node} key={node?.fields?.slug} />)}
     </Container>
   );
 };
@@ -38,7 +41,6 @@ export default () => (
         ) {
           edges {
             node {
-              id
               fields {
                 slug
               }

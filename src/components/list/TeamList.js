@@ -15,7 +15,7 @@ const TeamList = ({ list }) => {
           gridGap={[3, 5]}
         >
           {list.map(({ team_name, team_title, team_text }, i) => (
-            <Box>
+            <Box key={team_name}>
               {/* <div
                 style={{
                   maxWidth: "11rem",

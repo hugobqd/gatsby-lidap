@@ -21,7 +21,7 @@ export default class BlogList extends React.Component {
           <Container>
             <Box pl={[3, 5]}>
               {posts.map(({ node }) => {
-                return <BlogPostLine node={node} key={node.id} />;
+                return <BlogPostLine node={node} key={node?.fields?.slug} />;
               })}
             </Box>
             <Pagination pageInfo={pageInfo} pt={4} />

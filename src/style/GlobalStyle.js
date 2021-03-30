@@ -121,6 +121,9 @@ const GlobalStyle = createGlobalStyle`
     li + li {
       margin-top: .33em;
     }
+    a:focus-visible {
+      box-shadow:0 0 0 ${2 / 16}rem ${(props) => props.theme.colors.focus};
+    }
   }
 
   // React-player :
