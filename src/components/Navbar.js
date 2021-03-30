@@ -108,7 +108,7 @@ const Navbar = (props) => {
   const [lastYPos, setLastYPos] = React.useState(0);
   const [showNav, setShowNav] = React.useState(true);
 
-  React.useEffect(() => {
+/*   React.useEffect(() => {
     function handleScroll() {
       const yPos = window.scrollY;
       const goingDown = yPos < lastYPos;
@@ -121,7 +121,7 @@ const Navbar = (props) => {
     return () => {
       window.removeEventListener("scroll", handleScroll, false);
     };
-  }, [lastYPos]);
+  }, [lastYPos]); */
 
   return (
     <header role="navigation" aria-label="main-navigation">
