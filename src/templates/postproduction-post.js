@@ -26,7 +26,7 @@ export const PostProductionPostTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <Stack as='main'>
+    <Stack as="main">
       {helmet || ""}
       <Box>
         <Container>
@@ -38,23 +38,23 @@ export const PostProductionPostTemplate = ({
           )}
         </Container>
       </Box>
-      {content?.length > 0 && 
+      {content?.length > 0 && (
         <Container>
-          <Box maxWidth="38rem" pl={[0,5]}>
-            <PostContent content={content} className='labeur'/>
+          <Box maxWidth="38rem" pl={[0, 5]}>
+            <PostContent content={content} className="labeur" />
           </Box>
         </Container>
-      }
-      {document_list?.length > 0 && 
+      )}
+      {document_list?.length > 0 && (
         <Container className="documentlength">
           <DocumentsList list={document_list} />
         </Container>
-      }
-      {team_list?.length > 0 && 
+      )}
+      {team_list?.length > 0 && (
         <Container className="teamlist">
           <TeamList list={team_list} />
         </Container>
-      }
+      )}
     </Stack>
   );
 };
@@ -67,11 +67,11 @@ PostProductionPostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const PostProductionPost = ({ data }) => {
+const PostProductionPost = ({ data, location }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout location={location}>
       <PostProductionPostTemplate
         content={post.html}
         contentComponent={HTMLContent}

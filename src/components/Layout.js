@@ -17,7 +17,7 @@ const Content = styled(Box)`
   }
 `;
 
-const TemplateWrapper = ({ children }) => {
+const Layout = ({ children, location }) => {
   const { title, description } = useSiteMetadata();
   return (
     <Flex className="layout" minHeight="100vh" flexDirection="column">
@@ -60,7 +60,7 @@ const TemplateWrapper = ({ children }) => {
         />
         <link rel="stylesheet" href="https://use.typekit.net/dyq4dan.css" />
       </Helmet>
-      <Navbar />
+      <Navbar location={location} />
       <Content id="content" tabindex="-1" flex={1}>
         {children}
       </Content>
@@ -69,4 +69,4 @@ const TemplateWrapper = ({ children }) => {
   );
 };
 
-export default TemplateWrapper;
+export default Layout;

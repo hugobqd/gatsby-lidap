@@ -8,29 +8,29 @@ import Pagination from "../components/list/Pagination";
 import BlogPostLine from "../components/cell/BlogPostLine";
 import Box from "../components/common/Box";
 
-export default class BlogList extends React.Component {
-  render() {
-    const posts = this.props.data.allMarkdownRemark.edges;
-    const pageInfo = this.props.data.allMarkdownRemark.pageInfo;
-    return (
-      <Layout>
-        <Stack>
-          <Container>
-            <Heading>Actualités</Heading>
-          </Container>
-          <Container>
-            <Box pl={[3, 5]}>
-              {posts.map(({ node }) => {
-                return <BlogPostLine node={node} key={node?.fields?.slug} />;
-              })}
-            </Box>
-            <Pagination pageInfo={pageInfo} pt={4} />
-          </Container>
-        </Stack>
-      </Layout>
-    );
-  }
-}
+const BlogList = ({ data, location }) => {
+  const posts = data.allMarkdownRemark.edges;
+  const pageInfo = data.allMarkdownRemark.pageInfo;
+  return (
+    <Layout location={location}>
+      <Stack>
+        <Container>
+          <Heading>Actualités</Heading>
+        </Container>
+        <Container>
+          <Box pl={[3, 5]}>
+            {posts.map(({ node }) => {
+              return <BlogPostLine node={node} key={node?.fields?.slug} />;
+            })}
+          </Box>
+          <Pagination pageInfo={pageInfo} pt={4} />
+        </Container>
+      </Stack>
+    </Layout>
+  );
+};
+export default BlogList;
+
 export const blogListQuery = graphql`
   query blogListQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(

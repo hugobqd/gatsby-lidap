@@ -6,7 +6,6 @@ import BlogList from "../components/list/BlogList";
 import HomeHero from "../components/HomeHero";
 import HomeFeaturedMovies from "../components/list/HomeFeaturedMovies";
 
-
 export const IndexPageTemplate = ({ data }) => {
   // const actu = data.actu.edges;
   // const prod = data;
@@ -19,11 +18,11 @@ export const IndexPageTemplate = ({ data }) => {
   );
 };
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({ data, location }) => {
   // const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout location={location}>
       <IndexPageTemplate data={data} />
     </Layout>
   );

@@ -11,7 +11,6 @@ import Text from "./common/Text";
 import IconButton from "./common/IconButton";
 import FocusOutliner from "./common/FocusOutliner";
 import Container from "./common/Container";
-import Grid from "./common/Grid";
 import contact from "../settings/contact.json";
 
 const NavFull = styled.nav`
@@ -103,20 +102,20 @@ const AfterXXS = styled("span")`
   }
 `;
 
-const Navbar = (props) => {
+const Navbar = ({ location }) => {
   const [openFull, setOpenFull] = useState(false);
   const [lastYPos, setLastYPos] = React.useState(0);
   const [showNav, setShowNav] = React.useState(true);
 
   const closeIfCurrent = (to) => {
-    if ( to === window.location.pathname ) {
-      setOpenFull(false)
+    if (to === location.pathname) {
+      setOpenFull(false);
     }
-  }
+  };
 
   React.useEffect(() => {
     function handleScroll() {
-      const yPos = window.scrollY;
+      const yPos = window?.scrollY;
       const goingDown = yPos < lastYPos;
       setShowNav(yPos < 80 || goingDown);
       setLastYPos(yPos);
@@ -225,9 +224,13 @@ const Navbar = (props) => {
         <NavFull>
           <Container width="100%">
             {/* <Grid gridTemplateColumns={["1fr", "2fr 1fr"]} gridGap={5} bg='orchid' alignItems='end'> */}
-            <Flex alignItems='flex-end' flexWrap="wrap">
-              <Box className="fs-2" flex={1} >
-                <Flex flexDirection="column" alignItems="self-start" lineHeight={'calc(0.6em + 6vh)'}>
+            <Flex alignItems="flex-end" flexWrap="wrap">
+              <Box className="fs-2" flex={1}>
+                <Flex
+                  flexDirection="column"
+                  alignItems="self-start"
+                  lineHeight={"calc(0.6em + 6vh)"}
+                >
                   <NavFullLink
                     to="/"
                     style={{ textTransform: "uppercase" }}
@@ -237,23 +240,43 @@ const Navbar = (props) => {
                     L'image d'après
                     <FocusOutliner />
                   </NavFullLink>
-                  <NavFullLink px={[3, 5]} to="/a-propos" onClick={()=>closeIfCurrent("/a-propos")} >
+                  <NavFullLink
+                    px={[3, 5]}
+                    to="/a-propos"
+                    onClick={() => closeIfCurrent("/a-propos")}
+                  >
                     À propos
                     <FocusOutliner />
                   </NavFullLink>
-                  <NavFullLink px={[3, 5]} to="/production" onClick={()=>closeIfCurrent("/production")} >
+                  <NavFullLink
+                    px={[3, 5]}
+                    to="/production"
+                    onClick={() => closeIfCurrent("/production")}
+                  >
                     Production
                     <FocusOutliner />
                   </NavFullLink>
-                  <NavFullLink px={[3, 5]} to="/postproduction" onClick={()=>closeIfCurrent("/postproduction")} >
+                  <NavFullLink
+                    px={[3, 5]}
+                    to="/postproduction"
+                    onClick={() => closeIfCurrent("/postproduction")}
+                  >
                     Postproduction
                     <FocusOutliner />
                   </NavFullLink>
-                  <NavFullLink px={[3, 5]} to="/actualites" onClick={()=>closeIfCurrent("/actualites")} >
+                  <NavFullLink
+                    px={[3, 5]}
+                    to="/actualites"
+                    onClick={() => closeIfCurrent("/actualites")}
+                  >
                     Actualités
                     <FocusOutliner />
                   </NavFullLink>
-                  <NavFullLink px={[3, 5]} to="/contact" onClick={()=>closeIfCurrent("/contact")} >
+                  <NavFullLink
+                    px={[3, 5]}
+                    to="/contact"
+                    onClick={() => closeIfCurrent("/contact")}
+                  >
                     Contact
                     <FocusOutliner />
                   </NavFullLink>
@@ -291,7 +314,7 @@ const Navbar = (props) => {
                       as="a"
                       px={3}
                       href="https://vimeo.com/showcase/vod"
-                      aria-label='V O D'
+                      aria-label="V O D"
                     >
                       <Box as={IoLogoVimeo} mr={3} mt="-.18em" />
                       VOD
@@ -299,11 +322,7 @@ const Navbar = (props) => {
                     </NavFullLink>
                   </Box>
                   <Box>
-                    <NavFullLink
-                      as={Link}
-                      px={3}
-                      to="/newsletter"
-                    >
+                    <NavFullLink as={Link} px={3} to="/newsletter">
                       <Box as={IoMailSharp} mr={3} mt="-.18em" />
                       Newsletter
                       <FocusOutliner />

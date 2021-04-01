@@ -29,7 +29,7 @@ export const BasicPageTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <Stack as='main'>
+    <Stack as="main">
       {helmet || ""}
       <Box>
         <Container>
@@ -41,34 +41,34 @@ export const BasicPageTemplate = ({
           )}
         </Container>
       </Box>
-      {featuredimage && 
+      {featuredimage && (
         <Container>
-          <Box maxWidth="38rem" pl={[0,5]}>
+          <Box maxWidth="38rem" pl={[0, 5]}>
             <Img
               fluid={{
-                ...featuredimage.childImageSharp.fluid
+                ...featuredimage.childImageSharp.fluid,
               }}
             />
           </Box>
         </Container>
-      }
-      {content?.length > 0 && 
+      )}
+      {content?.length > 0 && (
         <Container>
-          <Box maxWidth="38rem" pl={[0,5]}>
-            <PostContent content={content} className='labeur'/>
+          <Box maxWidth="38rem" pl={[0, 5]}>
+            <PostContent content={content} className="labeur" />
           </Box>
         </Container>
-      }
-      {document_list?.length > 0 && 
+      )}
+      {document_list?.length > 0 && (
         <Container className="documentlength">
           <DocumentsList list={document_list} />
         </Container>
-      }
-      {team_list?.length > 0 && 
+      )}
+      {team_list?.length > 0 && (
         <Container className="teamlist">
           <TeamList list={team_list} />
         </Container>
-      }
+      )}
       <SubContentModuleSwitch route={forcedURL} />
     </Stack>
   );
@@ -82,11 +82,11 @@ BasicPageTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const BasicPage = ({ data }) => {
+const BasicPage = ({ data, location }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout location={location}>
       <BasicPageTemplate
         content={post.html}
         contentComponent={HTMLContent}

@@ -260,20 +260,11 @@ ProductionPostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const ProductionPost = ({ data }) => {
+const ProductionPost = ({ data, location }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
-      <pre
-        style={{
-          background: "navy",
-          fontSize: 10,
-          display: "none",
-        }}
-      >
-        {JSON.stringify(data, null, 2)}
-      </pre>
+    <Layout location={location}>
       <ProductionPostTemplate
         post={post}
         content={post.html}

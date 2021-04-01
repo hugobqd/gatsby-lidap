@@ -18,16 +18,18 @@ export const BlogPostTemplate = ({
   title,
   helmet,
   document_list,
-  featuredimage
+  featuredimage,
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
-    <Stack as='main'>
+    <Stack as="main">
       {helmet || ""}
       <Box>
         <Container>
-          <Text as='h1' fontStyle='italic' fontWeight='900' className='fs-15'>{title}</Text>
+          <Text as="h1" fontStyle="italic" fontWeight="900" className="fs-15">
+            {title}
+          </Text>
           {description && (
             <Box maxWidth="44rem" mt={3}>
               <Text className="fs-4">{description}</Text>
@@ -35,29 +37,29 @@ export const BlogPostTemplate = ({
           )}
         </Container>
       </Box>
-      {featuredimage && 
+      {featuredimage && (
         <Container>
-          <Box maxWidth="38rem" pl={[0,5]}>
+          <Box maxWidth="38rem" pl={[0, 5]}>
             <Img
               fluid={{
-                ...featuredimage.childImageSharp.fluid
+                ...featuredimage.childImageSharp.fluid,
               }}
             />
           </Box>
         </Container>
-      }
-      {content?.length > 0 && 
+      )}
+      {content?.length > 0 && (
         <Container>
-          <Box maxWidth="38rem" pl={[0,5]}>
-            <PostContent content={content} className='labeur'/>
+          <Box maxWidth="38rem" pl={[0, 5]}>
+            <PostContent content={content} className="labeur" />
           </Box>
         </Container>
-      }
-      {document_list?.length > 0 && 
+      )}
+      {document_list?.length > 0 && (
         <Container className="documentlength">
           <DocumentsList list={document_list} />
         </Container>
-      }
+      )}
     </Stack>
   );
 };
@@ -70,11 +72,11 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, location }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout location={location}>
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
