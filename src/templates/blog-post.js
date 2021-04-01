@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
+import styled from "styled-components";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Container from "../components/common/Container";
@@ -11,9 +12,20 @@ import Text from "../components/common/Text";
 import Stack from "../components/common/Stack";
 import DocumentsList from "../components/list/DocumentsList";
 
+const StyledHeadingBlog = styled(Box)`
+  font-weight: 900;
+  font-style: italic;
+  margin-top: -0.15em;
+  hyphens: auto;
+  @media ${(props) => props.theme.bp[0]} {
+    hyphens: none;
+  }
+`;
+
 export const BlogPostTemplate = ({
   content,
   contentComponent,
+  date,
   description,
   title,
   helmet,
@@ -27,9 +39,16 @@ export const BlogPostTemplate = ({
       {helmet || ""}
       <Box>
         <Container>
-          <Text as="h1" fontStyle="italic" fontWeight="900" className="fs-15">
+          <StyledHeadingBlog as="h1" className="fs-15">
             {title}
-          </Text>
+          </StyledHeadingBlog>
+          {date && (
+            <Box mt={3}>
+              <Text as="time" fontWeight="bold" className="fs-4">
+                {date}
+              </Text>
+            </Box>
+          )}
           {description && (
             <Box maxWidth="44rem" mt={3}>
               <Text className="fs-4">{description}</Text>
@@ -81,6 +100,7 @@ const BlogPost = ({ data, location }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        date={post.frontmatter.date}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
@@ -112,7 +132,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD/MM/YYYY")
         title
         description
         document_list {

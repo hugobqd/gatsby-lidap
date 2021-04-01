@@ -3,42 +3,58 @@ import Button from "../common/Button";
 import { space, layout } from "styled-system";
 import styled from "styled-components";
 import { Link } from "gatsby";
-
-const Nav = styled.nav(space, layout);
+import { ImArrowLeft, ImArrowRight } from "react-icons/im";
+import Flex from "../common/Flex";
+import Box from "../common/Box";
 
 const Pagination = ({ pageInfo, ...rest }) => {
-  const {
-    currentPage,
-    hasPreviousPage,
-    // pageCount,
-    // perPage,
-    hasNextPage,
-  } = pageInfo;
-  // hasNextPage doesn't work.
+  const { currentPage, hasPreviousPage, hasNextPage } = pageInfo;
+  console.log("pageInfo", pageInfo);
   return (
-    <Nav {...rest}>
+    <Flex as="nav" {...rest} alignItems="center">
       {hasPreviousPage && (
         <Button
           as={Link}
           disabled={!hasPreviousPage}
           to={`/actualites/${currentPage - 1 === 1 ? "" : currentPage - 1}`}
           aria-label="page précédente"
+          icon={<ImArrowLeft />}
+          mr={4}
         >
-          {" ← "}
+          <Box as="span" fontWeight="normal">
+            Page
+          </Box>
+          <br />
+          précédente
         </Button>
       )}{" "}
-      <strong>{currentPage}</strong>{" "}
+      {(hasPreviousPage || hasNextPage) && (
+        <Box
+          className="fs-4"
+          fontWeight="bold"
+          lineHeight="1"
+          aria-label={`Vous êtes à la page ${currentPage}`}
+        >
+          {currentPage}
+        </Box>
+      )}
       {hasNextPage && (
         <Button
           as={Link}
           disabled={!hasNextPage}
           to={`/actualites/${currentPage + 1}`}
           aria-label="page suivante"
+          iconEnd={<ImArrowRight />}
+          ml={4}
         >
-          {"→"}
+          <Box as="span" fontWeight="normal">
+            Page
+          </Box>
+          <br />
+          suivante
         </Button>
       )}
-    </Nav>
+    </Flex>
   );
 };
 

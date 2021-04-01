@@ -82,7 +82,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     // Paginated blog :
     // const posts = result.data.allPages.edges
-    const postsPerPage = 5;
+    const postsPerPage = 15;
     const numPages = Math.ceil(result.data.blogPages.totalCount / postsPerPage);
     Array.from({ length: numPages }).forEach((_, i) => {
       createPage({

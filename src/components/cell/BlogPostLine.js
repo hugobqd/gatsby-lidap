@@ -33,6 +33,7 @@ const BlogPostLine = ({ node }) => {
             display="inline"
             fontStyle="italic"
             mr={[2, 3]}
+            className="fs-25"
           >
             {node.frontmatter.title}
           </Text>{" "}

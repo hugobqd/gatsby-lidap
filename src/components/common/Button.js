@@ -64,7 +64,7 @@ const Icon = ({ icon }) => {
   return icon;
 };
 
-const Button = ({ children, icon, ...rest }) => {
+const Button = ({ children, icon, iconEnd, ...rest }) => {
   return (
     <StyledButton {...rest}>
       {icon && (
@@ -73,6 +73,11 @@ const Button = ({ children, icon, ...rest }) => {
         </Box>
       )}
       <Box>{children}</Box>
+      {iconEnd && (
+        <Box mr={-1} ml={3}>
+          <Icon icon={iconEnd} />
+        </Box>
+      )}
       <FocusOutliner />
     </StyledButton>
   );

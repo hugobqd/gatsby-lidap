@@ -2,7 +2,7 @@ import React from "react";
 // import PropTypes from "prop-types";
 // import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import BlogList from "../components/list/BlogList";
+import HomeBlogList from "../components/list/HomeBlogList";
 import HomeHero from "../components/HomeHero";
 import HomeFeaturedMovies from "../components/list/HomeFeaturedMovies";
 
@@ -13,7 +13,7 @@ export const IndexPageTemplate = ({ data }) => {
     <>
       <HomeHero />
       <HomeFeaturedMovies />
-      <BlogList />
+      <HomeBlogList />
     </>
   );
 };

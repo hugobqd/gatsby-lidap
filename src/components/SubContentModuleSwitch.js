@@ -1,7 +1,6 @@
 import React from "react";
 import ProductionList from "./list/ProductionList";
 import PostProductionList from "./list/PostProductionList";
-import BlogList from "./list/BlogList";
 import Container from "./common/Container";
 
 const SubContentModuleSwitch = ({ route }) => {
@@ -16,11 +15,8 @@ const SubContentModuleSwitch = ({ route }) => {
         </Container>
       );
 
-    case "actualites":
-      return <BlogList />;
-
     default:
-      return <></>;
+      return null;
   }
 };
 

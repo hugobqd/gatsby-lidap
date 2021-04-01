@@ -23,7 +23,9 @@ const BlogList = ({ data, location }) => {
               return <BlogPostLine node={node} key={node?.fields?.slug} />;
             })}
           </Box>
-          <Pagination pageInfo={pageInfo} pt={4} />
+          <Box pl={[3, 5]}>
+            <Pagination pageInfo={pageInfo} pt={4} />
+          </Box>
         </Container>
       </Stack>
     </Layout>

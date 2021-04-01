@@ -151,7 +151,7 @@ export const ProductionPostTemplate = ({
                 >
                   {vod_text || "VOD"}
                   <br />
-                  <Text as="span" fontWeight={400}>
+                  <Text as="span" fontWeight="normal">
                     {getDomain(vod_item)}
                   </Text>
                 </Button>

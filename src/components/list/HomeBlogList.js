@@ -5,24 +5,27 @@ import BlogPostLine from "../cell/BlogPostLine";
 import Container from "../common/Container";
 import Heading from "../common/Heading";
 import Link from "../common/Link";
+import Box from "../common/Box";
 
-const BlogList = ({ data }) => {
+const HomeBlogList = ({ data }) => {
   const { edges: nodes } = data.allMarkdownRemark;
 
   return (
     <Container>
-      <Link to={"/actualites"} display='inline-block' px={1} ml={-1}>
-        <Heading as='h3' >
-          Actualités
-        </Heading>
+      <Link to={"/actualites"} display="inline-block" px={1} ml={-1}>
+        <Heading as="h3">Actualités</Heading>
       </Link>
-      {nodes &&
-        nodes.map(({ node }) => <BlogPostLine node={node} key={node?.fields?.slug} />)}
+      <Box pl={[0, 5]}>
+        {nodes &&
+          nodes.map(({ node }) => (
+            <BlogPostLine node={node} key={node?.fields?.slug} />
+          ))}
+      </Box>
     </Container>
   );
 };
 
-BlogList.propTypes = {
+HomeBlogList.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -33,7 +36,7 @@ BlogList.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query BlogListQuery {
+      query HomeBlogListQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
@@ -53,6 +56,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <BlogList data={data} count={count} />}
+    render={(data, count) => <HomeBlogList data={data} count={count} />}
   />
 );
