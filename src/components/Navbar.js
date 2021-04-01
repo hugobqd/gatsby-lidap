@@ -328,6 +328,17 @@ const Navbar = ({ location }) => {
                       <FocusOutliner />
                     </NavFullLink>
                   </Box>
+                  <Box>
+                    <NavFullLink
+                      as={Link}
+                      px={3}
+                      to="/mentions"
+                      className="fs-6"
+                    >
+                      Mentions légales
+                      <FocusOutliner />
+                    </NavFullLink>
+                  </Box>
                 </Box>
               </Flex>
               <Box position="absolute" top={0} right={0}>
