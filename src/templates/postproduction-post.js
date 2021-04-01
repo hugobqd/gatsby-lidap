@@ -47,7 +47,9 @@ export const PostProductionPostTemplate = ({
       )}
       {document_list?.length > 0 && (
         <Container className="documentlength">
-          <DocumentsList list={document_list} />
+          <Box maxWidth="38rem" pl={[0, 5]}>
+            <DocumentsList list={document_list} />
+          </Box>
         </Container>
       )}
       {team_list?.length > 0 && (

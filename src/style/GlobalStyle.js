@@ -117,6 +117,7 @@ const GlobalStyle = createGlobalStyle`
     }
     *:first-child {
       margin-top: 0 !important;
+      padding-top: 0 !important;
     }
     li + li {
       margin-top: .2em;
