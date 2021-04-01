@@ -49,7 +49,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
   }
   h1, h2, h3, h4, h5 {
-    line-height: 1,
+    line-height: 1;
     font-weight: ${(p) => p.theme.fontWeights.bold};
   }
   
@@ -77,7 +77,7 @@ const GlobalStyle = createGlobalStyle`
     ${fluid(fontSizeH45)}
   }
   h5, .fs-5 {
-    ${fluid(fontSizeH5)}
+    font-size: 1rem;
   }
   h6, .fs-6 {
     ${fluid(fontSizeH6)}

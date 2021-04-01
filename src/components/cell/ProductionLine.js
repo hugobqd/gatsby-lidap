@@ -33,7 +33,7 @@ const ProductionLine = ({ node }) => {
   return (
     <Cell to={node.fields.slug}>
       <Flex as="article" data-id={node.id} alignItems="center" py={0}>
-        <Box width="16%" display={["block", "none"]}>
+        <Box width="16%" display={["block", "none"]} minWidth="4rem">
           {featuredimage && (
             <Img
               fluid={{
@@ -43,7 +43,7 @@ const ProductionLine = ({ node }) => {
             />
           )}
         </Box>
-        <Box width="14%" display={["none", "block"]}>
+        <Box width="15%" display={["none", "block"]}>
           {featuredimage && (
             <Img
               fluid={{
@@ -53,7 +53,8 @@ const ProductionLine = ({ node }) => {
             />
           )}
         </Box>
-        <Flex
+        <Box
+          display={["block", "flex"]}
           as="article"
           data-id={node.id}
           alignItems="center"
@@ -61,10 +62,10 @@ const ProductionLine = ({ node }) => {
           flex={1}
           flexWrap="wrap"
         >
-          <Box flex={1} pl={[3, 4]} minWidth={"280px"} lineHeight={1.2}>
+          <Box flex={1} pl={[3, 4]} lineHeight={1.2}>
             <Heading as={"h4"}>{title}</Heading>
           </Box>
-          <Box pl={[3, 4]} textAlign="right" py={1} minWidth={"220px"}>
+          <Box pl={[3, 4]}>
             <Text
               as="h5"
               style={{
@@ -77,7 +78,7 @@ const ProductionLine = ({ node }) => {
               {date && date.getFullYear()}
             </Text>
           </Box>
-        </Flex>
+        </Box>
       </Flex>
       <FocusOutliner inside="true" />
     </Cell>

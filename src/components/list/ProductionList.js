@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import styled from "styled-components";
 import Grid from "../common/Grid";
 import Box from "../common/Box";
+import Flex from "../common/Flex";
 import ProductionCell from "../cell/ProductionCell";
 import ProductionLine from "../cell/ProductionLine";
 import { IoGridSharp, IoListSharp } from "react-icons/io5";
@@ -16,21 +17,20 @@ const Switch = styled.button`
   padding: 0;
   border: 0;
   color: ${(props) => props.theme.colors.link};
-  background: ${(props) => props.theme.colors.darker};
+  background: ${(props) => props.theme.colors.dark};
 
   &:hover {
     color: ${(props) => props.theme.colors.fg};
-    background: ${(props) => props.theme.colors.bg};
+    background: ${(props) => props.theme.colors.darker};
   }
 `;
 const SwitchItem = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: ${(props) => props.theme.space[4]};
-  height: ${(props) => props.theme.space[4]};
-  min-width: 40px;
-  min-height: 40px;
+  min-width: ${(props) => props.theme.space[4]};
+  min-height: ${(props) => props.theme.space[4]};
+  font-weight: ${(props) => props.theme.fontWeights.bold};
   color: ${(props) =>
     props.active ? "currentColor" : props.theme.colors.dark};
   background: ${(props) =>
@@ -43,40 +43,71 @@ const SwitchItem = styled.div`
 `;
 
 const ProductionList = ({ data }) => {
-  const [view, setView] = useState("CHRONO");
-  const list = data.allMarkdownRemark.edges;
+  const listAll = data.allMarkdownRemark.edges;
+  const [viewType, setViewType] = useState("CHRONO");
+  const [viewVod, setViewVod] = useState(false);
+  const [list, setList] = useState(listAll);
 
-  const alphabeticalList = [...list].sort(function (a, b) {
-    var textA = a.node.frontmatter.title.toUpperCase();
-    var textB = b.node.frontmatter.title.toUpperCase();
-    return textA < textB ? -1 : textA > textB ? 1 : 0;
-  });
+  useEffect(() => {
+    const listFiltered = viewVod
+      ? listAll.filter(({ node }) => !!node.frontmatter?.vod_list)
+      : listAll;
+    setList(listFiltered);
+  }, [viewVod]);
+
+  const alphabeticalList = (list) => {
+    return [...list].sort(function (a, b) {
+      var textA = a.node.frontmatter.title.toUpperCase();
+      var textB = b.node.frontmatter.title.toUpperCase();
+      return textA < textB ? -1 : textA > textB ? 1 : 0;
+    });
+  };
 
   return (
     <Box position="relative">
-      <Box
+      <Flex
         position={["static", "absolute"]}
         top={"-5.5rem"}
-        right={"3.5rem"}
+        right={5}
         ml={3}
         mb={4}
       >
-        <Switch
-          onClick={() => setView(view === "ALPHA" ? "CHRONO" : "ALPHA")}
-          aria-label={`Afficher ${
-            view === "ALPHA" ? "par dates récentes" : "par ordre alphabétique"
-          }`}
-        >
-          <SwitchItem active={view !== "CHRONO"}>
-            <IoGridSharp />
-          </SwitchItem>
-          <SwitchItem active={view !== "ALPHA"}>
-            <IoListSharp />
-          </SwitchItem>
-          <FocusOutliner />
-        </Switch>
-      </Box>
-      {view !== "ALPHA" && (
+        <Box mr={[3, 5]}>
+          <Switch
+            onClick={() => setViewVod(!viewVod)}
+            aria-label={`Afficher ${viewVod ? "tous" : "avec V O D"}`}
+          >
+            <SwitchItem active={viewVod}>
+              <Box px={2}>TOUT</Box>
+            </SwitchItem>
+            <SwitchItem active={!viewVod}>
+              <Box px={2}>VOD</Box>
+            </SwitchItem>
+            <FocusOutliner />
+          </Switch>
+        </Box>
+        <Box>
+          <Switch
+            onClick={() =>
+              setViewType(viewType === "ALPHA" ? "CHRONO" : "ALPHA")
+            }
+            aria-label={`Afficher ${
+              viewType === "ALPHA"
+                ? "par dates récentes"
+                : "par ordre alphabétique"
+            }`}
+          >
+            <SwitchItem active={viewType !== "CHRONO"}>
+              <IoGridSharp />
+            </SwitchItem>
+            <SwitchItem active={viewType !== "ALPHA"}>
+              <IoListSharp />
+            </SwitchItem>
+            <FocusOutliner />
+          </Switch>
+        </Box>
+      </Flex>
+      {viewType !== "ALPHA" && (
         <Grid gridTemplateColumns={["repeat(2, 1fr)", "repeat(3, 1fr)"]}>
           {list &&
             list.map(({ node }) => (
@@ -84,10 +115,10 @@ const ProductionList = ({ data }) => {
             ))}
         </Grid>
       )}
-      {view === "ALPHA" && (
+      {viewType === "ALPHA" && (
         <Container>
-          {alphabeticalList &&
-            alphabeticalList.map(({ node }) => (
+          {list &&
+            alphabeticalList(list).map(({ node }) => (
               <ProductionLine node={node} key={node.id} />
             ))}
         </Container>
@@ -114,7 +145,6 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
               id
               fields {
                 slug
@@ -131,6 +161,9 @@ export default () => (
                       ...GatsbyImageSharpFluid
                     }
                   }
+                }
+                vod_list {
+                  vod_item
                 }
               }
             }

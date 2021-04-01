@@ -1,7 +1,5 @@
 import React from "react";
 import Button from "../common/Button";
-import { space, layout } from "styled-system";
-import styled from "styled-components";
 import { Link } from "gatsby";
 import { ImArrowLeft, ImArrowRight } from "react-icons/im";
 import Flex from "../common/Flex";

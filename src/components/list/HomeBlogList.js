@@ -12,7 +12,7 @@ const HomeBlogList = ({ data }) => {
 
   return (
     <Container>
-      <Link to={"/actualites"} display="inline-block" px={1} ml={-1}>
+      <Link to={"/actualites"} display="inline-block" p={2} ml={-2}>
         <Heading as="h3">Actualités</Heading>
       </Link>
       <Box pl={[0, 5]}>

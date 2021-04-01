@@ -8,6 +8,7 @@ import Box from "../common/Box";
 import Flex from "../common/Flex";
 import { splitTitle } from "../hooks/splitTitle";
 import FocusOutliner from "../common/FocusOutliner";
+import AspectRatio from "../common/AspectRatio";
 
 const nbsp = "\xa0";
 
@@ -30,7 +31,7 @@ const Cell = styled(Link)`
 `;
 
 const ProductionCell = ({ node, big = false, ...rest }) => {
-  const { title, director } = node.frontmatter;
+  const { title, director } = node.frontmatter; // , vod_list
   const featuredimage = node.frontmatter.featuredimage;
   const date = new Date(node.frontmatter.date);
 
@@ -42,14 +43,20 @@ const ProductionCell = ({ node, big = false, ...rest }) => {
           height: "100%",
         }}
       >
-        {featuredimage && (
-          <Img
-            fluid={{
-              ...featuredimage.childImageSharp.fluid,
-              aspectRatio: 16 / 9,
-            }}
-          />
-        )}
+        <Box position="relative">
+          {featuredimage && (
+            <Img
+              fluid={{
+                ...featuredimage.childImageSharp.fluid,
+                aspectRatio: 16 / 9,
+              }}
+            />
+          )}
+          {!featuredimage && <AspectRatio ratio=" 16 / 9" bg="lavender" />}
+          {/* <Box position="absolute" left={[3, 5]} bottom="1rem" bg="white" color="dark" fontWeight="bold" px={1} className="fs-6" >
+            VOD
+          </Box> */}
+        </Box>
         <Box px={[3, 5]} pt={[3, 4]} pb={[4, 5]}>
           <Heading
             as={"h3"}
