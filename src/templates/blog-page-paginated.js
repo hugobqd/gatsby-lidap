@@ -16,6 +16,7 @@ const BlogList = ({ data, location }) => {
     <Layout location={location}>
       <Helmet titleTemplate="%s - L'image d'après">
         <title>Actualités</title>
+        <meta property="og:title" content="Actualités - L'image d'après" />
         <meta property="og:url" content={location} />
       </Helmet>
       <Stack>

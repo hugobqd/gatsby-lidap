@@ -99,6 +99,10 @@ const BasicPage = ({ data, location }) => {
               name="description"
               content={`${post.frontmatter.description}`}
             />
+            <meta
+              property="og:title"
+              content={`${post.frontmatter.title} - L'image d'après`}
+            />
             <meta property="og:url" content={location} />
           </Helmet>
         }

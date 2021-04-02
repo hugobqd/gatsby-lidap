@@ -278,6 +278,10 @@ const ProductionPost = ({ data, location }) => {
               content={`${post.frontmatter.description}`}
             />
             <meta property="og:type" content="video.movie" />
+            <meta
+              property="og:title"
+              content={`${post.frontmatter.title} - L'image d'après`}
+            />
             {post.frontmatter.featuredimage && (
               <meta
                 property="og:image"

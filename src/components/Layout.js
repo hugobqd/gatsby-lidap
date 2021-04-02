@@ -58,6 +58,7 @@ const Layout = ({ children, location }) => {
           property="og:image"
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
+
         <link rel="stylesheet" href="https://use.typekit.net/dyq4dan.css" />
       </Helmet>
       <Navbar location={location} />

@@ -78,10 +78,14 @@ const ProductionList = ({ data }) => {
             aria-label={`Afficher ${viewVod ? "tous" : "avec V O D"}`}
           >
             <SwitchItem active={viewVod}>
-              <Box px={2}>TOUT</Box>
+              <Box px={2} pb=".1em">
+                TOUT
+              </Box>
             </SwitchItem>
             <SwitchItem active={!viewVod}>
-              <Box px={2}>VOD</Box>
+              <Box px={2} pb=".1em">
+                VOD
+              </Box>
             </SwitchItem>
             <FocusOutliner />
           </Switch>
