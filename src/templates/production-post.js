@@ -271,12 +271,22 @@ const ProductionPost = ({ data, location }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Film">
+          <Helmet titleTemplate="%s - Film - L'image d'après">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
             />
+            <meta property="og:type" content="video.movie" />
+            {post.frontmatter.featuredimage && (
+              <meta
+                property="og:image"
+                content={
+                  post.frontmatter.featuredimage.childImageSharp.fluid.src
+                }
+              />
+            )}
+            <meta property="og:url" content={location} />
           </Helmet>
         }
         credit={post.frontmatter.credit}

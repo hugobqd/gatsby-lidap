@@ -93,12 +93,13 @@ const BasicPage = ({ data, location }) => {
         description={post.frontmatter.description}
         document_list={post.frontmatter.document_list}
         helmet={
-          <Helmet titleTemplate="%s | Production">
+          <Helmet titleTemplate="%s - L'image d'après">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
             />
+            <meta property="og:url" content={location} />
           </Helmet>
         }
         team_list={post.frontmatter.team_list}

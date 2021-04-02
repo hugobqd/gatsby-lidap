@@ -104,12 +104,14 @@ const BlogPost = ({ data, location }) => {
         description={post.frontmatter.description}
         date={post.frontmatter.date}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s - Actualité | L'image d'après">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
             />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content={location} />
           </Helmet>
         }
         title={post.frontmatter.title}

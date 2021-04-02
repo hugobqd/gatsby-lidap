@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
 import Heading from "../components/common/Heading";
 import Stack from "../components/common/Stack";
@@ -13,6 +14,10 @@ const BlogList = ({ data, location }) => {
   const pageInfo = data.allMarkdownRemark.pageInfo;
   return (
     <Layout location={location}>
+      <Helmet titleTemplate="%s - L'image d'après">
+        <title>Actualités</title>
+        <meta property="og:url" content={location} />
+      </Helmet>
       <Stack>
         <Container>
           <Heading>Actualités</Heading>

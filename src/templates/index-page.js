@@ -7,8 +7,6 @@ import HomeHero from "../components/HomeHero";
 import HomeFeaturedMovies from "../components/list/HomeFeaturedMovies";
 
 export const IndexPageTemplate = ({ data }) => {
-  // const actu = data.actu.edges;
-  // const prod = data;
   return (
     <>
       <HomeHero />
