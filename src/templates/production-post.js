@@ -159,7 +159,7 @@ export const ProductionPostTemplate = ({
             </Box>
           )}
           {description && (
-            <Box maxWidth="44rem" ml={[0, 5]}>
+            <Box maxWidth="text" ml={[0, 5]}>
               <Text className="fs-4">{description.replace(/\\/g, " ")}</Text>
             </Box>
           )}
@@ -171,7 +171,7 @@ export const ProductionPostTemplate = ({
           <Stack>
             {trailer && (
               <Box position="relative" bg="black">
-                <AspectRatio ratio="16/9" maxHeight="90vh" />
+                <AspectRatio ratio={`${16 / 9}`} maxHeight="90vh" />
                 <ReactPlayer
                   url={trailer}
                   width="100%"
@@ -211,7 +211,7 @@ export const ProductionPostTemplate = ({
 
       {(content || document_list) && (
         <Container>
-          <Box maxWidth="38rem" ml={[0, 5]}>
+          <Box maxWidth="text" ml={[0, 5]}>
             <Stack>
               {content && <PostContent className="labeur" content={content} />}
               {document_list && <DocumentsList list={document_list} />}

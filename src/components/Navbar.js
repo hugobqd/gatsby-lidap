@@ -156,14 +156,15 @@ const Navbar = ({ location }) => {
           <FocusOutliner inside="true" />
         </NavBarLink>
         <IconButton
-          width={"3em"}
+          width="3em"
+          height="3em"
           data-target="navMenu"
           onClick={() => setOpenFull(!openFull)}
           aria-label="Ouvrir le menu"
           aria-haspopup="true"
           aria-controls="menu"
         >
-          <Box as={VscMenu} width={"50%"} height={"50%"} />
+          <Box as={VscMenu} width="50%" height="50%" />
         </IconButton>
       </Box>
 
@@ -206,6 +207,7 @@ const Navbar = ({ location }) => {
           top={0}
           right={0}
           width="3.25rem"
+          height="3.25rem"
           data-target="navMenu"
           onClick={() => setOpenFull(!openFull)}
           aria-label="Ouvrir le menu"
@@ -229,7 +231,7 @@ const Navbar = ({ location }) => {
                 <Flex
                   flexDirection="column"
                   alignItems="self-start"
-                  lineHeight={"calc(0.6em + 6vh)"}
+                  lineHeight="calc(0.6em + 6vh)"
                 >
                   <NavFullLink
                     to="/"
@@ -343,7 +345,8 @@ const Navbar = ({ location }) => {
               </Flex>
               <Box position="absolute" top={0} right={0}>
                 <IconButton
-                  width={"3.25rem"}
+                  width="3.25rem"
+                  height="3.25rem"
                   data-target="navMenu"
                   onClick={() => setOpenFull(!openFull)}
                   aria-label="Ouvrir le menu"

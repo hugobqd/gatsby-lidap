@@ -50,7 +50,7 @@ export const BlogPostTemplate = ({
             </Box>
           )}
           {description && (
-            <Box maxWidth="44rem" mt={3}>
+            <Box maxWidth="text" mt={3}>
               <Text className="fs-4">{description}</Text>
             </Box>
           )}
@@ -58,7 +58,7 @@ export const BlogPostTemplate = ({
       </Box>
       {featuredimage && (
         <Container>
-          <Box maxWidth="38rem" pl={[0, 5]}>
+          <Box maxWidth="text" pl={[0, 5]}>
             <Img
               fluid={{
                 ...featuredimage.childImageSharp.fluid,
@@ -69,14 +69,14 @@ export const BlogPostTemplate = ({
       )}
       {content?.length > 0 && (
         <Container>
-          <Box maxWidth="38rem" pl={[0, 5]}>
+          <Box maxWidth="text" pl={[0, 5]}>
             <PostContent content={content} className="labeur" />
           </Box>
         </Container>
       )}
       {document_list?.length > 0 && (
         <Container className="documentlength">
-          <Box maxWidth="38rem" pl={[0, 5]}>
+          <Box maxWidth="text" pl={[0, 5]}>
             <DocumentsList list={document_list} />
           </Box>
         </Container>

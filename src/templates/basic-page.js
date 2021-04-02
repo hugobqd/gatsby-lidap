@@ -35,7 +35,7 @@ export const BasicPageTemplate = ({
         <Container>
           <Heading>{title}</Heading>
           {description && (
-            <Box maxWidth="44rem" mt={3}>
+            <Box maxWidth="text" mt={3}>
               <Text className="fs-4">{description}</Text>
             </Box>
           )}
@@ -43,7 +43,7 @@ export const BasicPageTemplate = ({
       </Box>
       {featuredimage && (
         <Container>
-          <Box maxWidth="38rem" pl={[0, 5]}>
+          <Box maxWidth="text" pl={[0, 5]}>
             <Img
               fluid={{
                 ...featuredimage.childImageSharp.fluid,
@@ -54,7 +54,7 @@ export const BasicPageTemplate = ({
       )}
       {content?.length > 0 && (
         <Container>
-          <Box maxWidth="38rem" pl={[0, 5]}>
+          <Box maxWidth="text" pl={[0, 5]}>
             <PostContent content={content} className="labeur" />
           </Box>
         </Container>

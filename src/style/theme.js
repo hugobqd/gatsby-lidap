@@ -27,12 +27,13 @@ export default {
     focus: colors.chartreuse,
   },
   fontWeights: {
-    'light' : 300,
-    'normal' : 500,
-    'bold' : 800
+    light: 300,
+    normal: 500,
+    bold: 800,
   },
   sizes: {
     unit: unit,
+    text: "39rem",
   },
   // space: [...spacings],
   space: ["0", ".25rem", ".5rem", "1rem", "2rem", unit],
@@ -43,6 +44,6 @@ export default {
     navFull: 11,
   },
   transitions: {
-    link: '100ms ease-in-out'
-  }
+    link: "100ms ease-in-out",
+  },
 };

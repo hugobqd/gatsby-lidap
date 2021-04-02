@@ -53,7 +53,7 @@ const ProductionList = ({ data }) => {
       ? listAll.filter(({ node }) => !!node.frontmatter?.vod_list)
       : listAll;
     setList(listFiltered);
-  }, [viewVod]);
+  }, [viewVod, listAll]);
 
   const alphabeticalList = (list) => {
     return [...list].sort(function (a, b) {
