@@ -18,7 +18,7 @@ export default function HTML(props) {
             background-color: #19191F;
             color: #FFF;
             font-Weight: 500;
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+            font-family: degular, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
           }
           @media screen and (min-width:320px) {
             html {

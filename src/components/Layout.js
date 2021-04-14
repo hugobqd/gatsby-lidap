@@ -22,7 +22,7 @@ const Layout = ({ children, location }) => {
   return (
     <Flex className="layout" minHeight="100vh" flexDirection="column">
       <Helmet>
-        <html lang="fr" />
+        <html lang="fr" prefix="og: http://ogp.me/ns#" />
         <title>{title}</title>
         <meta name="description" content={description} />
 
@@ -51,6 +51,7 @@ const Layout = ({ children, location }) => {
         />
         <meta name="theme-color" content="#fff" />
 
+        <meta property="twitter:card" content="summary_large_image" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
