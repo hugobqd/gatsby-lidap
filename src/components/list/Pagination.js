@@ -7,7 +7,6 @@ import Box from "../common/Box";
 
 const Pagination = ({ pageInfo, ...rest }) => {
   const { currentPage, hasPreviousPage, hasNextPage } = pageInfo;
-  console.log("pageInfo", pageInfo);
   return (
     <>
       {(hasPreviousPage || hasNextPage) && (
