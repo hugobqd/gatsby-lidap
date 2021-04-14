@@ -15,6 +15,8 @@ import TeamList from "../components/list/TeamList";
 import Box from "../components/common/Box";
 import Stack from "../components/common/Stack";
 
+import logo from "../img/tarsier-logo-lidap.png";
+
 export const BasicPageTemplate = ({
   content,
   contentComponent,
@@ -41,6 +43,19 @@ export const BasicPageTemplate = ({
           )}
         </Container>
       </Box>
+      {forcedURL === "a-propos" && (
+        <Container>
+          <Box maxWidth="text" pl={[0, 5]}>
+            <Box
+              as="img"
+              src={logo}
+              alt="logo l'image d'apres"
+              maxWidth="16rem"
+              my={-4}
+            />
+          </Box>
+        </Container>
+      )}
       {featuredimage && (
         <Container>
           <Box maxWidth="text" pl={[0, 5]}>
