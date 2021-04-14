@@ -8,12 +8,11 @@ description: >
   L'image d'après a dix ans. C'est à Tours. Nous sommes neuf.
 
   Tous avons eu et continuons d'avoir des expériences de réalisation, de programmation, de travail associatif, de composition.
-
 document_list: []
 team_list:
   - team_name: Maud Martin
     team_title: Productrice
-    team_text:
+    team_text: >-
       Maud MARTIN a fondé la société de production L'image d'après en 2008 après
       l'obtention d'une maitrise de philosophie sur le cinéma et cinq années
       passées comme Administratrice culturelle  au sein d'un collectif de
@@ -24,24 +23,20 @@ team_list:
 
 
       Son travail au sein du collectif de producteurs de L'image d'après se fonde sur l'envie de défendre un cinéma inventif et des réalisateurs qui conçoivent chacun de leur film comme un nouvel espace de recherche et d'expérimentation.
+    team_portrait: /img/photo-maudmartin.jpg
   - team_name: Damien Monnier
     team_title: Producteur
-    team_text:
-      L'échange, la mise en commun, la confrontation caractérisent le cadre
-      de travail dans lequel j'aime évoluer. En parallèle du travail éditorial
-      mené au sein de Dérives et à la suite de la réalisation de mon premier
-      film Six faces d'une brique, produit par Maud Martin au sein de L'image
-      d'après, c'est avec ce même goût du travail collectif et de rendre visible
-      des œuvres singulières que je rejoins l'équipe de production de L'image
+    team_text: >-
+      L'échange, la mise en commun, la confrontation caractérisent le cadre de
+      travail dans lequel j'aime évoluer. En parallèle du travail éditorial mené
+      au sein de Dérives et à la suite de la réalisation de mon premier film Six
+      faces d'une brique, produit par Maud Martin au sein de L'image d'après,
+      c'est avec ce même goût du travail collectif et de rendre visible des
+      œuvres singulières que je rejoins l'équipe de production de L'image
       d'après en 2012.
 
 
-      J'y ai produit sept documentaires. Six autres sont
-      actuellement en développement ou production dont un premier court-métrage
-      de fiction. Je poursuis mon travail d'auteur et réalisateur, parfois en
-      collaboration avec d'autres artistes ou cinéastes. Je suis actuellement
-      membre des Conseils d'Administration d'_Ardèche Images_ et de PARC
-      (Producteurs Associés en Région Centre).
+      J'y ai produit sept documentaires. Six autres sont actuellement en développement ou production dont un premier court-métrage de fiction. Je poursuis mon travail d'auteur et réalisateur, parfois en collaboration avec d'autres artistes ou cinéastes. Je suis actuellement membre des Conseils d'Administration d'_Ardèche Images_ et de PARC (Producteurs Associés en Région Centre).
 ---
 
 L'équipe est constituée de six producteurs, aussi réalisateurs, de deux techniciens son, aussi musiciens et d'un gérant, aussi journaliste.
