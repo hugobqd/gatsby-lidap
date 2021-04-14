@@ -3,7 +3,7 @@ templateKey: production-post
 title: Bas seuil
 date: 2014-01-13T15:29:00.000Z
 director: "Darjeeling Bouton "
-featuredimage: /img/camion.png
+featuredimage: /img/camion.jpg
 trailer: https://vimeo.com/473063524
 vod_list:
   - vod_item: https://vimeo.com/86886839
@@ -16,8 +16,8 @@ description: >-
 
   Le film s'ancre au cœur de ce lieu d'échanges, le Bus Méthadone, point de rencontre entre deux mondes. Dérives ou errances, usagers et praticiens, oscillent selon les mouvements imprévisibles de ceux qui reviennent ou jamais.
 gallery_list:
-  - gallery_img: /img/couverture.png
-  - gallery_img: /img/arbre.png
+  - gallery_img: /img/couverture.jpg
+  - gallery_img: /img/arbre.jpg
 technical: |-
   *Genre :* essai documentaire\
   *Durée :* 40 minutes

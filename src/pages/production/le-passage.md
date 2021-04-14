@@ -3,7 +3,7 @@ templateKey: production-post
 title: Le passage
 date: 2013-02-28T23:00:00.000Z
 director: Mélanie Loisel
-featuredimage: /img/gilet-rouge.png
+featuredimage: /img/gilet-rouge.jpg
 trailer: https://vimeo.com/466505799
 vod_list:
   - vod_item: https://vimeo.com/81709987
@@ -14,8 +14,8 @@ description: >-
   observe la vie qui passe, le mouvement régulier des choses, le temps qui
   change. Bientôt, le passage à niveau sera automatisé. L'incertitude bouscule ses habitudes, l'attente se transforme.
 gallery_list:
-  - gallery_img: /img/passage.png
-  - gallery_img: /img/roue.png
+  - gallery_img: /img/passage.jpg
+  - gallery_img: /img/roue.jpg
 technical: |-
   *Genre :* documentaire\
   *Durée :* 47 minutes

@@ -3,7 +3,7 @@ templateKey: production-post
 title: Ce soir mon coeur bat
 date: 2016-06-01T13:46:00.000Z
 director: Rémi Jennequin
-featuredimage: /img/coiffeur.png
+featuredimage: /img/coiffeur.jpg
 description: >-
   « Qui sont ceux qui me disent comment il faut vivre ? Qui sont ceux qui me
   disent que la cigarette va me tuer ? Est-ce qu’ils vivront éternellement eux ?
@@ -15,9 +15,9 @@ description: >-
 
   Un jeune homme en quête de désirs et d'histoires dans une ville où le monde semble disparaître. Espoir ou le portrait d'une adolescence togolaise écorchée. Dans la poussière des rues de Lomé, je suis le serpentement accidenté de cet adolescent qui s'éprouve, dans une tension fragile vers le monde adulte.
 gallery_list:
-  - gallery_img: /img/route-de-nuit.png
-  - gallery_img: /img/profil.png
-  - gallery_img: /img/bougie.png
+  - gallery_img: /img/route-de-nuit.jpg
+  - gallery_img: /img/profil.jpg
+  - gallery_img: /img/bougie.jpg
 technical: |-
   *Genre :* documentaire\
   *Durée :* 46 minutes

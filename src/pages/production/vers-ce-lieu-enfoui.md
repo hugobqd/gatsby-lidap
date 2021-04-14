@@ -3,15 +3,15 @@ templateKey: production-post
 title: Vers ce lieu enfoui
 date: 2020-12-01T14:21:18.970Z
 director: Alexis Jacquand
-featuredimage: /img/verscelieuenfoui-a.jacquand_chasseurclairiere.png
+featuredimage: /img/verscelieuenfoui-a.jacquand_chasseurclairiere.jpg
 description: >-
   Dans une région montagneuse et aride, Samir vit de la contrebande de pétrole.
   Il transporte la marchandise à dos de mulet de son village algérien à la
   frontière marocaine.
 
 gallery_list:
-  - gallery_img: /img/verscelieuenfoui-a.jacquand_cerf.png
-  - gallery_img: /img/verscelieuenfoui-a.jacquand_enfantsguettent.png
+  - gallery_img: /img/verscelieuenfoui-a.jacquand_cerf.jpg
+  - gallery_img: /img/verscelieuenfoui-a.jacquand_enfantsguettent.jpg
 technical: |-
   *Genre :* documentaire\
   *Durée :* 60 minutes\

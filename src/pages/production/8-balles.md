@@ -3,7 +3,7 @@ templateKey: production-post
 title: 8 balles
 date: 2014-10-26T11:00:00.000Z
 director: Frank Ternier
-featuredimage: /img/image_2020-10-26_143822.png
+featuredimage: /img/image_2020-10-26_143822.jpg
 trailer: https://vimeo.com/126230536
 vod_list:
   - vod_item: https://vimeo.com/86306232
@@ -14,13 +14,13 @@ description: >-
   "Je m’appelle Gabriel Douard, j’habite Taipei, j’ai perdu ma femme lors d’une
   agression.\
 
-  Un homme roux, une pieuvre tatouée sur l’avant-bras gauche, est entré chez moi ;\
+  Un homme roux, une pieuvre tatouée sur l’avant-bras gauche, est entré chez moi;\
 
-  il sentait le poisson frit, il était affolé, il portait une arme ; \
+  il sentait le poisson frit, il était affolé, il portait une arme; \
 
-  il en fait usage sur toute ma famille... \
+  il en fait usage sur toute ma famille… \
 
-  depuis j’ai comme un vide ; \
+  depuis j’ai comme un vide; \
 
   un trou dans la tête."
 gallery_list:

@@ -3,7 +3,7 @@ templateKey: production-post
 title: Le forum des rêves
 date: 2017-01-01T16:02:00.000Z
 director: Olivier Bosson
-featuredimage: /img/came-ra-cache-e.png
+featuredimage: /img/came-ra-cache-e.jpg
 trailer: https://vimeo.com/242537431
 vod_list:
   - vod_item: http://leforumdesreves.net/
@@ -20,8 +20,8 @@ description: >-
 
   Chaque vidéo postée sur le site est réalisée dans le cadre de tournages participatifs auxquelles auront participé au final quasiment 1000 personnes du monde entier (France, Canada, Cuba, Belgique, Suisse et Maroc). Chacun, comédien amateur, enregistre soit un rêve soit un commentaire qui seront ensuite assemblés sur le site pour constituer le Forum.
 gallery_list:
-  - gallery_img: /img/re-ves.png
-  - gallery_img: /img/ve-lo-casse-.png
+  - gallery_img: /img/re-ves.jpg
+  - gallery_img: /img/ve-lo-casse-.jpg
 technical: |-
   *Genre :* webfiction\
   *Durée :* 10 épisodes de 20 minutes\
