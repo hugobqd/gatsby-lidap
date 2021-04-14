@@ -26,6 +26,7 @@ const Layout = ({ children, location }) => {
         <title>{title}</title>
         <meta name="description" content={description} />
 
+        <link rel="shortcut icon" href={`${withPrefix("/")}img/favicon.ico`} />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -47,9 +48,11 @@ const Layout = ({ children, location }) => {
         <link
           rel="mask-icon"
           href={`${withPrefix("/")}img/safari-pinned-tab.svg`}
-          color="#ff4400"
+          color="#19191f"
         />
-        <meta name="theme-color" content="#fff" />
+        <meta name="theme-color" content="#19191f" />
+        <meta name="msapplication-TileColor" content="#19191f" />
+        <link rel="manifest" href="/img/site.webmanifest" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="og:type" content="website" />
