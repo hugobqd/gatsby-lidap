@@ -10,7 +10,7 @@ const TeamList = ({ list }) => {
     <>
       {list && (
         <Grid
-          gridTemplateColumns={["repeat(2, 1fr)", "repeat(3, 1fr)"]}
+          gridTemplateColumns={["1fr", "repeat(2, 1fr)"]}
           px={[0, 5]}
           gridGap={[3, 5]}
         >
@@ -25,17 +25,22 @@ const TeamList = ({ list }) => {
                 <PreviewCompatibleImage imageInfo={member.team_portrait} />
               </div> */}
               {team_name && (
-                <Heading as="h4" mb={2} letterSpacing="0.033em">
+                <Heading
+                  as="h4"
+                  className="fs-35"
+                  mb={3}
+                  letterSpacing="0.033em"
+                >
                   {team_name}
                 </Heading>
               )}
               {team_title && (
-                <Text as="h5" mb={3} fontWeight="900" pl={[0, 3]}>
+                <Text as="h5" mb={3} fontWeight="900" pl={[0, 5]}>
                   {team_title}
                 </Text>
               )}
               {team_text && (
-                <Box className="labeur fs-6" pl={[0, 3]}>
+                <Box className="labeur" pl={[0, 5]}>
                   <ReactMarkdown>{team_text}</ReactMarkdown>
                 </Box>
               )}

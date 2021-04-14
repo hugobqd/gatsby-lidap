@@ -201,26 +201,26 @@ export default function HTML(props) {
               font-size: 50px;
             }
           }
-          .fs-45 {
+          .fs-35 {
             font-size: 22px;
           }
           @media screen and (min-width:320px) {
-            .fs-45 {
+            .fs-35 {
               font-size: calc(22px + (26 - 22)*(100vw - 320px)/(992 - 320));
             }
           }
           @media screen and (min-width:992px) {
-            .fs-45 {
+            .fs-35 {
               font-size: calc(26px + (44 - 26)*(100vw - 992px)/(1920 - 992));
             }
           }
           @media screen and (min-width:1920px) {
-            .fs-45 {
+            .fs-35 {
               font-size: calc(44px + (80 - 44)*(100vw - 1920px)/(3840 - 1920));
             }
           }
           @media screen and (min-width:3840px) {
-            .fs-45 {
+            .fs-35 {
               font-size: 80px;
             }
           }

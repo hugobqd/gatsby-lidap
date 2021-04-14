@@ -8,7 +8,7 @@ const fontSizeNavLg = css({ fontSize: ["16px", "18px", "22px", "36px"] });
 const fontSizeH6 = css({ fontSize: ["14px", "16px", "20px", "36px"] });
 const fontSizeH5 = css({ fontSize: ["16px", "18px", "24px", "42px"] });
 const fontSizeH4 = css({ fontSize: ["20px", "22px", "36px", "50px"] });
-const fontSizeH45 = css({ fontSize: ["22px", "26px", "44px", "80px"] });
+const fontSizeH35 = css({ fontSize: ["22px", "26px", "44px", "80px"] });
 const fontSizeH3 = css({ fontSize: ["26px", "32px", "54px", "100px"] });
 const fontSizeH25 = css({ fontSize: ["28px", "36px", "62px", "120px"] });
 const fontSizeH2 = css({ fontSize: ["32px", "44px", "75px", "150px"] });
@@ -73,8 +73,8 @@ const GlobalStyle = createGlobalStyle`
   h4, .fs-4 {
     ${fluid(fontSizeH4)}
   }
-  .fs-45 {
-    ${fluid(fontSizeH45)}
+  .fs-35 {
+    ${fluid(fontSizeH35)}
   }
   h5, .fs-5 {
     font-size: 1rem;

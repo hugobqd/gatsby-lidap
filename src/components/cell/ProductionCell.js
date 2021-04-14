@@ -60,7 +60,7 @@ const ProductionCell = ({ node, big = false, ...rest }) => {
         <Box px={[3, 5]} pt={[3, 4]} pb={[4, 5]}>
           <Heading
             as={"h3"}
-            className={big ? "fs-2" : "fs-45"}
+            className={big ? "fs-2" : "fs-35"}
             mb={".1em"}
             indent
             lineHeight={0.9}
@@ -68,7 +68,7 @@ const ProductionCell = ({ node, big = false, ...rest }) => {
             {splitTitle(title)}
           </Heading>
           <Flex>
-            <Box pr="1em" className={big ? "fs-2" : "fs-45"} />
+            <Box pr="1em" className={big ? "fs-2" : "fs-35"} />
             <Text as="h5" fontWeight="normal" mb="-.3em">
               {director && director}
               {nbsp} {date && `—${nbsp}${nbsp}${date.getFullYear()}`}
