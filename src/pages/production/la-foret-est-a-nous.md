@@ -56,8 +56,13 @@ credit: |-
   Tohu-Bohu\
   Vidéo de poche
 selection: |-
-  Les samedis d’Addoc (France)\
+  Les samedis d’Addoc (France)
+
   Le Festival des possibles (France)
+
+  Quais des docs (Sète, France) 
+
+  Résistance (Clamecy, France)
 productor: >-
   Une coproduction \
 
