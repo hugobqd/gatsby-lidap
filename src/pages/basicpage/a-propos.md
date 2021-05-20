@@ -13,30 +13,57 @@ team_list:
   - team_name: Maud Martin
     team_title: Productrice
     team_text: >-
-      Maud MARTIN a fondé la société de production L'image d'après en 2008 après
-      l'obtention d'une maitrise de philosophie sur le cinéma et cinq années
-      passées comme Administratrice culturelle  au sein d'un collectif de
-      réalisateurs.
+      Je fonde la société en 2008 après l'obtention d'une maitrise de
+      philosophie sur le cinéma et cinq années passées comme Administratrice
+      culturelle  au sein d'un collectif de réalisateurs.
 
+      Aujourd’hui, j’ai produit une quinzaine de films (documentaires, court-métrages d'animation, essais) et je développe de nombreux nouveaux projets. Je suis également réalisatrice.
 
-      Elle a aujourd'hui produit une quinzaine de films (documentaires, court-métrages d'animation, essais) et développe actuellement de nombreux projets. Elle est également réalisatrice.
-
-
-      Son travail au sein du collectif de producteurs de L'image d'après se fonde sur l'envie de défendre un cinéma inventif et des réalisateurs qui conçoivent chacun de leur film comme un nouvel espace de recherche et d'expérimentation.
-    team_portrait: /img/photo-maudmartin.jpg
+      Mon travail au sein du collectif de producteurs de L'image d'après se fonde sur l'envie de défendre un cinéma inventif et des réalisateurs qui conçoivent chacun de leur film comme un nouvel espace de recherche et d'expérimentation.
+    team_portrait: ""
   - team_name: Damien Monnier
     team_title: Producteur
+    team_text: L'échange et la mise en commun caractérisent le cadre de travail qui
+      m'enthousiasme. En parallèle du travail éditorial mené au sein de Dérives
+      et à la suite de la réalisation de Six faces d'une brique, produit par
+      Maud au sein de L'image d'après, c'est avec ce même goût du travail
+      collectif et de rendre visible des œuvres singulières que je rejoins
+      l'équipe de production en 2012. J'y ai produit sept documentaires. Je
+      poursuis mon travail d'auteur et réalisateur, parfois en collaboration
+      avec d'autres artistes ou cinéastes. Je suis aussi actuellement membre du
+      Conseil d'Administration d'Ardèche Images.
+  - team_name: Annabelle Gangneux
+    team_title: Productrice
+    team_text: Pendant près de 20 ans, j'ai coordonné la programmation et
+      l'organisation du Festival International Super 8 de Tours puis la
+      programmation et l’organisation de projections (cycles, festivals..)
+      de  films documentaires. En parallèle, j'ai fait de la régie sur des
+      tournages, du casting figuration, des ateliers d'éducation à l'image et de
+      la collecte de films d'archives amateurs. J'ai une première expérience
+      comme directrice de production sur un moyen métrage de fiction, avant de
+      rentrer à L’image d’après en 2011 où je travaille comme assistante de
+      production puis comme productrice. Avec quelques incartades dans l'essai
+      et l'animation, je produits essentiellement des films documentaires.
+  - team_name: Orlane Dumas
+    team_title: Productrice
+    team_text: "C’est après un BTS option Techniques d’ingénierie et exploitation
+      des équipements à Saint-Quentin (02) et un Master en production à
+      l’Université de Valenciennes (59) que je rejoins L’image d’après pour un
+      stage de six mois en février 2018. J’y apprends l’administration d’une
+      société de production en même temps que le métier de productrice …
+      l’équipe m’entraîne très vite dans son énergie créatrice ! À la fin du
+      stage, nous décidons d’un commun accord de poursuivre notre travail
+      ensemble. Après la production de deux premiers films documentaires, je
+      travaille au développement de trois nouveaux projets … pour le moment ! "
+  - team_name: Lysa Heurtier Manzanares
+    team_title: Productrice
     team_text: >-
-      L'échange, la mise en commun, la confrontation caractérisent le cadre de
-      travail dans lequel j'aime évoluer. En parallèle du travail éditorial mené
-      au sein de Dérives et à la suite de la réalisation de mon premier film Six
-      faces d'une brique, produit par Maud Martin au sein de L'image d'après,
-      c'est avec ce même goût du travail collectif et de rendre visible des
-      œuvres singulières que je rejoins l'équipe de production de L'image
-      d'après en 2012.
+      Après des études universitaires en cinéma qui se terminent par le Master 2
+      pro DEMC à Paris Diderot en 2012, je réalise mon premier film Let's Play,
+      en co-réalisation avec Emmanuel Falguières, au sein du G.R.E.C (Groupes de
+      recherche et d'essais cinématographiques).
 
-
-      J'y ai produit sept documentaires. Six autres sont actuellement en développement ou production dont un premier court-métrage de fiction. Je poursuis mon travail d'auteur et réalisateur, parfois en collaboration avec d'autres artistes ou cinéastes. Je suis actuellement membre des Conseils d'Administration d'_Ardèche Images_ et de PARC (Producteurs Associés en Région Centre).
+      De 2014 à 2016, je travaille à Lumière du monde, association de producteurs indépendants basée à Lussas. En 2015,  j’intègre l'équipe de programmation de Tënk, la plateforme SVOD de documentaire, puis je réalise un second film, Navire, en co-réalisation avec Agnès Perrais. Je décide ensuite de me tourner vers la production et je rejoins L'image d'après en 2019. En parallèle de mon activité de productrice, je continue de réaliser des films et en 2021, je termine un long-métrage documentaire En plein jour.
 ---
 
 L'équipe est constituée de six producteurs, aussi réalisateurs, de deux techniciens son, aussi musiciens et d'un gérant, aussi journaliste.
