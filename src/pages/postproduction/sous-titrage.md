@@ -1,15 +1,11 @@
 ---
 templateKey: postproduction-post
 title: Sous-titrage
-description: >-
-  Nous réalisons des travaux de sous-titrage pour le cinéma et l'audiovisuel
-  allant du travail de repérage, en collaboration avec les traducteurs, à la
-  réalisation des sous-titres et des exports nécessaires aux productions pour la
-  conception des Masters et PAD des films.
-
-team_list:
-  - team_name: Maud Martin
-    team_text: cbehfhjvjejdfkejfvrvjfkld:gkfr
+description: Nous réalisons des travaux de sous-titrage pour le cinéma et
+  l'audiovisuel allant du travail de repérage, en collaboration avec les
+  traducteurs, à la réalisation des sous-titres et des exports nécessaires aux
+  productions pour la conception des Masters et PAD des films.
+team_list: []
 ---
 
 Nous collaborons régulièrement avec plusieurs traducteurs anglais et nous sommes à même, en fonction des projets, de solliciter des traducteurs d'autres langues (espagnol, basque, polonais, allemand, italien, portugais...)
