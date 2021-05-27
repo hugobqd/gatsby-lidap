@@ -16,7 +16,7 @@ team_list:
 ---
 Nous avons travaillé avec beaucoup de jeunes réalisateurs, sur des films tournés avec ou sans opérateur du son. Notre approche est de mettre en valeur et d'enrichir l'écriture sonore du film, que le son soit uniquement issu du tournage ou bien complété par des éléments enregistrés a posteriori (ambiances, bruitages) et si possible par nos soins. Le montage son peut être aussi le moment d'enregistrer la voix off, ce pour quoi nous sommes aussi équipés.
 
-Les mixages sont, selon le type de films et leur économie, effectués au sein de structures partenaires dans des conditions d'écoute adaptées aux exigences des différent standards de diffusion.
+Le montage son permet de commencer directement le mixage, qui est effectué, selon le type de films et leur économie, au sein de structures partenaires dans des conditions d'écoute adaptées aux exigences des différent standards de diffusion.
 
 \####Notre équipement :
 
