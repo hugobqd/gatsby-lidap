@@ -5,9 +5,9 @@ parentUrl: /
 title: À propos
 featuredimage: ""
 description: >
-  L'image d'après a dix ans. C'est à Tours. Nous sommes neuf.
+  L'image d'après a treize ans. C'est à Tours. Nous sommes neuf.
 
-  Tous avons eu et continuons d'avoir des expériences de réalisation, de programmation, de travail associatif, de composition.
+  Nous avons eu et continuons d'avoir, en parallèle de notre activité de producteur.rice.s des expériences de réalisation, de programmation, de travail associatif, de composition.
 document_list: []
 team_list:
   - team_name: Maud Martin
