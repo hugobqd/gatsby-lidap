@@ -86,8 +86,13 @@ credit: |-
   Atelier sonore Chuuttt !!\
   Arwestud films
 selection: |-
-  Visions du réel (Nyon, Suisse)\
-  Etats généraux du film documentaire de Lussas (France)
+  Visions du réel (Nyon, Suisse)
+
+  Les inattendus (Lyon, France) 
+
+  Les écrans documentaires (Arcueil, France)
+
+  Beldocs (Belgrade, Serbie)
 productor: |-
   Une production\
   **L’image d’après** \
