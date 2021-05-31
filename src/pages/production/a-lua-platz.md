@@ -19,15 +19,7 @@ description: >-
 gallery_list:
   - gallery_img: /img/lua.platz.01.gravayat.entre-e.du.bidonville.des.coquetiers.bobigny.2017.jpg
   - gallery_img: /img/lua.platz.03.gravayat.2018.iulian.florica.estera.roumanie.2016.jpg
-document_list:
-  - document_item: /img/dossierdepresse_french_190724.pdf
-    document_title: Dossier de presse
-  - document_item: /img/dossierdepresse_english_190722.pdf
-    document_title: Press kit
-  - document_item: /img/a2_fr_poster_aluaplatz_forweb.pdf
-    document_title: Affiche
-  - document_item: /img/a2_eng_poster_aluaplatz_forweb.pdf
-    document_title: Poster
+document_list: []
 technical: |-
   Durée : 97 min\
   Couleur et noir et blanc \
