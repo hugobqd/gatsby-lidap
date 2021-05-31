@@ -65,6 +65,7 @@ credit: |-
   Froggy\
   L’image d’après\
   Nyima
+selection: Mediterraneo Video Festival (Salerne, Italie)
 productor: >-
   **L’image d’après** \
 
@@ -93,3 +94,4 @@ productor: >-
 
   L'aide du département des Landes
 ---
+> Prix du meilleur film documentaire au 19ème Mediterraneo Video Festival (Salerne, Italie)
