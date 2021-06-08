@@ -29,7 +29,8 @@ gallery_list:
   - gallery_img: /img/poe-me.jpg
   - gallery_img: /img/landscape.jpg
 technical: |-
-  *Genre :* documentaire\
+  *Genre :* documentaire
+
   *Durée :* 1h52
 credit: |-
   *Réalisation :* \
@@ -97,8 +98,9 @@ productor: |-
   Christophe Hérigault
 
   *Avec :*\
-  Le soutien de Ciclic-Région Centre et de la région Basse-Normandie\
-  La participation du CNC\
-  La collaboration de la Maison de l’image en Basse-Normandie\
+  Ciclic-Région Centre \
+  La Basse-Normandie\
+  La Maison de l’image en Basse-Normandie\
+  Le CNC\
   La Procirep et l’Angoa
 ---
