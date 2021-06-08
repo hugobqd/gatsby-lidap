@@ -19,7 +19,8 @@ gallery_list:
   - gallery_img: /img/couverture.jpg
   - gallery_img: /img/arbre.jpg
 technical: |-
-  *Genre :* essai documentaire\
+  *Genre :* essai documentaire
+
   *Durée :* 40 minutes
 credit: |-
   *Réalisation :* \
@@ -48,38 +49,26 @@ credit: |-
   In the mood\
   TV Tours Val de Loire\
   Canal Maritima
-productor: >-
+productor: |-
   Une coproduction \
-
   **L’image d’après** \
-
   Maud Martin
 
-
   **Airelles production**\
-
   Nicola Farina
 
-
   **TV Tours Val de Loire** \
-
   Christophe Hérigault
 
-
   **Les films du Gabian** \
-
   Emmanuelle Prévot 
 
-
   *Avec :*\
-
-  Le soutien du CNC et de la commission Images de la diversité\
-
-  La participation de Ciclic Région Centre et de la région PACA\
-
-  L’aide d’ACSE, agence nationale pour la cohésion sociale et l’égalité des chances\
-
+  Le CNC \
+  Le fonds Images de la diversité du CNC\
+  Ciclic Région Centre\
+  La région Provence Alpes Côtes d'Azur\
+  L'ACSE, agence nationale pour la cohésion sociale et l’égalité des chances\
   Envie d’agir Défi jeunes\
-
   Canal Maritima
 ---
