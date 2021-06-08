@@ -22,7 +22,8 @@ gallery_list:
   - gallery_img: /img/danse.jpg
   - gallery_img: /img/pieds.jpg
 technical: |-
-  *Genre :* documentaire\
+  *Genre :* documentaire
+
   *Durée :* 57 minutes
 credit: |-
   *Réalisation :* \
@@ -91,7 +92,7 @@ productor: |-
   Christophe Hérigault
 
   *Avec :*\
-  Le soutien de Ciclic – Région Centre\
-  L'aide du CNC
+  Ciclic – Région Centre\
+  Le CNC
 ---
-> D’après la pièce chorégraphique « Des hommes » de Bernardo Montet.
+D’après la pièce chorégraphique « Des hommes » de Bernardo Montet.
