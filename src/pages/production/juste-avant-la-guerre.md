@@ -20,7 +20,8 @@ gallery_list:
   - gallery_img: /img/je-change.jpg
   - gallery_img: /img/trees.jpg
 technical: |-
-  Genre : film-journal\
+  Genre : film-journal
+
   Durée : 50 minutes
 credit: |-
   *Réalisation :* \
@@ -66,6 +67,6 @@ productor: |-
   Jean-Baptiste Giuliani
 
   *Avec :*\
-  L'aide à la création du ministère de la culture – DRAC Centre
+  La DRAC Centre
 ---
 > Autoportrait d'un cinéaste de province au bord de la crise de la quarantaine, qui tombe amoureux et qui tente de faire un film sur son père. Une crise qui va se manifester par un brusque besoin de retrouver un geste artisanal, une pratique archaïque du cinéma, comme un dernier geste enfantin.
