@@ -16,8 +16,11 @@ gallery_list:
   - gallery_img: /img/gymnase.jpg
   - gallery_img: /img/boire.jpg
 technical: |-
-  *Genre :* documentaire\
+  *Genre :* documentaire
+
   *Durée :* 54 minutes
+
+  Langue originale : français
 credit: |-
   *Réalisation :* \
   Francis Del Rio
@@ -66,32 +69,24 @@ credit: |-
   L’image d’après\
   Nyima
 selection: Mediterraneo Video Festival (Salerne, Italie)
-productor: >-
+productor: |-
   **L’image d’après** \
-
   Damien Monnier\
-
   Mélanie Loisel
 
-
   **Froggy**\
-
   Olivier Poujaud
-
 
   Avec la participation de **TV7 Bordeaux**
 
-
   *Avec :*\
-
-  L'autorisation de l'Administration pénitentiaire et en partenariat avec la direction inter-régionale des Services pénitentiaires de Bordeaux\
-
-  En partenariat avec le Centre pénitentiaire de Mont de Marsan\
-
-  L'aide de la région Aquitaine Limousin Poitou-Charente avec l'agence ECLA et de Ciclic-Région Centre Val de Loire en partenariat avec le CNC\
-
-  L'aide de la PROCIREP et de l'ANGOA \
-
-  L'aide du département des Landes
+  Le Centre pénitentiaire de Mont de Marsan\
+  La région Aquitaine Limousin Poitou-Charente avec l'agence ECLA\
+  Ciclic-Région Centre Val de Loire\
+  La PROCIREP et l'ANGOA \
+  Le département des Landes
 ---
 > Prix du meilleur film documentaire au 19ème Mediterraneo Video Festival (Salerne, Italie)
+
+Avec l'autorisation de l'Administration pénitentiaire\
+En partenariat avec la direction inter-régionale des Services pénitentiaires de Bordeaux
