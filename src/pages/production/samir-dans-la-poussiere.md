@@ -8,55 +8,16 @@ trailer: https://vimeo.com/162659505
 vod_list:
   - vod_item: https://vimeo.com/145113324
   - vod_item: https://vimeo.com/148097294
-description: >-
-  Dans une région montagneuse et aride, Samir vit de la contrebande de pétrole.
-  Il transporte la marchandise à dos de mulet de son village algérien à la
-  frontière marocaine.
-
+description: Dans une région montagneuse et aride, Samir vit de la contrebande
+  de pétrole. Il transporte la marchandise à dos de mulet de son village
+  algérien à la frontière marocaine.
 gallery_list:
   - gallery_img: /img/247-cover_large.jpg
   - gallery_img: /img/samir-dans-la-poussiere-9.jpg
-featuredpost: true
 technical: |-
-  *Genre :* documentaire\
+  *Genre :* documentaire
+
   *Durée :* 60 minutes
-credit: |-
-  *Image et réalisation :* \
-  Mohamed Ouzine
-
-  *Avec :*\
-  Samir Berka
-
-  *Assistante :* \
-  Nadjia Ayadi
-
-  *Prise de son :*\
-  Ahmed Bergomp
-
-  *Montage :*\
-  Simon Leclère\
-  Mohamed Ouzine
-
-  *Stagiaire :*\
-  Clara Héliou\
-  Avec Marion Héliou
-
-  *Montage son et mixage :*\
-  Pierre-Emmanuel Mériaud
-
-  *Etalonnage :*\
-  Paul Champart
-
-  *Sous-titrage :*\
-  Maud Martin
-
-  *Musique originale :* \
-  Tatiana Paris 
-
-  *Moyens techniques :*\
-  L’image d’après\
-  Une chambre à soi\
-  TCS
 selection: |-
   Dubaï International Film Festival (Emirats Arabes Unis)
 
@@ -103,6 +64,7 @@ selection: |-
   FliMM,  festival libre du Moyen-métrage (Paris, France)
 
   Les entrevues de Belfort (France)
+featuredpost: true
 productor: |-
   **L’image d’après** \
   Maud Martin\
@@ -117,23 +79,63 @@ productor: |-
   Clotilde Massari
 
   *Avec :*\
-  Le soutien de la SACEM en association avec Ciclic\
-  Le soutien du département de la Seine-Saint-Denis\
-  Le soutien de Ciclic-Région Centre Val de Loire\
-  L'aide du CNC\
-  L'aide du Doha Film Institute
+  La SACEM\
+  Le département de la Seine-Saint-Denis\
+  Ciclic-Région Centre Val de Loire\
+  Le CNC\
+  Le Doha Film Institute
 tags:
   - documentaire
----
+credit: |-
+  *Image et réalisation :* \
+  Mohamed Ouzine
 
+  *Avec :*\
+  Samir Berka
+
+  *Assistante :* \
+  Nadjia Ayadi
+
+  *Prise de son :*\
+  Ahmed Bergomp
+
+  *Montage :*\
+  Simon Leclère\
+  Mohamed Ouzine
+
+  *Stagiaire :*\
+  Clara Héliou\
+  Avec Marion Héliou
+
+  *Montage son et mixage :*\
+  Pierre-Emmanuel Mériaud
+
+  *Etalonnage :*\
+  Paul Champart
+
+  *Sous-titrage :*\
+  Maud Martin
+
+  *Musique originale :* \
+  Tatiana Paris 
+
+  *Moyens techniques :*\
+  L’image d’après\
+  Une chambre à soi\
+  TCS
+---
 Filmé par son oncle, Samir dévoile peu à peu ses aspirations, son désir d’une vie différente. La résignation l’a emporté et, un peu paradoxalement, par un lien complexe avec la région qui l’a vu grandir, il semble être prisonnier de l’horizon.
 
 > Dans le portrait de Samir, se reflète en négatif celui du réalisateur Mohamed Ouzine, et son rapport également ambigu, bien qu’opposé, avec ce territoire. Lui vit en France, et revient sur cette terre pour y trouver des réponses, pour comprendre d’où il vient. À la fascination de la caméra pour les paysages répond l’incompréhension de Samir, qui n’y voit que sable et rochers. Entre les deux, se dessine, par des images impressionnistes, une ligne qui mène de l’ombre à la lumière, du trivial au sublime, et peut-être ce qui retient, malgré tout, Samir dans l’infini de ces paysages.
 >
-> _Mourad Moussa_
+> *Mourad Moussa*
 
-- Grand prix du Festival du film documentaire arabo-africain de Zagora (Maroc)
-- Mention spéciale à CINEMED (Montpellier, France)
-- Oasis d'argent au Festival international du film Arabe de Gabès (Tunisie)
-- Prix du moyen-métrage le plus innovant aux Visions du Réel (Nyon, Suisse)
-- Etoile de la SCAM et Prix de l'oeuvre audiovisuelle en 2017
+*Grand prix du Festival du film documentaire arabo-africain de Zagora (Maroc)*
+
+*Mention spéciale à CINEMED (Montpellier, France)*
+
+*Oasis d'argent au Festival international du film Arabe de Gabès (Tunisie)*
+
+*Prix du moyen-métrage le plus innovant aux Visions du Réel (Nyon, Suisse)*
+
+*Etoile de la SCAM et Prix de l'oeuvre audiovisuelle en 2017*
