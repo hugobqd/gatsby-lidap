@@ -20,6 +20,7 @@ gallery_list:
   - gallery_img: /img/tours-nuit.jpg
 technical: |-
   *Genre :* documentaire
+
   *Durée :* 40 minutes
 credit: |-
   *Réalisation :* \
@@ -83,9 +84,9 @@ productor: |-
   Clotilde Massari
 
   Avec\
-  La participation du CNC\
-  Le soutien du fonds Images de la diversité\
-  Le soutien de Ciclic-Région Centre-Val-de-Loire\
-  Le soutien de la région Rhône-Alpes
+  Le CNC\
+  Le fonds Images de la diversité du CNC\
+  Ciclic-Région Centre-Val-de-Loire\
+  La région Rhône-Alpes
 ---
 Ce film a été développé dans le cadre de l’Ecole documentaire de Lussas et a été réalisé dans le cadre de la collection Primavera. 
