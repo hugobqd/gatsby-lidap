@@ -3,7 +3,7 @@ templateKey: basic-page
 forcedURL: a-propos
 parentUrl: /
 title: À propos
-featuredimage: ""
+featuredimage: /img/parpidap-565v1.jpg
 description: >
   L'image d'après a treize ans. C'est à Tours. Nous sommes neuf.
 
