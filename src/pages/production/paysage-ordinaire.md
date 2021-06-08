@@ -21,8 +21,11 @@ gallery_list:
   - gallery_img: /img/territoire-boviduc1.jpg
 document_list: []
 technical: |-
-  *Genre :* documentaire\
+  *Genre :* documentaire
+
   *Durée :* 1h26
+
+  *Langue originale :* français
 credit: |-
   *Réalisation :* Damien Monnier
 
