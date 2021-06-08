@@ -23,9 +23,11 @@ gallery_list:
   - gallery_img: /img/re-ves.jpg
   - gallery_img: /img/ve-lo-casse-.jpg
 technical: |-
-  *Genre :* webfiction\
-  *Durée :* 10 épisodes de 20 minutes\
-  *Production :* Canada, France, Belgique, Maroc, Luxembourg, Cuba
+  *Genre :* webfiction
+
+  *Durée :* 10 épisodes de 20 minutes
+
+  *Lieux de production :* Canada, France, Belgique, Maroc, Luxembourg, Cuba
 credit: |-
   *Scénario, réalisation, montage :* \
   Olivier Bosson
@@ -51,38 +53,35 @@ credit: |-
   *Musique :*\
   Benjamin Seror
 selection: |-
-  Vidéoformes (Clermont-Ferrand, France)\
-  Saison vidéo (web)\
-  Faites de l'image  (Toulouse, France) \
-  Génération connectée (Issy-les-Moulineaux, France)\
-  Côté court (Pantin, France) \
-  La biennale internationale du design (Saint-Etienne, France) \
+  Vidéoformes (Clermont-Ferrand, France)
+
+  Saison vidéo (web)
+
+  Faites de l'image  (Toulouse, France) 
+
+  Génération connectée (Issy-les-Moulineaux, France)
+
+  Côté court (Pantin, France) 
+
+  La biennale internationale du design (Saint-Etienne, France) 
+
   La biennale de l'image possible (Liège, Belgique)
-productor: >-
+productor: |-
   Une coproduction \
-
   **L’image d’après** \
-
   Maud Martin
-
 
   **Offre Spéciale Films**
 
-
   **Elegoa Cultural Productions** 
 
-
   *Avec :*\
-
-  Le soutien du CNC Dicréam\
-
-  Le soutien du Fonds SCAN de la région Rhône-Alpes\
-
-  L'aide de Ciclic Région Centre et de la région Basse Normandie\
-
-  L'aide du département de Seine-Saint-Denis\
-
-  Le soutien des villes de Saint-Nazaire, Nantes, Liège, Saint-Etienne et Vénissieux
+  Le CNC Dicréam\
+  Le Fonds SCAN de la région Rhône-Alpes\
+  Ciclic Région Centre\
+  La Basse Normandie\
+  Le département de Seine-Saint-Denis\
+  Les villes de Saint-Nazaire, Nantes, Liège, Saint-Etienne et Vénissieux
 ---
 > Au programme :
 >
