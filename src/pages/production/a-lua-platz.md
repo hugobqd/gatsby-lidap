@@ -21,7 +21,14 @@ gallery_list:
   - gallery_img: /img/lua.platz.03.gravayat.2018.iulian.florica.estera.roumanie.2016.jpg
 document_list: []
 technical: |-
-  Durée : 97 min\
+  *Genre :* documentaire
+
+  *Durée :* 97 min
+
+  *Langue originale :* roumain et français
+
+  *Sous-titrage :* anglais et français
+
   Couleur et noir et blanc \
   HD / 16MM / SUPER 8\
   DCP 2K 1.85
@@ -42,35 +49,86 @@ selection: |-
   Frontera sur (Chili)
 featuredpost: true
 productor: >-
-  En coproduction avec Survivance (distributeur)
+  Un coproduction \
+
+  **L'image d'après** \
+
+  Damien Monnier\
+
+  \
+
+  Et **Survivance**\
+
+  Carine Chichkowsky
 
 
-  Avec :\
+  *Avec :*\
 
-  l'aide à l'écriture, au développement et au développement renforcé du Fonds d'Aide à l'Innovation du CNC\
+  Le Fonds d'Aide à l'Innovation du CNC\
 
-  l'aide au développement de la Procirep-Angoa\
+  La Procirep et l'Angoa\
 
-  l'aide à la production du fonds Images de la diversité du CNC\
+  Le fonds Images de la diversité du CNC\
 
-  l'aide Architecture, Ville, Paysage de la direction générale des patrimoines - Sous-direction de l'architecture, de la qualité de construction et du cadre de vie (gérée par le CNC)
+  L'aide Architecture, Ville, Paysage de la direction générale des patrimoines - Sous-direction de l'architecture, de la qualité de construction et du cadre de vie (gérée par le CNC)\
+
+  La Municipalité de la Courneuve\
+
+  Le département de la Seine-Saint-Denis
 
 
-  Le projet a été accueilli en résidence à *L'Abominable.*
+  Le projet a été accueilli en résidence d'écriture à **Lignes d'Erre** ; **Film Flamme** ; le **Polygone Etoilé** (Marseille) et le **Dojo** (Axat).
 tags:
   - documentaire
-credit: >-
-  Réalisation : Jérémy Gravayat\
+credit: |-
+  *Réalisation :* Jérémy Gravayat
 
-  Assistant Réalisation : Yann Chevalier\
+  *Avec :* 
 
-  Production exécutive : Damien Monnier (L’image d’après) et Carine Chichkowsky (Survivance)\
+  Cristian Damian\
+  Iulian Minzat\
+  Raluca Melinte\
+  Simona Boti\
+  Dusan Boti\
+  Patricia Boti\
+  Yves Tenret\
+  Abdel Saadouni\
+  Smail Gherram\
+  Florica Minzat\
+  Estera Minzat\
+  Marcel Brinduse\
+  Mihaela Stanciu\
+  Nicolae Stanciu\
+  Aurelia Gavrila\
+  Jérémy Gravayat\
+  Yann Chevalier
 
-  Image : Guillaume Mazloum et Jérémy Gravayat\
+  *Assistant Réalisation :* Yann Chevalier
 
-  Son : Gil Savoy\
+  *Images :* Guillaume Mazloum, Jérémy Gravayat et Yann Chevalier
 
-  Montage : Marie Beaune
+  *Sons :* Gil Savoy et Yann Chevalier
+
+  *Montage :* Marie Beaune et Jérémy Gravayat
+
+  *Montage son et mixage :* Gil Savoy
+
+  *Etalonnage :* Sébastien Descoins
+
+  *Interprète et traduction :* Raluca Melinte
+
+  *Sous-titrage de la version française :* Jérémy Gravayat et Pierre Vergnes
+
+  *Sous-titrage de la version anglaise :* Maura Mc Guinness
+
+  *Scans 16mm et Super 8 :* Arnaud Gallinière, Yannis Davidas et Henk Tyberghein
+
+  *Moyens techniques :* \
+  Uncanny films\
+  L'Abominable\
+  Kinographik\
+  Light Cone\
+  Mediaswitch
 team: ÉQUIPE Aux marges d’une banlieue parisienne en grande mutation, quelques
   familles roumaines cherchent des lieux où vivre. Depuis le village quitté, le
   bidonville rasé, les maisons occupées, leurs trajectoires retissent une
