@@ -44,7 +44,7 @@ credit: |-
 
   *Sous-titrage anglais :* Cameron MacLeary
 
-  *Technicienne vidéo :* Maud Martin
+  *Titrage :* Maud Martin
 
   *Moyens techniques :* \
   L’image d’après\
