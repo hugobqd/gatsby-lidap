@@ -89,6 +89,8 @@ productor: >-
 
   cinématographique, dans le cadre de son partenariat avec le département.
 ---
+Pierre Tonachella :
+
 > J’ai grandi avec le groupe du village puis déménagé à Paris pour étudier. Pour les voir, je prends
 > désormais le RER et traverse la banlieue puis les zones pavillonnaires qui bordent les étendues de
 > champs plats.
@@ -101,5 +103,3 @@ productor: >-
 > Depuis toujours mes expériences cinématographiques ont lieu là-bas.
 >
 > *Jusqu’à ce que le jour se lève* est mon premier long-métrage documentaire.
-
-Pierre Tonachella
