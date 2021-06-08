@@ -19,7 +19,8 @@ gallery_list:
   - gallery_img: /img/profil.jpg
   - gallery_img: /img/bougie.jpg
 technical: |-
-  *Genre :* documentaire\
+  *Genre :* documentaire
+
   *Durée :* 46 minutes
 credit: |-
   *Réalisation, image et son :* \
@@ -110,11 +111,11 @@ productor: |-
   Perrine Robert
 
   *Avec :*
-  Le soutien du CNC
-  Le soutien de la région Auvergne-Rhône-Alpes
-  L'aide de la PROCIREP et de l'ANGOA
-  Le soutien de la ville de Boulogne-sur-Mer
-  L'aide de l'association Les Dérushé.e.s
-  L'aide de l'association des Togolais sur la lune 
-  L'aide du JAT Togo Accueil des tournages
+  Le CNC
+  La région Auvergne-Rhône-Alpes
+  La PROCIREP et l'ANGOA
+  La ville de Boulogne-sur-Mer
+  L'association Les Dérushé.e.s
+  L'association des Togolais sur la lune 
+  Le JAT Togo Accueil des tournages
 ---
