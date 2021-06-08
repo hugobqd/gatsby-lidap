@@ -23,9 +23,12 @@ document_list:
   - document_item: /img/schoondonker_affiche_final.pdf
     document_title: Affiche
 technical: |-
-  *Genre :* documentaire\
-  *Durée :* 1h11\
-  *Langue originale :* flamand (Belgique)\
+  *Genre :* documentaire
+
+  *Durée :* 1h11
+
+  *Langue originale :* flamand (Belgique)
+
   *Sous-titrage :* français, anglais, flamand
 credit: |-
   *Réalisation :* Katrien Feyaerts
@@ -75,7 +78,7 @@ credit: |-
   Sofie De Wilde\
   Wannes Gevaert
 
-  *Pilote :* \
+  *Pilotes :* \
   Frans Vervecken \
   Tino Adriaensen\
   Jo Luyckx
@@ -92,7 +95,8 @@ credit: |-
   Lucky camera’s\
   The subtitle company
 selection: |-
-  Etats généraux du film documentaire de Lussas (France)\
+  Etats généraux du film documentaire de Lussas (France)
+
   Doc Feed (Pays-Bas)
 productor: |-
   Une coproduction\
