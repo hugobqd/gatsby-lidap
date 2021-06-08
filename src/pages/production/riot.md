@@ -5,11 +5,11 @@ date: 2017-01-01T11:00:00.000Z
 director: Frank Ternier
 featuredimage: /img/riot04.jpg
 trailer: https://vimeo.com/223136933
-description: >-
-  “RIOT” signifie émeute.
-  Un jeune homme noir est tué lors d’une altercation avec un voisin vigilant et la police. Une foule indignée
-  se rassemble. Le sentiment d’injustice est grand. Un groupe s’isole. L’émotion engendre l’émeute… 
-  En l’absence de mots, le corps peut-il prendre sa revanche ?
+description: “RIOT” signifie émeute. Un jeune homme noir est tué lors d’une
+  altercation avec un voisin vigilant et la police. Une foule indignée se
+  rassemble. Le sentiment d’injustice est grand. Un groupe s’isole. L’émotion
+  engendre l’émeute…  En l’absence de mots, le corps peut-il prendre sa revanche
+  ?
 gallery_list:
   - gallery_img: /img/riot01.jpg
   - gallery_img: /img/riot05.jpg
@@ -19,18 +19,22 @@ document_list:
   - document_item: /img/affiche-riot-hd.jpg
     document_title: Affiche
 technical: |-
-  *Genre :* animation\
+  *Genre :* animation
+
   *Durée :* 13 minutes 30
 credit: |-
-  *Réalisation :* Frank Ternier\
+  *Réalisation :* Frank Ternier
+
   *Scénario :* Frank Ternier
 
-  *Production exécutive :* Annabelle Gangneux
+  *Direction de la photographie :* Frank Ternier
 
-  *Direction de la photographie :* Frank Ternier\
-  *Direction artistique :* Frank Ternier\
-  *Montage :* Frank Ternier\
-  *Son :* Frédéric Duzan dit Zed\
+  *Direction artistique :* Frank Ternier
+
+  *Montage :* Frank Ternier
+
+  *Son :* Frédéric Duzan dit Zed
+
   *Musique :* Frédéric Duzan dit Zed
 
   *Interprètes :*\
@@ -42,47 +46,9 @@ credit: |-
   *Voix orateur*\
   Frédéric Duzan dit Zed
 selection: >-
-  **2017**
+  **2019**
 
-  Festival International d'animation - Ottawa (Canada)
-
-  Off-courts - Trouville (France)
-
-  Animatou - Genève (Suisse)
-
-  KLIK ! - Amsterdam (Pays-Bas)
-
-  Animasyros - Syros (Grèce)
-
-  New Chitose Airport International Animation Festival - Sapporo (Japon)
-
-  DOK Leipzig (Allemagne)
-
-  Festival International du Film Francophone de Tübingen - Stuttgart (Allemagne)
-
-  Cut out festival - Queretaro (Mexique)
-
-  Zinebi Festival international du documentaire et du court métrage - Bilbao (Espagne)
-
-  Festival tous courts - Aix en provence (France)
-
-  Festival international du cinéma francophone en Acadie (Canada)
-
-  Festival du Film Court de Villeurbanne (France)
-
-  Les sommets du cinéma d'animation – Cirquantique - Montréal (Canada)
-
-  Animasivo Festival d'animation contemporaine - Mexico (Mexique)
-
-  Festival international de court-métrage de Louvain (Belgique)
-
-  RIFF - Roma Independent Film Festival - Rome (Italie)
-
-  INTERFILM, Festival International du Court Métrage - Berlin (Allemagne)
-
-  International animation film festival – Gdansk (Pologne)
-
-  Fresh Off the Grill Film Festival – Detroit (USA)
+  Biennale de Curitibia (Brésil)
 
 
   **2018**
@@ -176,21 +142,69 @@ selection: >-
   13th International Short Film Festival ŻUBROFFKA - Bialystok (Pologne)
 
 
-  **2019**
+  **2017**
 
-  Biennale de Curitibia (Brésil)
+  Festival International d'animation - Ottawa (Canada)
+
+  Off-courts - Trouville (France)
+
+  Animatou - Genève (Suisse)
+
+  KLIK ! - Amsterdam (Pays-Bas)
+
+  Animasyros - Syros (Grèce)
+
+  New Chitose Airport International Animation Festival - Sapporo (Japon)
+
+  DOK Leipzig (Allemagne)
+
+  Festival International du Film Francophone de Tübingen - Stuttgart (Allemagne)
+
+  Cut out festival - Queretaro (Mexique)
+
+  Zinebi Festival international du documentaire et du court métrage - Bilbao (Espagne)
+
+  Festival tous courts - Aix en provence (France)
+
+  Festival international du cinéma francophone en Acadie (Canada)
+
+  Festival du Film Court de Villeurbanne (France)
+
+  Les sommets du cinéma d'animation – Cirquantique - Montréal (Canada)
+
+  Animasivo Festival d'animation contemporaine - Mexico (Mexique)
+
+  Festival international de court-métrage de Louvain (Belgique)
+
+  RIFF - Roma Independent Film Festival - Rome (Italie)
+
+  INTERFILM, Festival International du Court Métrage - Berlin (Allemagne)
+
+  International animation film festival – Gdansk (Pologne)
+
+  Fresh Off the Grill Film Festival – Detroit (USA)
 productor: |-
-  En coproduction avec ARTE France\
-  Avec :\
-  la contribution financière du CNC\
-  l'aide à la production audiovisuelle de CICLIC-Région Centre-Val-de-Loire\
-  l'aide de la Sacem
+  Une production \
+  **L'image d'après**\
+  Annabelle Gangneux
+
+  En coproduction avec **ARTE France**
+
+  *Avec :*\
+  Le CNC\
+  CICLIC-Région Centre-Val-de-Loire\
+  La Sacem
 ---
-- Prix du film expérimental à Fiver, Festival international de vidéodanse, Madrid (Espagne)
-- Mention spéciale pour l'utilisation de la danse et de la musique pour illustrer des thèmes
-sociétaux importants à Animocje (Pologne)
-- Prix du meilleur scénario au Festival International du court métrage de Joinville (Brésil)
-- Mention honorifique au festival de Vidéodanse à Mexico (Mexique)
-- Mention spéciale catégorie international du Celtic Animation film Competition de Liverpool
-(Angleterre)
-- Certificat d'excellence pour la meilleure animation (cession mensuelle d'octobre 2018) au festival Dumbo animation à New-York (USA)
+*Prix du film expérimental à Fiver, Festival international de vidéodanse, Madrid (Espagne)*
+
+*Mention spéciale pour l'utilisation de la danse et de la musique pour illustrer des thèmes
+sociétaux importants à Animocje (Pologne)*
+
+*Prix du meilleur scénario au Festival International du court métrage de Joinville (Brésil)*
+
+*Mention honorifique au festival de Vidéodanse à Mexico (Mexique)*
+
+*Mention spéciale catégorie international du Celtic Animation film Competition de Liverpool
+(Angleterre)*
+
+*Certificat d'excellence pour la meilleure animation (cession mensuelle d'octobre 2018) au festival Dumbo animation à New-York (USA)*
