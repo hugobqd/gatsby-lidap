@@ -17,6 +17,7 @@ document_list:
     document_title: Affiche
 technical: |-
   *Genre :* documentaire
+
   *Durée :* 1h09
 credit: |-
   *Réalisation :* Clément Dupeux
@@ -53,6 +54,7 @@ productor: |-
   **TV Tours Val-de-Loire**
 
   *Avec :*
-  Le soutien de Ciclic-Région Centre et de la région Basse-Normandie
-  Le soutien du Pôle Image Haute-Normandie
+  Ciclic-Région Centre\
+  La Basse-Normandie
+  Le Pôle Image Haute-Normandie
 ---
