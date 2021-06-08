@@ -19,7 +19,8 @@ gallery_list:
   - gallery_img: /img/waiting.jpg
   - gallery_img: /img/mains.jpg
 technical: |-
-  *Genre :* documentaire\
+  *Genre :* documentaire
+
   *Durée :* 73 minutes
 credit: |-
   *Réalisation :* \
@@ -110,10 +111,11 @@ productor: |-
   Sophie Cazé
 
   *Avec :*\
-  L’aide de Centres Images – Région Centre\
-  La participation du CNC, de la PROCIREP et de l’ANGOA\
-  Le soutien de la Fondation pour la Mémoire de la Shoah\
-  L’aide de l’ECPAD en collaboration avec Centre Images et l’INA\
-  L’aide du dispositif « Envie d’Agir – Défi jeunes »
+  Centres Images – Région Centre\
+  Le CNC\
+  La PROCIREP et l’ANGOA\
+  La Fondation pour la Mémoire de la Shoah\
+  L’ECPAD en collaboration avec Centre Images et l’INA\
+  Le dispositif « Envie d’Agir – Défi jeunes »
 ---
-> Prix du projet de film documentaire historique des Rendez-vous de l’Histoire de Blois en 2010
+*Prix du projet de film documentaire historique des Rendez-vous de l’Histoire de Blois en 2010*
