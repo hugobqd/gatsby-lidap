@@ -23,9 +23,12 @@ document_list:
   - document_item: /img/littleamerica.jpg
     document_title: Affiche
 technical: |-
-  *Genre :* documentaire\
-  *Durée :* 1h50\
-  *Langue originale :* portugais\
+  *Genre :* documentaire
+
+  *Durée :* 1h50
+
+  *Langue originale :* portugais
+
   *Sous-titrage :* français
 credit: |-
   *Réalisation :* Marc Weymuller
@@ -38,7 +41,8 @@ credit: |-
   José Freitas Resendes\
   Daniel de Sá
 
-  *Narration :* Elsa Bettencourt\
+  *Narration :* Elsa Bettencourt
+
   *D’après un texte de :* Elsa Bettencourt et Marc Weymuller
 
   *Montage :* Marc Weymuller
@@ -57,20 +61,24 @@ credit: |-
 
   *Assistant de réalisation :* Giuseppe de Mattia
 
-  *Consultant production Açores :* Francisco Villa Lobos
+  *Consultant de production aux Açores :* Francisco Villa Lobos
 selection: |-
-  Festival d'Avanca (Portugal)\
-  Festival Cinépause (France)\
-  Les rencontres cinéma de Gindou (France)\
-  Festival international du film insulaire de Groix (France)\
+  Festival d'Avanca (Portugal)
+
+  Festival Cinépause (France)
+
+  Les rencontres cinéma de Gindou (France)
+
+  Festival international du film insulaire de Groix (France)
+
   FIPADOC (France)
 productor: |-
   Une coproduction\
-  **Le tempestaire**
-
   **L’image d’après**\
   Mélanie Loisel\
   Charlie Rojo
+
+  et **Le tempestaire**
 
   *Avec :*\
   Brouillon d’un rêve de la Scam\
