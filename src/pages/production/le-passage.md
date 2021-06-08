@@ -8,16 +8,17 @@ trailer: https://vimeo.com/466505799
 vod_list:
   - vod_item: https://vimeo.com/81709987
   - vod_item: https://vimeo.com/90134069
-description: >-
-  Une garde-barrière travaille dans une minuscule guérite, au cœur d'un quartier
-  résidentiel. De ce lieu qu'elle s'est appropriée depuis des années, elle
-  observe la vie qui passe, le mouvement régulier des choses, le temps qui
-  change. Bientôt, le passage à niveau sera automatisé. L'incertitude bouscule ses habitudes, l'attente se transforme.
+description: Une garde-barrière travaille dans une minuscule guérite, au cœur
+  d'un quartier résidentiel. De ce lieu qu'elle s'est appropriée depuis des
+  années, elle observe la vie qui passe, le mouvement régulier des choses, le
+  temps qui change. Bientôt, le passage à niveau sera automatisé. L'incertitude
+  bouscule ses habitudes, l'attente se transforme.
 gallery_list:
   - gallery_img: /img/passage.jpg
   - gallery_img: /img/roue.jpg
 technical: |-
-  *Genre :* documentaire\
+  *Genre :* documentaire
+
   *Durée :* 47 minutes
 credit: |-
   *Réalisation :* \
@@ -57,20 +58,20 @@ productor: |-
   En coproduction avec **TV Tours Val-de-Loire**
 
   *Avec :*\
-  La participation du CNC\
-  Et le soutien de Ciclic – Région Centre\
-  Avec le soutien de Brouillon d’un rêve de la SCAM
+  Le CNC\
+  Ciclic – Région Centre\
+  La bourse Brouillon d’un rêve de la SCAM
 ---
-> Ce projet a reçu l’accompagnement au montage de\
-> *L’œil Lucide*\
-> Daniéla de Felice\
-> Jenny Saastamoinen\
-> Samantha Yépez
->
-> Avec l’accompagnement artistique de\
-> Amaury Brumauld\
-> Guillaume Darras\
-> Patrick Leboutte\
-> Mariana Otero\
-> Yvan Petit\
-> Sophie Proux
+Ce projet a reçu l’accompagnement au montage de :\
+*L’œil Lucide*\
+Daniéla de Felice\
+Jenny Saastamoinen\
+Samantha Yépez
+
+Avec l’accompagnement artistique de :\
+Amaury Brumauld\
+Guillaume Darras\
+Patrick Leboutte\
+Mariana Otero\
+Yvan Petit\
+Sophie Proux
