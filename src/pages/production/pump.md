@@ -27,10 +27,12 @@ gallery_list:
   - gallery_img: /img/rencontre-impromptue.jpg
 technical: |-
   *Genre :* essai documentaire
+
   *Durée :* 59 minutes
+
+  Langue originale : français
 credit: |-
-  *Réalisation :* \
-  Joseph David
+  *Réalisation :* Joseph David
 
   *Avec :*
   Joseph David
@@ -46,42 +48,27 @@ credit: |-
   Paulette David
   Jean-François Peyret
 
-  *Image :*
-  Olivier Cousin
-  Joseph David
-  Andrew Kötting
+  *Image :* Olivier Cousin, Joseph David et Andrew Kötting
 
-  *Son :*
-  Brice Kartmann
+  *Son :* Brice Kartmann
 
-  *Machinerie :*
-  Maxime Ziadi
+  *Machinerie :* Maxime Ziadi
 
-  *Régie :*
-  Annabelle Gangneux
-  Alexis Renou
+  *Régie :* Annabelle Gangneux et Alexis Renou
 
-  *Communication :*
-  Carine Klingemann
+  *Communication :* Carine Klingemann
 
-  *Cantine tournage :*
-  Monique David
+  *Cantine tournage :* Monique David
 
-  *Montage image :*
-  Joseph David
-  Baptiste Evrard
+  *Montage image :* Joseph David et Baptiste Evrard
 
-  *Montage son :*
-  Sébastien Cabour
+  *Montage son :* Sébastien Cabour
 
-  *Recorder :*
-  Rémi Mencucci
+  *Recorder :* Rémi Mencucci
 
-  *Mixage :*
-  Sébastien Cabour
+  *Mixage :* Sébastien Cabour
 
-  *Étalonnage :*
-  Baptiste Evrard 
+  *Étalonnage :* Baptiste Evrard 
 
   *Moyens techniques :*
   Le Fresnoy – Studio national des arts contemporains
@@ -102,7 +89,7 @@ credit: |-
   Avec le soutien de l’Institut Français de Mécanique Avancée
   (IFMA) de Clermont-Ferrand
 
-  *Aménagement :*
+  *Aménagement :*\
   K-UNIK
   Nicolas Chambard
 
@@ -142,11 +129,11 @@ productor: |-
   **Le Fresnoy** – Studio national des arts contemporains
 
   Avec\
-  Le soutien de la Région Centre-Val-de-Loire\
-  Le soutien de la DRAC Centre-Ministère de la Culture\
-  Le soutien de Ciclic Région Centre-Val-de-Loire\
-  L’aide de la fondation SMartbe\
-  La participation du CNC
+  La région Centre-Val-de-Loire\
+  La DRAC Centre-Ministère de la Culture\
+  Ciclic Région Centre-Val-de-Loire\
+  La fondation SMartbe\
+  Le CNC
 
   Et avec la participation financière de 66 donateurs Ulule
 ---
