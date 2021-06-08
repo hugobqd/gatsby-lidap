@@ -8,13 +8,18 @@ trailer: https://vimeo.com/102614982
 vod_list:
   - vod_item: https://vimeo.com/88431093
   - vod_item: https://vimeo.com/90100397
-description: >-
-  Les gestes concentrés, le visage préoccupé, Jean-Marie marche vite. Je le suis. Avec ardeur, il découvre son métier, ses brebis à côté, leur résistance et leur docilité. De la bergerie hivernale à l'alpage, une trajectoire à tâtons, faite de premières fois, de satisfactions  et d'appréhensions. Avec l'assurance d'une pratique agricole biodynamique qui le conforte, où agissent des énergies impalpables. Juste sous nos pas.
+description: Les gestes concentrés, le visage préoccupé, Jean-Marie marche vite.
+  Je le suis. Avec ardeur, il découvre son métier, ses brebis à côté, leur
+  résistance et leur docilité. De la bergerie hivernale à l'alpage, une
+  trajectoire à tâtons, faite de premières fois, de satisfactions  et
+  d'appréhensions. Avec l'assurance d'une pratique agricole biodynamique qui le
+  conforte, où agissent des énergies impalpables. Juste sous nos pas.
 gallery_list:
   - gallery_img: /img/sousnospas-brebis1.jpg
   - gallery_img: /img/sousnospas-jm2.jpg
 technical: |-
-  *Genre :* documentaire\
+  *Genre :* documentaire
+
   *Durée :* 83 minutes
 credit: |-
   *Réalisation et image :* \
@@ -67,9 +72,10 @@ productor: |-
   Et **TV8 Mont-Blanc**
 
   *Avec :*\
-  Le soutien de 8 Mont-Blanc\
-  La participation du CNC\
-  Le soutien de Ciclic-Région Centre et de la région Rhône-Alpes\
-  Le soutien de la Procirep et de l’Angoa
+  8 Mont-Blanc\
+  Le CNC\
+  Ciclic-Région Centre\
+  La région Rhône-Alpes\
+  La Procirep et l’Angoa
 ---
 > Ce film a reçu le soutien de l’école documentaire de Lussas et a été réalisé dans le cadre de la collection Primavera.
