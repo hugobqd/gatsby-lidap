@@ -49,11 +49,6 @@ credit: |-
 
   *Images additionnelles :* \
   Mélanie Chenais
-
-  *Outils :*\
-  SONY Ericsson W300\
-  NOKIA N70\
-  APPLE Iphone 4
 selection: |-
   OFF (Olonnes Film Festival / France)
 
@@ -70,3 +65,8 @@ productor: |-
   La DRAC Centre
 ---
 > Autoportrait d'un cinéaste de province au bord de la crise de la quarantaine, qui tombe amoureux et qui tente de faire un film sur son père. Une crise qui va se manifester par un brusque besoin de retrouver un geste artisanal, une pratique archaïque du cinéma, comme un dernier geste enfantin.
+
+*Outils :*\
+SONY Ericsson W300\
+NOKIA N70\
+APPLE Iphone 4
