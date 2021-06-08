@@ -18,8 +18,10 @@ gallery_list:
 document_list:
   - document_item: /img/tmps-crocodiles-2020-web.pdf
     document_title: Affiche
+featuredpost: true
 technical: |-
-  *Genre :* essai\
+  *Genre :* essai
+
   *Durée :* 51 minutes
 credit: |-
   *Réalisation :* Florence Doucet
@@ -55,6 +57,7 @@ credit: |-
   Arnaud Aubry\
   Laetitia Bontemps
 productor: |-
+  Une production \
   **L’image d’après** \
   Maud Martin\
   Mélanie Loisel
@@ -62,5 +65,4 @@ productor: |-
   *Avec :* \
   Ciclic-Région Centre Val-de-Loire\
   DRAC Centre-Val-de-Loire
-featuredpost: true
 ---
