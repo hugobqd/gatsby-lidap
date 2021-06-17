@@ -142,6 +142,7 @@ export const ProductionPostTemplate = ({
             <Box pl={[0, 5]} mt={-3}>
               {vod_list.map(({ vod_item, vod_text }, i) => (
                 <Button
+                  as="a"
                   href={vod_item}
                   target="_blank"
                   key={i}

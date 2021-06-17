@@ -29,7 +29,7 @@ const SwitchItem = styled.div`
   justify-content: center;
   align-items: center;
   min-width: ${(props) => props.theme.space[4]};
-  min-height: ${(props) => props.theme.space[4]};
+  height: ${(props) => props.theme.space[4]};
   font-weight: ${(props) => props.theme.fontWeights.bold};
   color: ${(props) =>
     props.active ? "currentColor" : props.theme.colors.dark};
@@ -100,6 +100,7 @@ const ProductionList = ({ data }) => {
                 ? "par dates récentes"
                 : "par ordre alphabétique"
             }`}
+            style={{ width: "4em" }}
           >
             <SwitchItem active={viewType !== "CHRONO"}>
               <IoGridSharp />
