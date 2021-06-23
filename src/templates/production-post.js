@@ -232,7 +232,7 @@ export const ProductionPostTemplate = ({
             { field: technical, label: "Fiche technique" },
             { field: credit, label: "Équipe" },
             { field: productor, label: "Production" },
-            { field: selection, label: "Séléction" },
+            { field: selection, label: "Sélections" },
           ].map(({ field, label }) => {
             if (field) {
               return (
