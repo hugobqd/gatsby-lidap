@@ -108,7 +108,6 @@ export const ProductionPostTemplate = ({
   helmet,
   productor,
   selection,
-  tags,
   technical,
   title,
   trailer,
@@ -161,7 +160,14 @@ export const ProductionPostTemplate = ({
           )}
           {description && (
             <Box maxWidth="text" ml={[0, 5]}>
-              <Text className="fs-4">{description.replace(/\\/g, " ")}</Text>
+              <Text
+                as="h2"
+                className="fs-4"
+                fontWeight="inherit"
+                lineHeight="inherit"
+              >
+                {description.replace(/\\/g, " ").replace(/\*/g, "")}
+              </Text>
             </Box>
           )}
         </Stack>

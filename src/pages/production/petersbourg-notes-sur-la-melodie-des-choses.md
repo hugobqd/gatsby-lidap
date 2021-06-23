@@ -11,19 +11,9 @@ vod_list:
   - vod_item: https://vimeo.com/99319002
     vod_text: VOD ENG
 description: >-
-  "De quelle étoffe sont fait les rêves ? Où s'en vont-ils s'échouer ?\
-
-  On raconte que la ville fut déposée d'un bloc depuis les nuages."
-
-
-  Saint Pétersbourg. 
-
-
-  Les visages et les rêves.
-
-
+  "De quelle étoffe sont fait les rêves? Où s'en vont-ils s'échouer?
+  On raconte que la ville fut déposée d'un bloc depuis les nuages." Saint-Pétersbourg. Les visages et les rêves.
   Voyage géographique et temporel, le film nous entraîne dans la cité russe au hasard des rencontres avec ses habitants.
-
   Dostoïevski, la révolution, les appartements communautaires, le blocus, le Tsar, Shrek ou encore Poutine : ils nous racontent leur ville, une ville qui aura changé quatre fois de nom, soumise aux humeurs des hommes et aux caprices du temps.
 gallery_list:
   - gallery_img: /img/poe-me.jpg
