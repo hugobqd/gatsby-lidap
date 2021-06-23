@@ -65,7 +65,6 @@ team_list:
 
       De 2014 à 2016, je travaille à Lumière du monde, association de producteurs indépendants basée à Lussas. En 2015,  j’intègre l'équipe de programmation de Tënk, la plateforme SVOD de documentaire, puis je réalise un second film, Navire, en co-réalisation avec Agnès Perrais. Je décide ensuite de me tourner vers la production et je rejoins L'image d'après en 2019. En parallèle de mon activité de productrice, je continue de réaliser des films et en 2021, je termine un long-métrage documentaire En plein jour.
 ---
-
 L'équipe est constituée de six producteurs, aussi réalisateurs, de deux techniciens son, aussi musiciens et d'un gérant, aussi journaliste.
 
 Notre fonctionnement collectif se structure autour de notre comité de lecture. Une fois par mois, nous nous réunissons pour discuter des propositions reçues et des films en cours. C'est là que se forment les binômes qui produisent les films.
@@ -79,3 +78,5 @@ Pour ce faire, notre démarche de production consiste à mettre en place pour ch
 À l'heure où se rebattent les cartes des politiques de soutien à la création, ces modalités de production nous permettent de maintenir une certaine façon de créer. Et c'est aussi pourquoi nous prenons part aux différents collectifs régionaux et nationaux qui défendent la production de films d'auteur.
 
 Nous avons ainsi produit vingt-huit films. Six films sont actuellement en production. Dix autres sont en développement.
+
+![L'équipe de L'Image d'après](/img/parpidap-565v1.jpg)
