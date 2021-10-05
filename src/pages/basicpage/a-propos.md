@@ -64,6 +64,21 @@ team_list:
       recherche et d'essais cinématographiques).
 
       De 2014 à 2016, je travaille à Lumière du monde, association de producteurs indépendants basée à Lussas. En 2015,  j’intègre l'équipe de programmation de Tënk, la plateforme SVOD de documentaire, puis je réalise un second film, Navire, en co-réalisation avec Agnès Perrais. Je décide ensuite de me tourner vers la production et je rejoins L'image d'après en 2019. En parallèle de mon activité de productrice, je continue de réaliser des films et en 2021, je termine un long-métrage documentaire En plein jour.
+  - team_name: Brice Kartmann
+    team_text: >-
+      Après l'obtention d'un BTS audiovisuel option son en 2002 et la
+      préparation d'un DEM en 2008 en jazz, j'ai démarré une activité de
+      technicien de post-production Freelance en plus de mon travail de
+      musicien. En parallèle, je m'impliquais dans le collectif de réalisateurs
+      tourangeaux Sans canal fixe et rencontrais ainsi les premiers membres de
+      L'image d'après.  
+
+
+      En suivant les premières productions de cette société de production, j'ai été touché par le cinéma qui y était proposé, défendu. J'ai travaillé comme technicien pour plusieurs films du catalogue et nous avons imaginé ensemble une autre place que celle de prestataire pour mon travail, en s'appuyant sur notre volonté d'un fonctionnement collaboratif. J'ai donc rejoint l'équipe en 2012. Depuis, je continue de travailler régulièrement sur les films portés par L'image d'après en tant que monteur son, mixeur et/ou compositeur de la musique originale, tout en étant impliqué dans le fonctionnement de la société et le développement de nouvelles activités, notamment les prestations techniques. Nous travaillons actuellement sur la création d'une infrastructure de post-production indépendante, imaginée comme un nouvel espace collaboratif avec d'autres acteurs régionaux.
+
+
+      Ces dernières années, j'ai travaillé régulièrement pour le cinéma documentaire comme ingénieur du son et compositeur (productions Nord-Ouest, L’image d’après, Alter Ego, Ikki films, Les films du Balibari, TS productions), dans la production musicale (labels Vicious circle, Kithibong, Un Je Ne Sais Quoi, Figures libres) et pour le spectacle vivant comme régisseur son et compositeur (Ensemble Tachycardie, Théâtre à cru, Demesten Titip, Collectif impatience, Laps zone). Enfin, je suis également intervenant pour des ateliers artistiques incluant de la réalisation sonore (CICLIC,Compagnie Marouchka, L'Intention Publique).
+    team_title: Monteur son, mixeur et compositeur de musique originale
 ---
 L'équipe est constituée de six producteurs, aussi réalisateurs, de deux techniciens son, aussi musiciens et d'un gérant, aussi journaliste.
 
