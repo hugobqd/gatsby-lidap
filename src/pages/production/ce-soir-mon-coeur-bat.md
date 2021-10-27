@@ -16,7 +16,7 @@ description: >-
   Un jeune homme en quête de désirs et d'histoires dans une ville où le monde semble disparaître. Espoir ou le portrait d'une adolescence togolaise écorchée. Dans la poussière des rues de Lomé, je suis le serpentement accidenté de cet adolescent qui s'éprouve, dans une tension fragile vers le monde adulte.
 gallery_list:
   - gallery_img: /img/route-de-nuit.jpg
-  - gallery_img: /img/profil.jpg
+  - gallery_img: /img/profil-ce-soir.png
   - gallery_img: /img/bougie.jpg
 technical: |-
   *Genre :* documentaire
