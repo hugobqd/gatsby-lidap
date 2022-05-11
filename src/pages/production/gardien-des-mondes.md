@@ -5,20 +5,12 @@ date: 2022-05-11T08:37:30.523Z
 director: Leïla Chaïbi
 featuredimage: /img/vlcsnap-2021-07-21-12h05m47s755.jpg
 trailer: https://vimeo.com/665945108
-vod_list:
-  - vod_text: VOD
-description: >-
-  Un jour, au pied d’un tombeau, Hassan s’est endormi et n’est jamais reparti du
-  cimetière.
-
-
-  Depuis 40 ans, sur les collines du Jellaz en Tunisie où il a élu domicile, il veille les morts et observe les vivants. En quête d’amour et de liberté, Hassan navigue entre jour et nuit et nous invite à découvrir ses mondes.
-
-
-  *One day, at the foot of a tomb, Hassan fell asleep and never left the cemetery.*
-
-
-  *For 40 years, on the hills of Jellaz in Tunisia, where he has made his home, he has been keeping watch over the dead and observing the living. In search of love and freedom, Hassan moves between day and night and invites us to discover his worlds.*
+vod_list: []
+description: Un jour, au pied d’un tombeau, Hassan s’est endormi et n’est jamais
+  reparti du cimetière. Depuis 40 ans, sur les collines du Jellaz en Tunisie où
+  il a élu domicile, il veille les morts et observe les vivants. En quête
+  d’amour et de liberté, Hassan navigue entre jour et nuit et nous invite à
+  découvrir ses mondes.
 gallery_list:
   - gallery_img: /img/vlcsnap-2021-07-21-11h55m39s418.jpg
   - gallery_img: /img/vlcsnap-2021-07-21-12h01m09s266.jpg
@@ -99,10 +91,15 @@ productor: |-
 
   En coproduction avec\
   **Lyon Capitale TV**\
-  *Directeur général :* Didier Maïsto\
   *Directeur :* Olivier Attebi\
   *Responsable des programmes :* Perrine Robert\
-  *Chargée de diffusion :* Suzanne Gangloff
+  *Assistante de production :* Suzanne Gangloff
+
+  Avec la participation de \
+  **TV 2M Maroc**\
+  *Direction des magazines d'information et documentaire :* Reda Benjelloun\
+  *Service production des documentaires :* Fettouma Benhaimoud\
+  *Département juridique :* Adil Maazouz
 
   *Avec :*\
   Le CNC\
@@ -112,5 +109,8 @@ productor: |-
   The Arab Fund for Arts and Culture\
   La Brouillon d’un rêve de la Scam\
   La culture avec la copie privée\
-  La SACEM pour la musique originale
+  La SACEM pour la musique originale\
+  Le soutien de l'atelier Final Cut in Venice
+
+  Le film a été accueilli en résidence en Seine-Saint-Denis par Périphérie
 ---
