@@ -1,0 +1,116 @@
+---
+templateKey: production-post
+title: Gardien des mondes
+date: 2022-05-11T08:37:30.523Z
+director: Leïla Chaïbi
+featuredimage: /img/vlcsnap-2021-07-21-12h05m47s755.jpg
+trailer: https://vimeo.com/665945108
+vod_list:
+  - vod_text: VOD
+description: >-
+  Un jour, au pied d’un tombeau, Hassan s’est endormi et n’est jamais reparti du
+  cimetière.
+
+
+  Depuis 40 ans, sur les collines du Jellaz en Tunisie où il a élu domicile, il veille les morts et observe les vivants. En quête d’amour et de liberté, Hassan navigue entre jour et nuit et nous invite à découvrir ses mondes.
+
+
+  *One day, at the foot of a tomb, Hassan fell asleep and never left the cemetery.*
+
+
+  *For 40 years, on the hills of Jellaz in Tunisia, where he has made his home, he has been keeping watch over the dead and observing the living. In search of love and freedom, Hassan moves between day and night and invites us to discover his worlds.*
+gallery_list:
+  - gallery_img: /img/vlcsnap-2021-07-21-11h55m39s418.jpg
+  - gallery_img: /img/vlcsnap-2021-07-21-12h01m09s266.jpg
+document_list:
+  - document_item: /img/gardiens_des_mondes_affiche_web.jpg
+    document_title: Affiche - Gardien des mondes
+technical: |-
+  *Genre :* documentaire\
+  *Durée :* 1h30\
+  *Langue :* arabe\
+  *Sous-titrage :* français et anglais
+credit: |-
+  *Réalisation :* Leïla Chaïbi
+
+  *Avec :*\
+  Hassan Gmila
+
+  Sabrine Amdouni
+
+  *Equipe de tournage en Tunisie :*
+
+  *Image :* Leïla Chaïbi
+
+  *Assistante réalisatrice :* Fairouz Féki
+
+  *1er assistant image :* Slim Ben Romdhane
+
+  *Son :* Brahim Zouid
+
+  *Responsable technique et matériel :* Taïeb Ben Ameur
+
+  *Directeur de production :* Jilani Arousse
+
+  *Coordinateur de production :* Rachid Boulahya
+
+  *Régisseur général :* Mohamed Bejaoui 
+
+  *Régisseur :* Sadok Najjar
+
+  *Sécurité :* Slim Sanfour
+
+  *Montage image :* Christine Bouteiller
+
+  *Musique originale :* Nadir Moussaoui
+
+  *Montage son et mixage :* Brice Kartmann
+
+  *Etalonnage :* Antoine Dubos
+
+  *Traduction :* 
+
+  Ali Ben Slama
+
+  Béchir Chaïbi
+
+  Kaoutcher Dridi
+
+  Cynda Charradi
+
+  *Moyens techniques :*
+
+  Lyon Capitale TV
+
+  La Lucarne
+
+  Vidéo de poche
+
+  L'image d'après
+
+  Périphérie
+productor: |-
+  **L’image d’après**\
+  Maud Martin\
+  Orlane Dumas
+
+  **G Prod**\
+  Ghazi Ghazouani
+
+  En coproduction avec\
+  **Lyon Capitale TV**\
+  *Directeur général :* Didier Maïsto\
+  *Directeur :* Olivier Attebi\
+  *Responsable des programmes :* Perrine Robert\
+  *Chargée de diffusion :* Suzanne Gangloff
+
+  *Avec :*\
+  Le CNC\
+  Ciclic Région Centre-Val-de-Loire\
+  La PROCIREP et l'ANGOA\
+  Le Doha Film Institute\
+  The Arab Fund for Arts and Culture\
+  La Brouillon d’un rêve de la Scam\
+  La culture avec la copie privée\
+  La SACEM pour la musique originale
+---
