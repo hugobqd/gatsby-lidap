@@ -4,7 +4,7 @@ title: Vers ce lieu enfoui
 date: 2020-09-01T13:21:18.970Z
 director: Alexis Jacquand
 featuredimage: /img/verscelieuenfoui-a.jacquand_chasseurclairiere.jpg
-trailer: https://vimeo.com/manage/videos/528918097
+trailer: https://vimeo.com/528918097
 description: Arc en main, un vieux chasseur arpente la montagne, traquant
   chamois, cerfs et sangliers. Non loin, quelques enfants peuplent une forêt,
   construisent une cabane et jouent à se faire peur dans l’éventuelle rencontre
