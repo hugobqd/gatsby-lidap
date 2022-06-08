@@ -16,6 +16,7 @@ description: >-
 
 
   Des Grands Ensembles jusqu’au Grand Paris, leurs trajectoires retissent une histoire commune, celle de solidarités habitantes refusant la relégation.
+featuredpost: false
 gallery_list:
   - gallery_img: /img/lua.platz.01.gravayat.entre-e.du.bidonville.des.coquetiers.bobigny.2017.jpg
   - gallery_img: /img/lua.platz.03.gravayat.2018.iulian.florica.estera.roumanie.2016.jpg
@@ -32,54 +33,6 @@ technical: |-
   Couleur et noir et blanc \
   HD / 16MM / SUPER 8\
   DCP 2K 1.85
-selection: |-
-  Les entrevues de Belfort (France)\
-  Beldocs (Serbie)\
-  Festival du cinéma de Douarnenez (France)\
-  Les états généraux du film documentaire de Lussas (France)\
-  Festival Jean Rouch (Paris, France)\
-  Festival international du film ethnographique de Recife (Brésil)\
-  Interférences (Lyon ; France)\
-  Balkan can kino (Grèce)\
-  Les écrans documentaires (Arcueil ; France)\
-  Image de ville (Aix-en-Provence, Marseille, Martigues, Port-de-bouc ; France)\
-  Underdox (Allemagne)\
-  Balkanica (Toulouse ; France)\
-  Dokumenter\
-  Frontera sur (Chili)
-featuredpost: true
-productor: >-
-  Un coproduction \
-
-  **L'image d'après** \
-
-  Damien Monnier\
-
-  \
-
-  Et **Survivance**\
-
-  Carine Chichkowsky
-
-
-  *Avec :*\
-
-  Le Fonds d'Aide à l'Innovation du CNC\
-
-  La Procirep et l'Angoa\
-
-  Le fonds Images de la diversité du CNC\
-
-  L'aide Architecture, Ville, Paysage de la direction générale des patrimoines - Sous-direction de l'architecture, de la qualité de construction et du cadre de vie (gérée par le CNC)\
-
-  La Municipalité de la Courneuve\
-
-  Le département de la Seine-Saint-Denis
-
-
-  Le projet a été accueilli en résidence d'écriture à **Lignes d'Erre** ; **Film Flamme** ; le **Polygone Etoilé** (Marseille) et le **Dojo** (Axat).
-tags:
-  - documentaire
 credit: |-
   *Réalisation :* Jérémy Gravayat
 
@@ -129,6 +82,53 @@ credit: |-
   Kinographik\
   Light Cone\
   Mediaswitch
+selection: |-
+  Les entrevues de Belfort (France)\
+  Beldocs (Serbie)\
+  Festival du cinéma de Douarnenez (France)\
+  Les états généraux du film documentaire de Lussas (France)\
+  Festival Jean Rouch (Paris, France)\
+  Festival international du film ethnographique de Recife (Brésil)\
+  Interférences (Lyon ; France)\
+  Balkan can kino (Grèce)\
+  Les écrans documentaires (Arcueil ; France)\
+  Image de ville (Aix-en-Provence, Marseille, Martigues, Port-de-bouc ; France)\
+  Underdox (Allemagne)\
+  Balkanica (Toulouse ; France)\
+  Dokumenter\
+  Frontera sur (Chili)
+productor: >-
+  Un coproduction \
+
+  **L'image d'après** \
+
+  Damien Monnier\
+
+  \
+
+  Et **Survivance**\
+
+  Carine Chichkowsky
+
+
+  *Avec :*\
+
+  Le Fonds d'Aide à l'Innovation du CNC\
+
+  La Procirep et l'Angoa\
+
+  Le fonds Images de la diversité du CNC\
+
+  L'aide Architecture, Ville, Paysage de la direction générale des patrimoines - Sous-direction de l'architecture, de la qualité de construction et du cadre de vie (gérée par le CNC)\
+
+  La Municipalité de la Courneuve\
+
+  Le département de la Seine-Saint-Denis
+
+
+  Le projet a été accueilli en résidence d'écriture à **Lignes d'Erre** ; **Film Flamme** ; le **Polygone Etoilé** (Marseille) et le **Dojo** (Axat).
+tags:
+  - documentaire
 team: ÉQUIPE Aux marges d’une banlieue parisienne en grande mutation, quelques
   familles roumaines cherchent des lieux où vivre. Depuis le village quitté, le
   bidonville rasé, les maisons occupées, leurs trajectoires retissent une
