@@ -11,6 +11,7 @@ description: Un jour, au pied d’un tombeau, Hassan s’est endormi et n’est 
   il a élu domicile, il veille les morts et observe les vivants. En quête
   d’amour et de liberté, Hassan navigue entre jour et nuit et nous invite à
   découvrir ses mondes.
+featuredpost: true
 gallery_list:
   - gallery_img: /img/vlcsnap-2021-07-21-11h55m39s418.jpg
   - gallery_img: /img/vlcsnap-2021-07-21-12h01m09s266.jpg
