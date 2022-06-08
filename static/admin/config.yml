@@ -137,7 +137,7 @@ collections:
           - {label: "Lien VOD", name: vod_item, widget: string, hint: "URL de la page de VOD.", required: false}
           - {label: "Texte du bouton", name: vod_text, widget: string, hint: "VOD, VOD VF VOD ENG,… ", default: "VOD", required: false}
       - {label: "💬 Introduction", name: description, widget: markdown, buttons: ["bold", "italic", "link"], editorComponents: [], required: false}
-  #     # - {label: "Sur la page d'accueil", name: featuredpost, widget: boolean, required: false}
+      - {label: "Sur la page d'accueil", name: featuredpost, widget: boolean, required: false}
   #     # - {label: "Tags", name: tags, widget: list, hint: "'documentaire' ou 'fiction'", required: false}
       - name: gallery_list
         label: "🖼️ Galerie"
