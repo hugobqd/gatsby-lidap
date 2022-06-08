@@ -5,7 +5,7 @@ parentUrl: /
 title: À propos
 featuredimage: /img/parpidap-565v1.jpg
 description: >
-  L'image d'après a treize ans. C'est à Tours. Nous sommes neuf.
+  L'image d'après a quatorze ans. C'est à Tours. Nous sommes neuf.
 
   Nous avons eu et continuons d'avoir, en parallèle de notre activité de producteur.rice.s, des expériences de réalisation, de programmation, de travail associatif, de composition.
 document_list: []
