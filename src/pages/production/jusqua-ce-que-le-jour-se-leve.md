@@ -20,6 +20,7 @@ description: >-
   de joie arrachés au quotidien côtoient les signes annonciateurs de temps obscurs. Pour tenter de faire
 
   d’une fuite, une évasion.
+featuredpost: false
 gallery_list:
   - gallery_img: /img/jusquacequelejourseleve-pierre.jpg
   - gallery_img: /img/jusquacequelejourseleve-cymbale.jpg
@@ -60,7 +61,6 @@ selection: |-
   Les états généraux du film documentaire (Lussas, France)
 
   One World Romania (Bucarest, Roumanie)
-featuredpost: true
 productor: >-
   Une production\
 
