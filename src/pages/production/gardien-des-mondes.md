@@ -82,6 +82,7 @@ credit: |-
   L'image d'après
 
   Périphérie
+selection: DocuMed (Tunis, Tunisie)
 productor: |-
   **L’image d’après**\
   Maud Martin\
