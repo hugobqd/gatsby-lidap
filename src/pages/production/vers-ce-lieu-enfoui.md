@@ -52,10 +52,14 @@ credit: |-
   Lyon Capitale TV\
   Uncanny films\
   Antoine Polin
-selection: |-
+selection: >-
   Visions du réel (Nyon, Suisse)
 
+
   Etonnants voyageurs (Saint-Malo, France)
+
+
+  Mediterraneo Video Festival (Agropoli, Italie) - ***Prix de meilleur long-métrage***
 productor: |-
   **L’image d’après** \
   Damien Monnier
