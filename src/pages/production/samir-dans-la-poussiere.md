@@ -11,6 +11,7 @@ vod_list:
 description: Dans une région montagneuse et aride, Samir vit de la contrebande
   de pétrole. Il transporte la marchandise à dos de mulet de son village
   algérien à la frontière marocaine.
+featuredpost: false
 gallery_list:
   - gallery_img: /img/247-cover_large.jpg
   - gallery_img: /img/samir-dans-la-poussiere-9.jpg
@@ -18,6 +19,43 @@ technical: |-
   *Genre :* documentaire
 
   *Durée :* 60 minutes
+credit: |-
+  *Image et réalisation :* \
+  Mohamed Ouzine
+
+  *Avec :*\
+  Samir Berka
+
+  *Assistante :* \
+  Nadjia Ayadi
+
+  *Prise de son :*\
+  Ahmed Bergomp
+
+  *Montage :*\
+  Simon Leclère\
+  Mohamed Ouzine
+
+  *Stagiaire :*\
+  Clara Héliou\
+  Avec Marion Héliou
+
+  *Montage son et mixage :*\
+  Pierre-Emmanuel Mériaud
+
+  *Etalonnage :*\
+  Paul Champart
+
+  *Sous-titrage :*\
+  Maud Martin
+
+  *Musique originale :* \
+  Tatiana Paris 
+
+  *Moyens techniques :*\
+  L’image d’après\
+  Une chambre à soi\
+  TCS
 selection: |-
   Dubaï International Film Festival (Emirats Arabes Unis)
 
@@ -64,7 +102,6 @@ selection: |-
   FliMM,  festival libre du Moyen-métrage (Paris, France)
 
   Les entrevues de Belfort (France)
-featuredpost: true
 productor: |-
   **L’image d’après** \
   Maud Martin\
@@ -86,43 +123,6 @@ productor: |-
   Le Doha Film Institute
 tags:
   - documentaire
-credit: |-
-  *Image et réalisation :* \
-  Mohamed Ouzine
-
-  *Avec :*\
-  Samir Berka
-
-  *Assistante :* \
-  Nadjia Ayadi
-
-  *Prise de son :*\
-  Ahmed Bergomp
-
-  *Montage :*\
-  Simon Leclère\
-  Mohamed Ouzine
-
-  *Stagiaire :*\
-  Clara Héliou\
-  Avec Marion Héliou
-
-  *Montage son et mixage :*\
-  Pierre-Emmanuel Mériaud
-
-  *Etalonnage :*\
-  Paul Champart
-
-  *Sous-titrage :*\
-  Maud Martin
-
-  *Musique originale :* \
-  Tatiana Paris 
-
-  *Moyens techniques :*\
-  L’image d’après\
-  Une chambre à soi\
-  TCS
 ---
 Filmé par son oncle, Samir dévoile peu à peu ses aspirations, son désir d’une vie différente. La résignation l’a emporté et, un peu paradoxalement, par un lien complexe avec la région qui l’a vu grandir, il semble être prisonnier de l’horizon.
 
