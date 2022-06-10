@@ -137,7 +137,7 @@ export const ProductionPostTemplate = ({
               {date && ` ${nbsp}${nbsp}—${nbsp}${nbsp}${nbsp}${date}`}
             </Heading>
           </Box>
-          {vod_list && (
+          {vod_list?.length > 0 && (
             <Box pl={[0, 5]} mt={-3}>
               {vod_list.map(({ vod_item, vod_text }, i) => (
                 <Button
