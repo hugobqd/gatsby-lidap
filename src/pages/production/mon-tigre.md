@@ -121,30 +121,61 @@ credit: |+
 
 
 
-productor: |-
+productor: >+
   Une coproduction\
+
   **L’image d’après**\
+
   A﻿nnabelle Gangneux
 
-  *﻿*XBO Films**\
+
+  **XBO Films**
+
   L﻿uc Camilli
 
-  *﻿*Eddy**\
-  N﻿icolas de Rosanbo\
+
+  **Eddy**
+
+  N﻿icolas de Rosanbo
+
   C﻿éline Vanlint
+
 
   *﻿Directrice de production :* Emilie Revert
 
+
   *﻿Chargées de production :*
 
+
   Z﻿oé Chabry
+
   A﻿ne Lasa Barrio
+
   T﻿iffanie Gouzon
+
   O﻿rlane Dumas 
 
+
   *Avec :*\
-  La SACEM en association avec Ciclic région Centre-Val-de-Loire\
-  La région Nouvelle-Aquitaine en partenariat avec le CNC\
-  Ciclic région Centre-Val-de-Loire en partenariat avec le CNC\
-  La PROCIREP et l'ANGOA
+
+  L﻿a région Occitanie - Pyrénées - Méditerranée\
+
+  T﻿oulouse Métropole\
+
+  C﻿iclic région Centre-Val-de-Loire en partenariat avec le CNC\
+
+  L﻿e Centre national du cinéma et de l'image animée\
+
+  L﻿a participation de TVR, Tébéo et Tébésud soutenues par la région Bretagne\
+
+  L﻿e Pôle Image Magélis avec le soutien du département de la Charente en partenariat avec le CNC\
+
+  L﻿a région Nouvelle-Aquitaine\
+
+  L﻿a PROCIREP - société des producteurs et l'ANGOA\
+
+  L﻿a SACEM en partenariat avec C﻿iclic région Centre-Val-de-Loire
 ---
+Ce film a été accueilli en résidence à 
+*C﻿iclic animation* à Vendôme 
+*L﻿'enclume* à Bruxelles
