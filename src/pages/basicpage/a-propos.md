@@ -46,15 +46,15 @@ team_list:
       et l'animation, je produits essentiellement des films documentaires.
   - team_name: Orlane Dumas
     team_title: Productrice
-    team_text: "C’est après un BTS option Techniques d’ingénierie et exploitation
-      des équipements à Saint-Quentin (02) et un Master en production à
-      l’Université de Valenciennes (59) que je rejoins L’image d’après pour un
-      stage de six mois en février 2018. J’y apprends l’administration d’une
-      société de production en même temps que le métier de productrice …
-      l’équipe m’entraîne très vite dans son énergie créatrice ! À la fin du
-      stage, nous décidons d’un commun accord de poursuivre notre travail
-      ensemble. Après la production de deux premiers films documentaires, je
-      travaille au développement de trois nouveaux projets … pour le moment ! "
+    team_text: C’est après un BTS option Techniques d’ingénierie et exploitation des
+      équipements à Saint-Quentin (02) et un Master en production à l’Université
+      de Valenciennes (59) que je rejoins L’image d’après après un stage de six
+      mois en février 2018. J'ai produis quatre films documentaires. Deux sont
+      en production et deux en développement. En parallèle de mon travail de
+      productrice, je suis médiatrice Jury Jeune du festival Viva il cinema de
+      Tours, intervenante à Ynov Lyon, membre du Conseil d'administration de
+      PARC (association des producteurices en Région Centre-Val-de-Loire) et
+      membre de l'Atelier Super 8 de Tours.
   - team_name: Lysa Heurtier Manzanares
     team_title: Productrice
     team_text: >-
@@ -92,6 +92,6 @@ Pour ce faire, notre démarche de production consiste à mettre en place pour ch
 
 À l'heure où se rebattent les cartes des politiques de soutien à la création, ces modalités de production nous permettent de maintenir une certaine façon de créer. Et c'est aussi pourquoi nous prenons part aux différents collectifs régionaux et nationaux qui défendent la production de films d'auteur.
 
-Nous avons ainsi produit vingt-huit films. Six films sont actuellement en production. Dix autres sont en développement.
+Nous avons ainsi produit trente-et-un films. Huit films sont actuellement en production. Sept autres sont en développement. 
 
-![L'équipe de L'Image d'après](/img/parpidap-565v1.jpg)
+![L'équipe de L'image d'après](/img/parpidap-565v1.jpg)
