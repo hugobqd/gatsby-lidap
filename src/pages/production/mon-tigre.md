@@ -198,7 +198,4 @@ productor: >
 
   L﻿a SACEM en partenariat avec C﻿iclic région Centre-Val-de-Loire
 ---
-Ce film a été accueilli en résidence à 
-*C﻿iclic animation* à Vendôme\
-*L﻿'enclume* à Bruxelles
-
+Ce film a été accueilli en résidence à *C﻿iclic animation* à Vendôme et à *L﻿'enclume* à Bruxelles
