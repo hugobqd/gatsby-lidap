@@ -121,6 +121,29 @@ credit: |+
 
 
 
+selection: "Meknes Animation Festival \r(Maroc)
+
+
+  Anibar International Animation Festival (Peja, Kosovo)
+
+
+  Ravenheart International Film Festival (\rOslo, Norvège)
+
+
+  Festival Court Métrange (\rRennes, France)
+
+
+  Insomnia International Animation Film Festival (Moscou, Russie) - ***Mention
+  spéciale du jury***
+
+
+  São Paulo Int. Short Film Festival (\rBrésil)
+
+
+  Catalonia Fantastic International Film Festival (\rSitges, Espagne)\ 
+
+
+  Sardinia International Film Festival (Sassari, Italie) - ***Grand Prix***"
 productor: >+
   Une coproduction\
 
@@ -179,3 +202,4 @@ productor: >+
 Ce film a été accueilli en résidence à 
 *C﻿iclic animation* à Vendôme 
 *L﻿'enclume* à Bruxelles
+
