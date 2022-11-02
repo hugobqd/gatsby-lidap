@@ -16,7 +16,7 @@ description: "Que se passe-t-il en forêt morvandelle ?\r
   rendais pas compte à quel point j’aimais la forêt :\r
 
   NOTRE FORÊT\r\n"
-featuredpost: true
+featuredpost: false
 gallery_list:
   - gallery_img: /img/7.jpg
   - gallery_img: /img/4.jpg
