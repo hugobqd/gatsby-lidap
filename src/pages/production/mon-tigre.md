@@ -5,8 +5,7 @@ date: 2022-10-03T11:20:18.808Z
 director: Jean-Jean Arnoux
 featuredimage: /img/mon-tigre-jardin.png
 trailer: https://vimeo.com/671173019
-vod_list:
-  - vod_text: VOD
+vod_list: []
 description: Monsieur K travaille pour Pastagel, une entreprise qui
   commercialise un produit miraculeux pour avoir les cheveux lisses et
   brillants. Malgré tous ses efforts pour ressembler aux autres, n’est-il pas au
@@ -144,7 +143,7 @@ selection: "Meknes Animation Festival \r(Maroc)
 
 
   Sardinia International Film Festival (Sassari, Italie) - ***Grand Prix***"
-productor: >+
+productor: >
   Une coproduction\
 
   **L’image d’après**\
@@ -200,6 +199,6 @@ productor: >+
   L﻿a SACEM en partenariat avec C﻿iclic région Centre-Val-de-Loire
 ---
 Ce film a été accueilli en résidence à 
-*C﻿iclic animation* à Vendôme 
+*C﻿iclic animation* à Vendôme\
 *L﻿'enclume* à Bruxelles
 
