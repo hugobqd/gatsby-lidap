@@ -4,7 +4,7 @@ title: Gardien des mondes
 date: 2022-01-01T09:37:30.523Z
 director: Leïla Chaïbi
 featuredimage: /img/vlcsnap-2021-07-21-12h05m47s755.jpg
-trailer: https://vimeo.com/665945108
+trailer: https://vimeo.com/764943818
 vod_list: []
 description: Un jour, au pied d’un tombeau, Hassan s’est endormi et n’est jamais
   reparti du cimetière. Depuis 40 ans, sur les collines du Jellaz en Tunisie où
@@ -82,7 +82,32 @@ credit: |-
   L'image d'après
 
   Périphérie
-selection: DocuMed (Tunis, Tunisie)
+selection: |-
+  **Prix**
+
+  Meilleur long-métrage documentaire, Lucania Film Festival 2022
+
+  Prix Ulysse du long-métrage documentaire, DocuMed 2022
+
+  Tanit de bronze du long-métrage documentaire, JCC 2022
+
+
+
+  **Sélections**
+
+  DocuMed 2022(Tunis, Tunisie)
+
+  Lucania Film Festival 2022 (Italie)
+
+  Trujillo Film Festival 2022 (Pérou)
+
+  Etats Généraux du cinéma 2022 (Lussas, France)
+
+  Les Inattendus 2022 (Lyon, France)
+
+  DocuMed 2022 (Montpellier, France)
+
+  Journées Cinématographiques de Carthage 2022 (Tunis, Tunisie)
 productor: |-
   **L’image d’après**\
   Maud Martin\
