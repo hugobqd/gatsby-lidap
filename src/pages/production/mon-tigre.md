@@ -22,37 +22,37 @@ technical: |-
   *Durée :* 14 minutes\
   *Langue originale :* français\
   *Sous-titrage :* anglais
-credit: |+
+credit: |-
   *Réalisation :* Jean-Jean Arnoux
 
-  *﻿Assistant réalisateur :* Brice Smith
+  *Assistant réalisateur :* Brice Smith
 
   *Scénario :* Jean-Jean Arnoux
 
-  *﻿Accompagnement à la réecriture :* Louis Tardivier
+  ﻿*Accompagnement à la réecriture :* Louis Tardivier
 
-  *﻿Regard extérieur :* Charlotte Morot
+  ﻿*Regard extérieur :* Charlotte Morot
 
-  *﻿Storyboard :* Jean-Jean Arnoux et Nicolas Hu
+  ﻿*Storyboard :* Jean-Jean Arnoux et Nicolas Hu
 
   *Montage :* Nazim Meslem
 
-  *﻿Montage son / design sonore :* Quentin Romanet
+  ﻿*Montage son / design sonore :* Quentin Romanet
 
-  *﻿Design personnages :* Jean-Jean Arnoux 
+  ﻿*Design personnages :* Jean-Jean Arnoux 
 
-  *﻿Décors trait :* Jean-Jean Arnoux
+  ﻿*Décors trait :* Jean-Jean Arnoux
 
-  *﻿Décors colorisation :* 
+  ﻿*Décors colorisation :* 
 
   A﻿mbre Decruyenaere
   C﻿harlotte Morot
   P﻿ierre Morot
   C﻿amille Sallan
 
-  *﻿Design graphique logo Pastagel :* Amaury de Parseval
+  ﻿*Design graphique logo Pastagel :* Amaury de Parseval
 
-  *﻿Animation :* 
+  ﻿*Animation :* 
 
   J﻿ean-Jean Arnoux
   J﻿on Boutin
@@ -60,22 +60,22 @@ credit: |+
   KLaure Escadafals
   F﻿rançoise Losito
 
-  *﻿Clean / colorisation animation :* 
+  ﻿*Clean / colorisation animation :* 
 
   A﻿mbre Dcruyenaere
   C﻿amille Sallan
 
-  *﻿Animation FX mer :* Mickaël Bataille 
+  ﻿*Animation FX mer :* Mickaël Bataille 
 
-  *﻿Modélisation 3D :* Cyril Limoges
+  ﻿*Modélisation 3D :* Cyril Limoges
 
-  *﻿Compositing :*
+  ﻿*Compositing :*
 
   J﻿ean-Jean Arnoux 
   J﻿on Boutin
   M﻿argot Kaluszyner
 
-  *﻿Stagiaires :*
+  ﻿*Stagiaires :*
 
   H﻿ugo Blanc
   L﻿eoli Sibertin-Blanc
@@ -83,31 +83,31 @@ credit: |+
   C﻿amille Van Delft
   G﻿aspard Palliet
 
-  *﻿Recherches musicales :* Romain Blanc-Tailleur
+  ﻿*Recherches musicales :* Romain Blanc-Tailleur
 
-  *﻿Musique originale :* Jean-Jean Arnoux
+  ﻿*Musique originale :* Jean-Jean Arnoux
 
-  *﻿Percussions :* Jon Boutin
+  ﻿*Percussions :* Jon Boutin
 
-  *﻿Trombone basse :* Pierre Déaux
+  ﻿*Trombone basse :* Pierre Déaux
 
-  *﻿Saxophone baryton, scie musicale :* Marc Démerau
+  ﻿*Saxophone baryton, scie musicale :* Marc Démerau
 
-  *﻿Synthétiseurs :* Jean-Jean Arnoux
+  ﻿*Synthétiseurs :* Jean-Jean Arnoux
 
-  *﻿Ingénieur du son :* Simon Baconnier
+  ﻿*Ingénieur du son :* Simon Baconnier
 
-  *﻿Catering :* Audrey Tavernier
+  ﻿*Catering :* Audrey Tavernier
 
-  *﻿Bruitages :* Claire André
+  ﻿*Bruitages :* Claire André
 
-  *﻿Mixage :* Olivier Guillaume 
+  ﻿*Mixage :* Olivier Guillaume 
 
-  *﻿Voix :* Jean-Jean Arnoux et Quentin Romanet
+  ﻿*Voix :* Jean-Jean Arnoux et Quentin Romanet
 
-  *﻿Etalonnage :* Maxime Mourey
+  ﻿*Etalonnage :* Maxime Mourey
 
-  *﻿Moyens techniques :*
+  ﻿*Moyens techniques :*
 
   S﻿tudio La Lune Rouge
   B﻿adje
@@ -116,10 +116,7 @@ credit: |+
   C﻿iclic animation
   B﻿runch Studio
   L﻿a Ménagerie
-  L﻿'enclume animation 
-
-
-
+  L﻿'enclume animation
 selection: >-
   FICAM (Mèknès, Maroc)
 
