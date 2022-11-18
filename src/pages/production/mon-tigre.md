@@ -120,29 +120,31 @@ credit: |+
 
 
 
-selection: "Meknes Animation Festival \r(Maroc)
+selection: >-
+  Meknes Animation Festival 
+
+  (Maroc)
 
 
   Anibar International Animation Festival (Peja, Kosovo)
 
 
-  Ravenheart International Film Festival (\rOslo, Norvège)
+  Ravenheart International Film Festival (Oslo, Norvège)
 
 
-  Festival Court Métrange (\rRennes, France)
+  Festival Court Métrange (Rennes, France)
 
 
-  Insomnia International Animation Film Festival (Moscou, Russie) - ***Mention
-  spéciale du jury***
+  Insomnia International Animation Film Festival (Moscou, Russie) - ***Mention spéciale du jury***
 
 
-  São Paulo Int. Short Film Festival (\rBrésil)
+  São Paulo Int. Short Film Festival (Brésil)
 
 
-  Catalonia Fantastic International Film Festival (\rSitges, Espagne)\ 
+  Catalonia Fantastic International Film Festival (Sitges, Espagne) 
 
 
-  Sardinia International Film Festival (Sassari, Italie) - ***Grand Prix***"
+  Sardinia International Film Festival (Sassari, Italie) - ***Grand Prix***
 productor: >
   Une coproduction\
 
