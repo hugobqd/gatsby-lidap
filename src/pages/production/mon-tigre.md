@@ -121,9 +121,7 @@ credit: |+
 
 
 selection: >-
-  Meknes Animation Festival 
-
-  (Maroc)
+  FICAM (Mèknès, Maroc)
 
 
   Anibar International Animation Festival (Peja, Kosovo)
@@ -138,13 +136,38 @@ selection: >-
   Insomnia International Animation Film Festival (Moscou, Russie) - ***Mention spéciale du jury***
 
 
-  São Paulo Int. Short Film Festival (Brésil)
+  São Paulo Int. Short Film Festival (Brésil) - ***Mention "Les 10 films étrangers du public"***
 
 
   Catalonia Fantastic International Film Festival (Sitges, Espagne) 
 
 
   Sardinia International Film Festival (Sassari, Italie) - ***Grand Prix***
+
+
+  Festival du Nouveau Cinéma (Montréal, Canada)
+
+   Canlandiranlar (Istanbul, Turquie)
+
+  SESIFF (Séoul, Corée du Sud)
+
+
+  Animest (Bucarest, Roumanie)
+
+
+  REX Animation Festival (Stockholm, Suède)
+
+
+  Balkanima Festival (Novi Beograd, Serbie)
+
+
+  Cinanima (Espinho, Portugal)
+
+
+  Alcine (Alcalà de Henares, Espagne)
+
+
+  Thessaloniki Animation Festival (Thessalonique, Grèce)
 productor: >
   Une coproduction\
 
