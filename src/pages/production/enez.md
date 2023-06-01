@@ -28,7 +28,7 @@ credit: >-
   *Réalisation :* Emmanuel Piton
 
 
-  *Avec :*\ 
+  *Avec :*
 
   Serge Coatmeur, François Spinec, Rozenn Evain, Emilie, Justine et Léa Porsmoguer, Thérèse Le Bars, Robert Posmoguer, Nana Salaün, Hervé Guilcher, Noéline Piton, Ambroise Menou, Marie-Thérèse Guilcher, Jean-Marc Guilcher, Louise Guilcher, Joséphine Chicard
 
