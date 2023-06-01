@@ -38,5 +38,183 @@ technical: "Genre : documentaire\r
   Langue : français\r
 
   Sous-titrage : anglais\r\n"
+credit: "Réalisation : Emmanuel Piton\r
+
+  \r
+
+  Avec : \r
+
+  Serge Coatmeur, François Spinec, Rozenn Evain, Emilie, Justine et Léa
+  Porsmoguer, Thérèse Le Bars, Robert Posmoguer, Nana Salaün, Hervé Guilcher,
+  Noéline Piton, Ambroise Menou, Marie-Thérèse Guilcher, Jean-Marc Guilcher,
+  Louise Guilcher, Joséphine Chicard\r
+
+  \r
+
+  Montage\r
+
+  Marie-Pomme Carteret\r
+
+  \r
+
+  Image\r
+
+  Emmanuel Piton\r
+
+  \r
+
+  Avec l’aide de\r
+
+  Thomas Charmetant, Frank Lawrence, Pierre-Manuel Lemarchand\r
+
+  \r
+
+  Prise de Sons\r
+
+  Frank Lawrence\r
+
+  Emmanuel Piton\r
+
+  \r
+
+  Musique\r
+
+  Frank Lawrence (électro-acoustique)\r
+
+  Pablo Thevenot (violon)\r
+
+  \r
+
+  Développement des films\r
+
+  Labo K\r
+
+  L’abominable\r
+
+  Color By Dejonghe\r
+
+  \r
+
+  Images d'archives de l’île de sein\r
+
+  Cinémathèque de Bretagne\r
+
+  \r
+
+  Sainte-Anne la Palud, Iles : Ouessant, Sein, Yeu - Henri Tessèdre - 1930\r
+
+  Ile de Sein 1950 - André Rayer\r
+
+  Ile de Sein 1902-1952 - André Rayer - 1952\r
+
+  Bonjour Sein - Jacques Gilbert – 1968-1970\r
+
+  \r
+
+  Images sous-marines\r
+
+  Société d'Archéologie et de Mémoire Maritime \r
+
+  SAAM\r
+
+  Merci à Philipe Bodenes\r
+
+  \r
+
+  Textes\r
+
+  Issus des entretiens réalisés sur l’île \r
+
+  Par Emmanuel Piton\r
+
+  \r
+
+  « Nous sommes des traces » \r
+
+  extrait du recueil de poésie\r
+
+  L’île des jours durant\r
+
+  de Rozenn Evain\r
+
+  Edition Du Passavant - Maud Sevin\r
+
+  \r
+
+  Voix\r
+
+  Emilie Morin\r
+
+  \r
+
+  Mixage\r
+
+  Frédéric Hamelin\r
+
+  Atelier sonore Chuuttt !!\r
+
+  \r
+
+  Étalonnage\r
+
+  Pierre Bouchon\r
+
+  Arwestud films\r
+
+  \r
+
+  Numérisation / scan\r
+
+  Light cone\r
+
+  Color By Dejonghe\r
+
+  Family movie\r
+
+  \r
+
+  Ce film a bénéficié d’une résidence de montage de Ty Films – Mellionnec\r
+
+  Accompagnée par\r
+
+  Jean Breschand\r
+
+  Marie-Pomme Carteret\r\n"
+selection: >-
+  Obskura (Rennes)
+
+  Signes de nuit (Paris)
+
+  Festival Dei Popoli (Florence, Italie) 
+
+  16mm Harkat Film Festival (Mumbai, Inde) 
+
+  Balkan New Film Festival (Stockholm, Suède) - **Prix spécial pour la narration poétique du film**
+
+  Fisura, festival internacional de cine y video experimental (Mexico, Mexique)
+productor: |-
+  **L’image d’après** 
+  Annabelle Gangneux
+  Orlane Dumas
+
+  En coproduction avec
+  **Zéro de conduite**
+
+  **TVR**
+  Aurélie Rousseau, directrice générale 
+  Charlotte Avignon, chargée des coproductions
+
+  **Tébéo** et **Tébésud** 
+  Marie-Noëlle Pouliquen, directrice
+
+  Avec le soutien
+  De la Scam, bourse Brouillon d’un rêve
+  De la ville de Rennes, Bourse de création
+  De la DRAC Bretagne, Aide individuelle à la création
+  De la Région Bretagne, Aide Innovation Recherche
+  de Ciclic - Région Centre - Val de Loire
+  de la PROCIREP et de l’ANGOA
+
+  avec la participation du CNC
 ---
 *Enez* est une exploration physique et poétique, tourné en argentique d’un petit bout de terre perdu au milieu de la mer. La mer grignote peu à peu cette île qui sera totalement submergée dans quelques décennies. Le film scrute cet espace qui semble loin de tout en retraçant la mémoire des îliens. Ils semblent faire face à cette disparition et pourtant ils persistent à vivre ici, sur ce caillou rongé par les eaux.
