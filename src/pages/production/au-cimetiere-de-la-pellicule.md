@@ -152,127 +152,109 @@ credit: |-
 
   *Assurances :* Rubini
 selection: |-
-  Festival international du film de Berlin (Germany)\ 
+  Festival international du film de Berlin (Germany)\
   FESPACO (Ouagadougou) – **Mention spéciale du long-métrage documentaire**\
   CPH :DOX (Copenhague)\
   Hot Docs (Toronto)\
   FCAT (Cordoue)\
   Red Sea Documentary Film Days (Djeddah)\
   Olhar de cinema (Curitiba)
-productor: "L'image d'après\\\r
+productor: >-
+  **L'image d'après**\
 
-  Directrice de production : Maud Martin\\\r
+  Directrice de production : Maud Martin\
 
-  Administratrice de production : Orlane Dumas\r
-
-
-  JPL Productions\\\r
-
-  Directeur de production : Jean-Pierre Lagrange\\\r
-
-  Administratrice de production : Morgane Ivanoff\\\r
-
-  Chargé de production : Yoann Nurier\r
-
-  \ \r
-
-  Lagune Productions\\ \r
-
-  Marie-Louise Sarr\r
-
-  \ \r
-
-  Le grenier des ombres\\\r
-
-  Alpha Amadou Djouldé Diallo\r
-
-  \ \r
-
-  Auvergne-Rhône-Alpes Cinéma\\ \r
-
-  Directeur général : Grégory Faes\\\r
-
-  Secrétaire générale : Marie-Anaïs Angelier\\\r
-
-  Assistantes administratives : Pauline Colange, Tiphaine Weinzaepflen\r
-
-  \r
+  Administratrice de production : Orlane Dumas
 
 
-  Lyon Capitale TV\\\r
+  **JPL Productions**\
 
-  Directeur : Olivier Attebi\\\r
+  Directeur de production : Jean-Pierre Lagrange\
 
-  Responsable des programmes : Perrine Robert\\\r
+  Administratrice de production : Morgane Ivanoff\
 
-  Assistante de production : Suzanne Gangloff\\\r
+  Chargé de production : Yoann Nurier
 
-  Chargée de diffusion : Camille Camarra-Mayet\r
 
-  \ \r
+  **Lagune Productions**\
 
-  Red Sea Film Festival Foundation \r
+  Marie-Louise Sarr
 
-  \ \r
 
-  \r
+  **Le grenier des ombres**\
 
-  Avec la participation de TV5MONDE\\ \r
+  Alpha Amadou Djouldé Diallo
 
-  Directeur général : Yves Bigot\\ \r
 
-  Directrice adjointe en charge des programmes : Marjorie Vella\\ \r
+  **Auvergne-Rhône-Alpes Cinéma**\
 
-  Responsable du Pôle Afrique : Gilbert Lam Kaboré \r
+  Directeur général : Grégory Faes\
 
-  \ \r
+  Secrétaire générale : Marie-Anaïs Angelier\
 
-  \ \r
+  Assistantes administratives : Pauline Colange, Tiphaine Weinzaepflen
 
-  Avec le soutien\\ \r
 
-  du Red Sea Fund, une initiative du Red Sea International Film Festival\\ \r
+  **Lyon Capitale TV**\
 
-  de l’Aide aux Cinémas du Monde – Centre National du Cinéma et de l’Image
-  Animée – Institut Français\\ \r
+  Directeur : Olivier Attebi\
 
-  du Fonds Jeune Création Francophone\\\r
+  Responsable des programmes : Perrine Robert\
 
-  de la Région Auvergne-Rhône-Alpes avec la participation du CNC\\\r
+  Assistante de production : Suzanne Gangloff\
 
-  du Fonds Image de la Francophonie\\\r
+  Chargée de diffusion : Camille Camarra-Mayet
 
-  de Ciclic – Région Centre-Val-de-Loire, en partenariat avec le CNC\\ \r
 
-  de la plateforme Tënk\\\r
+  **Red Sea Film Festival Foundation** 
 
-  de Guinée Games - Habibatou Bah et Xenophane Canteaut\\ \r
 
-  de Cell Studios\\\r
+  Avec la participation de **TV5 MONDE**\
 
-  de la PROCIREP – Société des Producteurs et de l’ANGOA\\ \r
+  Directeur général : Yves Bigot\
 
-  de l’Organisation Internationale de la Francophonie – Prix OIF-ACP-UE avec
-  la participation financière de l'Union européenne et le soutien de
-  l'Organisation des Etats ACP\\\r
+  Directrice adjointe en charge des programmes : Marjorie Vella\ 
 
-  du Ministère de la culture, du tourisme et de l’artisanat en Guinée\\ \r
+  Responsable du Pôle Afrique : Gilbert Lam Kaboré 
 
-  Ministre Alpaha Soumah et son conseiller Djessira Condé\\\r
 
-  de l’ONACIG (Office national du cinéma guinéen) - Noël Lamah, directeur\\ \r
+  Avec le soutien\  
 
-  de l’ISAMK - Ibrahima Sory Kourouma, chef du département cinéma et Oumar
-  Traoré\\\r
+  du Red Sea Fund, une initiative du Red Sea International Film Festival\ 
 
-  de la Cinémathèque Afrique de l’Institut Français – Prix Final Cut de
-  Venise\\ \r
+  de l’Aide aux Cinémas du Monde – Centre National du Cinéma et de l’Image Animée – Institut Français\ 
 
-  du Festival International du Film d’Amiens – Prix Final Cut de Venise\\\r
+  du Fonds Jeune Création Francophone\
 
-  de Eye on Films – Prix Final Cut de Venise\r
+  de la Région Auvergne-Rhône-Alpes avec la participation du CNC\
 
-  \r\n"
+  du Fonds Image de la Francophonie\
+
+  de Ciclic – Région Centre-Val-de-Loire, en partenariat avec le CNC\ 
+
+  de la plateforme Tënk\
+
+  de Guinée Games - Habibatou Bah et Xenophane Canteaut\ 
+
+  de Cell Studios\
+
+  de la PROCIREP – Société des Producteurs et de l’ANGOA\ 
+
+  de l’Organisation Internationale de la Francophonie – Prix OIF-ACP-UE avec la participation financière de l'Union européenne et le soutien de l'Organisation des Etats ACP\
+
+  du Ministère de la culture, du tourisme et de l’artisanat en Guinée\ 
+
+  Ministre Alpaha Soumah et son conseiller Djessira Condé\
+
+  de l’ONACIG (Office national du cinéma guinéen) - Noël Lamah, directeur\ 
+
+  de l’ISAMK - Ibrahima Sory Kourouma, chef du département cinéma et Oumar Traoré\
+
+  de la Cinémathèque Afrique de l’Institut Français – Prix Final Cut de Venise\ 
+
+  du Festival International du Film d’Amiens – Prix Final Cut de Venise\
+
+  de Eye on Films – Prix Final Cut de Venise
 ---
 Ce film a obtenu la bourse Brouillon d’un rêve de la Scam en association avec La Culture avec la Copie Privée.
  
