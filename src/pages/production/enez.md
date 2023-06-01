@@ -24,148 +24,109 @@ technical: |-
   *Durée* : 42 minutes\
   *Langue* : français\
   *Sous-titrage* : anglais
-credit: "Réalisation : Emmanuel Piton\r
+credit: >-
+  *Réalisation :* Emmanuel Piton
 
-  \r
 
-  Avec : \r
+  *Avec :* 
 
-  Serge Coatmeur, François Spinec, Rozenn Evain, Emilie, Justine et Léa
-  Porsmoguer, Thérèse Le Bars, Robert Posmoguer, Nana Salaün, Hervé Guilcher,
-  Noéline Piton, Ambroise Menou, Marie-Thérèse Guilcher, Jean-Marc Guilcher,
-  Louise Guilcher, Joséphine Chicard\r
+  Serge Coatmeur, François Spinec, Rozenn Evain, Emilie, Justine et Léa Porsmoguer, Thérèse Le Bars, Robert Posmoguer, Nana Salaün, Hervé Guilcher, Noéline Piton, Ambroise Menou, Marie-Thérèse Guilcher, Jean-Marc Guilcher, Louise Guilcher, Joséphine Chicard
 
-  \r
 
-  Montage\r
+  *Montage :* Marie-Pomme Carteret
 
-  Marie-Pomme Carteret\r
 
-  \r
+  *Image :* Emmanuel Piton
 
-  Image\r
 
-  Emmanuel Piton\r
+  *Avec l’aide de :* Thomas Charmetant, Frank Lawrence, Pierre-Manuel Lemarchand
 
-  \r
 
-  Avec l’aide de\r
+  *Prise de Sons :* Frank Lawrence et Emmanuel Piton 
 
-  Thomas Charmetant, Frank Lawrence, Pierre-Manuel Lemarchand\r
 
-  \r
+  *Musique :* Frank Lawrence (électro-acoustique) et Pablo Thevenot (violon)  
 
-  Prise de Sons\r
 
-  Frank Lawrence\r
+  *Développement des films :*\
 
-  Emmanuel Piton\r
+  Labo K\
 
-  \r
+  L’abominable\
 
-  Musique\r
+  Color By Dejonghe
 
-  Frank Lawrence (électro-acoustique)\r
 
-  Pablo Thevenot (violon)\r
+  *Images d'archives de l’île de sein :*\
 
-  \r
+  Cinémathèque de Bretagne
 
-  Développement des films\r
 
-  Labo K\r
+  Sainte-Anne la Palud, Iles : Ouessant, Sein, Yeu - Henri Tessèdre - 1930
 
-  L’abominable\r
+  Ile de Sein 1950 - André Rayer
 
-  Color By Dejonghe\r
+  Ile de Sein 1902-1952 - André Rayer - 1952
 
-  \r
+  Bonjour Sein - Jacques Gilbert – 1968-1970
 
-  Images d'archives de l’île de sein\r
 
-  Cinémathèque de Bretagne\r
+  *Images sous-marines :*
 
-  \r
+  Société d'Archéologie et de Mémoire Maritime\
 
-  Sainte-Anne la Palud, Iles : Ouessant, Sein, Yeu - Henri Tessèdre - 1930\r
+  SAAM\
 
-  Ile de Sein 1950 - André Rayer\r
+  Merci à Philipe Bodenes
 
-  Ile de Sein 1902-1952 - André Rayer - 1952\r
 
-  Bonjour Sein - Jacques Gilbert – 1968-1970\r
+  *Textes*
 
-  \r
+  Issus des entretiens réalisés sur l’île 
 
-  Images sous-marines\r
+  Par Emmanuel Piton
 
-  Société d'Archéologie et de Mémoire Maritime \r
 
-  SAAM\r
+  « Nous sommes des traces » 
 
-  Merci à Philipe Bodenes\r
+  extrait du recueil de poésie
 
-  \r
+  L’île des jours durant
 
-  Textes\r
+  de Rozenn Evain
 
-  Issus des entretiens réalisés sur l’île \r
+  Edition Du Passavant - Maud Sevin
 
-  Par Emmanuel Piton\r
 
-  \r
+  *Voix :* Emilie Morin 
 
-  « Nous sommes des traces » \r
 
-  extrait du recueil de poésie\r
+  *Mixage :* Frédéric Hamelin\
 
-  L’île des jours durant\r
+  Atelier sonore Chuuttt !!
 
-  de Rozenn Evain\r
 
-  Edition Du Passavant - Maud Sevin\r
+  *Étalonnage :* Pierre Bouchon\
 
-  \r
+  Arwestud films
 
-  Voix\r
 
-  Emilie Morin\r
+  *Numérisation / scan :*
 
-  \r
+  Light cone
 
-  Mixage\r
+  Color By Dejonghe
 
-  Frédéric Hamelin\r
+  Family movie
 
-  Atelier sonore Chuuttt !!\r
 
-  \r
+  *Ce film a bénéficié d’une résidence de montage de Ty Films – Mellionnec
 
-  Étalonnage\r
+  Accompagnée par :*
 
-  Pierre Bouchon\r
+  Jean Breschand
 
-  Arwestud films\r
-
-  \r
-
-  Numérisation / scan\r
-
-  Light cone\r
-
-  Color By Dejonghe\r
-
-  Family movie\r
-
-  \r
-
-  Ce film a bénéficié d’une résidence de montage de Ty Films – Mellionnec\r
-
-  Accompagnée par\r
-
-  Jean Breschand\r
-
-  Marie-Pomme Carteret\r\n"
+  Marie-Pomme Carteret
 selection: >-
   Obskura (Rennes)
 
