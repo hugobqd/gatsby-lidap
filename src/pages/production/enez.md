@@ -128,15 +128,15 @@ credit: >-
 
   Marie-Pomme Carteret
 selection: >-
-  Obskura (Rennes)
+  Obskura (Rennes)\
 
-  Signes de nuit (Paris)
+  Signes de nuit (Paris)\
 
-  Festival Dei Popoli (Florence, Italie) 
+  Festival Dei Popoli (Florence, Italie)\
 
-  16mm Harkat Film Festival (Mumbai, Inde) 
+  16mm Harkat Film Festival (Mumbai, Inde)\
 
-  Balkan New Film Festival (Stockholm, Suède) - **Prix spécial pour la narration poétique du film**
+  Balkan New Film Festival (Stockholm, Suède) - **Prix spécial pour la narration poétique du film**\
 
   Fisura, festival internacional de cine y video experimental (Mexico, Mexique)
 productor: |-
