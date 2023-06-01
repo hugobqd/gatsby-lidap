@@ -28,7 +28,7 @@ credit: >-
   *Réalisation :* Emmanuel Piton
 
 
-  *Avec :* 
+  *Avec :*\ 
 
   Serge Coatmeur, François Spinec, Rozenn Evain, Emilie, Justine et Léa Porsmoguer, Thérèse Le Bars, Robert Posmoguer, Nana Salaün, Hervé Guilcher, Noéline Piton, Ambroise Menou, Marie-Thérèse Guilcher, Jean-Marc Guilcher, Louise Guilcher, Joséphine Chicard
 
@@ -62,16 +62,16 @@ credit: >-
   Cinémathèque de Bretagne
 
 
-  Sainte-Anne la Palud, Iles : Ouessant, Sein, Yeu - Henri Tessèdre - 1930
+  Sainte-Anne la Palud, Iles : Ouessant, Sein, Yeu - Henri Tessèdre - 1930\
 
-  Ile de Sein 1950 - André Rayer
+  Ile de Sein 1950 - André Rayer\
 
-  Ile de Sein 1902-1952 - André Rayer - 1952
+  Ile de Sein 1902-1952 - André Rayer - 1952\
 
   Bonjour Sein - Jacques Gilbert – 1968-1970
 
 
-  *Images sous-marines :*
+  *Images sous-marines :*\
 
   Société d'Archéologie et de Mémoire Maritime\
 
@@ -80,20 +80,20 @@ credit: >-
   Merci à Philipe Bodenes
 
 
-  *Textes*
+  *Textes*\
 
-  Issus des entretiens réalisés sur l’île 
+  Issus des entretiens réalisés sur l’île\
 
   Par Emmanuel Piton
 
 
-  « Nous sommes des traces » 
+  « Nous sommes des traces »\
 
-  extrait du recueil de poésie
+  extrait du recueil de poésie\
 
-  L’île des jours durant
+  L’île des jours durant\
 
-  de Rozenn Evain
+  de Rozenn Evain\
 
   Edition Du Passavant - Maud Sevin
 
@@ -111,20 +111,20 @@ credit: >-
   Arwestud films
 
 
-  *Numérisation / scan :*
+  *Numérisation / scan :*\
 
-  Light cone
+  Light cone\
 
-  Color By Dejonghe
+  Color By Dejonghe\
 
   Family movie
 
 
-  *Ce film a bénéficié d’une résidence de montage de Ty Films – Mellionnec
+  *Ce film a bénéficié d’une résidence de montage de Ty Films – Mellionnec\
 
-  Accompagnée par :*
+  Accompagnée par :*\
 
-  Jean Breschand
+  Jean Breschand\
 
   Marie-Pomme Carteret
 selection: >-
