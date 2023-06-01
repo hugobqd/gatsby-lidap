@@ -10,7 +10,7 @@ description: Arc en main, un vieux chasseur arpente la montagne, traquant
   construisent une cabane et jouent à se faire peur dans l’éventuelle rencontre
   avec un animal sauvage. Féerique et burlesque, *Vers ce lieu enfoui* nous
   ramène à la racine de tous les émerveillements.
-featuredpost: true
+featuredpost: false
 gallery_list:
   - gallery_img: /img/verscelieuenfoui-a.jacquand_cerf.jpg
   - gallery_img: /img/verscelieuenfoui-a.jacquand_enfantsguettent.jpg
