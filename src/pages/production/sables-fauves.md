@@ -10,7 +10,7 @@ description: À l’écart du monde, presque à l’écart du temps, le Maestro 
   des jeunes à l’art de combattre les toros. Une école de torero, des toros qui
   meurent, des Christs ensanglantés et des hommes qui jadis pour se nourrir,
   cherchaient dans le ciel le cercle des charognards. Je sonde ma fascination.
-featuredpost: true
+featuredpost: false
 gallery_list:
   - gallery_img: /img/sf-pique.jpg
   - gallery_img: /img/sf-madonne.jpg
