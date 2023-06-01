@@ -19,13 +19,11 @@ gallery_list:
 document_list:
   - document_item: /img/affiche-enez.jpg
     document_title: Affiche
-technical: "Genre : documentaire\r
-
-  Durée : 42 minutes\r
-
-  Langue : français\r
-
-  Sous-titrage : anglais\r\n"
+technical: |-
+  *Genre* : documentaire\
+  *Durée* : 42 minutes\
+  *Langue* : français\
+  *Sous-titrage* : anglais
 credit: "Réalisation : Emmanuel Piton\r
 
   \r
@@ -209,7 +207,7 @@ productor: |-
 **Brouillon d’un rêve de la Scam**
 
 *Après avoir chorégraphié des éclairs, portraituré une adolescence à la campagne, inventorié de petits outils, écouté les songes des eaux dormantes, et avancé à tâtons dans les vallées lointaines où se perdent les ondes, pour son dernier film Emmanuel Piton a promené sa caméra 16mm au long des rivages, des plis et des replis de l'île de Sein. Il y a recueilli et amplifié des silences, et regardé comment vibrent les espaces qui sont entre eux. Il a tissé un écheveau de voix et d'échos, d'éclats de lumière et d'ondulations sous-marines. Des regards maintenus, des rêves d'oubli ou d'engloutissement.
-Ni totalement expérimental, ni simplement documentaire, ni tout à fait essai, Enez est un peu de tout çà à la fois, et sans doute beaucoup plus que tout çà à la fois. C'est en tout cas le dernier maillon à ce jour d'une œuvre intranquille, foudroyante et essentielle*.
+Ni totalement expérimental, ni simplement documentaire, ni tout à fait essai, "Enez" est un peu de tout çà à la fois, et sans doute beaucoup plus que tout çà à la fois. C'est en tout cas le dernier maillon à ce jour d'une œuvre intranquille, foudroyante et essentielle*.
 
 Eric Thouvenel
 Professeur en études cinématographiques
