@@ -154,12 +154,12 @@ productor: |-
   **Tébéo** et **Tébésud** 
   Marie-Noëlle Pouliquen, directrice
 
-  Avec le soutien
-  De la Scam, bourse Brouillon d’un rêve
-  De la ville de Rennes, Bourse de création
-  De la DRAC Bretagne, Aide individuelle à la création
-  De la Région Bretagne, Aide Innovation Recherche
-  de Ciclic - Région Centre - Val de Loire
+  Avec le soutien\
+  De la Scam, bourse Brouillon d’un rêve\
+  De la ville de Rennes, Bourse de création\
+  De la DRAC Bretagne, Aide individuelle à la création\
+  De la Région Bretagne, Aide Innovation Recherche\
+  de Ciclic - Région Centre - Val de Loire\
   de la PROCIREP et de l’ANGOA
 
   avec la participation du CNC
