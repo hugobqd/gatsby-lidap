@@ -16,7 +16,7 @@ gallery_list:
   - gallery_img: /img/vlcsnap-2021-07-21-11h55m39s418.jpg
   - gallery_img: /img/vlcsnap-2021-07-21-12h01m09s266.jpg
 document_list:
-  - document_item: /img/gardiens_des_mondes_affiche_web.jpg
+  - document_item: /img/gardiens_des_mondes_affiche_web_prix_v3.jpg
     document_title: Affiche - Gardien des mondes
 technical: |-
   *Genre :* documentaire\
@@ -102,6 +102,36 @@ selection: >-
 
 
   Journées Cinématographiques de Carthage 2022 (Tunis, Tunisie) - ***Tanit de bronze du long-métrage documentaire***
+
+
+  Karama Human Rights Film Festival 2022 (Jordanie) 
+
+
+  Maghreb des films 2023  (Lyon, France)
+
+
+  Miradasdoc 2023 (Espagne, Canaries) 
+
+
+  Arab film days 2023 (Norvège)
+
+
+  Fespaco 2023 (Burkina Faso) - ***Etalon de bronze long-métrage documentaire***
+
+
+  Festival du Cinéma African de Tarifa-Tanger 2023 (Espagne)
+
+
+  Rabat Doc Festival 2023 (Maroc) - ***Grand Prix Al Jazeera***
+
+
+  StLouis'Docs 2023 (Sénégal) - ***Grand Prix du Jury long-métrage***
+
+
+  Djerba Araba Film Festival 2023 (Tunisie)
+
+
+  African Film Festival de Cologne 2023 (Allemagne)
 productor: |-
   **L’image d’après**\
   Maud Martin\
