@@ -82,16 +82,16 @@ productor: >-
   Alizée Mandereau, Sophie Dufau
 
 
-  Avec le soutien\
+  Avec le soutien
 
 
-  du Centre national du cinéma et de l'image animée\
+  du Centre national du cinéma et de l'image animée
 
 
-  de CICLIC-Région Centre-Val-de-Loire, en partenariat avec le CNC\
+  de CICLIC-Région Centre-Val-de-Loire, en partenariat avec le CNC
 
 
-  de la Procirep - Société des producteurs et de l'Angoa\
+  de la Procirep - Société des producteurs et de l'Angoa
 
 
   Musique composée et enregistrée avec le soutien de la SACEM en association avec Normandie images
