@@ -65,7 +65,9 @@ credit: |-
   Family movie
   Andec Filmtechnik
   L'ECPAD
-selection: Cinéma du réel (Paris) – **Prix de la Sacem**
+selection: |
+  Cinéma du réel (Paris) – **Prix de la Sacem**\
+  Pesaro Film Festival - Mostra Internazionale Del Nuovo Cinema\
 productor: >-
   **L’image d’après**\
 
