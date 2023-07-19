@@ -144,7 +144,7 @@ selection: >-
 
   Festival de cinéma de Douarnenez\
 
-  Mostra del cinema di Genova\
+  Mostra del cinema di Genova
 productor: |-
   **L’image d’après** 
   Annabelle Gangneux
