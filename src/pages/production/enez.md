@@ -138,7 +138,13 @@ selection: >-
 
   Balkan New Film Festival (Stockholm, Suède) - **Prix spécial pour la narration poétique du film**\
 
-  Fisura, festival internacional de cine y video experimental (Mexico, Mexique)
+  Fisura, festival internacional de cine y video experimental (Mexico, Mexique)\
+
+  Festival international du film insulaire de Groix\
+
+  Festival de cinéma de Douarnenez\
+
+  Mostra del cinema di Genova\
 productor: |-
   **L’image d’après** 
   Annabelle Gangneux
