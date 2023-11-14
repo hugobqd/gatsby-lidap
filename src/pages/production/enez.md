@@ -3,7 +3,7 @@ templateKey: production-post
 title: Enez
 date: 2022-11-01T13:22:35.339Z
 director: Emmanuel Piton
-featuredimage: /img/enez-2_16-9.gif
+featuredimage: /img/enez-2_16-9.jpg
 trailer: https://vimeo.com/751311711
 vod_list: []
 description: "*Enez* est une exploration physique et poétique, tourné en
