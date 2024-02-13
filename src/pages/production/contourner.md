@@ -22,8 +22,8 @@ description: >-
   Seule réalité tangible qui s'offre à moi dans un monde à l'arrêt, le mouvement des machines crée un ballet mécanique qui creuse, modèle, et façonne un paysage.
 featuredpost: true
 gallery_list:
-  - gallery_img: /img/acdlp-pont.jpg
-  - gallery_img: /img/acdlp_cam_bois.jpg
+  - gallery_img: ""
+  - gallery_img: ""
 document_list:
   - document_item: /img/affiche-a4-contourner-yvan-petit-.jpg
     document_title: Affiche
@@ -50,6 +50,8 @@ productor: |-
 
   Charlie Rojo, Damien Monnier, Annabelle Gangneux
 
+
+
   **Avec le soutien de** :
 
   DRAC Centre-Val de Loire
@@ -66,4 +68,4 @@ productor: |-
 
   Mission Val de Loire
 ---
-Téléchargement du dossier de presse[ ICI](https://www.limagedapres.org)
+Téléchargement du dossier de presse[](https://www.limagedapres.org) ICI
