@@ -9,9 +9,13 @@ vod_list: []
 description: >-
   Chronique de la modification d'un paysage.
 
+
+
   J'ai passé une année au bord d'une rivière à filmer un chantier : le creusement d'un bras de rivière artificiel.
 
   Ces travaux doivent permettre de restaurer une continuité écologique.
+
+
 
   Il y a une pandémie. Un virus invisible, dont les échos parviennent jusqu'à ce huis-clos à ciel ouvert, à travers la succession des annonces gouvernementales. « Vagues », « seuils », « pics », « reflux ». Les mots font un travail de sape, d'érosion du réel, résonnent avec les images.
 
@@ -39,14 +43,15 @@ credit: |-
 
   *Étalonnage :* Antoine Polin
 
-  *Musique :* Piano Chat\
-  Ecrit, composé et joué par Marceau Boré
+  *Musique :* Piano Chat, écrite, composée et jouée par Marceau Boré
 selection: ""
 productor: |-
   **L'image d'après**\
   Charlie Rojo, Damien Monnier, Annabelle Gangneux
 
-  Avec le soutien de :
+
+
+  **Avec le soutien de** :
   DRAC Centre-Val de Loire
   Région Centre-Val de Loire
   Ciclic-Région Centre-Val de Loire, en partenariat avec le CNC
@@ -55,9 +60,3 @@ productor: |-
   CAUE 37
   Mission Val de Loire
 ---
-Ce film a obtenu la bourse Brouillon d’un rêve de la Scam en association avec La Culture avec la Copie Privée.
- 
-Il a été développé en 2016 dans le cadre du programme Africadoc de l'association Docmonde avec le soutien de la Région Auvergne-Rhône-Alpes et de l’OIF.
- 
-Il a participé au Venice Gap Financing Market en 2021
-Et au Final Cut in Venice Workshop en 2022.
