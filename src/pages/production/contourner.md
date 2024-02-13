@@ -46,15 +46,23 @@ credit: |-
   *Musique :* Piano Chat, écrite, composée et jouée par Marceau Boré
 selection: ""
 productor: |-
-  **L'image d'après**\
+  **L'image d'après**
+
   Charlie Rojo, Damien Monnier, Annabelle Gangneux
 
   **Avec le soutien de** :
+
   DRAC Centre-Val de Loire
+
   Région Centre-Val de Loire
+
   Ciclic-Région Centre-Val de Loire, en partenariat avec le CNC
+
   Le NEC – Syndicat Nouvel Espace du Cher
+
   Ville de Tours / Dispositif d’aide à la création
+
   CAUE 37
+
   Mission Val de Loire
 ---
