@@ -49,8 +49,6 @@ productor: |-
   **L'image d'après**\
   Charlie Rojo, Damien Monnier, Annabelle Gangneux
 
-
-
   **Avec le soutien de** :
   DRAC Centre-Val de Loire
   Région Centre-Val de Loire
