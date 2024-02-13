@@ -66,3 +66,4 @@ productor: |-
 
   Mission Val de Loire
 ---
+Téléchargement du dossier de presse[ ICI](https://www.limagedapres.org)
