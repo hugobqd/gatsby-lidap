@@ -3,7 +3,7 @@ templateKey: production-post
 title: Contourner
 date: 2023-11-01T22:25:31.168Z
 director: Yvan Petit
-featuredimage: /img/affiche-a4-contourner-yvan-petit-.jpg
+featuredimage: /img/contourner1web.jpg
 trailer: https://vimeo.com/881377123?share=copy
 vod_list: []
 description: >-
@@ -24,8 +24,8 @@ description: >-
   Seule réalité tangible qui s'offre à moi dans un monde à l'arrêt, le mouvement des machines crée un ballet mécanique qui creuse, modèle, et façonne un paysage.
 featuredpost: true
 gallery_list:
-  - gallery_img: ""
-  - gallery_img: ""
+  - gallery_img: /img/contourner7web.jpg
+  - gallery_img: /img/contourner8web.jpg
 document_list:
   - document_item: /img/affiche-a4-contourner-yvan-petit-.jpg
     document_title: Affiche
