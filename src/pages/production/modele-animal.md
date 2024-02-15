@@ -12,9 +12,7 @@ description: >-
   aime, dans le cylindre d’un tube de plastique.
 
 
-
   Dans une boîte plus grande, celle d’un centre de recherche du comportement animal, des humains produisent des expériences étonnantes avec ces insectes.
-
 
 
   Témoins de ces expériences, la perception que nous avons de ces animaux familiers est petit à petit transformée.
