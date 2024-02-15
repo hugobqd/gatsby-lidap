@@ -67,4 +67,4 @@ productor: |-
 
   Oeuvre réalisée avec le soutien de la Région Centre-Val de Loire
 ---
-Dossier de presse en téléchargement [ICI](https://gofile.me/5ieuy/9aOXl7ejc)
+[Dossier de presse](https://gofile.me/5ieuy/9aOXl7ejc)
