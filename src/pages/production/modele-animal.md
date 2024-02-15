@@ -22,7 +22,7 @@ gallery_list:
   - gallery_img: /img/05_modele_animal_faivre_bore.jpg
 document_list:
   - document_item: /img/affiche_modele-animal_150-dpi.jpg
-    document_title: Affiche
+    document_title: Affiche Modèle Animal
 technical: |-
   *Genre :* documentaire\
   *Durée :* 57 minutes\
