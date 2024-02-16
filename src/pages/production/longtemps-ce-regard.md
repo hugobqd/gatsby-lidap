@@ -24,17 +24,15 @@ technical: |-
 credit: |-
   *Réalisation et image :* Pierre Tonachella
 
-  *Image :* Agnès Perrais et Frédérique Menant
+  *Prise de son* : Pascal Hamant et Pierre Tonachella
 
-  Prise de son : Pascal Hamant et Pierre Tonachella
+  *Régie* : Muriel Langlois et Sara Olaciregui
 
-  Régie : Muriel Langlois et Sara Olaciregui
+  *Montage* : Pierre Tonachella
 
-  Montage : Pierre Tonachella
+  *Montage son et Mixage* : Audrey Ginestet
 
-  Montage son et Mixage : Audrey Ginestet
-
-  Étalonnage : Antoine Polin
+  *Étalonnage* : Antoine Polin
 selection: Cinéma du réel (Paris)
 productor: >-
   **L’image d’après**\
@@ -42,6 +40,6 @@ productor: >-
   Damien Monnier
 
 
-  Avec le soutien de CICLIC-Région Centre-Val-de-Loire, en partenariat avec le CNC
+  *Avec le soutien de* CICLIC-Région Centre-Val-de-Loire, en partenariat avec le CNC
 ---
 Dossier de presse en téléchargement [ICI](https://gofile.me/5ieuy/1v24bfIua)
