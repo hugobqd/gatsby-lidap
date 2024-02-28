@@ -66,4 +66,4 @@ productor: |-
 
   Mission Val de Loire
 ---
-[Dossier de presse téléchargeable (.zip)](https://gofile.me/5ieuy/gIpjR1kPZ)
+[Dossier de presse téléchargeable (.zip)](https://gofile.me/5ieuy/vyeOqz7CQ)
