@@ -57,5 +57,16 @@ selection: |-
 
 
   DOC NYC, New-York, USA, 2024
+productor: |-
+  Production
+  Production : L'image d'après
+
+  Maud Martin (productrice)
+  Mail : maud-martin@limagedapres.org
+
+  Lysa Heurtier Manzanares (productrice)
+  Mail : lysa-heurtier-manzanares@limagedapres.org
+
+  En coproduction avec Lyon Capitale TV
 ---
 Dossier de presse
