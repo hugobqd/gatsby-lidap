@@ -17,3 +17,4 @@ description: >-
   Daphné Ménard, metteur en scène haïtien, réunit autour de cet évènement des comédiens des deux parts de l’île. Une création inédite qui demandera à l’un et l’autre de ses peuples d’évoquer certaines zones sombres de leur histoire.
 featuredpost: true
 ---
+Dossier de presse
