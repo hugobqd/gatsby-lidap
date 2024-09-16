@@ -16,5 +16,8 @@ description: >-
 
   Daphné Ménard, metteur en scène haïtien, réunit autour de cet évènement des comédiens des deux parts de l’île. Une création inédite qui demandera à l’un et l’autre de ses peuples d’évoquer certaines zones sombres de leur histoire.
 featuredpost: true
+document_list:
+  - document_item: /img/l_oubli_tue_deux_fois_affiche_web.jpg
+    document_title: Affiche L'oubli tue deux fois
 ---
 Dossier de presse
