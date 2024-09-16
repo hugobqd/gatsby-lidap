@@ -18,6 +18,7 @@ description: >-
 featuredpost: true
 gallery_list:
   - gallery_img: /img/henri-noscent-montre-la-frontiere.png
+  - gallery_img: /img/lot2f.png
 document_list:
   - document_item: /img/l_oubli_tue_deux_fois_affiche_web.jpg
     document_title: Affiche L'oubli tue deux fois
