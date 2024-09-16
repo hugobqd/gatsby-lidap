@@ -41,5 +41,21 @@ technical: |-
 
 
   Musique originale : Brice Kartmann
+selection: |-
+  Blackstar International Film festival, Philadelphie, USA, 2024
+
+
+
+
+  DOKLeipzig, Allemagne, 2024
+
+
+  FIFAC, Guyane française, 2024
+
+
+  Mondes en vue, La Réunion (France), 2024
+
+
+  DOC NYC, New-York, USA, 2024
 ---
 Dossier de presse
