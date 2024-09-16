@@ -7,4 +7,5 @@ featuredimage: /img/repetition-en-haiti.png
 trailer: "Bande annonce : https://vimeo.com/392750109?share=copy"
 vod_list:
   - vod_text: VOD
+featuredpost: true
 ---
