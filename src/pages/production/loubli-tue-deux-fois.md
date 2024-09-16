@@ -19,5 +19,27 @@ featuredpost: true
 document_list:
   - document_item: /img/l_oubli_tue_deux_fois_affiche_web.jpg
     document_title: Affiche L'oubli tue deux fois
+technical: |-
+  Auteur-réalisateur : Pierre Michel Jean
+
+  Image : Louvenson Saint-Juste, Réginald Louissaint Jr., Pierre Michel Jean
+
+
+  Son : Joanis Bazelais, Estailove Saint-Val, Jean Marcaisse Bellegarde
+
+
+  Montage : Marie Bottois 
+
+
+  Montage son : Marie Moulin
+
+
+  Mixage : Brice Kartmann 
+
+
+  Étalonnage : Axelle Gonay
+
+
+  Musique originale : Brice Kartmann
 ---
 Dossier de presse
