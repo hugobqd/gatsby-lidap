@@ -4,7 +4,7 @@ title: L'Oubli Tue Deux Fois
 date: 2024-07-31T22:56:38.889Z
 director: Pierre Michel JEAN
 featuredimage: /img/repetition-en-haiti.png
-trailer: ""
+trailer: https://vimeo.com/1012450457?share=copy#t=0
 vod_list:
   - vod_text: VOD
 description: >-
