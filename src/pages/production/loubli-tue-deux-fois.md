@@ -6,7 +6,7 @@ director: Pierre Michel JEAN
 featuredimage: /img/repetition-en-haiti.png
 trailer: https://vimeo.com/1012450457?share=copy#t=0
 vod_list:
-  - vod_text: VOD
+  - vod_text: ""
 description: >-
   Haïti et la République Dominicaine se partagent l’île Quisqueya et un génocide
   occulté. Le dictateur dominicain Rafael Leonidas Trujillo a fait massacrer à
