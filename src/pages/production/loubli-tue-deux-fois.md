@@ -43,31 +43,37 @@ technical: |-
   *Musique originale* : Brice Kartmann
   *Affiche* : Valérie Tortolero
 selection: |-
-  Blackstar International Film festival, Philadelphie, USA, 2024
+  Blackstar International Film festival (Philadelphie, USA) 2024
+  DOKLeipzig (Allemagne) 2024
+  FIFAC (Guyane française) 2024
+  Mondes en vue (Guadeloupe, France) 2024
+  DOC NYC (New-York, USA) 2024
+  Black Film Week Brazil (Bahia) 2024
+productor: >-
+  Production : **L'image d'après** 
+
+  Maud Martin & Lysa Heurtier Manzanares
+
+  Secrétariat de production : Orlane Dumas
 
 
+  En coproduction avec Lyon Capital TV
 
 
-  DOKLeipzig, Allemagne, 2024
+  Avec le soutien :
 
+  Du Fonds Image de la Francophonie
 
-  FIFAC, Guyane française, 2024
+  La contribution financière de l'Union Européenne et le soutien de l'Organisation des États ACP
 
+  Du CNC
 
-  Mondes en vue, La Réunion (France), 2024
+  De Ciclic Région Centre-Val-de-Loire, en partenariat avec le CNC
 
+  De la Procirep et de l'Angoa
 
-  DOC NYC, New-York, USA, 2024
-productor: |-
-  Production
-  Production : L'image d'après
+  De la Fondation Connaissance et Liberté – FOKAL
 
-  Maud Martin (productrice)
-  Mail : maud-martin@limagedapres.org
-
-  Lysa Heurtier Manzanares (productrice)
-  Mail : lysa-heurtier-manzanares@limagedapres.org
-
-  En coproduction avec Lyon Capitale TV
+  Et de la SACEM
 ---
 [](https://gofile.me/5ieuy/Y1y8eCy6Z)[Dossier de presse](https://gofile.me/5ieuy/PMKh4WirS)
