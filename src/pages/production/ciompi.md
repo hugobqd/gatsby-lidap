@@ -65,9 +65,13 @@ credit: |-
   Family movie
   Andec Filmtechnik
   L'ECPAD
-selection: |
-  Cinéma du réel (Paris) – **Prix de la Sacem**\
-  Pesaro Film Festival - Mostra Internazionale Del Nuovo Cinema\
+selection: >-
+  Mostra Internazionale del Cinema (Genova) 2024 - **Prix du Meilleur
+  long-métrage** au festival Flight\
+
+  Cinéma du réel (Paris) 2023 - **Prix de la Sacem**
+
+  Pesaro Film Festival - Mostra Internazionale Del Nuovo Cinema
 productor: >-
   **L’image d’après**\
 
