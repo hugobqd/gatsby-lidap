@@ -31,9 +31,7 @@ credit: |-
   *Affiche :* Valérie Tortolero
 selection: ""
 productor: >-
-  **L’image d’après**\
-
-  Damien Monnier - Charlie Rojo
+  **L’image d’après**
 
 
   *En coproduction avec* Tv Tours Val de Loire *et en association* *avec* Lapsus Chevelü
