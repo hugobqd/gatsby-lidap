@@ -3,9 +3,9 @@ templateKey: basic-page
 forcedURL: a-propos
 parentUrl: /
 title: À propos
-featuredimage: /img/parpidap-565v1.jpg
+featuredimage: ""
 description: >
-  L'image d'après a quatorze ans. C'est à Tours. Nous sommes neuf.
+  L'image d'après a seize ans. C'est à Tours. Nous sommes neuf.
 
   Nous avons eu et continuons d'avoir, en parallèle de notre activité de producteur.rice.s, des expériences de réalisation, de programmation, de travail associatif, de composition.
 document_list: []
@@ -32,29 +32,6 @@ team_list:
       poursuis mon travail d'auteur et réalisateur, parfois en collaboration
       avec d'autres artistes ou cinéastes. Je suis aussi actuellement membre du
       Conseil d'Administration d'Ardèche Images.
-  - team_name: Annabelle Gangneux
-    team_title: Productrice
-    team_text: Pendant près de 20 ans, j'ai coordonné la programmation et
-      l'organisation du Festival International Super 8 de Tours puis la
-      programmation et l’organisation de projections (cycles, festivals..)
-      de  films documentaires. En parallèle, j'ai fait de la régie sur des
-      tournages, du casting figuration, des ateliers d'éducation à l'image et de
-      la collecte de films d'archives amateurs. J'ai une première expérience
-      comme directrice de production sur un moyen métrage de fiction, avant de
-      rentrer à L’image d’après en 2011 où je travaille comme assistante de
-      production puis comme productrice. Avec quelques incartades dans l'essai
-      et l'animation, je produits essentiellement des films documentaires.
-  - team_name: Orlane Dumas
-    team_title: Productrice
-    team_text: C’est après un BTS option Techniques d’ingénierie et exploitation des
-      équipements à Saint-Quentin (02) et un Master en production à l’Université
-      de Valenciennes (59) que je rejoins L’image d’après après un stage de six
-      mois en février 2018. J'ai produis quatre films documentaires. Deux sont
-      en production et deux en développement. En parallèle de mon travail de
-      productrice, je suis médiatrice Jury Jeune du festival Viva il cinema de
-      Tours, intervenante à Ynov Lyon, membre du Conseil d'administration de
-      PARC (association des producteurices en Région Centre-Val-de-Loire) et
-      membre de l'Atelier Super 8 de Tours.
   - team_name: Lysa Heurtier Manzanares
     team_title: Productrice
     team_text: >-
@@ -80,7 +57,7 @@ team_list:
       Ces dernières années, j'ai travaillé régulièrement pour le cinéma documentaire comme ingénieur du son et compositeur (productions Nord-Ouest, L’image d’après, Alter Ego, Ikki films, Les films du Balibari, TS productions), dans la production musicale (labels Vicious circle, Kithibong, Un Je Ne Sais Quoi, Figures libres) et pour le spectacle vivant comme régisseur son et compositeur (Ensemble Tachycardie, Théâtre à cru, Demesten Titip, Collectif impatience, Laps zone). Enfin, je suis également intervenant pour des ateliers artistiques incluant de la réalisation sonore (CICLIC,Compagnie Marouchka, L'Intention Publique).
     team_title: Monteur son, mixeur et compositeur de musique originale
 ---
-L'équipe est constituée de six producteurs, aussi réalisateurs, de deux techniciens son, aussi musiciens et d'un gérant, aussi journaliste.
+L'équipe est constituée de quatre producteurs, aussi réalisateurs, de deux techniciens son, aussi musiciens et d'un gérant, aussi journaliste.
 
 Notre fonctionnement collectif se structure autour de notre comité de lecture. Une fois par mois, nous nous réunissons pour discuter des propositions reçues et des films en cours. C'est là que se forment les binômes qui produisent les films.
 
@@ -92,6 +69,6 @@ Pour ce faire, notre démarche de production consiste à mettre en place pour ch
 
 À l'heure où se rebattent les cartes des politiques de soutien à la création, ces modalités de production nous permettent de maintenir une certaine façon de créer. Et c'est aussi pourquoi nous prenons part aux différents collectifs régionaux et nationaux qui défendent la production de films d'auteur.
 
-Nous avons ainsi produit trente-et-un films. Huit films sont actuellement en production. Sept autres sont en développement. 
+Nous avons ainsi produit une quarantaine de films. Huit films sont actuellement en production. Sept autres sont en développement. 
 
-![L'équipe de L'image d'après](/img/parpidap-565v1.jpg)
+![]()
