@@ -42,4 +42,4 @@ productor: >-
 
   *Soutiens :* CNC, Ciclic Région Centre Val de Loire, Procirep Angoa
 ---
-Dossier de presse en téléchargement [ICI](https://gofile.me/5ieuy/1v24bfIua)
+Dossier de presse en téléchargement
