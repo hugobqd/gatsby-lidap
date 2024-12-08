@@ -1,6 +1,6 @@
 ---
 templateKey: production-post
-title: LE REBORD
+title: Le rebord
 date: 2024-12-11T15:30:53.350Z
 director: Maud Martin
 featuredimage: /img/longtemps_ce_regard_5thomas_web.jpg
@@ -14,8 +14,7 @@ gallery_list:
   - gallery_img: /img/longtemps_ce_regard_4marianne_web.jpg
   - gallery_img: /img/longtemps_ce_regard_6marieke-maxime_web.jpg
 document_list:
-  - document_item: /img/affiche_longtempsceregard-web.png
-    document_title: Affiche
+  - document_item: /img/le_rebord_affiche_web.jpg
 technical: |-
   *Genre :* documentaire\
   *Durée :* 57 minutes\
