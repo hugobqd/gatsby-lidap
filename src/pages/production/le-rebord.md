@@ -12,7 +12,7 @@ description: Longtemps, ce regard… réunit des souvenirs épars d’années pa
 featuredpost: true
 gallery_list:
   - gallery_img: /img/lerebord_aiguille.jpg
-  - gallery_img: /img/longtemps_ce_regard_6marieke-maxime_web.jpg
+  - gallery_img: /img/lerebord_main.jpg
 document_list:
   - document_title: Affiche du film Le Rebord
     document_item: /img/le_rebord_affiche_opt.jpg
