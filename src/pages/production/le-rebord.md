@@ -22,24 +22,21 @@ technical: |-
   *Langue :* français\
   *Sous-titrage :* VOSTE
 credit: |-
-  *Réalisation et image :* Pierre Tonachella
-
-  *Prise de son* : Pascal Hamant et Pierre Tonachella
-
-  *Régie* : Muriel Langlois et Sara Olaciregui
-
-  *Montage* : Pierre Tonachella
-
-  *Montage son et Mixage* : Audrey Ginestet
-
-  *Étalonnage* : Antoine Polin
-selection: Cinéma du réel (Paris)
+  *Réalisatrice, Image, Son :* Maud Martin
+  *Montage :* Marianne Haroche
+  *Montage son et Mixage :* Brice Kartmann
+  *Étalonnage :* Antoine Polin
+  *Affiche :* Valérie Tortolero
+selection: ""
 productor: >-
   **L’image d’après**\
 
   Damien Monnier
 
 
-  *Avec le soutien de* CICLIC-Région Centre-Val-de-Loire, en partenariat avec le CNC
+
+  *En coproduction avec* Tv Tours Val de Loire *et en association* *avec* Lapsus Chevelü
+
+  *Soutiens :* CNC, Ciclic Région Centre Val de Loire, Procirep Angoa
 ---
 Dossier de presse en téléchargement [ICI](https://gofile.me/5ieuy/1v24bfIua)
