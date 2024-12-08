@@ -34,6 +34,9 @@ productor: >-
   **L’image d’après**
 
 
+  damien.monnier@gmail.com
+
+
   *En coproduction avec* Tv Tours Val de Loire *et en association* *avec* Lapsus Chevelü
 
   *Soutiens :* CNC, Ciclic Région Centre Val de Loire, Procirep Angoa
