@@ -11,7 +11,7 @@ description: Longtemps, ce regard… réunit des souvenirs épars d’années pa
   champs plats, sont célébrés au cours d’un cheminement poétique et politique.
 featuredpost: true
 gallery_list:
-  - gallery_img: /img/longtemps_ce_regard_4marianne_web.jpg
+  - gallery_img: /img/lerebord_aiguille.jpg
   - gallery_img: /img/longtemps_ce_regard_6marieke-maxime_web.jpg
 document_list:
   - document_title: Affiche du film Le Rebord
