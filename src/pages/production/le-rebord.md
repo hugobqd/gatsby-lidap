@@ -21,11 +21,11 @@ document_list:
     document_item: /img/le_rebord_affiche_opt.jpg
 technical: |-
   *Genre :* documentaire\
-  *Durée :* 57 minutes\
+  *Durée :* 85 minutes\
   *Langue :* français\
   *Sous-titrage :* VOSTE
 credit: |-
-  *Réalisatrice, Image, Son :* Maud Martin
+  *Autrice-Réalisatrice, Image, Son :* Maud Martin
   *Montage :* Marianne Haroche
   *Montage son et Mixage :* Brice Kartmann
   *Étalonnage :* Antoine Polin
