@@ -4,7 +4,7 @@ title: Le rebord
 date: 2024-12-11T15:30:53.350Z
 director: Maud Martin
 featuredimage: /img/lerebord_paillettes.jpg
-trailer: https://vimeo.com/910796522?share=copy
+trailer: ""
 vod_list: []
 description: Longtemps, ce regard… réunit des souvenirs épars d’années passées
   dans mon village, où les amitiés, le quotidien prolétaire, l’errance et les
