@@ -34,8 +34,7 @@ selection: ""
 productor: >-
   **L’image d’après**\
 
-  Damien Monnier
-
+  Damien Monnier - Charlie Rojo
 
 
   *En coproduction avec* Tv Tours Val de Loire *et en association* *avec* Lapsus Chevelü
