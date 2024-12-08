@@ -8,5 +8,5 @@ description: >-
   Tours. Ses bureaux et salles de travail sont situés en centre-ville, à dix
   minutes à pied de la gare.
 
-  L'équipe est constituée de neuf personnes.
+  L'équipe est constituée de six personnes.
 ---
