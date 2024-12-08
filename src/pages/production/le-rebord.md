@@ -22,8 +22,7 @@ document_list:
 technical: |-
   *Genre :* documentaire\
   *Durée :* 85 minutes\
-  *Langue :* français\
-  *Sous-titrage :* VOSTE
+  *Langue :* français
 credit: |-
   *Autrice-Réalisatrice, Image, Son :* Maud Martin
   *Montage :* Marianne Haroche
