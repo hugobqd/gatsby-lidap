@@ -6,9 +6,12 @@ director: Maud Martin
 featuredimage: /img/lerebord_paillettes.jpg
 trailer: https://vimeo.com/1027317279
 vod_list: []
-description: Longtemps, ce regard… réunit des souvenirs épars d’années passées
-  dans mon village, où les amitiés, le quotidien prolétaire, l’errance et les
-  champs plats, sont célébrés au cours d’un cheminement poétique et politique.
+description: C'est une histoire de désir, une histoire de résistance, une
+  histoire de chanteuse, une histoire de petit garçon, une histoire de cheveux,
+  une histoire triste, une histoire politique, une histoire de langue, une
+  histoire de beauté, une histoire de vieille dame, une histoire de jambes
+  croisées, une histoire drôle. C'est une histoire trans. C'est une histoire
+  d'amour.
 featuredpost: true
 gallery_list:
   - gallery_img: /img/lerebord_aiguille.jpg
