@@ -3,7 +3,7 @@ templateKey: production-post
 title: Le rebord
 date: 2024-12-11T15:30:53.350Z
 director: Maud Martin
-featuredimage: /img/longtemps_ce_regard_5thomas_web.jpg
+featuredimage: /img/lerebord_paillettes.jpg
 trailer: https://vimeo.com/910796522?share=copy
 vod_list: []
 description: Longtemps, ce regard… réunit des souvenirs épars d’années passées
