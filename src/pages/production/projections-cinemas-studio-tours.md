@@ -6,7 +6,6 @@ director: Quatre films de L'image d'après
 featuredimage: /img/lidap-proj-studio-saison2425.jpg
 trailer: ""
 vod_list: []
-description: ""
 featuredpost: true
 gallery_list: []
 document_list:
@@ -16,7 +15,7 @@ document_list:
 technical: ""
 credit: >-
   Réservation des séances sur le site des cinémas Studio :
-  [https://www.studiocine.com](https://www.studiocine.com/)
+  https://www.studiocine.com
 
 
   Les séances de l’image d’après aux cinémas Studio bénéficient du soutien de CICLIC Région Centre Val-de-Loire.
@@ -26,6 +25,7 @@ credit: >-
 selection: ""
 productor: "**L’image d’après**"
 ---
+
 #### L’image d’après présente
 
 ### Mercredi 11 décembre 2024 - 19h Cinémas Studio

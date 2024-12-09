@@ -53,9 +53,6 @@ const ProductionCell = ({ node, big = false, ...rest }) => {
             />
           )}
           {!featuredimage && <AspectRatio ratio=" 16 / 9" bg="lavender" />}
-          {/* <Box position="absolute" left={[3, 5]} bottom="1rem" bg="white" color="dark" fontWeight="bold" px={1} className="fs-6" >
-            VOD
-          </Box> */}
         </Box>
         <Box px={[3, 5]} pt={[3, 4]} pb={[4, 5]}>
           <Heading
