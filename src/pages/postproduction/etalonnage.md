@@ -1,11 +1,10 @@
 ---
 templateKey: postproduction-post
 title: Étalonnage et sorties
-description: >-
-  L’étalonnage est une phase cruciale du traitement de l’image qui intervient
-  généralement en fin de post-production. Néanmoins, il est souvent préférable
-  d’y réfléchir et de s’entretenir avec l’étalonneur en amont du tournage afin
-  de s’assurer d’une bonne logique des choix des réglages caméras.
+description: L’étalonnage est une phase cruciale du traitement de l’image qui
+  intervient généralement en fin de post-production. Néanmoins, il est souvent
+  préférable d’y réfléchir et de s’entretenir avec l’étalonneur en amont du
+  tournage afin de s’assurer d’une bonne logique des choix des réglages caméras.
 team_list:
   - team_name: Antoine Polin
     team_text: >-
@@ -22,7 +21,7 @@ L’étalonneur est aussi souvent responsable des différentes sorties finales (
 
 Pour ce qui est des sorties DCP, nous garantissons une vérification de la bonne conversion dans l’espace colorimétrique DCI P3.
 
-####Notre matériel :
+### Notre matériel
 
 - Station Mac Pro 2020 16 cores, 48Go RAM, 19 to de stockage/travail
 - Logiciel _DaVinci Resolve Studio_
@@ -30,7 +29,7 @@ Pour ce qui est des sorties DCP, nous garantissons une vérification de la bonne
 - Retour client _LG C9_ 4k HDR 55" calibré
 - Pupitre d’étalonnage _Blackmagic_
 
-####Quelques références :
+### Quelques références
 (liste non exhaustive)
 
 - _**Parler avec les morts**_ de Taïna Tervonen, produit en 2020 par TS productions avec Vosges TV (Cinéma du réel)
