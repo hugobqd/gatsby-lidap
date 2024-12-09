@@ -10,11 +10,11 @@ team_list: []
 
 Nous collaborons régulièrement avec plusieurs traducteurs anglais et nous sommes à même, en fonction des projets, de solliciter des traducteurs d'autres langues (espagnol, basque, polonais, allemand, italien, portugais...)
 
-####Notre équipement :
+### Notre équipement
 
 - Logiciel _Annotation Edit_ (compatible avec _Avid,_ _Premiere Pro_, _Final Cut Pro X_)
 
-####Quelques références :
+### Quelques références
 (liste non exhaustive)
 
 - _**Le temps des crocodiles**_ de Florence Doucet produit en 2020 par L'image d'après Sous-titrage versions française et anglaise
