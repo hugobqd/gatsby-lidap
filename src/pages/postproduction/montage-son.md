@@ -18,14 +18,14 @@ Nous avons travaillé avec beaucoup de jeunes réalisateurs, sur des films tourn
 
 Le montage son permet de commencer directement le mixage, qui est effectué, selon le type de films et leur économie, au sein de structures partenaires dans des conditions d'écoute adaptées aux exigences des différent standards de diffusion.
 
-\####Notre équipement :
+### Notre équipement
 
 * Station Imac avec *Protools HD*
 * Suite de plugin *Waves diamond* et Izotope *RX*
 * Ecoute *Dynaudio BM6A Mk2*
 * Casque *Beyerdynamics 770*
 
-\####Quelques références :
+### Quelques références
 (liste non exhaustive)
 
 * ***Parler avec les morts*** de Taïna Tervonen, produit en 2020 par TS productions avec Vosges TV (Cinéma du réel)
