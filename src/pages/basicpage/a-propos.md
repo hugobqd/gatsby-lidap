@@ -57,7 +57,16 @@ team_list:
       Ces dernières années, j'ai travaillé régulièrement pour le cinéma documentaire comme ingénieur du son et compositeur (productions Nord-Ouest, L’image d’après, Alter Ego, Ikki films, Les films du Balibari, TS productions), dans la production musicale (labels Vicious circle, Kithibong, Un Je Ne Sais Quoi, Figures libres) et pour le spectacle vivant comme régisseur son et compositeur (Ensemble Tachycardie, Théâtre à cru, Demesten Titip, Collectif impatience, Laps zone). Enfin, je suis également intervenant pour des ateliers artistiques incluant de la réalisation sonore (CICLIC,Compagnie Marouchka, L'Intention Publique).
     team_title: Monteur son, mixeur et compositeur de musique originale
   - team_name: Axelle Gueret
-    team_title: Administratrice
+    team_title: Secrétariat de production / Administration
+    team_text: >-
+      Après des études d’espagnol et un Master de Gestion des Institutions
+      Culturelles à l’Université Paris Dauphine, j’ai été chargée de projets
+      culturels à la Ville de Tours de 2005 à 2022 dont dix ans dédiés à la
+      coordination du festival Rayons Frais les arts et la ville. 
+
+      Particulièrement attentive aux démarches pluridisciplinaires, je mène parallèlement à ce poste plusieurs expériences de collaboration artistique en théâtre et arts visuels. 
+
+      En 2023, je rejoins l’équipe de l’image d’après au secrétariat de production en continuant d’accompagner des structures et artistes à l’administration, à la production ou à la mise en scène. Avec l’artiste Yves Chaudouët, je développe un projet de film documentaire situé en Toscane intitulé Une clairière pour Buti.
 ---
 L'équipe est constituée de quatre producteurs, aussi réalisateurs, de deux techniciens son, aussi musiciens et d'un gérant, aussi journaliste.
 
