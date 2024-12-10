@@ -25,9 +25,13 @@ technical: |-
   *Langue :* français
 credit: |-
   *Autrice-Réalisatrice, Image, Son :* Maud Martin
+
   *Montage :* Marianne Haroche
+
   *Montage son et Mixage :* Brice Kartmann
+
   *Étalonnage :* Antoine Polin
+
   *Affiche :* Valérie Tortolero
 selection: ""
 productor: >-
