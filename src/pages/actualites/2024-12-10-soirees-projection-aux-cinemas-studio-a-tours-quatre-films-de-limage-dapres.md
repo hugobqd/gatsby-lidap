@@ -170,12 +170,8 @@ description: >-
   Avec le soutien de Ciclic- Région Centre-Val de Loire en partenariat avec le CNC.
 featuredimage: /img/lidap-proj-studio-saison2425-r.jpg
 ---
-Parmi les 20 longs métrages en compétition, la bande originale du film de Agnès Perrais, Ciompi, a marqué par la pertinence, l’originalité de sa proposition et la force de sa teneur compte tenu des enjeux du film. 
+Réservation des séances sur le site des cinémas Studio : https://www.studiocine.com
 
-Les synthétiseurs analogiques qui se posent étrangement le long de l’Arno ressemblent à des lentes cloches et instaurent un étrange rapport au temps. Impossible à dater, des éléments semés tout au long du film ont fini par éclore en un thème musical remarquable : une invraisemblable et belle masse sonore, vivante et étrange. 
+Les séances de l’image d’après aux cinémas Studio bénéficient du soutien de CICLIC Région Centre Val-de-Loire.
 
-Cette bande originale a laissé une forte impression sur chaque membres du jury.
-
-Pour lire les mots du jury : 
-
-<https://createurs-editeurs.sacem.fr/actualites-agenda/actualites/hommages-et-distinctions/festival-cinema-du-reel-prix-de-la-sacem-2023>
+L’image d’après remercie les Studios pour leur accueil.
