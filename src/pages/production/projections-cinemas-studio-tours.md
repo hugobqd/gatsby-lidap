@@ -25,12 +25,11 @@ credit: >-
 selection: ""
 productor: "**L’image d’après**"
 ---
-
 #### L’image d’après présente
 
 ### Mercredi 11 décembre 2024 - 19h Cinémas Studio
 
-### **_Le Rebord_**, de Maud Martin (2024)
+### ***Le Rebord***, de Maud Martin (2024)
 
 En coproduction avec TV Tours et en association avec Lapsus Chevelü (85 minutes)
 
@@ -54,17 +53,17 @@ Avec la participation du CNC, avec le soutien de Ciclic-Région Centre-Val de Lo
 
 Vanasay Khamphommala présente sa dernière création au théâtre Olympia dans le cadre du week-end de solstice d’hiver au TO du 13 au 15 décembre.
 
-Lors de ce week-end, vous pourrez découvrir le spectacle ສຽງຂອງຍ່າ (La voix de ma grand-mère) de Vanasay Khamphommala, assister Au Palass – Cabaret et DragShow proposé par notre artiste associé Youssouf Abi-ayad et les comédien.nes de la Jeune Troupe, mais aussi écouter des lectures d’albums jeunesse, participer à un atelier de paysages sonores, pousser la chansonnette lors d'un karaoké enfants / adultes ou vous parer de paillettes pour un week-end scintillant ! Détails de la programmation disponibles sur : _[www.cdntours.fr](http://www.cdntours.fr/)_
+Lors de ce week-end, vous pourrez découvrir le spectacle ສຽງຂອງຍ່າ (La voix de ma grand-mère) de Vanasay Khamphommala, assister Au Palass – Cabaret et DragShow proposé par notre artiste associé Youssouf Abi-ayad et les comédien.nes de la Jeune Troupe, mais aussi écouter des lectures d’albums jeunesse, participer à un atelier de paysages sonores, pousser la chansonnette lors d'un karaoké enfants / adultes ou vous parer de paillettes pour un week-end scintillant ! Détails de la programmation disponibles sur : *[www.cdntours.fr](http://www.cdntours.fr/)*
 
 .
 
----
+- - -
 
 #### L’image d’après présente
 
 ### Mercredi 19 février 2025 - 19h Cinémas Studio
 
-### **_Ciompi_**, de Agnès Perrais (2023)
+### ***Ciompi***, de Agnès Perrais (2023)
 
 En coproduction avec La surface de dernière diffusion - Pré-achat Tënk et Médiapart (83 minutes)
 
@@ -100,13 +99,13 @@ Avec le soutien de la Région Normandie, du CNC, de Ciclic Région Centre Val-de
 
 .
 
----
+- - -
 
 #### L’image d’après présente
 
 ### Mercredi 2 avril 2025 - 19h Cinémas Studio
 
-### **_Enez_**, de Emmanuel Piton (2022)
+### ***Enez***, de Emmanuel Piton (2022)
 
 en co-production avec Zéro de conduite (42 minutes)
 
@@ -144,17 +143,17 @@ Avec le soutien de la bourse Brouillon d’un rêve de la SCAM, l’Aide innovat
 
 .
 
----
+- - -
 
 #### L’image d’après présente
 
-### Mercredi 4 juin 2025- 19h Cinémas Studio
+### Mercredi 11 juin 2025- 19h Cinémas Studio
 
-### **_Longtemps, ce regard_** de Pierre Tonachella (2024)
+### ***Longtemps, ce regard*** de Pierre Tonachella (2024)
 
 (57 minutes)
 
-_Longtemps, ce regard_ réunit des souvenirs épars d’années passées dans mon village, où les amitiés, le quotidien prolétaire, l’errance et les champs plats, sont célébrés au cours d’un cheminement poétique et politique.
+*Longtemps, ce regard* réunit des souvenirs épars d’années passées dans mon village, où les amitiés, le quotidien prolétaire, l’errance et les champs plats, sont célébrés au cours d’un cheminement poétique et politique.
 
 Le film sera suivi d’une rencontre et d’un échange en présence du réalisateur.
 
