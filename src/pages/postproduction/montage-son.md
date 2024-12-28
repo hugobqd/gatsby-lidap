@@ -22,7 +22,7 @@ Le montage son permet de commencer directement le mixage, qui est effectué, sel
 
 * Station *Protools* version adaptable
 * Suite de plugin *Waves diamond* et Izotope *RX*
-* Ecoute *Dynaudio BM6A Mk2*
+* Ecoute *Neumann KH80 DSP (LCR)*
 * Casque *Beyerdynamics 770*
 
 ### Quelques références
