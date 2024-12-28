@@ -5,7 +5,7 @@ parentUrl: /
 title: À propos
 featuredimage: ""
 description: >
-  L'image d'après a seize ans. C'est à Tours. Nous sommes six.
+  L'image d'après a dix-sept ans. C'est à Tours. Nous sommes six.
 
   Nous avons eu et continuons d'avoir, en parallèle de notre activité de producteur.rice.s, des expériences de réalisation, de programmation, de travail associatif, de composition.
 document_list: []
