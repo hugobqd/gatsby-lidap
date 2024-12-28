@@ -38,7 +38,7 @@ productor: >-
   **L’image d’après**
 
 
-  damien.monnier@gmail.com
+  damien.lidap@gmail.com
 
 
   *En coproduction avec* Tv Tours Val de Loire *et en association* *avec* Lapsus Chevelü
