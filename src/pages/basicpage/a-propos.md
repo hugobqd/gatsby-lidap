@@ -5,7 +5,7 @@ parentUrl: /
 title: À propos
 featuredimage: ""
 description: >
-  L'image d'après a seize ans. C'est à Tours. Nous sommes neuf.
+  L'image d'après a seize ans. C'est à Tours. Nous sommes six.
 
   Nous avons eu et continuons d'avoir, en parallèle de notre activité de producteur.rice.s, des expériences de réalisation, de programmation, de travail associatif, de composition.
 document_list: []
@@ -68,7 +68,7 @@ team_list:
 
       En 2023, je rejoins l’équipe de l’image d’après au secrétariat de production en continuant d’accompagner des structures et artistes à l’administration, à la production ou à la mise en scène. Avec l’artiste Yves Chaudouët, je développe un projet de film documentaire situé en Toscane intitulé Une clairière pour Buti.
 ---
-L'équipe est constituée de quatre producteurs, aussi réalisateurs, de deux techniciens son, aussi musiciens et d'un gérant, aussi journaliste.
+L'équipe est constituée de trois producteurs, aussi réalisateurs, de deux techniciens son, aussi musiciens, d'une secrétaire de production - administratrice, aussi réalisatrice, et d'un gérant, aussi journaliste.
 
 Notre fonctionnement collectif se structure autour de notre comité de lecture. Une fois par mois, nous nous réunissons pour discuter des propositions reçues et des films en cours. C'est là que se forment les binômes qui produisent les films.
 
@@ -80,6 +80,6 @@ Pour ce faire, notre démarche de production consiste à mettre en place pour ch
 
 À l'heure où se rebattent les cartes des politiques de soutien à la création, ces modalités de production nous permettent de maintenir une certaine façon de créer. Et c'est aussi pourquoi nous prenons part aux différents collectifs régionaux et nationaux qui défendent la production de films d'auteur.
 
-Nous avons ainsi produit une quarantaine de films. Huit films sont actuellement en production. Sept autres sont en développement. 
+Nous avons ainsi produit une cinquantaine de films. Plusieurs sont actuellement en production et en développement. 
 
 ![]()
