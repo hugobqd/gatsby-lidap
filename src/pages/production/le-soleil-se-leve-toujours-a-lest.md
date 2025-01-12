@@ -25,11 +25,17 @@ technical: |-
   *Format son :* 5.1 et Stéréo
 credit: |-
   Auteur-réalisateur, Image : Justine Jaz Okolodkoff
+
   Image : Juliette Bayer Broc
+
   Son : Justine Jaz Okolodkoff
+
   Montage : Nina Khada
+
   Montage son : Eliot Ratinaud
+
   Mixage : Pierre Armand
+
   Étalonnage : Matthieu Weil
 selection: Des images aux mots, France, 2025
 productor: >-
