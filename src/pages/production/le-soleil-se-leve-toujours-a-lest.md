@@ -4,14 +4,12 @@ title: Le soleil se lève toujours à l'Est
 date: 2025-01-26T11:52:35.505Z
 director: Justine Okolodkoff
 featuredimage: ""
-trailer: https://vimeo.com/1027317279
+trailer: ""
 vod_list: []
-description: C'est une histoire de désir, une histoire de résistance, une
-  histoire de chanteuse, une histoire de petit garçon, une histoire de cheveux,
-  une histoire triste, une histoire politique, une histoire de langue, une
-  histoire de beauté, une histoire de vieille dame, une histoire de jambes
-  croisées, une histoire drôle. C'est une histoire trans. C'est une histoire
-  d'amour.
+description: À Istanbul, il y a les ombres de l’exil de Babushka, les mots
+  d’amour de la première fille dont je suis tombée amoureuse et les récits du
+  quotidien sous tension de mes ami·es. Et puis il y a le soleil, qui, quoi
+  qu’il arrive, se lève toujours à l’est.
 featuredpost: true
 gallery_list:
   - gallery_img: /img/lerebord_aiguille.jpg
