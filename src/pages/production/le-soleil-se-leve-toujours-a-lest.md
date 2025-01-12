@@ -10,7 +10,7 @@ description: À Istanbul, il y a les ombres de l’exil de Babushka, les mots
   d’amour de la première fille dont je suis tombée amoureuse et les récits du
   quotidien sous tension de mes ami·es. Et puis il y a le soleil, qui, quoi
   qu’il arrive, se lève toujours à l’est.
-featuredpost: true
+featuredpost: false
 gallery_list:
   - gallery_img: /img/lerebord_aiguille.jpg
   - gallery_img: /img/lerebord_main.jpg
@@ -43,5 +43,4 @@ productor: >-
 
   *Soutiens :* CNC, Ciclic Région Centre Val de Loire, Procirep Angoa
 ---
-
-[Dossier de presse en téléchargement](https://gofile.me/5ieuy/3PKmJ51ok)
+[](https://gofile.me/5ieuy/3PKmJ51ok)
