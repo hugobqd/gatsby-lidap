@@ -15,32 +15,28 @@ gallery_list:
   - gallery_img: /img/lerebord_aiguille.jpg
   - gallery_img: /img/lerebord_main.jpg
 document_list:
-  - document_title: Affiche du film Le Rebord
-    document_item: /img/le_rebord_affiche_opt.jpg
+  - document_title: Affiche du film Le soleil se lève toujours à l'Est
+    document_item: /img/soleil-def_num_legere_01.jpg
 technical: |-
   *Genre :* documentaire\
-  *Durée :* 85 minutes\
-  *Langue :* français
+  *Durée :* 65 minutes\
+  *Format image :* couleur et/ou noir et blanc 16/9, couleur et noir et blanc\
+  *Format son :* 5.1 et Stéréo
 credit: |-
-  *Autrice-Réalisatrice, Image, Son :* Maud Martin
-
-  *Montage :* Marianne Haroche
-
-  *Montage son et Mixage :* Brice Kartmann
-
-  *Étalonnage :* Antoine Polin
-
-  *Affiche :* Valérie Tortolero
-selection: ""
+  Auteur-réalisateur, Image : Justine Jaz Okolodkoff
+  Image : Juliette Bayer Broc
+  Son : Justine Jaz Okolodkoff
+  Montage : Nina Khada
+  Montage son : Eliot Ratinaud
+  Mixage : Pierre Armand
+  Étalonnage : Matthieu Weil
+selection: Des images aux mots, France, 2025
 productor: >-
   **L’image d’après**
 
 
-  damien.lidap@gmail.com
+  En coproduction avec Lyon Capitale TV\
 
-
-  *En coproduction avec* Tv Tours Val de Loire *et en association* *avec* Lapsus Chevelü
-
-  *Soutiens :* CNC, Ciclic Région Centre Val de Loire, Procirep Angoa
+  Avec la participation du CNC, le soutien de la Région SUD­ Provence­Alpes­ Côte d'Azur, la Région Bretagne et de Ciclic­Région Centre­Val de Loire, en partenariat avec le CNC, du ministère de la culture et le soutien de la PROCIREP­Société des Producteurs et de l'ANGOA.
 ---
 [](https://gofile.me/5ieuy/3PKmJ51ok)
