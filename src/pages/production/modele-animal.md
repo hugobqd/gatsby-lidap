@@ -5,7 +5,9 @@ date: 2024-02-15T15:42:30.528Z
 director: Maud Faivre et Marceau Boré
 featuredimage: /img/01_modele_animal_faivre_bore.jpg
 trailer: https://vimeo.com/905183540
-vod_list: []
+vod_list:
+  - vod_text: VOD
+    vod_item: https://vimeo.com/ondemand/modeleanimal
 description: >-
   La mouche drosophile est un modèle parfait pour la vie en laboratoire,
   fabriquée en masse pour produire de la connaissance en masse. Elle vit, meurt,
