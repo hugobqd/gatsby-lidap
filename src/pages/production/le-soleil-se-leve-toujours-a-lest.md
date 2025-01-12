@@ -3,7 +3,7 @@ templateKey: production-post
 title: Le soleil se lève toujours à l'Est
 date: 2025-01-26T11:52:35.505Z
 director: Justine Okolodkoff
-featuredimage: ""
+featuredimage: /img/le_soleil_photogrammes_1.28.1.jpg
 trailer: ""
 vod_list: []
 description: À Istanbul, il y a les ombres de l’exil de Babushka, les mots
@@ -12,8 +12,7 @@ description: À Istanbul, il y a les ombres de l’exil de Babushka, les mots
   qu’il arrive, se lève toujours à l’est.
 featuredpost: false
 gallery_list:
-  - gallery_img: /img/lerebord_aiguille.jpg
-  - gallery_img: /img/lerebord_main.jpg
+  - gallery_img: /img/le_soleil_photogrammes_1.14.1.jpg
 document_list:
   - document_title: Affiche du film Le soleil se lève toujours à l'Est
     document_item: /img/soleil-def_num_legere_01.jpg
